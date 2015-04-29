@@ -1,0 +1,2302 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>大赛官网</title>
+<link href="css/pgwslider.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<!--<script src="js/pgwslider.js"></script>
+<script type="text/javascript" src="js/ZoomPic.js"></script>-->
+<script type="text/javascript" src="js/hxgdslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(document).ready(function() {
+    	$('.pgwSlider').pgwSlider();
+	});
+});
+
+	$(function(){
+		//right-ol
+		function olHover(){
+			$('.right-ol li').hover(function(){
+				$(this)
+				.css({"border-color":"#ddd","background-color":"#f9f9f9"})
+				.find('.ol-content').show();
+			},function(){
+				$(this)
+				.css({"border-color":"#fff","background-color":"#fff"})
+				.find('.ol-content').hide();
+			})
+		}
+		olHover();
+
+		//tab
+		function tadChangeClick(){
+			$('.tab-title li').click(function(){
+		        $(this).addClass('active').siblings().removeClass('active');
+				$(this).parent('.tab-title').next('.tab-content-box').find('.tab-content').hide().eq($(this).index()).show();
+			});
+		};
+		tadChangeClick();
+
+		// dl-list
+		$('.dl-list dl').hover(function(){
+			$(this).css({"background":"#f5f5f5"});
+		},function(){
+			$(this).css({"background":"#fff"});
+		})
+	})
+	
+	
+	$(function(){
+	new ZoomPic("jswbox");
+	
+})
+
+
+
+</script>
+<link href="comm.css" type="text/css" rel="stylesheet">
+<link href="index.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="nav">
+<div class="banner"></div>
+<div class="navlist"><a href="#">首页</a><a href="#" class="select">大赛报道</a><a href="#">交易规则</a><a href="#">我的操盘室</a><a href="#">奖项设置</a><a href="#">大赛商城</a><a href="#">大赛客服</a></div>
+<div class="navlist2"><a href="#" class="select">大赛排名</a><a href="#">高手风采</a><a href="#">高手观点</a><a href="#">高手策略</a><a href="#">专家点评</a><a href="#">战况解读</a></div>
+</div>
+
+<div class="main">
+	<div class="mainleft showed">
+    		
+    		<ul class=" lbqh pgwSlider">
+				<li><a><img src="img/paris.jpg"><span>中国上海啊啊啊啊</span></a></li>
+				<li><a><img src="img/new-york.jpg"><span>中国上海啊啊啊啊中国上海啊啊啊啊中国上海啊啊啊啊</span></a></li>
+				<li><a><img src="img/shanghai.jpg"><span>中国上海啊啊啊啊</span></a> </li>
+				<li><a href="http://www.jq22.com" target="_blank"><img src="img/new-york.jpg"><span>中国上海啊啊啊啊</span></a> </li>
+                <li><a href="http://www.jq22.com" target="_blank"><img src="img/new-york.jpg"><span>中国上海啊啊啊啊</span></a> </li>
+		</ul>
+    
+    
+    
+    
+    
+    
+
+    </div>
+    <div class="mainright showed">
+    	<div class="mainright1">欢迎 <span class="red">漫慢的走着啊啊啊， </span><a class="loginout">退出</a></div>
+        <div class="mainright1"><a href="#">进入我的操盘室</a><a href="#" class="last">下载客户端</a></div>
+        <div class="mrlist">
+        	<h3><a href="#">报名抽50元充值卡 一年稳赚10%</a></h3>
+            <p><a href="#">[大赛公告]报名抽50元充值卡 一年稳赚10%</a></p>
+            <p><a href="#">[大赛客服]报名抽50元充值卡 一年稳赚10%</a></p>
+        </div>
+        <div class="mrlist">
+        	<h3>报名抽50元充值卡 一年稳赚10%</h3>
+            <p><a href="#">[大赛公告]报名抽50元充值卡 一年稳赚10%</a></p>
+            <p><a href="#">[大赛客服]报名抽50元充值卡 一年稳赚10%</a></p>
+        </div>
+        <div class="mrlist">
+        	<h3><a href="#">报名抽50元充值卡 一年稳赚10%</a></h3>
+            <p><a href="#">[大赛公告]报名抽50元充值卡 一年稳赚10%</a></p>
+            <p><a href="#">[大赛客服]报名抽50元充值卡 一年稳赚10%</a></p>
+        </div>
+        
+	</div>
+<div class="main2">    
+	<div class="mainleft showed">
+    	<h2 class="dspm"><a class="title" href="#">大赛排名</a><a href="#" class="tab select">模拟赛排名</a><a href="#" class="tab ">实盘赛排名</a><span>排名数据每日17：30分更新</span><a href="#" class="more"><img src="images/more.png"></a></h2>
+    	<div class="dllist">
+									
+										<table>
+											<tr>
+												<th>排名</th>
+												<th>选手</th>
+												<th>前日排名</th>
+												<th>总收益率</th>
+												<th>周收益率</th>
+												<th>日收益率</th>
+												<th>总资产（万）</th>
+												<th>仓位</th>
+												<th>订阅操盘</th>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+                                            											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">2</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">10</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td >0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td ><a class="caozuoicon" href="javascript:void(0)">订阅操盘</a></td>
+											</tr>
+
+										</table>
+										
+									</div>
+    
+    </div>
+
+    	<div class="mainright showed">
+    	<h2 ><a class="" href="#">兑奖记录</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+	 	 <ul class="infolist">
+			<li><a href="#">李木子</a>在<a href="#">积分商城</a>成功兑换了iphone7 plus</li>
+			<li><a href="#">李木子</a>在<a href="#">积分商城</a>成功兑换了iphone7 plus</li>
+			<li><a href="#">李木子</a>在<a href="#">积分商城</a>成功兑换了iphone7 plus</li>
+			<li><a href="#">李木子</a>在<a href="#">积分商城</a>成功兑换了iphone7 plus</li>
+			<li><a href="#">李木子</a>在<a href="#">积分商城</a>成功兑换了iphone7 plus</li>
+		</ul>
+        </div>
+		<!--<div class=" advert"><a href="#"><img src="images/bannr.png"></a></div> -->
+        <div class="mainright showed">
+	  		<ul class="infolist">
+				<li>【抽奖】三星NX300微单相机<a>抽奖结果</a></li>
+				<li>【抽奖】三星NX300微单相机<a>抽奖结果</a></li>
+				<li>【抽奖】三星NX300微单相机<a>抽奖结果</a></li>
+				<li>【抽奖】三星NX300微单相机<a>抽奖结果</a></li>
+			</ul>
+    	</div>
+
+     </div>
+	<div class=" main2 showed adverttl"><img src="images/dasairicheng.png"></div>
+  <div class=" main2">
+  		<div class="main-left-inner mainleft showed ">
+					<div class="main-title clearfix">
+						<h2 class="clearfix">
+							<em>高手风采</em>
+							<span class="border-angle"></span>
+							<span class="notice-text"><i>*</i>温馨提示：请尽量实名注册，完善个人资料，方便我们对你的推广和宣传</span><a href="#" class="more"><img src="images/moreico.png"></a>
+						</h2>
+					</div>
+
+					<div class="elegant-demeanour">
+						<ul class="clearfix">
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<span>涨停先锋</span><!-- 没有徽章时将span标签及内容隐藏或去掉 -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<span>赢在龙头</span>
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<span>黑马先锋</span>
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<span>涨停先锋</span><!-- 没有徽章时将span标签及内容隐藏或去掉 -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<span>赢在龙头</span>
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<span>黑马先锋</span>
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+							<li>
+								<div class="info-box clearfix">
+									<a class="face-link-el" href="javascript:void(0)">
+										<img src="images/face.jpg" alt="78x78" />
+										<!-- <span>涨停先锋</span> -->
+									</a>
+									<div class="face-txt">
+										<h4>
+											<a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+										</h4>
+
+										<p>
+											<span>总收益：<em>20.88</em>%</span>
+										</p>
+
+										<p class="info-icon">
+											<a class="support-link" href="javascript:void(0)">支持</a>
+											<a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+										</p>
+									</div>
+								</div>
+							</li>
+
+
+
+						</ul>
+                     </div>
+				</div>
+  
+  		<div class="mainright showed">
+        	<div class="tab-container">
+						<ul class="tab-title clearfix">
+							<li class="active">
+								<a href="javascript:void(0)">人气榜</a>
+							</li>
+							<li>
+								<a href="javascript:void(0)">邀请榜</a>
+							</li>
+						</ul>
+						<div class="tab-content-box">
+							<!-- 支持榜列表 -->
+							<div class="tab-content tab-active">
+								<div class="tab-inner-title clearfix">
+									<span>用户名</span>
+									<i>|</i>
+									<span>支持人气数</span>   
+								</div>
+								<div class="dl-list">
+									<dl class="clearfix">
+										<dt class="best-user">1</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">2</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">3</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt>4</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>5</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>6</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>7</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>8</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+								</div>
+							</div>
+
+							<!-- 邀请榜列表 -->
+							<div class="tab-content">
+								<div class="tab-inner-title clearfix">
+									<span>用户名</span>
+									<i>|</i>
+									<span>邀请人数</span>        
+								</div>
+
+								<div class="dl-list">
+									<dl class="clearfix">
+										<dt class="best-user">1</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">2</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">3</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt>4</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>5</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>6</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>7</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>8</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+					</div>
+        </div>
+  </div>
+  
+<div class=" main2 showed adverttl2"><img src="images/bannr.png"></div>
+
+<div class="main2">
+	<h2 class="showed"><a class="" href="#">高手观点</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+    
+    
+    <div class="syFocusThumb">
+    
+    	<div id="paginate-syFocusThumb"  class="pagination gsgd">
+    	<i id="prev" class="prev gsgdleft"></i>
+			<div class="thumbWrap timelist"><div class="holder timelist2"><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i></div></div>
+        <i id="next" class="next gsgdright"></i>
+    </div>
+    	<div id="syFocusThumb" class="sliderwrapper gsdgxq showed">
+    	<div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+    </div>
+    
+	</div>
+
+
+
+    </div>    
+<div class=" main2">
+    <div class="main-left-inner mainleft showed ">
+                        <div class="main-title clearfix">
+                            <h2 class="clearfix">
+                                <em>高手策略</em>
+                                <span class="border-angle"></span>
+                                <span class="notice-text"></span><a href="#" class="more"><img src="images/moreico.png"></a>
+                            </h2>
+                        </div>
+    
+                        <div class="elegant-demeanour">
+                            <ul class="clearfix">
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <span>涨停先锋</span><!-- 没有徽章时将span标签及内容隐藏或去掉 -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <span>赢在龙头</span>
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <span>黑马先锋</span>
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <span>涨停先锋</span><!-- 没有徽章时将span标签及内容隐藏或去掉 -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <span>赢在龙头</span>
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <span>黑马先锋</span>
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li>
+                                    <div class="info-box clearfix">
+                                        <a class="face-link-el" href="javascript:void(0)">
+                                            <img src="images/face.jpg" alt="78x78" />
+                                            <!-- <span>涨停先锋</span> -->
+                                        </a>
+                                        <div class="face-txt">
+                                            <h4>
+                                                <a href="javascript:void(0)">BYDD2013BYDD2013BYDD2013</a>
+                                            </h4>
+    
+                                            <p>
+                                                <span>总收益：<em>20.88</em>%</span>
+                                            </p>
+    
+                                            <p class="info-icon">
+                                                <a class="support-link" href="javascript:void(0)">支持</a>
+                                                <a class="subscribe" href="javascript:void(0)">订阅操盘</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+    
+    
+    
+                            </ul>
+                         </div>
+                    </div>
+  
+    <div class="mainright showed">
+    <div class="tab-container">
+    	<h2 ><a class="" href="#">策略排行榜</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+        <div class="info-list-right info-list-ol">
+						<ol class="right-ol">
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<h4><span>元芳看盘</span><em>204</em></h4>
+								<div class="ol-content clearfix">
+									<img src="images/face.jpg" alt="78x78" />
+									<div class="ol-text">
+										<a href="javascript:void(0)">金融界新锐，2013年十大博主之一，师承知名私人，多年征战股市，收益惊人收益惊人收益惊人收益惊人收益惊人...</a>
+									</div>
+								</div>
+							</li>
+						</ol>
+					</div>
+    
+    </div>
+	</div>
+</div>
+
+<div class=" main2 showed adverttl2"><img src="images/bannr.png"></div>
+<div class="main2">
+	<h2 class="showed  tybt"><a class="title" href="#">专家点评</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+    <ul class="zjdpzj">
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li class="last"><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    </ul>
+    <div class="syFocusThumb">
+    
+    	<div id="paginate-syFocusThumb paginate-syFocusThumb2"  class="pagination gsgd">
+    	<i id="prev" class="prev gsgdleft"></i>
+			<div class="thumbWrap timelist"><div class="holder timelist2"><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i><i class="toc">4.11</i></div></div>
+        <i id="next" class="next gsgdright"></i>
+    </div>
+    	<div id="syFocusThumb syFocusThumb2" class="sliderwrapper gsdgxq showed">
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+        <div class="contentdiv">
+        	<div class="gsdgxqleft">
+        	<a><img src="images/banner.jpg"></a>
+            <a class="title">拿什么来拯救经济，你就</a>
+            <p>拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济拿什么来拯救经济，你就<a>[详细]</a></p>
+        </div>
+        	<ul class="gsdgxqright">
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经济你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        	<li><a><img src="images/banner.jpg"></a><a>拿什么来拯救经，你就</a></li>
+        </ul>
+        </div>
+    </div>
+    
+	</div>
+    
+
+    </div>
+    
+    <div class="main2 ">
+		<h2 class="showed tybt"><a class="title" href="#">战况解读</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+        <div id="jswbox">
+	<pre class="prev">prev</pre>
+	<pre class="next">next</pre>
+	<ul>
+		<li><img src="img/1.jpg" alt="derrick" /><a href="http://www.lanrenzhijia.com/jquery/">这是标题这是标题这是标题题</a></li>
+		<li><img src="img/2.jpg" alt="MAGGIE" /></li>
+		<li><img src="img/3.jpg" alt="许在浩" /><a href="http://www.lanrentuku.com/js/jiaodiantu-p20.html">水电费</a></li>
+		<li><img src="img/4.jpg" alt="颜子超" /></li>
+		<li><img src="img/5.jpg" alt="万玲玲" /></li>
+		<li><img src="img/6.jpg" alt="derrick" /></li>
+		<li><img src="img/7.jpg" alt="MAGGIE" /></li>
+	</ul>
+</div>
+
+        <ul class="zjdpzj zjdpzj2">
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li class="last"><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    </ul>
+
+        <ul class="zjdpzj zjdpzj2">
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    	<li class="last"><a><img src="images/banner.jpg"></a><a class="title">拿救经济拿什么来拯救经济拿来拯救经济</a></li>
+    </ul>
+    </div>
+
+<div class="main2">    
+	<div class="mainleft showed">
+    	<h2 class="tybt tybt2"><a class="title" href="#">模拟交易重仓股</a><span>排名数据每日17：30分更新</span><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+    	<div class="dllist dllist2">
+									
+										<table>
+											<tr>
+												<th>排名</th>
+												<th>股票名称</th>
+												<th>最新价</th>
+												<th>涨跌幅</th>
+												<th>涨跌额</th>
+												<th>成交量</th>
+												<th>最高价</th>
+                                                <th>最低价</th>
+                                                <th>市盈率</th>
+                                                <th>持仓额(万股)</th>
+												<th>持仓用户数</th>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+											<tr>
+												<td >
+													<span class="ranking">1</span>
+												</td>
+												<td >
+													<a href="javascript:void(0)">bhgyr(停赛)</a>
+												</td>
+												<td >0</td>
+												<td >0.00%</td>
+												<td >0.00%</td>
+												<td>0.00</td>
+												<td >0.00%</td>
+												<td >2</td>
+												<td >2</td>
+                                                <td >2</td>
+                                                <td >2</td>
+											</tr>
+
+										</table>
+										
+									</div>
+    
+    </div>
+
+    	<div class="mainright showed">
+    	<h2 ><a class="" href="#">积分榜</a><a href="#" class="more"><img src="images/moreico.png"></a></h2>
+	 	<div class="tab-content-box">
+							<!-- 支持榜列表 -->
+							<div class="tab-content tab-active">
+								<div class="tab-inner-title clearfix">
+									<span>用户名</span>
+									<i>|</i>
+									<span>积分数</span>   
+								</div>
+								<div class="dl-list">
+									<dl class="clearfix">
+										<dt class="best-user">1</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">2</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">3</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt>4</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>5</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>6</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>7</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>8</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+								</div>
+							</div>
+
+							<!-- 邀请榜列表 -->
+							<div class="tab-content">
+								<div class="tab-inner-title clearfix">
+									<span>用户名</span>
+									<i>|</i>
+									<span>邀请人数</span>        
+								</div>
+
+								<div class="dl-list">
+									<dl class="clearfix">
+										<dt class="best-user">1</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">2</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt class="best-user">3</dt>
+										<dd class="clearfix">
+											<a class="list-user-img" href="javascript:void(0)">
+												<img src="images/face.jpg" alt="28x28">
+											</a>
+											<a class="list-user-name" href="javascript:void(0)">天赢居2</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+									<dl class="clearfix">
+										<dt>4</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>5</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>6</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>7</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+
+									<dl class="clearfix">
+										<dt>8</dt>
+										<dd class="clearfix">
+											<a class="list-user-name" href="javascript:void(0)">天赢居</a>
+										</dd>
+										<dd class="dl-number">123</dd>
+									</dl>
+								</div>
+							</div>
+						</div>
+        </div>
+     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+<div class="footer">
+<a>关于我们</a><a>公司简介</a><a>联系方法</a><a>客户服务</a><a>相关法律</a><br>财富热线：010-84536868<br>亿元民间炒股大赛&nbsp;&nbsp;&nbsp;京ICP备&nbsp;&nbsp;<a>11111111</a>
+</div>
+<SCRIPT type=text/javascript>
+featuredcontentslider.init({
+id: "syFocusThumb",
+contentsource: ["inline", ""], 
+toc: "scroll",
+nextprev: ["", ""],
+revealtype: "click",
+enablefade: [false, 0.15], 
+autorotate: [true,4500], 
+delay: 1, //事件延迟时间(默认值：0，单位：ms)
+//playtab: 4, 默认的播放舌签
+onChange: function(previndex, curindex){ }});
+</SCRIPT>
+
+</body>
+</html>

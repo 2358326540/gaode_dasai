@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.main{ width:1000px; margin:0 auto; padding:60px 0 28px 0;}
+.main1{  width:1000px; position:relative;}
+.main1 h3{ font-size:24px; text-align:center;}
+.login{ font-size:16px; width:302px; margin:0 auto; padding:40px 0  30px 0; position:relative;}
+.login li{ width:300px; position:relative;}
+.username{ border:1px solid #ddd; border-radius:6px 6px 0 0; height:58px; }
+.userkey{ border:1px solid #ddd; border-radius: 0 0 6px 6px; height:58px;border-top:none; }
+.username input,.userkey input{ border:none; background:none; height:58px;line-height:58px; width:238px; overflow:hidden; float:left; font-size:14px;overflow:hidden;}
+.username span,.userkey span{  background: url(images/userlog.png) center no-repeat #f6f6f6; float:left; width:60px; text-align:center; height:58px;line-height:58px;overflow:hidden;}
+.userkey span{ background-image:url(images/lock.png);}
+.username span{border-radius:6px 0 0 0px;}
+.userkey span{border-radius:0px 0 0 6px;}
+.yzmss{ overflow:hidden; }
+.yzmss span{ float:left; width:180px; height:46px; border:1px solid #ddd; border-radius:6px ; padding: 0 0 0 10px; line-height:46px; margin:13px 0 0 0;}
+.yzmss span input{ width:110px; height:46px; border:none;}
+.yzmss img{ width:100px; float:left; height:46px; padding:13px 0 0 2px;}
+.loginbtn { padding:13px 0 0 0;}
+.wjmm{ float:left; color:#999; padding:8px 0 0 0;}
+.mfzc{ float:right;color:#ca1612; padding:8px 0 0 0;}
+li.erro{ position:absolute; z-index:3; right:-325px; width:auto; top:60px; background:url(images/errowo.png) 5px 6px no-repeat; padding: 0 0 0 20px; color:#ff4343;}
+
+.main11{ width:330px; overflow:hidden;  margin:10px auto 10px auto; border-top:1px solid #ddd; padding:15px 0; height:26px; line-height:26px; }
+.main11 span{ float:left; margin:  0 5px 0 10px;}
+.main11 a{ background:url(images/threelogin_03.png) no-repeat; float:left; height:26px; width:30px; margin: 0 0px 0 10px;}
+a.weixin{ background-position:-38px 0;}
+a.qq{ background-position:-76px 0;}
+a.zzrd{ background-position:-116px 0;}
+a.zfb{background-position:-154px 0;}
+a.zgyd{background-position:-192px 0;}
+.main2{ width:980px; margin:30px auto;}
+
+.wxewm{ position:absolute; z-index:5; width:321px; height:321px; border:3px solid #a11; background:#fff; top:46px; left:336px;}
+.wxewm .closed{ background:url(images/delet.png) no-repeat; width:16px; height:16px; position:absolute; z-index:1; right:5px; top:5px;}
+.wxewm img{ width:280px; height:280px; margin:20px 0 0 20px ; border:none;}
+/* 注册 */
+
+.zhuc{ color:#666; width:300px;margin: 0 0 5px -39px;}
+.zhuc span{ float:left;}
+.zcwz{ text-align:right; line-height:33px; width:66px; padding: 0 12px 0 0;}
+.zhuc input{ line-height:33px;height:33px; width:220px; border-radius:6px; border:1px solid #ccc;}
+li.sjyzm{ background:none; right:-175px; top:40px;}
+.sjyzm input{ background:#ca1612; border:1px solid #890300; color:#fff; width:99px; height:35px; border-radius:6px; cursor:pointer;}
+input.sendto{ background:#da5b59; border:1px solid #b74e4c;}
+.tjzc input{ border:none;}
+span.dxan { text-align:center;width: 220px; padding:10px 0 10px 0; font-size:14px; color:#999;}
+span.dxan input{ width:14px; vertical-align:middle; height:14px; border:none; background:#fff}
+.dxan a{ color:#666;}
+.loginbtn input{ width:300px; background:#ca1612; border:none; border-radius:3px; line-height:40px; height:40px; color:#fff; font-size:16px; cursor:pointer;}
+.zhuc input{ width:220px;}
+.havelogin{ text-align:center; padding:15px 0 0 0;}
+.havelogin a{ color:#ca1612;}
+.erro span{ margin: 0 0 0 10px;}
+.login span.tishixinxi{position: absolute;z-index: 1;left: 310px;width: 200px;bottom: 0px;color: #ff4343;}
