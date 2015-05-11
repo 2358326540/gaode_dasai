@@ -165,13 +165,13 @@ input.tyanbg{ background:#a51417; color:#fff; border:none; width:100px; cursor:p
 .gdtagzc2 span{ margin: 0 0 0 10px;}
 .gdtagzc2 span img{ vertical-align:middle; margin: 0 5px 0 0;}
 
-.spstbox{ position:absolute; z-index:999; width:800px; border:3px solid #a11; left:50%; margin: -160px 0 0 -400px; top:40%; background:#fff;}
+.spstbox{ position:absolute; z-index:999; width:600px; border:3px solid #a11; left:50%; margin: -160px 0 0 -300px; top:40%; background:#fff;}
 .spstbox .title{ background:#a11; color:#fff; padding: 0 0 0 10px; line-height:32px;}
 .spstbox .closed{ position:absolute; z-index:3; right:8px; width:16px; height:16px; background:url(images/delet2.png) no-repeat; top:8px; cursor:pointer;}
 .xsdt{ width:800px; overflow:hidden; border-bottom:1px solid #ddd; background:#f5f5f5; font-size:14px;}
 .xsdt li{ float:left; width:159px; border-right:1px solid #ddd; text-align:center; padding:10px 0;}
 .xsdt li.red{ line-height:60px; padding:0; font-weight:bolder;}
-.spcont{ width:800px; overflow:hidden; padding:40px 0; }
+.spcont{ width:600px; overflow:hidden; padding:20px 0; }
 .spcontl { float:left; width:370px; text-align:center; line-height:1.9em; }
 .spxy{ font-size:14px; line-height:1.5em; padding:15px 0 10px 0; text-align:center;}
 .tjan,.tjan:hover{ background:#a11; color:#fff; padding:6px 55px; margin: 0 10px 0 0; }
@@ -199,7 +199,7 @@ h2.tybt .shipanrk .jrsp:hover{ background:#da1111;}
 
 h2.tybt .shipanrk .jrsp:active{ background:#a11;}
 
-.spcontl2{ width:700px; margin:0 auto; line-height:1.8em; font-size:14px; color:#666;}
+.spcontl2{ width:500px; margin:0 auto; line-height:1.8em; font-size:14px; color:#666;}
 .spcont h4{ margin:0 auto 15px; width:300px; font-size:20px; font-weight:bolder;}
 .tstjan{ text-align:center; padding:30px 0 0 0;}
 
