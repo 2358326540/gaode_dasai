@@ -173,8 +173,8 @@ input.tyanbg{ background:#a51417; color:#fff; border:none; width:100px; cursor:p
 .xsdt li.red{ line-height:60px; padding:0; font-weight:bolder;}
 .spcont{ width:800px; overflow:hidden; padding:40px 0; }
 .spcontl { float:left; width:370px; text-align:center; line-height:1.9em; }
-.spxy{ font-size:12px; line-height:1.5em; padding:15px 0 10px 0;}
-.tjan,.tjan:hover{ background:#a11; color:#fff; padding:6px 55px; }
+.spxy{ font-size:14px; line-height:1.5em; padding:15px 0 10px 0; text-align:center;}
+.tjan,.tjan:hover{ background:#a11; color:#fff; padding:6px 55px; margin: 0 10px 0 0; }
 .spxy input{ margin: -3px 5px 0px 0; vertical-align:middle;}
 .spcontr{ float:left; height:120px; border-left:1px solid #eee; font-size:14px; width:340px; line-height:1.6em; padding: 0px 0 0 48px;}
 .spcontr p{ color:#666;}
@@ -199,7 +199,9 @@ h2.tybt .shipanrk .jrsp:hover{ background:#da1111;}
 
 h2.tybt .shipanrk .jrsp:active{ background:#a11;}
 
-
+.spcontl2{ width:700px; margin:0 auto; line-height:1.8em; font-size:14px; color:#666;}
+.spcont h4{ margin:0 auto 15px; width:300px; font-size:20px; font-weight:bolder;}
+.tstjan{ text-align:center; padding:30px 0 0 0;}
 
 
 
