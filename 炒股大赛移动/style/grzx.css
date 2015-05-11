@@ -60,7 +60,7 @@ input.masrt{ float:left; width:231px; border-radius:0;}
 .spsqbtn a{ background:#a11; color:#fff; font-size:18px; width:219px; float:left; border-right: solid #fff 1px; text-align:center; line-height:38px;}
 .spsqbtn .last{ border:none;}
 .spsqbtn2 a{ width:440px; border:none;}
-
+.spsqbtn-ts{ color:#a11; font-size:24px; width:440px; margin:0 auto; text-align:center;}
 /* 我的秀场 */
 .nav_myshow a{ width:33.3%;}
 .fbxgd{ width:auto; background:#fff; color:#05b; border-radius:25px 25px 25px 25px; padding: 0 20px; font-size:18px; text-shadow:none;height: 40px;line-height: 40px;}
@@ -315,7 +315,7 @@ li.dhbtm a.red{ color:#a11;}
 /* 银行卡管理 提现 */
 .tjyhk a img{ vertical-align:middle; margin:0 5px 0 0;}
 .tjyhk{ width:440px; margin:0 auto}
-.tjyhk a{ width:380px; height:160px; display:block; border:1px solid #ddd; background:#f5f5f5; line-height:160px; text-align:center; color:#a11; font-size:24px; margin:60px auto;}
+.tjyhk a{ width:374px; height:160px; display:block; border:1px solid #ddd; background:#fff; line-height:160px; text-align:center; color:#a11; font-size:24px; margin:60px auto;}
 .tjyhk a span{ color:#999; font-size:18px; line-height:1em; display:block; margin:-60px 0 0 0;}
 
 .yhkgl{ width:440px; margin: 10px auto; font-size:20px; color:#666;}
@@ -327,7 +327,7 @@ li.dhbtm a.red{ color:#a11;}
 .wytx{ width:440px; margin:10px auto 0 auto; font-size:22px; line-height:40px;color:#666;}
 .wytx-h{ background:#f5f5f5; padding: 0 0 0 10px; color:#333;}
 .wytx li{ border:none;}
-.wytx input{ height:28px; line-height:normal; border:1px solid #ddd; width:180px;}
+.wytx input{ height:28px; line-height:normal; border:1px solid #ddd; width:220px;}
 .wytxxyb{ width:440px; margin: 0 auto; padding:20px 0 30px 0;}
 .commbtnn{ display:block; background:#a11; font-size:22px; color:#fff;  line-height:48px;  text-align:center; }
 .wytxxyb a{ margin:0 auto;}
@@ -363,7 +363,7 @@ li.dhbtm a.red{ color:#a11;}
 .zzxy{ width:440px; margin:0 auto; text-align:center; font-size:18px;}
 .zzxy a{ color:#a11;}
 .zzxy input{ width:16px; height:16px; vertical-align:middle; margin:0 5px 0 0;}
-.tuisaijieshao{ width:440px; font-size:20px; line-height:1.8em; padding:10px 0;}
+.tuisaijieshao{ width:380px; font-size:20px; line-height:1.8em; padding:10px 0; margin:0 auto;}
 .tuisaijieshao li{ list-style:decimal;}
 
 /* 我的 */

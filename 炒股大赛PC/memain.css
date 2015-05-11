@@ -193,7 +193,8 @@ h2.tybt2{ text-indent:0; margin:0;}
 
 h2.tybt .shipanrk{ margin:0; position:absolute; z-index:1; right:0; top:0; width:385px;}
 h2.tybt .shipanrk .jrsp{ font-weight:normal; font-size:14px; background:#a11;padding: 4px 15px 6px; border-radius:3px; border:none; margin: 0 4px 0 0 ;}
-.zczhll{ float:left; background:#a11; color:#fff; width:120px; height:80px; border-radius:120px; text-align:center; padding:40px 0 0 0; margin: 60px 40px 0 0;}
+.zczhll{ float:left; background:#fff; color:#fff; width:80px; height:80px; border-radius:120px; text-align:center; margin: 60px 40px 0 0; overflow:hidden;}
+.zczhll img{ width:80px; height:80px;}
 h2.tybt .shipanrk .jrsp:hover{ background:#da1111;}
 
 h2.tybt .shipanrk .jrsp:active{ background:#a11;}
