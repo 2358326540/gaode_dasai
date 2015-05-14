@@ -73,3 +73,5 @@ body{ padding: 0 0 56px 0; background:#f5f5f5;}
 
 /* 分享 */
 .fxtc{ position:fixed; z-index:2000; background:#fff; border:2px solid #05b; bottom:0px; left:20px; width:396px; margin:0 auto; height:180px; color:#333; font-size:24px; border-radius:10px; padding:20px;}
+/* 404 */
+.fzferro{ display:block; width:480px; margin:0 auto; text-align:center;}
