@@ -36,7 +36,7 @@ a.more{ border:none;}
 .zczhl{ float:left; width:355px; padding: 15px 0 15px 15px; color:#333; }
 .zczhl .title{ text-align:right;color:#666; font-size:14px;}
 .zczhl .title2{ font-size:13px;}
-.zczhl table{ width:355px; line-height:28px; font-size:16px; margin: 0 0 40px 0; }
+.zczhl table{ width:355px; line-height:30px; font-size:16px; margin: 0 0 40px 0; }
 .shipanrk{ width:340px; font-size:14px; position:relative;  clear:both; margin:0 auto 10px;}
 .shipanrk .jrsp{  background:#910507; color:#fff; padding: 6px 20px 7px; line-height:32px; border-right:4px solid #fff;}
 .shipanrk .jrsp:hover{ background:#C02325;}
@@ -165,16 +165,16 @@ input.tyanbg{ background:#a51417; color:#fff; border:none; width:100px; cursor:p
 .gdtagzc2 span{ margin: 0 0 0 10px;}
 .gdtagzc2 span img{ vertical-align:middle; margin: 0 5px 0 0;}
 
-.spstbox{ position:absolute; z-index:999; width:600px; border:3px solid #a11; left:50%; margin: -160px 0 0 -300px; top:40%; background:#fff;}
+.spstbox{ position:absolute; z-index:999; width:800px; border:3px solid #a11; left:50%; margin: -160px 0 0 -400px; top:40%; background:#fff;}
 .spstbox .title{ background:#a11; color:#fff; padding: 0 0 0 10px; line-height:32px;}
 .spstbox .closed{ position:absolute; z-index:3; right:8px; width:16px; height:16px; background:url(images/delet2.png) no-repeat; top:8px; cursor:pointer;}
 .xsdt{ width:800px; overflow:hidden; border-bottom:1px solid #ddd; background:#f5f5f5; font-size:14px;}
 .xsdt li{ float:left; width:159px; border-right:1px solid #ddd; text-align:center; padding:10px 0;}
 .xsdt li.red{ line-height:60px; padding:0; font-weight:bolder;}
-.spcont{ width:600px; overflow:hidden; padding:20px 0; }
+.spcont{ width:800px; overflow:hidden; padding:40px 0; }
 .spcontl { float:left; width:370px; text-align:center; line-height:1.9em; }
-.spxy{ font-size:14px; line-height:1.5em; padding:15px 0 10px 0; text-align:center;}
-.tjan,.tjan:hover{ background:#a11; color:#fff; padding:6px 55px; margin: 0 10px 0 0; }
+.spxy{ font-size:12px; line-height:1.5em; padding:15px 0 10px 0;}
+.tjan,.tjan:hover{ background:#a11; color:#fff; padding:6px 55px; }
 .spxy input{ margin: -3px 5px 0px 0; vertical-align:middle;}
 .spcontr{ float:left; height:120px; border-left:1px solid #eee; font-size:14px; width:340px; line-height:1.6em; padding: 0px 0 0 48px;}
 .spcontr p{ color:#666;}
@@ -191,17 +191,14 @@ h2.tybt{ text-indent:0; margin:0 0 10px 0;}
 h2.tybt span{ color:#999; margin: 0 0 0 260px; }
 h2.tybt2{ text-indent:0; margin:0;}
 
-h2.tybt .shipanrk{ margin:0; position:absolute; z-index:1; right:0; top:0; width:385px;}
+h2.tybt .shipanrk{ margin:0; position:absolute; z-index:1; right:0; top:0; width:685px; text-align:right;}
 h2.tybt .shipanrk .jrsp{ font-weight:normal; font-size:14px; background:#a11;padding: 4px 15px 6px; border-radius:3px; border:none; margin: 0 4px 0 0 ;}
-.zczhll{ float:left; background:#fff; color:#fff; width:80px; height:80px; border-radius:120px; text-align:center; margin: 60px 40px 0 0; overflow:hidden;}
-.zczhll img{ width:80px; height:80px;}
+.zczhll{ float:left; background:#a11; color:#fff; width:120px; height:80px; border-radius:120px; text-align:center; padding:40px 0 0 0; margin: 60px 40px 0 0;}
 h2.tybt .shipanrk .jrsp:hover{ background:#da1111;}
 
 h2.tybt .shipanrk .jrsp:active{ background:#a11;}
+.fzferro{ display:block; width:1000px; margin:0 auto; text-align:center;}
 
-.spcontl2{ width:500px; margin:0 auto; line-height:1.8em; font-size:14px; color:#666;}
-.spcont h4{ margin:0 auto 15px; width:300px; font-size:20px; font-weight:bolder;}
-.tstjan{ text-align:center; padding:30px 0 0 0;}
 
 
 
