@@ -34,9 +34,9 @@ a.more{ border:none;}
 .myzhr{ width:740px; float:right; font-size:14px;}
 .zczh{ width:1000px; overflow:hidden;}
 .zczhl{ float:left; width:355px; padding: 15px 0 15px 15px; color:#333; }
-.zczhl .title{ text-align:right;color:#666; font-size:14px;}
+.zczhl .title{ color:#666; font-size:14px; width:80px;}
 .zczhl .title2{ font-size:13px;}
-.zczhl table{ width:355px; line-height:30px; font-size:16px; margin: 0 0 40px 0; }
+.zczhl table{ width:480px; line-height:30px; font-size:16px; margin: 0 0 40px 0; }
 .shipanrk{ width:340px; font-size:14px; position:relative;  clear:both; margin:0 auto 10px;}
 .shipanrk .jrsp{  background:#910507; color:#fff; padding: 6px 20px 7px; line-height:32px; border-right:4px solid #fff;}
 .shipanrk .jrsp:hover{ background:#C02325;}
@@ -198,7 +198,7 @@ h2.tybt .shipanrk .jrsp:hover{ background:#da1111;}
 
 h2.tybt .shipanrk .jrsp:active{ background:#a11;}
 .fzferro{ display:block; width:1000px; margin:0 auto; text-align:center;}
-
+.xlfwf{}
 
 
 
