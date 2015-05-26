@@ -374,3 +374,29 @@ a.commbtnn2{ width:48%; float:left; margin: 0 1%;}
 .jifen2{}
 
 .spgdxx{ color:#999; font-size:18px; width:440px; margin:30px auto; display:block;}
+/* 大赛客服 */
+  .kefu-banner{ position: relative; background: url(<%= image_url "custom/dasai/kefu_00.jpg" %>) left top no-repeat; width: 100%; height: 280px;}
+  .banner-inner{ width: 440px; margin:0 auto; padding:20px 0;}
+  .chat-list{ width: 145px; float: left; }
+  .chat-list .qq-link span,
+  .chat-list .email-link span{ vertical-align: middle;}
+  .chat-list .qq-link i{ background:  url(<%= image_url "custom/dasai/keff_03.png" %>) left center no-repeat; }
+  .chat-list .email-link i{ background:  url(<%= image_url "custom/dasai/keff_07.png" %>) left center no-repeat; }
+  .chat-list .qq-link i,
+  .chat-list .email-link i{ vertical-align: middle; display: inline-block; width: 20px; height: 30px; *height: 28px; margin-right: 5px;}
+  .chat-list .qq-link,
+  .chat-list .email-link{ display: table; *display: block; width: 130px; padding: 0 5px; height: 30px; line-height: 30px; background-color: #0f9bdd; color: white; font-size: 14px; text-align: left; border-radius: 4px; margin-bottom: 5px;}
+  .chat-list .email-link{ background-color: #75a95c;}
+  .chat-tel-box{ padding: 5px 0 0 0px;}
+  .qr-tel{text-align: center; width: 140px; float: left;}
+  .qr-tel .tel-img{padding-top: 15px;}
+  .qr-box p{font-size: 12px; color: #666; line-height: 22px;}
+  .qr-box img{ width: 86px; height: 86px;}
+ .module15{ padding: 0 20px; width:440px; margin:0 auto;}
+  .common-problems dl { padding: 5px 0 10px; margin-bottom: 10px; border-bottom: 1px solid #eee;}
+  .common-problems dl dt{  background: url(<%= image_url "custom/dasai/kefu_03.jpg" %>) left top no-repeat; margin-bottom: 5px; line-height: 30px; font-size:24px; font-weight: bolder;}
+  .common-problems dl dd{ background: url(<%= image_url "custom/dasai/kefu_06.jpg" %>) left top no-repeat; line-height: 1.6em; font-size: 22px; color: #666;}
+  .common-problems .pagination-content{border-top: 0;}
+  .main-title{ border-bottom:1px solid #e43530; position:relative; margin:0 auto 10px; width:440px;}
+  .main-title h2 em{ padding: 0 28px; display: inline-block; float: left; font-style: normal; height: 38px; line-height: 38px; background-color: #e43530; color: white; font-size:24px;}
+ 
