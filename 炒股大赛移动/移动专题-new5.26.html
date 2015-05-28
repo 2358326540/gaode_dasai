@@ -66,18 +66,23 @@ li{ list-style:none;}
 .red a{ color:yellow;}
 .red{ color:red; font-size:18px;}
 .gslist{ width:480px; overflow:hidden; padding:15px 0;}
-.footer{ background:url(images/jxdxzt_13.jpg)no-repeat; width:480px; height:274px; position:relative;}
+.footer{ background:url(images/jxdxzt_13.jpg)no-repeat; width:480px; height:274px; position:relative; height:250px;}
 .footer .btn{ bottom:115px;}
 .title2{ color:yellow; font-size:20px;}
-a.moreniu{ display:block; width:480px; text-align:center; font-size:24px; padding:30px 0; }
+a.moreniu{ display:block; width:480px; text-align:center; font-size:24px; padding:30px 0; padding:20px 0; float:none; clear:both;  }
 .genmai{ background:url(images/jxdxzt_08.jpg) no-repeat; width:109px; height:44px; display:block; line-height:44px; text-align:center; margin:0 auto;}
 .bmjd{ color:#fff; text-align:center; padding:50px 0 0 0; font-size:20px;}
 .footer .btn{ bottom:90px;}
-.hybm{ color:#c00701; font-size:18px; width:440px; margin:85px auto 0;}
+.hybm{ color:#c00701; font-size:18px; width:440px; position:absolute; z-index:1; bottom:10px; left:20px;}
 .tanchuan{ width:400px; border:2px solid #9d0000; background:#fff; position:fixed; z-index:999; top:40%; left:50%; margin: 0 0 0 -202px; border-radius:6px; text-align:center; padding:20px 0 25px; font-size:24px; color:#666; line-height:2em;}
-.intel{ background:#e8b02c; border:1px solid #9d0000; width:290px; height:43px; font-size:24px; border-radius:3px;}
+.intel{ background:#e8b02c; border:1px solid #9d0000; width:200px; height:43px; font-size:24px; border-radius:3px; margin:10px 0 0 0; vertical-align:middle;}
 .subbt2{ display:block; margin: 20px auto 0; border-radius: 3px; background-image: -moz-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -ms-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); font-size:24px; line-height:46px; height:46px; width:136px;}
 .ztclosed{ position:absolute; z-index:1; right:10px; top:10px; width:20px; height:20px; line-height:1em;}
+.send_captcha{ background:#a11; color:#fff; border:1px solid #eee; width:90px; line-height:43px; vertical-align:middle;margin: 10px 0 0 5px; font-size:16px; border-radius:3px;}
+.send_captcha_time{ background:#999;}
+.tanchuan_yzm .intel2{ width:294px; background:#fff; border:1px solid #ccc; margin:10px 0 0 0; vertical-align:middle;}
+.tanchuan_yzm .intel3{ width:200px;}
+
 </style>
 </head>
 
@@ -175,19 +180,28 @@ a.moreniu{ display:block; width:480px; text-align:center; font-size:24px; paddin
 </div>
 
 <div class="footer">
-<div class="bmjd">报名即得价值88888元超级vip账户1周体验特权<br>
-（可查看所有选手持仓）</div>
+<!--<div class="bmjd">报名即得价值88888元超级vip账户1周体验特权<br>
+（可查看所有选手持仓）</div>-->
 <div class="btn">
     <input type="tel" class="tel" required placeholder="输入手机号">
     <a class="subbt"><img src="../炒股大赛PC/images/baom.gif"></a></div>
 <div class="hybm">欢迎来到“亿元民间炒股大赛”，移动MM作为本次大赛战略合作伙伴负责相关宣传工作。祝您取得好成绩！股市有风险，投资需谨慎！</div>
 </div>
-<div class="tanchuan">
+<!--<div class="tanchuan tanchuan_yzm">
 请先输入手机号码完成注册<br>
-<input class="intel" type="tel"><br>
+<input type="tel" class="intel" placeholder="请输入手机号名" name="logname" value=""><input type="button" value="获取验证码" class="send_captcha" id="send_captcha"><input type="button" value="120S" class="send_captcha send_captcha_time" id="send_captcha"><input placeholder="请输入验证码" class="intel intel2" type="tel"><br>
+<a class="subbt2">确定</a>
+<span class="red">手机号码错误</span><a class="ztclosed"><img src="images/zzttclosed.png"></a>
+</div>-->
+<div class="tanchuan tanchuan_yzm">
+请输入手机收到的验证码<br>
+<input class="intel intel2 intel3" placeholder="请输入验证码"  type="tel"><input type="button" value="获取验证码" class="send_captcha" id="send_captcha"><input type="button" value="120S" class="send_captcha send_captcha_time" id="send_captcha"><br>
 <a class="subbt2">确定</a>
 <span class="red">手机号码错误</span><a class="ztclosed"><img src="images/zzttclosed.png"></a>
 </div>
+
+
+
 </div>
 </body>
 </html>

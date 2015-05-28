@@ -394,8 +394,8 @@ a.commbtnn2{ width:48%; float:left; margin: 0 1%;}
   .qr-box img{ width: 86px; height: 86px;}
  .module15{ padding: 0 20px; width:440px; margin:0 auto;}
   .common-problems dl { padding: 5px 0 10px; margin-bottom: 10px; border-bottom: 1px solid #eee;}
-  .common-problems dl dt{  background: url(<%= image_url "custom/dasai/kefu_03.jpg" %>) left top no-repeat; margin-bottom: 5px; line-height: 30px; font-size:24px; font-weight: bolder;}
-  .common-problems dl dd{ background: url(<%= image_url "custom/dasai/kefu_06.jpg" %>) left top no-repeat; line-height: 1.6em; font-size: 22px; color: #666;}
+  .common-problems dl dt{  margin-bottom: 5px; line-height: 30px; font-size:24px; font-weight: bolder;}
+  .common-problems dl dd{ line-height: 1.6em; font-size: 22px; color: #666;}
   .common-problems .pagination-content{border-top: 0;}
   .main-title{ border-bottom:1px solid #e43530; position:relative; margin:0 auto 10px; width:440px;}
   .main-title h2 em{ padding: 0 28px; display: inline-block; float: left; font-style: normal; height: 38px; line-height: 38px; background-color: #e43530; color: white; font-size:24px;}
