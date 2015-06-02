@@ -63,7 +63,9 @@ img.sjjt{ width:9px; height:5px;}
 .top .top1 ul li a{border-bottom:1px solid #ddd; line-height:2.5em; display:block; margin:0; width:84px; padding: 0 0 0 26px; position:relative;}
 .top .top1 ul li a b{ top:5px;}
 .top .top1 ul li a:hover{ background:#a11; color:#fff; border-bottom:1px solid #a11;}
-.banner{ background:url(images/banner.jpg) repeat-x center; height:305px;}
+.banner{ background:url(images/banner.jpg) repeat-x center; height: 245px;
+width: 1000px;
+margin: 0 auto;}
 
 .nav2{ width:1000px; overflow:hidden; padding:15px 0 8px; margin:0 auto;}
 .nav2 li{ float:left; margin: 0 0px 0 40px; border-right:1px solid #eee; line-height:1.6em; padding: 0 20px 0 0;}

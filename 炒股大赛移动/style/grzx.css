@@ -401,6 +401,8 @@ a.commbtnn2{ width:48%; float:left; margin: 0 1%;}
   .main-title h2 em{ padding: 0 28px; display: inline-block; float: left; font-style: normal; height: 38px; line-height: 38px; background-color: #e43530; color: white; font-size:24px;}
  /* 客户端下载 */
 .pckhdxz{ font-size:24px; color:#666; border-bottom:1px solid #eee; line-height:2em;padding: 0 0 5px;  }
+.pckhdxz p{ font-size:18px; line-height:1.8em;}
+.pckhdxz p span{ margin: 0 5px 0 0;}
 .download-item-block {
 width: 200px;
 float: left;
