@@ -208,3 +208,127 @@ table td{ line-height:33px; border-bottom:1px solid #eee; color:#666;}
 .form-control {height: 30px; line-height:normal; font-size: 14px; padding: 0 6px;width: 160px;border: 1px solid #ddd; color: #666;box-shadow: none; margin: 0 0 0 10px; vertical-align:middle;}
 .form-group span,.form-group a{ font-size:12px; color:#a11; margin: 0 0 0 8px; }
 .form-group span { color:#333; }
+/* 客户端下载 */
+.khdxz{ width:950px; padding: 15px 0px 0 50px;overflow:hidden;}
+.pckhdxz{ font-size:18px; color:#666; border-bottom:1px solid #eee; line-height:2em;padding: 0 0 5px;  }
+.pcdown{ width:206px; float:left; margin: 0 50px 0 0;}
+.download-item-block {
+width: 200px;
+float: left;
+margin: 15px 0 0 0;
+text-align: left;}
+.download-item-block .btn-orange {
+background-color: #ff8d3b;
+}
+.pcdown2 .download-item-block { margin-right:35px;}
+.pcdown2  .pckhdxz{ width:435px;}
+.download-item-block .btn {
+width: 200px;
+height: 60px;
+font-size: 16px;
+color: #fff;
+line-height: 46px;
+border-radius: 0; display:block; text-align:center; line-height:60px;}
+.icons-dl-arrow {
+background-image: url(http://www.ihoms.com/images/sprite.png);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle;
+width: 26px;
+height: 26px;
+margin-right: 5px;
+background-position: -170px -720px;}
+.download-tool {
+margin-top: 25px;
+height: 70px;
+width: 200px;
+position: relative;}
+.download-tool .dl-hint {
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 14px;
+width: 250px;
+color: #999;
+margin-right: auto;
+margin-left: auto;
+text-align: left;
+}
+.hide {
+display: none !important;
+}
+.download-item-block .download-tool a {
+display: inline-block;
+height: 25px;
+text-align: left;
+line-height: 25px;
+min-width: 80px;color: #428bca; font-size:12px;
+}
+.icons-dl-tool {
+background-image: url(http://www.ihoms.com/images/sprite.png);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle;
+width: 18px;
+height: 18px;
+background-position: -99px -475px;}
+.download-item-block .download-tool span {
+margin-right: 5px;
+margin-bottom: 3px;
+}
+
+.icons-dl-fixed {
+background-image: url(http://www.ihoms.com/images/sprite.png);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle;
+width: 18px;
+height: 18px;
+background-position: -99px -500px;
+}
+.icons-dl-doc {
+background-image: url(http://www.ihoms.com/images/sprite.png);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle;
+width: 18px;
+height: 18px;
+background-position: -99px -523px;
+}
+.erWei {
+width: 100%;
+height: 100px;
+margin-top: 15px;
+text-align: center;
+}
+.erWei img {
+width: 100px;
+height: 100px;
+}
+.ios,.android {
+background-image: url(http://www.ihoms.com/images/sprite1.png);
+background-repeat: no-repeat;
+display: inline-block;
+vertical-align: middle;
+}
+.ios {
+background-position: 0 -644px;}
+
+.android {
+background-position: 0 -720px;
+}
+.pcdown2{ width:480px; float:right; margin:0;}
+.pckhdxz2{ width:900px; margin: 0 auto;}
+.article_thumbnail{ width:900px; margin:10px auto; overflow:hidden;}
+.article_thumbnail li{ float:left; width:25%; font-size:14px;}
+.article_thumbnail li img {width: 220px;height: 160px;display: block;text-align: center;}
+.article_thumbnail li a.title-label {
+font-size: 14px;
+text-align: left;
+font-weight: 500;
+text-indent: 10px;
+height: 20px;
+width: 220px;
+display: block;
+overflow: hidden;
+margin: 10px 0;
+}
