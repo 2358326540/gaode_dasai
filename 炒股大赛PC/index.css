@@ -316,7 +316,7 @@ background-position: 0 -644px;}
 .android {
 background-position: 0 -720px;
 }
-.pcdown2{ width:480px; float:left; margin:0;}
+.pcdown2{ width:480px; float:right; margin:0;}
 .pckhdxz2{ width:900px; margin: 0 auto;}
 .article_thumbnail{ width:900px; margin:10px auto; overflow:hidden;}
 .article_thumbnail li{ float:left; width:25%; font-size:14px;}
