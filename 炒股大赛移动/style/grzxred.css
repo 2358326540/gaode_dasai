@@ -103,7 +103,7 @@ a.dycp{ color:#fff; background:#e53531; padding: 0 15px; border-radius:3px;}
 .guandian,.celue,.zhibo{ color:#e53531; background:url(../images/guandianico.png) 0 center no-repeat; padding: 0 0 0 25px;}
 .dashang{ background-image:url(../images/yuanbao2.png);}
 .timetag span{ position:absolute; z-index:1; top:0; right:140px;}
-.tdgdlist{ width:380px; padding: 0 0 10px 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.tdgdlist{ width:360px; padding: 0 0 10px 0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .celue{ background-image:url(../images/celueico.png);}
 .goumaicl{ background-image:url(../images/dingyue.png);}
 .zhibo{background-image:url(../images/zhiboico.png);}
@@ -194,14 +194,15 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .nrsecond{background:url(../images/niurenfst_06.png) no-repeat;}
 .nrthree{background:url(../images/niurenfst_08.png) no-repeat;}
 
+/* 搜索股票 */
+.searchwins{ width:100%; padding:20px 0; background:#fff; margin: 0 0 10px 0; text-align:center;height:46px;}
+.searchwins input{ width:84%; border:1px solid #ddd; border-radius:6px; background:url(../images/searchhh.png) no-repeat 5px center #f5f5f5; padding:  0 0 0 40px;height:46px; font-size:22px;}
+.jiazixuan{ position:absolute; z-index:1; right:15px; top:4px; background:url(../images/jiazixuan.png) no-repeat; width:27px; height:27px;}
+.shanzixuan{ background:url(../images/shanchuzixuan.png);}
+.clearnrsearch{ background:url(../images/clearbtn.png) no-repeat; width:20px; height:20px; z-index:1; position:absolute; right:5%; top:34px;}
 
-
-
-
-
-
-
-
+/* 搜索股票 */
+.nrjylistsouniuren .nrtop{ margin:0;}
 
 
 
