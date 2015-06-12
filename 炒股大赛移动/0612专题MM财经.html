@@ -4,91 +4,319 @@
 <meta charset="utf-8">
 <title>民间训练赛</title>
 <style>
-* {	padding: 0;	margin: 0;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
-input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
-a{ text-decoration:none; color:#fff;}
-table{ border-collapse:collapse;}
-a img{ border:none;}
-li{ list-style:none;}
-.red{ color:#ff5454;}
-.yellow{ color:#fccd18;}
-
-.main{ width:100%; margin:0 auto; background:#282828;}
-.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{ background:url(images/0612zhuantibg_01_1_01.png) no-repeat; width:480px; margin:0 auto; height:527px; position:relative;}
-.pic2{ background:url(images/0612zhuantibg_02.png) no-repeat; height:509px;}
-.pic3{ background:url(images/0612zhuantibg_03.png) no-repeat; height:1191px;}
-.pic4{ background:url(images/0612zhuantibg_04.png) no-repeat; height:298px;}
-.pic5{ background:url(images/0612zhuantibg_05.png) no-repeat; height:525px;}
-.pic6{ background:url(images/0612zhuantibg_06.png) no-repeat; height:691px;}
-.pic7{ background:url(images/0612zhuantibg_08.png) no-repeat; height:782px;}
-
-.mscs,.mscs2,.mscs3,.yyzh,.yyzh2,.yyzh3{ border-radius: 10px; background-color: rgb(255, 76, 76); position: absolute; left: 130px; top: 417px; width: 220px; height: 67px; z-index: 1; line-height:67px; text-align:center; font-size:30px; display:block;}
-.mscs2{ top:auto; bottom:40px;}
-.mscs3{ top:auto;bottom:60px;}
-
-.yyzh,.yyzh2,.yyzh3{ background:none; height:20px; font-size:16px; line-height:20px;}
-.yyzh{ top:490px;}
-.yyzh2{ top:1158px;}
-.yyzh3{ top:730px;}
-.yyzh b,.yyzh2 b,.yyzh3 b{ color:#fccd18;}
-
-.gaoshougd{ background:#292d38; width:480px;border-radius:10px; margin:0 auto; overflow:hidden;}
-.gaoshougd table{ width:440px;  font-size:12px; margin:0 auto;background:#3e414a; color:#f9edbb; line-height:2em;}
-.gaoshougd table th{ color:#fff; text-align:left; padding: 5px 0 3px 8px;}
-.gaoshougd table td{ padding: 3px 0 3px 8px;}
-.hbjg{ background:#474a52;}
-
-.tanchuan{ width:400px; border:2px solid #F27B88; background:#F4F3EE; position:fixed; z-index:999; top:35%; left:50%; margin: 0 0 0 -202px; border-radius:6px; text-align:center; padding:20px 0 25px; font-size:24px; color:#666; line-height:2em;}
-.intel{ background:#e8b02c; border:1px solid #9d0000; width:200px; height:43px; font-size:24px; border-radius:3px; margin:10px 0 0 0; vertical-align:middle;}
-.subbt2{ display:block; margin: 20px auto 0; border-radius: 3px; background-image: -moz-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -ms-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); font-size:24px; line-height:46px; height:46px; width:136px;}
-.ztclosed{ position:absolute; z-index:1; right:10px; top:10px; width:20px; height:20px; line-height:1em;}
-.send_captcha{ background:#d82d2d; color:#fff; border:1px solid #eee; width:90px; line-height:43px; vertical-align:middle;margin: 10px 0 0 5px; font-size:16px; border-radius:3px;}
-.send_captcha_time{ background:#999;}
-.tanchuan_yzm .intel2{ width:294px; background:#fff; border:1px solid #ccc; margin:10px 0 0 0; vertical-align:middle;}
-.tanchuan_yzm .intel3{ width:200px;}
-.hymmcj{ width:440px; font-size:18px; color:#fff; margin:0 auto; background:#292d38; padding: 0 20px 20px;}
-
-
-
-#demo{ border:1px solid #242936; height:183px; overflow:hidden; width:440px; margin:0 auto;border-radius:3px;}
-
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", arial, "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+table {
+	border-collapse: collapse;
+}
+a img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+.red {
+	color: #ff5454;
+}
+.yellow {
+	color: #fccd18;
+}
+.main {
+	width: 100%;
+	margin: 0 auto;
+	background: #282828;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7 {
+	background: url(images/0612zhuantibg_01_1_01.png) no-repeat;
+	width: 480px;
+	margin: 0 auto;
+	height: 527px;
+	position: relative;
+}
+.pic2 {
+	background: url(images/0612zhuantibg_02.png) no-repeat;
+	height: 509px;
+}
+.pic3 {
+	background: url(images/0612zhuantibg_03.png) no-repeat;
+	height: 1191px;
+}
+.pic4 {
+	background: url(images/0612zhuantibg_04.png) no-repeat;
+	height: 298px;
+}
+.pic5 {
+	background: url(images/0612zhuantibg_05.png) no-repeat;
+	height: 525px;
+}
+.pic6 {
+	background: url(images/0612zhuantibg_06.png) no-repeat;
+	height: 691px;
+}
+.pic7 {
+	background: url(images/0612zhuantibg_08.png) no-repeat;
+	height: 782px;
+}
+.mscs, .mscs2, .mscs3, .yyzh, .yyzh2, .yyzh3 {
+	border-radius: 10px;
+	background-color: rgb(255, 76, 76);
+	position: absolute;
+	left: 130px;
+	top: 417px;
+	width: 220px;
+	height: 67px;
+	z-index: 1;
+	line-height: 67px;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+}
+.mscs2 {
+	top: auto;
+	bottom: 40px;
+}
+.mscs3 {
+	top: auto;
+	bottom: 60px;
+}
+.yyzh, .yyzh2, .yyzh3 {
+	background: none;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.yyzh {
+	top: 490px;
+}
+.yyzh2 {
+	top: 1158px;
+}
+.yyzh3 {
+	top: 730px;
+}
+.yyzh b, .yyzh2 b, .yyzh3 b {
+	color: #fccd18;
+}
+.gaoshougd {
+	background: #292d38;
+	width: 480px;
+	border-radius: 10px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.gaoshougd table {
+	width: 440px;
+	font-size: 12px;
+	margin: 0 auto;
+	background: #3e414a;
+	color: #f9edbb;
+	line-height: 2em;
+}
+.gaoshougd table th {
+	color: #fff;
+	text-align: left;
+	padding: 5px 0 3px 8px;
+}
+.gaoshougd table td {
+	padding: 3px 0 3px 8px;
+}
+.hbjg {
+	background: #474a52;
+}
+.tanchuan {
+	width: 400px;
+	border: 2px solid #F27B88;
+	background: #F4F3EE;
+	position: fixed;
+	z-index: 999;
+	top: 35%;
+	left: 50%;
+	margin: 0 0 0 -202px;
+	border-radius: 6px;
+	text-align: center;
+	padding: 20px 0 25px;
+	font-size: 24px;
+	color: #666;
+	line-height: 2em;
+}
+.intel {
+	background: #e8b02c;
+	border: 1px solid #9d0000;
+	width: 200px;
+	height: 43px;
+	font-size: 24px;
+	border-radius: 3px;
+	margin: 10px 0 0 0;
+	vertical-align: middle;
+}
+.subbt2 {
+	display: block;
+	margin: 20px auto 0;
+	border-radius: 3px;
+	background-image: -moz-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%);
+	font-size: 24px;
+	line-height: 46px;
+	height: 46px;
+	width: 136px;
+}
+.ztclosed {
+	position: absolute;
+	z-index: 1;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	line-height: 1em;
+}
+.send_captcha {
+	background: #d82d2d;
+	color: #fff;
+	border: 1px solid #eee;
+	width: 90px;
+	line-height: 43px;
+	vertical-align: middle;
+	margin: 10px 0 0 5px;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.send_captcha_time {
+	background: #999;
+}
+.tanchuan_yzm .intel2 {
+	width: 294px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 10px 0 0 0;
+	vertical-align: middle;
+}
+.tanchuan_yzm .intel3 {
+	width: 200px;
+}
+.hymmcj {
+	width: 440px;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 auto;
+	background: #292d38;
+	padding: 0 20px 20px;
+}
+#demo {
+	border: 1px solid #242936;
+	height: 183px;
+	overflow: hidden;
+	width: 440px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
 </style>
 </head>
 
 <body>
 <div class="main">
-<div class="pic1"><a class="mscs">马上参赛</a><a href="#" class="yyzh">已有帐号<b>立即登录</b></a></div>
-<div class="pic2"></div>
-<div class="pic3"><a class="mscs2">马上参赛</a><a href="#" class="yyzh2">已有帐号<b>立即登录</b></a></div>
-<div class="pic4"></div>
-<div class="pic5"></div>
-<div class="pic6"></div>
-<div class="gaoshougd">
-<table>		<tr><th>用户</th><th>参赛盈利/收益率</th><th>申请实盘金</th><th>保证金</th><th></th></tr>
-</table>
-	<div id="demo">
-    <div id="demo1">
+  <div class="pic1"><a class="mscs">马上参赛</a><a href="#" class="yyzh">已有帐号<b>立即登录</b></a></div>
+  <div class="pic2"></div>
+  <div class="pic3"><a class="mscs2">马上参赛</a><a href="#" class="yyzh2">已有帐号<b>立即登录</b></a></div>
+  <div class="pic4"></div>
+  <div class="pic5"></div>
+  <div class="pic6"></div>
+  <div class="gaoshougd">
     <table>
-		<tr class="hbjg"><td>二三其德</td><td class="red">13117.31元/25.99%</td><td>50000</td><td>12500</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr><td>火车头</td><td class="red">3363.47元/33.87% </td><td>10000</td><td>2500</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr class="hbjg"><td>鸿雁飞语</td><td class="red">6679.80元/31.93%</td><td>50000</td><td>12500</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr><td>中庸之道</td><td class="red">22547.65/11.27%</td><td>200000</td><td>50000</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr class="hbjg"><td>高手943572</td><td class="red">3833.04/38.33%</td><td>10000</td><td>2500</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr><td>核桃</td><td class="red">1985.65/19.86%</td><td>10000</td><td>2500</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr class="hbjg"><td>天真的小散</td><td class="red">3350.84/17.01%</td><td>20000</td><td>5000</td><td><a class="yellow">我也要加入</a></td></tr>
-		<tr><td>股市大赢家</td><td class="red">2226.26/22.2%</td><td>10000</td><td>2500</td><td><a class="yellow">我也要加入</a></td></tr>
-	</table>
+      <tr>
+        <th width="80">用户</th>
+        <th width="75">参赛盈利</th>
+        <th width="50">收益率</th>
+        <th align="center" width="70">申请实盘金</th>
+        <th width="40">保证金</th>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      </tr>
+    </table>
+    <div id="demo">
+      <div id="demo1">
+        <table>
+          <tr class="hbjg">
+            <td width="80">二三其德</td>
+            <td width="75" class="red">13117.31</td>
+            <td width="50" class="red">25.99%</td>
+            <td align="center" width="70">50000</td>
+            <td width="40">12500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr>
+            <td width="80">火车头</td>
+            <td width="75" class="red">3363.47</td>
+            <td width="50" class="red">33.87%</td>
+            <td align="center" width="70">10000</td>
+            <td width="40">2500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr class="hbjg">
+            <td width="80">鸿雁飞语</td>
+            <td width="75" class="red">6679.80</td>
+            <td width="50" class="red">31.93%</td>
+            <td align="center" width="70">50000</td>
+            <td width="40">12500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr>
+            <td width="80">中庸之道</td>
+            <td width="75" class="red">22547.65</td>
+            <td width="50" class="red">11.27%</td>
+            <td align="center" width="70">200000</td>
+            <td>50000</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr class="hbjg">
+            <td width="80">高手943572</td>
+            <td width="75" class="red">3833.04</td>
+            <td width="50" class="red">38.33%</td>
+            <td align="center" width="70">10000</td>
+            <td width="40">2500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr>
+            <td width="80">核桃</td>
+            <td width="75" class="red">1985.65</td>
+            <td width="50" class="red">19.86%</td>
+            <td align="center" width="70">10000</td>
+            <td width="40">2500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr class="hbjg">
+            <td width="80">天真的小散</td>
+            <td width="75" class="red">3350.84</td>
+            <td width="50" class="red">17.01%</td>
+            <td align="center" width="70">20000</td>
+            <td width="40">5000</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+          <tr>
+            <td width="80">股市大赢家</td>
+            <td width="75" class="red">2226.26</td>
+            <td width="50" class="red">22.2%</td>
+            <td align="center" width="70">10000</td>
+            <td width="40">2500</td>
+            <td><a class="yellow">我也要加入</a></td>
+          </tr>
+        </table>
+      </div>
+      <div id="demo2"></div>
     </div>
-    <div id="demo2"></div>
-    </div>
-    
-    
+  </div>
+  <div class="pic7"><a class="mscs3">马上参赛</a><a href="#" class="yyzh3">已有帐号<b>立即登录</b></a></div>
+  <div class="hymmcj">欢迎来到“亿元民间炒股大赛”，移动MM作为本次大赛战略合作伙伴负责相关宣传工作。祝您取得好成绩！股市有风险，投资需谨慎！</div>
 </div>
-<div class="pic7"><a class="mscs3">马上参赛</a><a href="#" class="yyzh3">已有帐号<b>立即登录</b></a></div>
-<div class="hymmcj">欢迎来到“亿元民间炒股大赛”，移动MM作为本次大赛战略合作伙伴负责相关宣传工作。祝您取得好成绩！股市有风险，投资需谨慎！</div>
-</div>
-
-
 <!--<div class="tanchuan tanchuan_yzm">
 请输入手机收到的验证码<div>
 <input class="intel intel2 " placeholder="请输入手机号"  type="tel">
@@ -97,10 +325,6 @@ li{ list-style:none;}
 <span class="red">手机号码错误</span><a class="ztclosed"><img src="images/zzttclosed.png"></a>
 </div>
 -->
-
-
-
-
 <script type="text/javascript">  
 var speed = 50;  
 demo2.innerHTML = demo1.innerHTML;  
@@ -120,8 +344,6 @@ demo.onmouseover = function() {
 demo.onmouseout = function() {  
     MyMar = setInterval(Marquee, speed);  
 }  
-</script>  
-
-
+</script>
 </body>
 </html>
