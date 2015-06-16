@@ -23,7 +23,7 @@
 .wdzcxj{ width:100%; margin:0 auto 5px; background:#fff; border-top:1px solid #eee; border-bottom:1px solid #eee; padding:15px 0; font-size:22px; overflow:hidden; height:148px;}
 .wdzcxjl{ float:left; width:325px; line-height:50px; color:#333; margin: 0 0 0 15px;}
 .wdzcxjl li{ position:relative;}
-.wdzcxjl li span{ position:absolute; z-index:1; right:60px;}
+.wdzcxjl li span{ position:absolute; z-index:1; right:40px;}
 .wdzcxjl li span b{ color:#e53531;}
 .wdzcxjr{ float:left; width:120px;}
 .wdzcxjr li{ padding: 5px 0; font-size:20px;}
@@ -204,8 +204,16 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 /* 搜索股票 */
 .nrjylistsouniuren .nrtop{ margin:0;}
 
-
-
-
+/* 评级 */
+.zhdl{ font-size:128px; text-align:center; width:100%; background:#fff; border-bottom:1px solid #eee; margin:0 0 10px; padding:25px 0; color:#e53531;}
+.zhdl p{ font-size:22px; color:#999;}
+.pjxf{ border-top:1px solid #eee; width:100%; overflow:hidden;}
+.pjxf ul li{ border-bottom:1px solid #eee; text-align:center; padding:15px 0; line-height:24px; font-size:18px;}
+.pjxf ul li span{ color:#e53531; display:block;}
+.pjxf ul{ width:33%; float:left; background:#fff;}
+.pjxf .pjxfm{ margin: 0 0 0 0.5%;}
+.pjxf .pjxfr{ float:right;}
+.pjxf .title{ color:#333; font-size:24px;}
+.pjxf .title b{ background:#e53531; color:#fff; border-radius:99px; padding:3px 10px; margin: 0 0 0 6px;}
 
 
