@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+* {	padding: 0;	margin: 0;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+a{ text-decoration:none; color:#fff;}
+table{ border-collapse:collapse;}
+a img{ border:none;}
+li{ list-style:none;}
+.red{ color:#ff5454;}
+.yellow{ color:#fccd18;}
+
+.main{ width:100%; margin:0 auto; }
+.top{ background:url(images/0616zhuanti_01.jpg) repeat-x center; width:100%; height:544px;}
+.top1{ background:url(images/0616zhuanti_02.jpg) repeat-x center; width:100%; height:229px;}
+.top2{ background:url(images/0616zhuanti_03.jpg) repeat-x center; width:100%; height:316px; position:relative;}
+.top3,.top4{ width:100%; background:#fee5c7; }
+.top31{background:url(images/0616zhuanti_05.jpg) repeat-x; width:1000px; margin: 0 auto; height:315px;position:relative;}
+.top31 a,.top41 a{ position:absolute; z-index:1; right:0px; top:28px; width:115px; height:44px;}
+.top21{position:relative; width:1000px; margin:0 auto;}
+.top21 a{ position:absolute; z-index:1; left:154px; top:216px; width:212px; height:54px;}
+.top41{background:url(images/0616zhuanti_07.jpg) repeat-x; width:1000px; margin: 0 auto; height:316px;position:relative;}
+.top41 a{ top:34px;}
+a.top411{ right:521px;}
+.top5{background:url(images/0616zhuanti_08.jpg) repeat-x center; width:100%; height:481px; position:relative;}
+.top5 div{ position:relative; width:1000px; height:481px; margin:0 auto;}
+.top5 a{ width:281px; height:77px; position:absolute; z-index:1; left:368px; bottom:59px;}
+.gaoshou{ background:#ff5c5c; width:100%;}
+.gaoshoulist,.gaoshoutitle,.zhaoniugu{ width:1000px; margin:0 auto; padding:15px 0 5px;}
+.gaoshoulist table{ width:100%;}
+.tablelist{ border-radius:10px; overflow:hidden; margin: 0 0 20px 0;}
+.tablelist td{background-color: #f5f5f5;border-right: 1px solid #ddd;padding: 15px 10px;text-align: center;line-height: 24px;vertical-align: middle;font-size: 14px;}
+.tablelist td span{ color:#9d0c0c;}
+
+.tablelist2{ width:100%; background:#ffc1c2;  overflow:hidden; border-radius:10px 10px 0 0 ;}
+.tablelist2 th{ background:#ffd4d4; font-size:18px; color:#333; padding:30px 0 20px 0; font-weight:normal;}
+.tablelist2 td{ line-height:48px; text-align:center; border-bottom:1px solid #f3b0b0;border-top:1px solid #f3b0b0; height:48px;}
+.tablelist2 a{ color:#9d0c0c;}
+.gaoshoutitle{ background:url(images/0616zhuanti_11.jpg) no-repeat; height:193px;}
+.tablelist21{ border-radius:0;}
+.zhaoniugu{ height:284px; width:1000px; margin:0 auto; overflow:hidden;}
+.zhaoniugu li{ float:left; width:140px; margin: 0 30px;}
+.fanmian,.fanmianhou{ width:135px; height:204px; display:block; background:url(images/0616zhuanti_15.jpg) no-repeat; margin: 0 0 10px;}
+.fanmianhou { background:url(images/0616zhuanti_17.jpg) no-repeat; font-size:24px; color:#9d0c0c; text-align:center; line-height:1.2em;}
+
+#demo { width:100%;	height: 246px;overflow: hidden;margin: 0 auto;border-radius: 0 0 10px 10px; }
+#demo1,#demo2{ width:100%;}
+.zhuce{ width:1000px; height:544px; position:relative; margin:0 auto;}
+.zhuce1{ width:355px; height:443px; position:absolute; z-index:1; right:0; top:88px; color:#fff;}
+.zhuce1 table{ width:100%;}
+h3{ font-size:30px; text-align:center; font-weight:normal; padding:30px 0; text-align:center; }
+.zhuce1 input{ width:145px; height:36px; line-height:36px; background:#fff; border:none; border-radius:3px; margin: 0 0 0 5px;}
+.zhuce1 td{ padding:6px 0;}
+input.yanzhengma{ width:92px; height:36px; color:#fff; background:#f54c47; text-align:center; margin:0 0 0 5px; cursor:pointer;}
+input.checkbox{ width:14px; height:14px; margin: 0 5px 0 0; vertical-align:middle;}
+input.tjan{ width:158px; height:55px; color:#fff; background:#f54c47; border-radius:6px; font-size:20px; margin:0;}
+.sqshzj{ font-size:14px;}
+.sqshzj h3{ padding:20px 0 10px; font-size:24px;}
+.sqshzj td{ padding:5px 0;}
+.xuanceed{ font-size:16px;}
+.lookword{ color:yellow;}
+
+</style>
+
+</head>
+
+<body>
+<div class="main">
+	<div class="top">
+    	<div class="zhuce">
+        	<!--<div class="zhuce1">
+            	<table>
+                	<tr><th align="center" colspan="3"><h3>10秒极速注册</h3></th></tr>
+                	<tr><td align="right" width="80">手机号</td><td><input type="text"></td><td><input type="button" class="yanzhengma" value="获取验证码"></td></tr>
+                	<tr><td align="right" width="80">验证码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="right" width="80">密码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="right" width="80">确认密码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="center" colspan="3"><input type="checkbox" class="checkbox" checked>我已同意《炒股大赛注册协议》</td></tr>
+                	<tr><td align="center" colspan="3"><input class="tjan" type="button" value="提交注册"></td></tr>
+                    <tr><td align="center" colspan="3">验证码错误</td></tr>
+                </table>                
+            </div>-->
+        	<div class="zhuce1">
+            	<table class="sqshzj">
+                	<tr><th align="center" colspan="3"><h3>申请训练实盘赛训练资金</h3></th></tr>
+                	<tr><th class="xuanceed" align="center" colspan="3">申请金额：<select><option>1万元</option></select></th></tr>
+                	<tr><td align="" >&nbsp;&nbsp;&nbsp;实盘风险金：</td><td>2500元</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;风险预警值：</td><td>9000元</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;风险平仓值：</td><td>8400元</td></tr>
+                	<tr><td align="" >&nbsp;&nbsp;&nbsp;参赛周期：</td><td>您还可以参赛93天，但您可以随时退赛。</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;训练服务费：</td><td>0.06%/天 随时退赛，随时结算。</td></tr>
+                	<tr><td align="" >&nbsp;&nbsp;&nbsp;参赛日期：</td><td>2015年06月16日</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;参赛周期：</td><td>您还可以参赛93天，但您可以随时退赛。</td></tr>
+                	<tr><td align="center" colspan="3"><input type="checkbox" class="checkbox" checked>我已阅读并同意 《训练实盘赛参赛协议》</td></tr>
+                	<tr><td align="center" colspan="3"><input class="tjan" type="button" value="我要参赛"></td></tr>
+                    <tr><td align="center" colspan="3">小白也可以先去 <a class="lookword" href="#">模拟赛看看>></a></td></tr>
+                </table>                
+            </div>
+        </div>
+    
+    
+    </div>
+	<div class="top1"></div>
+	<div class="top2"><div class="top21"><a href="#"></a></div></div>
+	<div class="top3"><div class="top31"><a href="#"></a></div></div>
+	<div class="top4"><div class="top41"><a class="top411" href="#"></a><a class="top412" href="#"></a></div></div>
+	<div class="top5"><div><a href="#"></a></div></div>
+<div class="gaoshou">
+	<div class="gaoshoulist">
+    	<table class="tablelist" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td>
+              <a href="/users/71607" target="_blank"> <span font-weight="bold">大白two</span></a>
+              <br>申请了<span>10000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/70622" target="_blank"> <span font-weight="bold">股民老李</span></a>
+              <br>申请了<span>10000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/81193" target="_blank"> <span font-weight="bold">迷迭香</span></a>
+              <br>申请了<span>50000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/71314" target="_blank"> <span font-weight="bold">大道至简</span></a>
+              <br>申请了<span>50000元</span>实盘训练资金</td>
+          </tr>
+        </tbody>
+        </table>
+        <table class="tablelist2" cellspacing="0" cellpadding="0"><tr><th>参赛用户</th><th>操盘金额</th><th>保证金</th><th>盈利</th><th>收益率</th><th>大赛排名</th><th>现金奖励</th><th>我要跟买</th></tr></table>
+        <div id="demo">
+        <div id="demo1">
+        <table class="tablelist2 tablelist21" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+            <td>高手943572</td>
+            <td>10000元</td>
+            <td>2500元</td>
+            <td>4127元</td>
+            <td>41.27%</td>
+            <td>1</td>
+            <td>8854元</td>
+            <td><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td>高手943572</td>
+            <td>10000元</td>
+            <td>2500元</td>
+            <td>4127元</td>
+            <td>41.27%</td>
+            <td>1</td>
+            <td>8854元</td>
+            <td><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td>高手943572</td>
+            <td>10000元</td>
+            <td>2500元</td>
+            <td>4127元</td>
+            <td>41.27%</td>
+            <td>1</td>
+            <td>8854元</td>
+            <td><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td>高手943572</td>
+            <td>10000元</td>
+            <td>2500元</td>
+            <td>4127元</td>
+            <td>41.27%</td>
+            <td>1</td>
+            <td>8854元</td>
+            <td><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td>高手943572</td>
+            <td>10000元</td>
+            <td>2500元</td>
+            <td>4127元</td>
+            <td>41.27%</td>
+            <td>1</td>
+            <td>8854元</td>
+            <td><a href="#">跟买</a></td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+        <div id="demo2"></div>
+        </div>
+        </div>
+    <div class="gaoshoutitle"></div>
+    <ul class="zhaoniugu">
+    	<li>
+        	<a href="javascript:void(0)" class="fanmian"></a>
+        	<a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+        
+        </li>
+        <li>
+        	<a href="javascript:void(0)" class="fanmianhou"><br><br><br><br>吉恩镍业<br>600432</a>
+        	<a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+        
+        </li>
+            <li>
+        	<a href="javascript:void(0)" class="fanmian"></a>
+        	<a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+        
+        </li>
+
+    	<li>
+        	<a href="javascript:void(0)" class="fanmian"></a>
+        	<a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+        
+        </li>
+
+    	<li>
+        	<a href="javascript:void(0)" class="fanmian"></a>
+        	<a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+        
+        </li>
+
+    </ul>
+</div>
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript">  
+var speed = 50;  
+demo2.innerHTML = demo1.innerHTML;  
+function Marquee() {  
+    if (demo2.offsetTop - demo.scrollTop <= 0) {  
+        demo.scrollTop -= demo1.offsetHeight;  
+    } else {  
+        demo.scrollTop++;  
+    }  
+}  
+var MyMar = setInterval(Marquee, speed);  
+  
+demo.onmouseover = function() {  
+    clearInterval(MyMar);  
+}  
+  
+demo.onmouseout = function() {  
+    MyMar = setInterval(Marquee, speed);  
+}  
+</script>
+
+</body>
+</html>
