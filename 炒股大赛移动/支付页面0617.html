@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个股首页</title>
+<link href="style/comm.css" type="text/css" rel="stylesheet">
+<link href="style/grzx.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div class="wdzh">
+  <div class="mbggheader"><a><span></span></a>购买金币 </div>
+  <div class="main">
+    <div class="zfjb">我的可用余额：<span class="red">1000元</span></div>
+    <div class="czstitle"><span>充值</span> 充值金额</div>
+    <div>
+      <input class="gmjb" type="text">
+    </div>
+      <div class="pay-bank-list clearfix">
+      <div class="row-basic clearfix">
+        <input type="radio" id="weixin" name="cash_order[payment_category]" value="weixin" class="j-bank-radio channel-input">
+        <label for="weixin" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-WEIXIN" title="微信支付">微信支付</span> <span class="bank-showName">微信支付</span> </span> </span> </label>
+      </div>
+      <div class="row-basic clearfix">
+        <input type="radio" id="zhifubao" name="cash_order[payment_category]" value="alipay" class="j-bank-radio channel-input">
+        <label for="zhifubao" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-ZHIFUBZO" title="支付宝">支付宝</span> <span class="bank-showName">支付宝</span> </span> </span> </label>
+      </div>
+      <div class="row-basic clearfix">
+        <input type="radio" id="cbc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1003">
+        <label for="cbc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CBC" title="中国建设银行">中国建设银行</span> <span class="bank-showName">中国建设银行</span> </span> </span> </label>
+      </div>
+      <div class="row-basic clearfix">
+        <input type="radio" id="cib" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1009">
+        <label for="cib" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CIB" title="兴业银行">兴业银行</span> <span class="bank-showName">兴业银行</span> </span> </span> </label>
+      </div>
+      <div class="row-basic clearfix">
+        <input type="radio" id="cmb" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1001">
+        <label for="cmb" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CMB" title="招商银行">招商银行</span> <span class="bank-showName">招商银行</span> </span> </span> </label>
+      </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="icbc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1002">
+          <label for="icbc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-ICBC" title="中国工商银行">中国工商银行</span> <span class="bank-showName">中国工商银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="abc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1005">
+          <label for="abc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-ABC" title="中国农业银行">中国农业银行</span> <span class="bank-showName">中国农业银行</span> </span> </span> </label>
+        </div>
+        
+        <div class="row-basic clearfix">
+          <input type="radio" id="psbc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1028">
+          <label for="psbc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-PSBC" title="中国邮政">中国邮政</span> <span class="bank-showName">中国邮政</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="boc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1052">
+          <label for="boc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BOC" title="中国银行">中国银行</span> <span class="bank-showName">中国银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="bcm" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1020">
+          <label for="bcm" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BCM" title="交通银行">交通银行</span> <span class="bank-showName">交通银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="cgb" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1027">
+          <label for="cgb" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CGB" title="广发银行">广发银行</span> <span class="bank-showName">广发银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="ceb" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1022">
+          <label for="ceb" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CEB" title="中国光大银行">中国光大银行</span> <span class="bank-showName">中国光大银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="bob" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1032">
+          <label for="bob" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BOB" title="北京银行">北京银行</span> <span class="bank-showName">北京银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="spd" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1004">
+          <label for="spd" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-SPD" title="浦发银行">浦发银行</span> <span class="bank-showName">浦发银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="cmbc" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1006">
+          <label for="cmbc" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CMBC" title="中国民生银行">中国民生银行</span> <span class="bank-showName">中国民生银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="ccb" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1021">
+          <label for="ccb" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CCB" title="中信银行">中信银行</span> <span class="bank-showName">中信银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="hxb" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input">
+          <label for="hxb" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-HXB" title="华夏银行">华夏银行</span> <span class="bank-showName">华夏银行</span> </span> </span> </label>
+        </div>
+        <div class="row-basic clearfix">
+          <input type="radio" id="pab" name="cash_order[payment_category]" value="tenpay" class="j-bank-radio channel-input" data-bt="1010">
+          <label for="pab" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-PAB" title="平安银行">平安银行</span> <span class="bank-showName">平安银行</span> </span> </span> </label>
+        </div>
+        
+        
+        
+        <div class="row-basic clearfix">
+      <input type="radio" id="BJRCB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="BJRCB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BJRCB" title="北京农村商业银行">北京农村商业银行</span> <span class="bank-showName">北京农村商业银行</span> </span> </span> </label>
+    </div>
+    <div class="row-basic clearfix">
+      <input type="radio" id="SRCB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="SRCB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-SRCB" title="上海农村商业银行">上海农村商业银行</span> <span class="bank-showName">上海农村商业银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="FDB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="FDB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-FDB" title="富滇银行">富滇银行</span> <span class="bank-showName">富滇银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="CBHB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="CBHB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CBHB" title="渤海银行">渤海银行</span> <span class="bank-showName">渤海银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="CZB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="CZB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-CZB" title="浙商银行">浙商银行</span> <span class="bank-showName">浙商银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="BON" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="BON" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BON" title="南京银行">南京银行</span> <span class="bank-showName">南京银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="HZCB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="HZCB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-HZCB" title="杭州银行">杭州银行</span> <span class="bank-showName">杭州银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="BOS" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="BOS" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BOS" title="上海银行">上海银行</span> <span class="bank-showName">上海银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="WZCB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="WZCB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-WZCB" title="温州银行">温州银行</span> <span class="bank-showName">温州银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="BEA" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="BEA" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-BEA" title="东亚银行">东亚银行</span> <span class="bank-showName">东亚银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="NBCB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="NBCB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-NBCB" title="宁波银行">宁波银行</span> <span class="bank-showName">宁波银行</span> </span> </span> </label>
+    </div>
+<div class="row-basic clearfix">
+      <input type="radio" id="HSB" name="cash_order[payment_category]" value="ebatong" class="j-bank-radio channel-input" data-bt="CCB_D_B2C">
+      <label for="HSB" class="channel-label"> <span class="j-card-element"> <span class="bank-icon-container"> <span class="bank-icon icon-cashier-HSB" title="徽商银行">徽商银行</span> <span class="bank-showName">徽商银行</span> </span> </span> </label>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      </div>
+    </div>
+    <div class="zfjb">
+      <input class="tyanbg" type="button" value="去支付">
+    </div>
+</div>
+</body>
+</html>
