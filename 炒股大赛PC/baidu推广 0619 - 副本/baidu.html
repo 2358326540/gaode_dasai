@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>亿元民间炒股大赛</title>
+<style>
+* {
+	padding:0;
+	margin:0;
+	font-family:"微软雅黑";
+}
+a {
+	text-decoration:none;
+}
+a img{ border:none;}
+li {
+	list-style:none;
+}
+.main {
+	width:100%;
+	margin:0 auto;
+	padding: 0 0 120px;
+}
+.pic2 {
+	background:url(images/baidu-zbuantipph_01.jpg) repeat-x center;
+	width:100%;
+	height:498px;
+}
+.pic2 div{ width:1000px; margin:0 auto; position:relative;height:501px;}
+.pic2  a{ position:absolute; z-index:1; left:268px; top:27px; color:#fff; text-decoration:none; width:98px; height:35px; text-align:center; line-height:33px; font-size:16px; color:#fffc00; font-weight:bolder;}
+.pic3 {
+	background:url(images/baidu-zbuantipph_03.jpg) no-repeat center;
+	width:100%;
+	height:544px;
+}
+.pic4 {
+	background:url(images/baidu-zbuantipph_05.jpg) no-repeat center;
+	width:100%;
+	height:329px;
+}
+.pic5 {
+	background:url(images/baidu-zbuantipph_06.jpg) no-repeat center;
+	width:100%;
+	height:951px;
+}
+.pic5 div,.pic6 div{ height:632px; width:1000px; margin:0 auto ; position:relative;}
+.pic6 div{ height:923px;}
+.pic6 {
+	background:url(images/baidu-zbuantipph_07.jpg) no-repeat center;
+	width:100%;
+	height:674px;
+}
+.gaoshoulist {
+	background:url(images/baidu-zbuantipph_08.jpg) no-repeat center;
+	width:100%;
+	height:341px;
+}
+.pic7{background:url(images/baidu-zbuantipph_09.jpg) no-repeat center;
+	width:100%;
+	height:538px;}
+.zhuce {
+	background:#C72929;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index:1;
+	height:110px;
+}
+.zhucem {
+	width:1000px;
+	margin:0 auto 10px;
+	font-size:16px;
+	color:#fff;
+	padding:10px 0 0px 0;
+	text-align:center;}
+.shuruk {
+	width:226px;
+	height:40px;
+	border:none;
+	border-radius:3px;
+	margin: 0 0 0 5px;
+	vertical-align:middle;
+	font-size:16px;
+}
+.shuruk2 {
+	width:160px;
+}
+.zhuce1 {
+	width:1000px;
+	padding:10px 0 0 0;
+	position:relative;
+}
+.yzm {
+	background:#ff8500;
+	color:#fff;
+	height:40px;
+	width:120px;
+	border:none;
+	border-radius:3px;
+	font-size:18px;
+	cursor:pointer;
+	vertical-align:middle;
+}
+.yzm2{ background:#aaa;}
+.mfzc {
+	background:url(images/Zcan_10.png) no-repeat;
+	width:155px;
+	height:46px;
+	border:none;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.red {
+	color:yellow;
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	text-indent:8.7em;
+}
+.gaoshoumz {
+	overflow:hidden;
+	width:676px;
+	margin: 0 auto;
+}
+.gaoshoumz a {
+	float:left;
+	background:#4e1800;
+	width:166px;
+	height:61px;
+	text-align:center;
+	margin: 0 1px;
+	color:#fff;
+	line-height:61px;
+	font-size:20px;
+}
+.gaoshoumz .select {
+	color:#4e1800;
+	background:#ff8500;
+}
+.gacg {
+	width:673px;
+	margin:2px auto;
+}
+.pic5 a.liketiyan,.pic6 a.liketiyan,a.liketiyan{ position:absolute; z-index:1; width:226px; height:63px;  left:752px; top:392px;}
+.pic5 a.liketiyan,.pic6 a.liketiyan{right: -20px;left: auto;width: 200px;top: 0;}
+.pic3 a,.pic4 a,.pic5 a,.pic6 a,.gaoshoulist a{ display:block; width:1000px ; height:100%; margin:0 auto;}
+
+.tanchuan{ width:400px; border:2px solid #D32525; background:#f5f5f5; position:absolute; z-index:999; top:30%; left:50%; margin-left:-202px; border-radius:6px; text-align:center; padding:20px 0 25px; font-size:24px; color:#666; line-height:2em; overflow:hidden; position:fixed; }
+.intel{ background:#e8b02c; border:1px solid #9d0000; width:200px; height:43px; font-size:20px; border-radius:3px; margin:10px 0 0 0; vertical-align:middle; line-height:43px; padding:0;}
+.subbt2{ display:block;margin: 20px auto 0; border-radius: 3px;font-size:24px; line-height:46px; height:46px; width:136px; color:#fff; background-color:#e53531;  background-image: -moz-linear-gradient( 90deg, rgb(226, 3, 88) 0%, rgb(234,75,44) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(226, 3, 88) 0%, rgb(234,75,44) 100%); background-image: -ms-linear-gradient( 90deg, rgb(226, 3, 88) 0%, rgb(234,75,44) 100%);}
+.ztclosed{ position:absolute; z-index:1; right:10px; top:10px; width:20px; height:20px; line-height:1em;}
+.send_captcha{ background:#F00B50; color:#fff; border:1px solid #eee; width:90px; line-height:43px; vertical-align:middle;margin: 10px 0 0 5px; font-size:16px; border-radius:3px;}
+.send_captcha_time{ background:#999;}
+.tanchuan_yzm .intel2{ display:block;  width:294px; background:#fff; border:1px solid #ccc; margin:10px auto 0; vertical-align:middle;}
+.tanchuan_yzm .intel3{ width:200px; display:inline;}
+.tanchuan .red{ color:red; display:block; width:100%; text-align:center; text-indent:0;}
+</style>
+</head>
+
+<body>
+<div class="main">
+  <div class="pic2"><div><a target="_blank" href="http://www.chaogudasai.cn"></a><a href="#" class="liketiyan"></a></div></div>
+  <div class="pic3"><a></a></div>
+  <div class="pic4"><a></a></div>
+  <div class="pic5"><div><a></a><a href="#" class="liketiyan"><img src="images/yingqujiangjin.gif" /></a></div></div>
+  <div class="pic6"><div><a></a><a href="#" class="liketiyan"><img src="images/mfbmm.gif" /></a></div></div>  
+  <div class="gaoshoulist"><a></a></div>
+  <div class="pic7"></div>
+</div>
+  <div class="zhuce">
+    <div class="zhucem">立即注册88888vip账户体验一周（获得顶尖高手的操盘秘籍+趋势大师的盘面解读+绝密情报的定时推送服务）
+      <div class="zhuce1"> 手机号
+        <input  class="shuruk" type="text"/>
+        &nbsp;&nbsp;&nbsp;验证码
+        <input  class="shuruk shuruk2 " type="text" />
+        &nbsp;&nbsp;
+        <input  class="yzm"type="button" value="获取验证码" />
+        <input  class="yzm yzm2"type="button" value="灰色的" />
+        &nbsp;&nbsp;
+        <input type="button" class="mfzc">
+      </div>
+      <div class="red">手机号不正确提示信息</div>
+    </div>
+  </div>
+  
+  <div class="tanchuan tanchuan_yzm">
+免费体验VIP服务<div>
+<input class="intel intel2 " placeholder="请输入手机号"  type="tel"><input class="intel intel2 intel3" placeholder="请输入验证码"  type="tel"><input type="button" value="获取验证码" class="send_captcha" id="send_captcha"><input type="button" value="120S" class="send_captcha send_captcha_time" id="send_captcha"></div>
+<a class="subbt2">确定</a>
+<span class="red">手机号码错误</span><a class="ztclosed"><img src="images/zzttclosed.png"></a>
+</div>
+  
+</div>
+</body>
+</html>
