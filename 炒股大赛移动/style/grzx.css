@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 /* 二级菜单 */
 .wdzh .searchbt{background: url(../images/sbttn.png) no-repeat center;	width:40px;height: 40px;box-shadow: none;border-radius: 0;right: 70px;}
@@ -317,21 +317,21 @@ li.dhbtm a.red{ color:#a11;}
 .tjyhk a{ width:374px; height:160px; display:block; border:1px solid #ddd; background:#fff; line-height:160px; text-align:center; color:#a11; font-size:24px; margin:60px auto;}
 .tjyhk a span{ color:#999; font-size:18px; line-height:1em; display:block; margin:-60px 0 0 0;}
 
-.yhkgl{ width:440px; margin: 10px auto; font-size:20px; color:#666;}
+.yhkgl{ width:440px; margin: 10px auto; font-size:20px; color:#666; background:#fff;}
 .yhkgl li,.wytx li{ line-height:43px; border-bottom:1px solid #eee; position:relative;padding: 0 0 0 10px;}
 .yhkgl input, .yhkgl span{ margin: 0 10px 0 0; vertical-align:middle;}
 .yhkgl .szmr ,.yhkgl .delete { position:absolute; z-index:2; right:10px; top:0;}
 .yhkgl .szmr{ right:60px;}
 
 .wytx{ width:440px; margin:10px auto 0 auto; font-size:22px; line-height:40px;color:#666;}
-.wytx-h{ background:#f5f5f5; padding: 0 0 0 10px; color:#333;}
+.wytx-h{ background:#f5f5f5; padding: 0 0 0 10px; color:#e53531;}
 .wytx li{ border:none;}
 .wytx input{ height:28px; line-height:normal; border:1px solid #ddd; width:220px;}
 .wytxxyb{ width:440px; margin: 0 auto; padding:20px 0 30px 0;}
-.commbtnn{ display:block; background:#a11; font-size:22px; color:#fff;  line-height:48px;  text-align:center; }
+.commbtnn{ display:block; background:#e53531; border-radius:4px; font-size:22px; color:#fff;  line-height:48px;  text-align:center; }
 .wytxxyb a{ margin:0 auto;}
-.jbxx2{ margin:10px auto; width:440px;}
-.jbxx2 input{ height:30px; line-height:normal; vertical-align:middle; margin:0; width:220px;}
+.jbxx2{ margin:10px auto; width:430px; padding: 0 0 0 10px;}
+.jbxx2 input{ height:36px; line-height:normal; vertical-align:middle; margin:0; width:220px; font-size:18px;}
 .jbxx2 .title{ width:140px; font-size:20px; padding: 0 10px 0 0; line-height:50px;}
 .jbxx2 .tyanbg{ width:200px; line-height:32px; font-size:20px; height:32px;}
 
@@ -477,56 +477,37 @@ background-position: 0 -720px;
 
 .kfdh{ width:480px; margin:0 auto; text-align:center; font-size:22px; color:#a11;}
 
-/* 支付 */
-  .pay-bank-list{ margin-top: 30px; padding: 0 5px;}
-  .j-card-element,
-  .bank-icon-container,
-  .channel-label{ display: inline-block; width: 170px; height: 40px; vertical-align: middle; font-size: 14px;}
-  .row-basic{width: 193px; margin: 0 15px 26px; float: left; font-size: 0; *display: inline;}
-  .channel-input{ vertical-align: middle; margin-right: 10px; *margin-top: 13px; *height: 13px; *width: 13px;}
-  .channel-input,
-  .channel-label{ *float: left;}
 
-  .bank-icon,
-  .bank-showName{ display: inline-block;  position: absolute; width: 168px; height: 38px;  border: 1px solid #d6d6d6; top: 0; left: 0;}
+input.sjyam1{ width:140px;}
+input.sjyam{ background:#e53531; color:#fff; border:none; width:80px; text-align:center; font-size:16px;}
+.jbxx2 select{ margin:0; font-size:18px; height:36px;}
+.ezzffkyzm{ width:440px; text-align:center; margin:0 auto; line-height:2em; font-size:24px;}
+.huoquyzm{ display:block; margin:10px auto; background:#e53531; color:#fff; border:none; width:160px; height:36px; line-height:36px; border-radius:3px;}
+.huoquyzm2{ background:none; color:#e53531;}
+.yzmmmm{ border:1px solid #ddd; border-radius:3px; width:438px; margin:0 auto 30px; background:#fff; height:50px; line-height:50px; text-align:left; text-indent:10px;}
+.yzmmmm input{ border:none; height:50px; width:330px; line-height:none; text-indent:0;}
+.small{ font-size:14px;}
+.yhkgl li img{ vertical-align:middle; margin: 0 5px 5px 0;}
 
-  .bank-showName{z-index: 1; line-height: 38px; text-align: center;}
-  .bank-icon-container{ position: relative; cursor: pointer;}
-  .bank-icon-container span:hover{ border-color: #a11;}
 
-  .bank-icon{ z-index: 2;background: url(../images/bank.jpg) left top no-repeat; text-indent: -9999px}
-  .icon-cashier-ICBC{background-position: left top;}
-  .icon-cashier-ABC{ background-position: -223px top;}
-  .icon-cashier-CBC{background-position: -446px top;}
-  .icon-cashier-PSBC{background-position: -669px top;}
-  .icon-cashier-BOC{background-position: left -65px;}
-  .icon-cashier-BCM{background-position: -223px -65px;}
-  .icon-cashier-CMB{background-position: -446px -65px;}
-  .icon-cashier-CGB{background-position: -669px -65px;}
-  .icon-cashier-CEB{background-position: left -132px;}
-  .icon-cashier-CIB{background-position: -223px -132px;}
-  .icon-cashier-BOB{background-position: -446px -132px;}
-  .icon-cashier-SPD{background-position: -669px -132px;}
-  .icon-cashier-CMBC{background-position: left -197px;}
-  .icon-cashier-CCB{background-position: -223px -197px;}
-  .icon-cashier-HXB{background-position: -446px -197px;}
-  .icon-cashier-PAB{background-position: -669px -197px;}
-  .icon-cashier-WEIXIN{background-position: left -262px;}
-  .icon-cashier-ZHIFUBZO{background-position: -223px -262px;}
-  .icon-cashier-CAIFUTONG{background-position:-448px -261px;}
 
-  .icon-cashier-BJRCB{background-position:left -334px;}
-  .icon-cashier-SRCB{background-position:-223px -335px;}
-  .icon-cashier-FDB{background-position:-448px -337px;}
-  .icon-cashier-CBHB{background-position:-669px -334px;}
-  .icon-cashier-CZB{background-position:left -410px;}
-  .icon-cashier-BON{background-position:-223px -410px;}
-  .icon-cashier-HZCB{background-position:-448px -410px;}
-  .icon-cashier-BOS{background-position:-669px -410px;}
-  .icon-cashier-WZCB{background-position:left -488px;}
-  .icon-cashier-BEA{background-position:-223px -488px;}
-  .icon-cashier-NBCB{background-position:-448px -488px;}
-  .icon-cashier-HSB{background-position:-669px -488px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
