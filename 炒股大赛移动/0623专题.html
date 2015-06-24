@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>民间训练赛</title>
+<style>
+* {	padding: 0;	margin: 0;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+a{ text-decoration:none; color:#fff;}
+table{ border-collapse:collapse;}
+a img{ border:none;}
+li{ list-style:none;}
+.red{ color:#ff5454;}
+.yellow{ color:#fccd18;}
+
+.main{ width:100%; margin:0 auto; background:#282828;}
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7,.pic8,.pic9,.pic10,.pic11{ background:url(images/shoujizhuanti0623_01.jpg) no-repeat; width:480px; margin:0 auto; height:363px; position:relative;}
+.pic2{ background:url(images/shoujizhuanti0623_02.jpg) no-repeat; height:499px;}
+.pic3{ background:url(images/shoujizhuanti0623_03.jpg) no-repeat; height:161px;}
+.pic4{ background:url(images/shoujizhuanti0623_04.jpg) no-repeat; height:282px;}
+.pic5{ background:url(images/shoujizhuanti0623_05.jpg) no-repeat; height:268px;}
+.pic6{ background:url(images/shoujizhuanti0623_06.jpg) no-repeat; height:272px;}
+.pic7{ background:url(images/shoujizhuanti0623_07.jpg) no-repeat; height:275px;}
+.pic8{ background:url(images/shoujizhuanti0623_08.jpg) no-repeat; height:271px;}
+.pic9{ background:url(images/shoujizhuanti0623_09.jpg) no-repeat; height:272px;}
+.pic10{ background:url(images/shoujizhuanti0623_10.jpg) no-repeat; height:322px;}
+.pic11{ background:url(images/shoujizhuanti0623_12.jpg) no-repeat; height:160px;}
+
+.pic4 a{ position:absolute; z-index:1; width:185px; height:48px; left:155px; bottom:50px;}
+.pic7 a,.pic8 a,.pic9 a{position:absolute; z-index:1; width:101px; height:38px; right:33px; top:3px;}
+.pic10 a{ position:absolute; z-index:1; width:231px; height:59px; left:123px; bottom:51px;}
+
+.mscs{ position: absolute; left: 33px; top: 227px; width: 90px; height: 90x; z-index: 1; display:block;}
+.mscs img{ width:90px; height:90px;}
+
+
+.gaoshougd{ background:#ff5c5c; width:440px; margin:0 auto; overflow:hidden; padding: 0 20px;}
+.tablelist{ border-radius:10px; overflow:hidden; margin: 0 auto 20px auto;}
+.tablelist td{background-color: #f5f5f5;border-right: 1px solid #ddd;padding: 15px 10px;text-align: center;line-height: 24px;vertical-align: middle;font-size: 12px;}
+.tablelist td span{ color:#9d0c0c;}
+
+.tablelist2{ width:100%; background:#ffc1c2;  overflow:hidden; border-radius:10px 10px 0 0 ;}
+.tablelist2 th{ background:#ffd4d4; font-size:12px; color:#333; padding:30px 0 20px 0; font-weight:normal;}
+.tablelist2 td{ line-height:48px; text-align:center; border-bottom:1px solid #f3b0b0;border-top:1px solid #f3b0b0; height:48px;font-size:12px;}
+.tablelist2 a{ color:#9d0c0c;}
+.gaoshoutitle{ background:url(images/0616zhuanti_11.jpg) no-repeat; height:193px;}
+.tablelist21{ border-radius:0;}
+
+
+.tanchuan{ width:400px; border:2px solid #696f7d; background:#e7e7e7; position:fixed; z-index:999; top:25%; left:50%; margin: 0 0 0 -202px; border-radius:6px; text-align:center; padding:10px 0 25px; font-size:22px; color:#666; line-height:2em;}
+.intel{ background:#e8b02c; border:1px solid #9d0000; width:200px; height:43px; font-size:24px; border-radius:3px; margin:10px 0 0 0; vertical-align:middle;}
+.subbt2{ display:block; margin: 20px auto 0; border-radius: 3px; background-image: -moz-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); background-image: -ms-linear-gradient( 90deg, rgb(160,20,28) 0%, rgb(220,62,41) 100%); font-size:24px; line-height:46px; height:46px; width:136px;}
+.ztclosed{ position:absolute; z-index:1; right:10px; top:10px; width:20px; height:20px; line-height:1em;}
+.send_captcha{ background:rgb(216, 45, 45); color:#fff; border:1px solid #eee; width:90px; line-height:43px; vertical-align:middle;margin: 10px 0 0 5px; font-size:16px; border-radius:3px;}
+.send_captcha_time{ background:#999;}
+.tanchuan_yzm .intel2{ width:294px; background:#fff; border:1px solid #ccc; margin:10px 0 0 0; vertical-align:middle;}
+.tanchuan_yzm .intel3{ width:200px;}
+
+.fangshi{ font-size:14px; line-height:1.3em; text-align:left; width:360px; margin:0 auto;}
+.downerweima{ display:block; text-align:center; margin:10px 0;}
+.fangshi2{ background:url(images/0612zhuantibg_09.png) no-repeat center; text-align:left; color:#e53531; font-weight:bolder; text-indent:106px; height:50px; line-height:60px; }
+
+.zhaoniugu{width:480px; margin:0 auto; overflow:hidden;background:#ff5c5c;}
+.zhaoniugu li{ float:left; width:140px; margin: 0 10px;}
+.fanmian,.fanmianhou{ width:135px; height:204px; display:block; background:url(images/0616zhuanti_15.jpg) no-repeat; margin: 0 0 10px;}
+.fanmianhou { background:url(images/0616zhuanti_17.jpg) no-repeat; font-size:24px; color:#9d0c0c; text-align:center; line-height:1.35em;}
+
+#demo { width:100%;	height: 246px;overflow: hidden;margin: 0 auto;border-radius: 0 0 10px 10px; }
+#demo1,#demo2{ width:100%;}
+
+.zhuce{ width:440px; height:544px; position:relative; margin:0 auto;}
+.zhuce1{ width:400px; height:443px; position:absolute; z-index:1; left:20px; top:0px; color:#fff;}
+.zhuce1 table{ width:100%;}
+h3{ font-size:30px; text-align:center; font-weight:normal; padding:30px 0; text-align:center; }
+.zhuce1 input{ width:195px; height:36px; font-size:22px; background:#fff; border:none; border-radius:3px; margin: 0 0 0 5px;}
+.zhuce1 td{ padding:6px 0;}
+input.yanzhengma{ width:92px; height:36px; color:#fff; background:#f54c47; text-align:center; margin:0 0 0 5px; cursor:pointer; font-size:16px;}
+input.checkbox{ width:14px; height:14px; margin: 0 5px 0 0; vertical-align:middle;}
+input.tjan{ width:158px; height:55px; color:#fff; background:#f54c47; border-radius:6px; font-size:20px; margin:0;}
+.sqshzj{ font-size:14px;}
+.sqshzj h3{ padding:20px 0 10px; font-size:24px;}
+.sqshzj td{ padding:5px 0;}
+.xuanceed{ font-size:18px;}
+.lookword{ color:yellow;}
+
+</style>
+</head>
+
+<body>
+<div class="main">
+<div class="pic1"><a href="#" class="mscs"><img src="images/jingxiyidongereima_03.png"></a></div>
+<div class="pic2">
+<div class="zhuce">
+        	<!--<div class="zhuce1">
+            	<table>
+                	<tr><th align="center" colspan="3"><h3>10秒极速注册</h3></th></tr>
+                	<tr><td align="right" width="80">手机号</td><td width="200"><input type="text"></td><td><input type="button" class="yanzhengma" value="获取验证码"></td></tr>
+                	<tr><td align="right" width="80">验证码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="right" width="80">密码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="right" width="80">确认密码</td><td><input type="text"></td><td></td></tr>
+                	<tr><td align="center" colspan="3"><input type="checkbox" class="checkbox" checked>我已同意《炒股大赛注册协议》</td></tr>
+                	<tr><td align="center" colspan="3"><input class="tjan" type="button" value="提交注册"></td></tr>
+                    <tr><td align="center" colspan="3">验证码错误</td></tr>
+                </table>                
+            </div>-->
+        	<div class="zhuce1">
+            	<table class="sqshzj">
+                	<tr><th align="center" colspan="3"><h3>申请训练实盘赛训练资金</h3></th></tr>
+                	<tr><th class="xuanceed" align="center" colspan="3">申请金额：<select><option>1万元</option></select></th></tr>
+                	<tr><td width="120" align="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实盘风险金：</td><td>2500元</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;风险预警值：</td><td>9000元</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;风险平仓值：</td><td>8400元</td></tr>
+                	<tr><td align="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参赛周期：</td><td>您还可以参赛93天，但您可以随时退赛。</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;训练服务费：</td><td>0.06%/天 随时退赛，随时结算。</td></tr>
+                	<tr><td align="" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参赛日期：</td><td>2015年06月16日</td></tr>
+                	<tr><td align="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参赛周期：</td><td>您还可以参赛93天，但您可以随时退赛。</td></tr>
+                	<tr><td align="center" colspan="3"><input type="checkbox" class="checkbox" checked>我已阅读并同意 《训练实盘赛参赛协议》</td></tr>
+                	<tr><td align="center" colspan="3"><input class="tjan" type="button" value="我要参赛"></td></tr>
+                    <tr><td align="center" colspan="3">小白也可以先去 <a class="lookword" href="#">模拟赛看看>></a></td></tr>
+                </table>                
+            </div>
+        </div>
+
+</div>
+<div class="pic3"></div>
+<div class="pic4"><a></a></div>
+<div class="pic5"></div>
+<div class="pic6"></div>
+<div class="pic7"><a></a></div>
+<div class="pic8"><a></a></div>
+<div class="pic9"><a></a></div>
+<div class="pic10"><a></a></div>
+
+<div class="gaoshougd">
+	    <table class="tablelist" cellspacing="0" cellpadding="0">
+          <tbody><tr>
+            <td>
+              <a href="/users/71607" target="_blank"> <span font-weight="bold">大白two</span></a>
+              <br>申请了<span>10000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/70622" target="_blank"> <span font-weight="bold">股民老李</span></a>
+              <br>申请了<span>10000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/81193" target="_blank"> <span font-weight="bold">迷迭香</span></a>
+              <br>申请了<span>50000元</span>实盘训练资金</td>
+            <td>
+              <a href="/users/71314" target="_blank"> <span font-weight="bold">大道至简</span></a>
+              <br>申请了<span>50000元</span>实盘训练资金</td>
+          </tr>
+        </tbody>
+        </table>
+        <table class="tablelist2" cellspacing="0" cellpadding="0"><tr><th width="80">参赛用户</th><th width="60">操盘金额</th><th width="60">保证金</th><th width="60">盈利</th><th width="40">收益率</th><th width="40">大赛排名</th><th width="60">现金奖励</th><th width="40">我要跟买</th></tr></table>
+        <div id="demo">
+        <div id="demo1">
+        <table class="tablelist2 tablelist21" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr>
+            <td width="80">高手943572</td>
+            <td width="60">10000元</td>
+            <td width="60">2500元</td>
+            <td width="60">4127元</td>
+            <td width="40">41.27%</td>
+            <td width="40">1</td>
+            <td width="60">8854元</td>
+            <td width="40"><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td width="80">高手943572</td>
+            <td width="60">10000元</td>
+            <td width="60">2500元</td>
+            <td width="60">4127元</td>
+            <td width="40">41.27%</td>
+            <td width="40">1</td>
+            <td width="60">8854元</td>
+            <td width="40"><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td width="80">高手943572</td>
+            <td width="60">10000元</td>
+            <td width="60">2500元</td>
+            <td width="60">4127元</td>
+            <td width="40">41.27%</td>
+            <td width="40">1</td>
+            <td width="60">8854元</td>
+            <td width="40"><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td width="80">高手943572</td>
+            <td width="60">10000元</td>
+            <td width="60">2500元</td>
+            <td width="60">4127元</td>
+            <td width="40">41.27%</td>
+            <td width="40">1</td>
+            <td width="60">8854元</td>
+            <td width="40"><a href="#">跟买</a></td>
+          </tr>
+          <tr>
+            <td width="80">高手943572</td>
+            <td width="60">10000元</td>
+            <td width="60">2500元</td>
+            <td width="60">4127元</td>
+            <td width="40">41.27%</td>
+            <td width="40">1</td>
+            <td width="60">8854元</td>
+            <td width="40"><a href="#">跟买</a></td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
+        <div id="demo2"></div>
+        </div>
+
+
+	
+</div>
+<div class="pic11"><a></a></div>
+<ul class="zhaoniugu">
+    	<li>
+        	<div class="fanmian"></div>
+        
+        </li>
+        <li>
+        	<div class="fanmianhou"><br><br><br>吉恩镍业<br>600432<br><a href="#"><img src="images/0616zhuanti_22.jpg"></a>
+</div>
+        </li>
+            <li>
+        	<div class="fanmian"></div>
+        </li>
+
+    	<li>
+        	<div class="fanmian"></div>
+        </li>
+
+    	<li>
+        	<div class="fanmian"></div>
+        </li>
+        <li>
+        	<div class="fanmian"></div>
+        </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!--<div class="tanchuan tanchuan_yzm">
+请输入手机收到的验证码<div>
+<input class="intel intel2 " placeholder="请输入手机号"  type="tel">
+<input class="intel intel2 intel3" placeholder="请输入验证码"  type="tel"><input type="button" value="获取验证码" class="send_captcha" id="send_captcha"><input type="button" value="120S" class="send_captcha send_captcha_time" id="send_captcha"></div>
+<a class="subbt2">确定</a>
+<span class="red">手机号码错误</span><a class="ztclosed"><img src="images/zzttclosed.png"></a>
+</div>
+-->
+<!--<div class="tanchuan tanchuan_yzm">
+关注微信马上参与领取亿元实盘金
+<div class="fangshi">关注方式一：<br>
+点击下载二维码，微信扫一扫从相册选取二维码扫描加入<a class="downerweima"><img src="images/jingxiyidongereima_03.png"></a></div>
+<div class="fangshi2">gdtzzs</div>
+<a class="ztclosed"><img src="images/zzttclosed.png"></a>
+</div>-->
+
+
+<script type="text/javascript">  
+var speed = 50;  
+demo2.innerHTML = demo1.innerHTML;  
+function Marquee() {  
+    if (demo2.offsetHeight - demo.scrollTop <= 0) {  
+        demo.scrollTop -= demo1.offsetHeight;  
+    } else {  
+        demo.scrollTop++;  
+    }  
+}  
+var MyMar = setInterval(Marquee, speed);  
+  
+demo.onmouseover = function() {  
+    clearInterval(MyMar);  
+}  
+  
+demo.onmouseout = function() {  
+    MyMar = setInterval(Marquee, speed);  
+}  
+</script>
+
+
+
+
+</body>
+</html>
