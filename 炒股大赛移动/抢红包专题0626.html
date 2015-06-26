@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>民间训练赛</title>
+<style>
+* {	padding: 0;	margin: 0;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+a{ text-decoration:none; color:#fff;}
+table{ border-collapse:collapse;}
+a img{ border:none;}
+li{ list-style:none;}
+.red{ color:#ff5454;}
+.yellow{ color:#fccd18;}
+.main{ position:relative; width:480px; margin:0 auto;}
+.hongbao{ background:url(images/hongbaozhuanti.jpg) no-repeat; width:480px; height:800px; margin:0 auto; position:relative; }
+.hongbao li{ font-size:17px;}
+.hbzjgg{ position:absolute; width:350px; color:#fff; z-index:1; top:410px; font-size:18px; line-height:32px; left:60px; height:188px; overflow:hidden;}
+.qhban{ position:absolute; z-index:1; bottom:75px; left:120px;}
+
+.hdgz{ width:100%; position:absolute; z-index:1; bottom:0; left:0; height:38px;}
+.fuchuang{  border: 1px solid #fff;  border-radius: 10px;  background-color: rgba(0, 0, 0, 0.831);  position: absolute;  left: 49px;  top: 100px;  width: 340px;  padding:20px;  z-index: 63;  color:#fff;  line-height:20px;  font-size:15px;}
+.closed{ position:absolute; top:-18px; width:30px; height:30px; z-index:1; right:-18px; background:#000; border:2px solid #fff; border-radius:99px; text-align:center; font-size:20px; line-height:30px;}
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+<div class="main">
+
+<div class="hongbao">
+	<div id="demo" class="hbzjgg">
+    <ul id="demo1">
+    	<li>手机号“138****5529”抢到<span class="yellow">315元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    	<li>手机号“138****5529”抢到<span class="yellow">35元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    	<li>手机号“138****5529”抢到<span class="yellow">35元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    	<li>手机号“138****5529”抢到<span class="yellow">35元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    	<li>手机号“138****5529”抢到<span class="yellow">35元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    	<li>手机号“138****5529”抢到<span class="yellow">35元话费红包</span></li>
+		<li>微信号“棒棒糖”抢到<span class="yellow">67元话费红包</span></li>
+    </ul>
+    <div id="demo2"></div>
+
+    </div>
+    
+    <a class="qhban"><img src="images/qianghongbao.gif"></a>
+<a class="hdgz" href="#"></a>
+</div>
+
+
+
+<!--<div class="fuchuang">
+<h3>活动介绍</h3><br>
+一、参与用户：中国移动用户
+<br><br>
+二、参与方式：1、用户进入“话费红包活动”页面，点击“我要抢红包”，输入手机号、验证码后，开抢话费红包；2、用户搜索微信公众号“gdtzzs”，成功关注后，立即开抢话费红包；
+<br><br>
+以上两种方式，用户自主选择。
+<br><br>
+三、活动奖品：10万份话费红包。
+<br><br>
+四、活动规则
+<br><br>
+1、每位用户微信号/手机号均可参加一次活动，不能多次参加和重复领取。
+<br><br>
+2、本活动共发放10万份话费红包，发完即止。
+<br><br>
+3、抢到话费红包用户需于2015年7月31日24：00时前登录“东兴证券杯亿元民间炒股大赛”官网进行提现领取，自行充值，逾期视为放弃奖品。
+<br><br>
+4、不得以任何刷屏软件或其它非人工方式参与本活动，一经发现，不予提现；
+<br><br>
+活动主办方在法律允许范围内保留对本次活动最终解释权！
+<a id="closed" class="closed"><img src="images/cloaseffff.png"></a>
+</div>
+-->
+
+
+</div>
+<script type="text/javascript">  
+var speed = 50;  
+demo2.innerHTML = demo1.innerHTML;  
+function Marquee() {  
+    if (demo2.offsetHeight - demo.scrollTop <= 0) {  
+        demo.scrollTop -= demo1.offsetHeight;  
+    } else {  
+        demo.scrollTop++;  
+    }  
+}  
+var MyMar = setInterval(Marquee, speed);  
+  
+demo.onmouseover = function() {  
+    clearInterval(MyMar);  
+}  
+  
+demo.onmouseout = function() {  
+    MyMar = setInterval(Marquee, speed);  
+}  
+
+</script>
+</body>
+</html>
