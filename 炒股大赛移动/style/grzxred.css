@@ -115,7 +115,7 @@ a.dycp{ color:#fff; background:#e53531; padding: 0 15px; border-radius:3px;}
 .qhdhyb a{ float:left; width:50%; text-align:center;color:#999; }
 .qhdhyb a.select{ border-bottom:2px solid #e53531; color:#e53531;}
 .qhdhyb-zhanwei{height:43px; line-height:43px;}
-
+.tjzxg{ display:block; width:100%; text-align:center; font-size:30px; height:300px; line-height:300px;}
 
 /* 个股行情 */
 .maintop{ width:100%;border-bottom:1px solid #eee; overflow:hidden; margin: 0 0 10px; background:#fff;}
