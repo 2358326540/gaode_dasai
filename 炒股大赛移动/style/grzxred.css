@@ -218,3 +218,11 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 
 /* 秀场 */
 .nav_myshow a{ width:33.333%;}
+
+/* 直播详情 */
+.zhiboxq{ background:#fff;}
+.zhiboxq .nrbottom{ padding:20px 0 0px 0px; text-indent:0;overflow:auto; background:url(../images/ixiangsuddd_03.png) repeat-y  35px;}
+.zhiboxq .buylook{ top:20px;}
+.zhiboxq .tdgdlist{ width: 85%;padding: 10px 0 20px 0;overflow:auto; text-overflow:inherit; white-space:normal; margin: 0 0 0 12%; border-bottom:1px solid #eee;}
+.zhiboxq .timetag{ position:relative; padding: 0 0 0 12%;}
+.zhiboxq .timetag b{ position:absolute; z-index:1; background:#e53531; width:11px; height:11px; border-radius:11px; left:30px; top:10px;}
