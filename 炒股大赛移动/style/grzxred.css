@@ -36,7 +36,7 @@
 .jifenr a{ margin: 0 20px 0 0;}
 .jifenr img{ vertical-align:middle; margin:-3px 6px 0 0 ;}
 
-.loginout,.loginout a{ display:block; width:100%; background:#e53531; color:#fff; font-size:24px; text-align:center; line-height:2em;}
+.loginout,.loginout a{ display:block; width:100%; background:#e53531; color:#fff; font-size:24px; text-align:center; line-height:2em; border:none; border-radius:3px;}
 
 
 /* 交易 */
@@ -226,3 +226,5 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .zhiboxq .tdgdlist{ width: 85%;padding: 10px 0 20px 0;overflow:auto; text-overflow:inherit; white-space:normal; margin: 0 0 0 12%; border-bottom:1px solid #eee;}
 .zhiboxq .timetag{ position:relative; padding: 0 0 0 12%;}
 .zhiboxq .timetag b{ position:absolute; z-index:1; background:#e53531; width:11px; height:11px; border-radius:11px; left:30px; top:10px;}
+.zbfbk { width:85%; margin:0 0 0 12%; padding: 30px 0 20px 0 ;}
+.zbfbk textarea{ width:98%; border:1px solid #ddd; height:160px; font-size:20px; margin: 0 0 5px;}
