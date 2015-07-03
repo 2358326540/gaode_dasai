@@ -92,9 +92,9 @@ body{ padding: 60px 0 56px 0; background:#f5f5f5;}
 .zhifuanniu a{ background:#e53531; color:#fff; float:left; width:200px; border-right:1px solid #ffaaa8; text-align:center; line-height:58px;}
 a.last{ border:none; width:201px;}
 
-
-
-
+/* loading */
+.loading { text-align: center; background: -webkit-linear-gradient(top, #fff, #f5f5f5); line-height: 5.5em; width:100%; font-size:18px;}
+.loading img{ vertical-align:middle; margin:-2px 5px 0 0;}
 
 
 
