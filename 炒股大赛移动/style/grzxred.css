@@ -247,8 +247,8 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .wenda{ background-image:none; text-indent:0;}
 .yida{ background:#ddd; color:#fff;}
 
-
-
+.wydzb{ position:fixed; z-index:1; bottom:70px; left:5px; background:#e53531; color:#fff; width:20px; padding: 5px 0 5px 3px; border-radius:3px;}
+.wydzb2{bottom:120px;}
 
 
 
