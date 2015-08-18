@@ -224,6 +224,7 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .nav_myshow a{ width:33.333%;}
 
 /* 直播详情 */
+.zhiboxq2{ position:relative; height:800px; overflow-y:scroll;}
 .zhiboxq{ background:#fff;}
 .zhiboxq .nrbottom{ padding:20px 0 0px 0px; text-indent:0;overflow:auto; background:url(../images/ixiangsuddd_03.png) repeat-y  35px;}
 .zhiboxq .buylook{ top:20px;}
@@ -238,18 +239,19 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .tdgdlist strong{ font-weight:bolder;}
 .tdgdlist p{ color:#999;}
 .tdgdlist img{ margin: 0 3px;}
-.woyaotiwen{ position:fixed; z-index:1; bottom:0; width:100%; background:#fff; margin:0px auto; background:#f5f5f5; border-top:1px solid #ddd; padding:0 0 10px;}
-.woyaotiwen textarea{ width:370px; border:1px solid #e53531; height:44px; vertical-align:middle; font-size:18px; border-radius:3px; margin: 0 0 0 10px;}
-.woyaotiwen input{ width:80px; border:none; background:#e53531; color:#fff; height:50px; vertical-align:middle; font-size:22px; border-radius:3px;}
+.woyaotiwen{ position:fixed; z-index:1; bottom:0; width:100%; background:#fff; margin:0px auto; background:#f5f5f5;padding:0 0 10px; border-top:1px solid #ccc; }
+.woyaotiwen textarea{ width:370px; border:1px solid #e53531; height:44px; vertical-align:middle; font-size:18px; border-radius:3px; margin: 0 0 0 10px; }
+.woyaotiwen input{ width:70px; border:none; background:#e53531; color:#fff; height:50px; vertical-align:middle; font-size:22px; border-radius:3px; }
+
 .zhanweiwend{ height:52px;}
-.mywenti{ display:block; color:#e53531; font-size:22px;  position:absolute;text-indent:0px; z-index:1; right:10px; top:0;}
-.wytwtit{ position:relative; font-size:22px;line-height:2em;height:2em; text-indent:10px;}
+.mywenti{ display:block; color:#e53531; font-size:22px;  position:absolute;text-indent:0px; z-index:1; right:10px; top:0; height:105px;}
+.wytwtit{ position:relative; font-size:22px;line-height:2em;height:2em; text-indent:10px; text-align:left;}
 .wenda{ background-image:none; text-indent:0;}
 .yida{ background:#ddd; color:#fff;}
 
 .wydzb{ position:fixed; z-index:1; bottom:70px; left:5px; background:#e53531; color:#fff; width:20px; padding: 5px 0 5px 3px; border-radius:3px;}
-.wydzb2{bottom:120px;}
-
+a.wytw{ right:5px; left:auto;}
+a.wydzb2{ bottom:120px;}
 
 
 
