@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-family:'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','微软雅黑','Microsoft YaHei',sans-serif; color:#fff;}
+table{ border-collapse:collapse;}
+li{ list-style:none;}
+.red{ color:#e92525;}
+a img{ border:none;}
+.green{ color:#1bb02c;}
+body{ background:#252525;}
+.mbggheader{ background:#014b9d; height:80px; width:100%; position:relative; font-size:36px; color:#fff; line-height:80px;text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);}
+.mbggheader2{ text-indent:1em;}
+.mbggheader span{ background:url(../images/sjxzanfh.png) no-repeat center; display:block; float:left; width:60px; height:80px; margin: 0 10px 0 0; }
+.mbggheader b{ font-size:30px; font-weight:100;}
+.tjan,.refresh,.searchbt,.eidt {border-radius: 50%; box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35), inset 0px 0px 10px 0px rgba(0, 0, 0, 0.2); width: 45px; height: 45px; line-height:45px; text-align:center; position:absolute; z-index:22; right:25px; top:18px; background:url(../images/jiahao.png) no-repeat 8px 8px #fff; }
+.refresh{ background:url(../images/refresh.png)  no-repeat ; box-shadow:none; right:85px; border-radius:0; width:51px; height:52px;}
+.nav{ width:100%; background:#2f2f2f; height:60px; line-height:60px; border-bottom:1px solid #1d1d1d; border-top:1px solid #1d1d1d; font-size:24px;text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);}
+.nav a{ color:#fff; font-size:22px;  border-right:1px solid #1d1d1d; float:left; width:159px; text-align:center;}
+.nav a.last{ border:none; width:160px;}
+.nav a.select{ background:#014b9d;}
+
+.main{ width:100%; overflow:hidden; background:#252525;}
+.maintop{ width:100%;border-bottom:1px solid #1d1d1d; overflow:hidden;}
+.mainleft { width:229px; border-right:1px solid #1d1d1d;font-size: 82px;  color:#ea3939; text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.29); float:left; height:168px; text-align:center;}
+.mainright{ width:250px; float:left; color:#fff; text-align:center;padding:12px 0 0 0; line-height:36px;}
+.mainleft span { display:block; font-size:30px;}
+.mainright span{ display:block; font-size:24px;text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);}
+.mainright .tite{ color:#999;}
+.mainright1,.mainright2{ float:left; width:50%;}
+.mainlist{ font-size:18px; width:94%; overflow:hidden; height:115px; line-height:36px; padding:5px 0 0 0; margin:0 auto;}
+.mainlist li{ float:left; width:33.3%;}
+.mainlist li span{ display:block; color:#999; position:relative; padding:0 0 0 10px;}
+.mainlist li b{ font-weight:normal; position:absolute; right:10px; top:0; z-index:1;}
+.cstmapnav li{ width:119px; float:left; text-align:center;border-right:1px solid #1d1d1d;}
+.cstmapnav li.last{ border:none; width:120px; }
+.cstmapnav li.select{ background:#474c52;}
+.mzst{ width:100%;}
+
+/* 自选股 */
+.searchbt{ background:url(../images/sbttn.png) no-repeat; width:58px; height:53px; box-shadow:none; border-radius:0; right:150px;}
+.eidt{ background:url(../images/edut.png) no-repeat; width:51px; height:53px;box-shadow:none;border-radius:0; right:15px;}
+.gglist{ font-size:26px; width:100%;}
+.gglist th{ background:#2f2f2f; font-weight:normal;border-bottom:1px solid #1d1d1d; line-height:70px; padding: 0 15px; font-size:24px;}
+.gglist td{ text-align:left; height:77px; border-bottom:1px solid #1d1d1d; font-size:22px; padding: 0 0 0 25px; }
+.gglist td span{ display:block; color:#999; font-size:20px;}
+.gglist td img{ margin: 0 0 -2px 3px;}
+td.number{ text-align:right; padding: 0 25px 0 0;}
+
+
+
+
