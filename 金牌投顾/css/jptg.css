@@ -178,6 +178,7 @@ html,body{height:100%; overflow:hidden;}
 .nav-left ul{ border-bottom:1px dashed #434343; line-height:35px; background:url(../images/navdsc_06.gif) no-repeat 10px center ; text-indent:20px;}
 .nav-left .select{ background:none; border:none;}
 .nav-left .select .select-t{ color:#fca600; background:url(../images/navdsc_03.gif) no-repeat 10px center;border-bottom:1px dashed #434343;}
+.nav-left .select .select-t a{ color:#fca600;}
 .nav-left .select li{ border-bottom:1px solid #313131; height:35px; color:#fff;}
 .con-right-zdsy{ min-width:755px ; height:100%;}
 .con-right-zdsyt{ height:35%; border-top:1px solid #000; border-bottom:1px solid #000;}
