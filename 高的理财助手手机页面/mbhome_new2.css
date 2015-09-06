@@ -66,8 +66,8 @@ li.ytimg3 a{height:88px; text-align:center; display:block; width:100%; line-heig
 .zjzlhz{ padding:10px 0 0 0;}
 .zjzlhz a{ background:#e53531; font-size:18px; color:#fff; margin: 0 10px 0 0 ; padding: 0px 10px; border-radius:3px;}
 .zjjs1{ border-bottom:1px solid #eee;}
-.zjjs1 .zjjsl{ width:140px; height:180px;}
-.zjjs1 .zjjsl img{ width:140px; height:180px;}
+.zjjs1 .zjjsl{ width:140px; height:140px;}
+.zjjs1 .zjjsl img{ width:140px; height:140px;}
 .zjjs1 .zjjsr{ width:300px;}
 .zjjs1 .zjjsr h2{ position:relative;}
 .zjjs1 .zjjsr h2 a{ font-size:16px; color:#fff; background:#e53531; padding: 0 8px; border-radius:3px; position:absolute; z-index:1; right:0; top:5px;}
