@@ -170,6 +170,17 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 .rmsplist .rightbtn{ left:auto; right:0;}
 
 
+.ctlrt-tdsp{ width:288px; height:100%; float:right; border-left:1px solid #000;}
+
+.ctlrt-tdzb{ width:180px; height:100%; position:relative;}
+.ctlrt-tdzb li{ background:url(../images/shipinli_03.png) repeat-x; text-align:center;}
+.list-tdzb{ border-bottom:1px dashed #433d32; padding:20px 10px; color:#d8b97d;}
+.list-tdzbtime{ padding: 0 0 10px; position:relative; font-size:14px;}
+.list-tdzbtime h4{ font-weight:bolder;}
+.list-tdzbtime span{ color:#8e8e8e;  position:absolute; z-index:1; right:10px; top:0;}
+.list-tdzb p{ text-indent:0; line-height:1.5em;font-size:14px;}
+.scjddp-zhibotime .select{ background:#937e5b;}
+.crzbl2{overflow-y:scroll; height:95%;}
 
 
 /* 战队首页 */
