@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input{padding:0;margin:0;font: inherit;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; color:#666;}
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur()); color:#666;}
+/* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:active {    background-color: transparent;}
+a:active,a:hover {    outline: 0 none;}
+/**
+ * 统一 Chrome 和 Safari 的焦点框样式
+ * Chrome 中 thin 关键字放大页面后焦点框不会放大 http://jsbin.com/ehakom/1
+ * Firefox 中 box-shadow 会导致焦点框位置偏移，需用「outline-offset」修正
+ * 
+ */
+a:focus {
+    outline: 1px dotted;
+}
+/* 去掉iphone默认按钮样式 */
+input[type=”button”], input[type=”submit”], input[type=”reset”] {
+
+-webkit-appearance: none;
+
+}
+/**
+* 闭合浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /* IE6-7 触发 hasLayout */
+}
+
+a img{ border:none;}
+.green{ color:#0c8c2d;}
+.red{ color:#e53531;}
+.blue{ color:#2f87e4}
+.main{ width:100%; overflow:hidden; position:relative; }
+body{ padding: 60px 0 0px 0; background:#f5f5f5;}
+/* 头部公共 */
+.mbggheader{ background:#e53531; height:60px; width:100%; position:fixed; z-index:999; top:0; left:0; font-size:28px; color:#fff; line-height:60px;box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);}
+.mbggheader a{ color:#fff;}
+.mbggheader2{ text-indent:1.5em;}
+.mbggheader3{ text-align:center;}
+.mbggheader .fanhui{ background:url(../images/sjxzanfh.png) no-repeat center; display:block; position:absolute; z-index:1; left:0; top:0; width:47px; height:60px;  }
+.mbggheader b{ font-size:30px; font-weight:100; color:#fff;}
+
+
+
+
+
+
+
+
+

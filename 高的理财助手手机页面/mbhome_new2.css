@@ -60,7 +60,7 @@ li.ytimg3 a{height:88px; text-align:center; display:block; width:100%; line-heig
 .zjjsl img{ width:100px; height:120px;}
 
 .zjjsr{ float:right; width:340px;}
-.zjjsr h2{ padding: 0 0 10px 0;}
+.zjjsr h2{ padding: 0 0 10px 0; color:#333;}
 
 .zxgd{ width:450px; margin:0 auto; font-size:24px; border-bottom:1px solid #eee; border-top:1px solid #eee; line-height:50px;}
 .zjzlhz{ padding:10px 0 0 0;}
@@ -80,17 +80,13 @@ li.ytimg3 a{height:88px; text-align:center; display:block; width:100%; line-heig
 .zjzlhz2 a span{ color:#333; margin: 0 0 0 3px;}
 
 
-/* dakazhibo */
-.dakazhibo{ background:#e53531; color:#fff; height:63px;line-height:63px; font-size:22px; left:63px; text-align:center;}
-.dakatoutu,.dakatoutu img{ width:100%; max-width:480px; margin:0 auto;}
-.ssdk{}
-.zjjsr2  h2{ padding: 0 0 10px 0; font-size:22px;}
-.zjjsr2 h2 span{ font-size:18px; color:#e53531; margin: 0 0 0 10px; }
 
 
 
 
-
+.mbdetailed{ width:100%; background:#fff;overflow: hidden;}
+.mbdetailed_titl{ width:100%;line-height:63px;height:63px;  position:relative; background:#fff; border-bottom:1px solid #eee;}
+.mbdetailed_titl .daohang{color:#333; background:url(images/yousanjiao_03.png) no-repeat right center; float:left; padding: 0 20px;font-size:22px;}
 
 
 
