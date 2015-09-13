@@ -125,8 +125,8 @@ html,body{height:100%; overflow:hidden;}
 .tjtpwzbq a{ margin: 0  0 0 12px; float:left; line-height:49px; height:39px;}
 .con-right2 .ctlrb{ background:#161515;}
 .fabutougu{ position:absolute; z-index:1; bottom:0; width:100%; background:#333232; height:39px; line-height:35px; font-size:14px; color:#8a8a8a; text-indent:20px;}
-.fabutougu input{ background:#1b1b1b; border-radius:4px;height:29px; border:none; margin: 0 0 0px 11px; vertical-align:middle; width:183px; color:#fff; font-size:14px;}
-.fabutougu .sendbt{ background:url(../images/sendbtn_21.png) no-repeat; width:60px; height:24px; vertical-align:middle; position:absolute; z-index:1; right:10px; top:8px;}
+.fabutougu input{ background:#1b1b1b; border-radius:4px;height:29px; margin: 0 0 0px 11px; vertical-align:middle; width:183px; color:#fff; font-size:14px;}
+.fabutougu .sendbt{ background:url(../images/sendbtn_21.png) no-repeat; width:60px; height:24px; vertical-align:middle; position:absolute; z-index:1; right:10px; top:8px; cursor:pointer;}
 .fadeneirong{ width:100%; overflow:hidden; font-size:12px; padding:10px 0;}
 .fadeneirongl{ color:#e5a816; float:left; width:60px; margin: 0 0 0 10px;}
 .fadeneirongr{ color:#fff; float:left; width:180px; margin: 0 0 0 5px;}
@@ -345,7 +345,7 @@ td.jhsxx{ line-height:1.5em;}
 .list-tdzbtime2 h4{ color:#0099ff; font-weight:normal;}
 .hytag{ color:#e64146;}
 
-
+.shuaxin{ position:absolute; z-index:1; right:10px; top:3px; background:url(../images/shuaxinanniu.png) no-repeat; width:21px; height:24px;}
 
 
 

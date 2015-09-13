@@ -59,7 +59,7 @@
 /* 直播问答 */
 
 .tdgdlist strong{ font-weight:bolder;}
-.tdgdlist p{ color:#999;}
+.tdgdlist p{ color:#333;}
 .tdgdlist img{ margin: 0 3px;}
 .woyaotiwen{ position:fixed; z-index:1; bottom:0; width:100%; background:#fff; margin:0px auto; background:#f5f5f5;padding:0 0 10px; border-top:1px solid #ccc; }
 .woyaotiwen textarea{ width:370px; border:1px solid #e53531; height:44px; vertical-align:middle; font-size:18px; border-radius:3px; margin: 0 0 0 10px; }
