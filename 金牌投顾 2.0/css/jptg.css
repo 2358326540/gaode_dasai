@@ -146,8 +146,8 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 
 .nav-left3{overflow:hidden;  min-width:690px; background:#191818;border-right: 1px solid #353535;}
 .con-right3 .ctlr{ width:306px; height:100%;}
-.nav-left3 .ctlr{ width:100%;}
-.shipinbofangc{ height:100%;}
+.nav-left3 .ctlr{ width:100%; overflow-y:scroll;}
+.shipinbofangc{}
 .jtgtitle2{ text-align:left; text-indent:17px;}
 .con-right2 .ltimg2{ width:80px; height:80px; border:1px solid #575757;}
 .con-right2 .ltimg2 img{width:80px; height:80px;}

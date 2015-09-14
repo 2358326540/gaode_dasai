@@ -50,6 +50,8 @@ input.masrt{ float:left; width:231px; border-radius:0;}
 .jfybcf2 ul{ width:16.6%;}
 .jfybcf2 span{ font-size:14px;}
 
+
+
 .nav_sma{ width:100%; text-align:center; line-height:2.3em; border-bottom:1px solid #ddd;border-top:1px solid #ddd;}
 .nav_sma a{ padding: 0px 10px;}
 .shouyiimg{ text-align:center; width:100%; background:#f7f7f7;}
@@ -173,13 +175,24 @@ span.dxan input{ width:14px; vertical-align:middle; height:14px; border:none; ba
 .login span.tishixinxi{position: absolute;z-index: 1;left: 310px;width: 200px;bottom: 0px;color: #ff4343;}
 
 /* 积分商城 */
+.jfxuanchuantu{}
+.wodejifen{ background:#fff; padding:15px 0; margin:10px 0; text-align:center; font-size:20px;}
+.wodejifen a{ margin: 0 0 0 30px; color:#999;}
 .jfsc{ width:100%; text-align:center; font-size:18px;}
 .jfsc span{ font-size:24px; display:block; padding:20px 0 0 0;}
-.nav_jfsc{ border-top:1px solid #eee;border-bottom:1px solid #eee; margin:20px auto 0 auto; width:440px; padding:0;}
-.jcdhjp { width:438px; overflow:hidden; margin:0 auto;}
-.jcdhjp ul{ float:left; width:145px; border-right:1px solid #fff; font-size:14px; text-align:center; height:145px; line-height:1.8em;}
-.jcdhjp ul a{ background:#05b; color:#fff; display:block; width:145px; height:27px; line-height:27px;}
-.jcdhjp ul span{ color:#bb0000;}
+ .nav_jfsc {
+  position: relative;
+  border-top: none;
+  background-image: -moz-linear-gradient(90deg, #f5f5f5 0%, #fafafa 100%);
+  background-image: -webkit-linear-gradient(90deg, #f5f5f5 0%, #fafafa 100%);
+  background-image: -ms-linear-gradient(90deg, #f5f5f5 0%, #fafafa 100%);
+  border-top: 1px solid #eee;
+  height: 50px;
+  line-height: 50px}
+.jcdhjp { width:480px; overflow:hidden; margin:0 auto;}
+.jcdhjp ul{ float:left; width:154px; font-size:14px; text-align:center; line-height:1.8em; margin:3px;  background: #fff; padding: 0 0 10px 0;}
+.jcdhjp ul a{ background:#e53531; color:#fff; display:block; width:145px; height:27px; line-height:27px; border-radius: 3px;display: inline-block;}
+.jcdhjp ul span{ color:#e53531;}
 .jcdhjp ul img{ padding:30px 0 0 0;}
 
 .rchd a{ width:50%; }
