@@ -65,7 +65,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .syqxt{ width:225px; height:140px; margin:8px 0;}
 .buygp{ display:block; width:225px; background:#e53531; color:#fff; height:48px; line-height:48px; text-align:center; font-size:24px; border-radius:3px; }
 
-.wdgpcc{ width:100%; border-top:1px solid #eee; margin: 0 0 5px 0;}
+.wdgpcc{ width:100%; border-top:1px solid #eee; margin: 0 0 10px 0;}
 /* cmtitle */
 .mytitle{ width:100%; font-size:24px; color:#333; line-height:43px; position:relative; text-indent:15px; background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); border-top:1px solid #fff;}
 .mytitle a{ position:absolute; z-index:1; right:15px; top:0; font-size:22px; text-indent:0; color:#999;}
@@ -90,7 +90,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 /* 牛人 */
 .niuguanggao{ width:100%; height:160px; margin:0 auto; border-top:1px solid #fff;}
 .niuguanggao img{ width:100%; height:160px;}
-.niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0;}
+.niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;}
 .niugebang1{ width:33.333%; float:left; text-align:center; padding: 0 0 20px;}
 .niugebang1 p{ width:70px; height:70px; border-radius:40px; margin: 0 auto 8px;}
 .niugebang1 span{ font-size:18px;}
