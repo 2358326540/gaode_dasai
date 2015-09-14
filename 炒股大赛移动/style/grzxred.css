@@ -77,12 +77,12 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 
 .nrjylist{ width:100%; overflow:hidden; padding:15px 0; margin:0 0 5px; background:#fff; }
 .nrtop{ width:100%; position:relative; overflow:hidden; margin: 0 0 10px 0;}
-.nrtopl{ display:block; width:60px; height:60px; float:left; margin: 0 15px 0 15px;}
-.nndmz{ font-size:24px; color:#333; line-height:60px; float:left;}
+.nrtopl{ display:block; width:50px; height:50px; float:left; margin: 0 15px 0 15px;}
+.nndmz{ font-size:22px; color:#666; line-height:50px; float:left;}
 .nrtop span{ position:absolute; z-index:1; right:15px; top:0; font-size:20px;}
 .nrbottom{ width:100%; overflow:hidden; font-size:20px; line-height:33px; position:relative; text-indent:15px;}
 .mmdm{ color:#333; font-size:22px;}
-.timetag{ color:#999; position:relative;}
+.timetag{ color:#999; position:relative; padding:10px 0 0 0; font-size:18px;}
 .buylook{ position:absolute; z-index:1; right:15px; bottom:15px; color:#fff; width:80px; height:35px; text-align:center; text-indent:22px; line-height:35px; background:url(../images/lookico.png) no-repeat #e53531 7px 7px; border-radius:3px; font-size:20px;}
 .genmai{ background-position:7px center;}
 .bgenmai{ background-position:7px -154px; background-color:#2f87e4;}
@@ -91,7 +91,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .niuguanggao{ width:100%; height:160px; margin:0 auto; border-top:1px solid #fff;}
 .niuguanggao img{ width:100%; height:160px;}
 .niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;}
-.niugebang1{ width:33.333%; float:left; text-align:center; padding: 0 0 20px;}
+.niugebang1{ width:25%; float:left; text-align:center; padding: 0 0 20px;}
 .niugebang1 p{ width:70px; height:70px; border-radius:40px; margin: 0 auto 8px;}
 .niugebang1 span{ font-size:18px;}
 .riniu{ background:#ffb400;}
@@ -105,18 +105,20 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .kefu{ background:#5cbc3a;}
 .niugebang1 p img{ margin:15px 0 0 0;}
 
-.jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:18px;}
-.jiaguanzhu{ background:#e53531; text-indent:0; top:-60px;}
+.jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
+.jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531;}
 .nrbottomjhgd{ overflow:visible;}
 .flower{ position:absolute; z-index:1; right:15px; color:#999;}
 .flower img{ margin: 0 5px  0 0;}
 .dsgstj{ position:relative;}
 .dsgstjl{ float:left; width:110px; background:#e53531; height:80px; border-radius:110px; color:#fff; text-align:center;  font-size:18px; padding:30px 0 0 0; margin: 0 0 0 10px;}
 .dsgstjr{ float:right; width:350px; line-height:1.6em;}
-.dsgstjrname a{ font-size:24px; color:#333; display:inline-block;margin: 0 5px 0 0; line-height: 1.6em;width: 130px; text-overflow: ellipsis; overflow: hidden; vertical-align: bottom; white-space: nowrap;}
+.dsgstjrname a{ font-size:22px; color:#333; display:inline-block;margin: 0 5px 0 0; line-height: 1.6em;width: 130px; text-overflow: ellipsis; overflow: hidden; vertical-align: bottom; white-space: nowrap;}
 .dsgstjrname{ font-size:14px; color:#999;}
 .dsgstj .jiaguanzhu{ top:0; font-size:20px;}
-
+.nrtopl img{ width:50px; height:50px;}
+.bsgzjs{ background:#fff; margin:10px 0; font-size:20px; padding:15px; text-align:center;}
+.bsgzjs a{ margin: 0 35px;}
 a.dycp{ color:#fff; background:#e53531; padding: 0 15px; border-radius:3px;}
 
 /* 他的主页*/
