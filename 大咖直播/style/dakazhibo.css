@@ -126,8 +126,8 @@ a.wydzb2{ bottom:120px;}
 .ssdk { position:relative; width:480px; margin:0 auto; text-align:center; padding:10px 0;}
 .ssdk input{ width:420px;  border:1px solid #ddd; height:38px; border-radius:3px; background:url(../images/searchdaka.png) #fff no-repeat 10px center; padding: 0 0 0 40px; font-size:16px; color:#333;}
 .ssdk .clears{ background:url(../images/deletet2.png) no-repeat; position:absolute; z-index:1; right:20px; width:18px; height:18px; top:20px; opacity:0.8;}
-
-
+.buylook:visited{ color:#fff;}
+.tdgdlist2 a:visited{ color:#666;}
 
 
 
