@@ -106,7 +106,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .niugebang1 p img{ margin:15px 0 0 0;}
 
 .jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
-.jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531;}
+.jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531; border:1px solid #e53531; font-size:18px; width:72px; }
 .nrbottomjhgd{ overflow:visible;}
 .flower{ position:absolute; z-index:1; right:15px; color:#999;}
 .flower img{ margin: 0 5px  0 0;}

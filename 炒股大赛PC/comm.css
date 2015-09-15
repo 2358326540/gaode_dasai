@@ -6,6 +6,7 @@ li{ list-style:none;}
 table{ border-collapse:collapse;}
 a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());  color:#333;}
 /* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:hover{ text-decoration: underline;}
 a:active {    background-color: transparent;}
 a:active,a:hover {    outline: 0 none;}
 /**
@@ -16,6 +17,7 @@ a:active,a:hover {    outline: 0 none;}
  */
 a:focus {
     outline: 1px dotted;
+    outline: 0 none;
 }
 /**
 * 闭合浮动*/
@@ -35,13 +37,13 @@ a:focus {
 }
 
 a img{ border:none;}
-.green{ color:#1bb02c;}
+.green{ color:#1A772A;}
 .red{ color:#cf3826;}
-.blue{ color:#05b;}
-body{ background:#fff; padding:41px 0 0 0;}
-.showed{ box-shadow:1px 1px 3px rgba(0,0,0, 0.1); background:#fff;}
+.blue{ color:#0055bb}
+.hidden{display: none;}
 .bolder{font-weight: bolder;}
 
+body{ padding:41px  0 0 0;}
 .nav{ width:100%; margin:0 auto 10px; position:fixed; top:0;border-bottom:1px solid #ddd; background:#fff;line-height:40px;height:40px; z-index:999;}
 .top{width:1000px; font-size:14px; color:#666; margin:0 auto; position:relative;}
 .search{ border:1px solid #ddd; height:29px; font-size:14px; background:url(images/searchdaka.png) no-repeat 5px 5px ; width:258px; border-radius:3px; margin:4px 0 0 5px; text-indent:30px; line-height:29px;}
@@ -56,6 +58,7 @@ body{ background:#fff; padding:41px 0 0 0;}
 .top a.register{ margin: 0 40px 0 0 ;}
 .top span{ margin: 0 40px;}
 .topright{ position:absolute; z-index:1; right:0; top:0;}
+.banner{ background:url(images/banner.jpg) repeat-x center; height: 245px;width: 100%;margin: 0 auto;}
 .top1{margin:0 auto; width:1000px;text-align:right; position:relative;}
 
 .login b,.top .top1 ul li a b{ background:#a11; color:#fff; position:absolute; z-index:1; width:20px;min-width:20px; height:20px; line-height:20px; text-align:center; border-radius:99px; top:-2px; right:5px; font-size:12px;}
@@ -64,9 +67,6 @@ img.sjjt{ width:9px; height:5px;}
 .top .top1 ul li a{border-bottom:1px solid #ddd; line-height:2.5em; display:block; margin:0; width:84px; padding: 0 0 0 26px; position:relative;}
 .top .top1 ul li a b{ top:5px;}
 .top .top1 ul li a:hover{ background:#a11; color:#fff; border-bottom:1px solid #a11;}
-.banner{ background:url(images/banner.jpg) repeat-x center; height: 245px;
-width: 100%;
-margin: 0 auto;}
 .nav4{ background:url(images/navbg_03.png)repeat-x; width:100%; height:63px; margin: 0 0 15px; }
 .nav41{ overflow:hidden; width:1000px; margin:0 auto;line-height:62px;}
 .logo{ background:url(images/logo_06.png) no-repeat center; width:170px; height:63px; float:left;}
@@ -76,7 +76,15 @@ margin: 0 auto;}
 .yqhy{ color:#ff6b1a;}
 
 
+.main:before,
+.main:after {
+    content: "";
+    display: table;
+}
 
+.main:after {
+    clear: both;
+}
 
 .main{ width:1000px; margin:0 auto 20px; overflow:hidden;}
 .footer{ font-size:14px; width:100%;margin:0 auto;  text-align:center; background:#d12627; color:#fff; border-top:1px solid #a11; line-height:67px; height:67px;}
@@ -84,13 +92,100 @@ margin: 0 auto;}
 
 /* 翻页 */
 
-.fanye{ width:740px; text-align:center; padding:20px 0; clear:both;}
-.fanye a{ color:#a51417;}
-.fanye a,.fanye span{ margin: 0 0 0 20px;}
-
-.tanchudaoju{ width:320px;}
+.pagination{ text-align:center; padding:20px 0; clear:both;font-size: 14px;}
+.previous_page{margin:  0 10px 0 0px;font-size: 14px;}
+.next_page{margin:  0 0 0 10px;font-size: 14px;}
+.pagination a{font-size: 14px;color: #a11; }
+.current{font-size: 14px;}
+/*  */
+.adddz{font-size: 14px;line-height: 38px; color: #333;}
+.tanchudaoju{ width:300px;font-size: 14px;color: #666;line-height: 1.1em;border-collapse:separate;}
 .tanchudaoju img{ width:60px; height:60px;}
-.tanchudaoju td{text-align: center;border: none;padding: 10px 0;}
-.tanchudaoju .select{ border:1px solid #a11; background:url(images/duigou.png) bottom right no-repeat;}
+.tanchudaoju td{text-align: center;border: none;line-height: 1.3em;padding: 5px 0;border: 1px solid #fff;}
+.tanchudaoju .select{ border:1px solid #a11; background:url(images//duigou.png) bottom right no-repeat;}
 .tanchudaoju input{ margin: 0 0 0 10px;}
 .ggbtn{background: #a11;color: #fff;font-size: 16px;font-family: '微软雅黑';display: block;width: 160px;text-align: center;line-height: 40px;margin: 0 auto;}
+.ui-button-text-only .ui-button-text{background: #a11;color: #fff;}
+
+div.ui-front{z-index: 5000;}
+/* 404 */
+.fzferro{ display:block; width:1000px; margin:0 auto; text-align:center;}
+/*牛人弹出提示*/
+.niurenyindaotanchuang{ width:400px; position:fixed; z-index:1; left:50%; top:50%; margin: -300px 0 0 -200px; border:2px solid #eee; padding:10px 0 0 0;}
+.niurenyindaotanchuang .closed{ position:absolute; z-index:1; right:10px; top:10px; background:url(images/delet.png) no-repeat; width:16px; height:16px; cursor:pointer;}
+.zccghmr{ width:400px; text-align:center; color:#e53531;}
+.zccghmr span{ font-size:16px; font-weight:bolder; color:#333; line-height:2em;}
+.wjxgsbt{ width:400px; text-align:center; color:#333; padding:5px 0; font-size:16px;}
+.niurenyindaotanchuang .nrjylist-tanchuang {
+  width: 400px;
+  overflow: hidden;
+  padding: 5px 0;
+  margin:  5px auto 0;
+  background: #f5f5f5;
+}
+.niurenyindaotanchuang .nrtop {
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.niurenyindaotanchuang .nrtopl {
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 0 10px;
+}
+.niurenyindaotanchuang .nrtopl img {
+  width: 30px;
+  height: 30px;
+}
+.niurenyindaotanchuang .nndmz {
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+  float: left;
+}
+.niurenyindaotanchuang .nrtop span {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 0px;
+  font-size: 20px;
+}
+.niurenyindaotanchuang .niurenbang {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  line-height: 33px;
+  position: relative;
+}
+.niurenyindaotanchuang .nrgms {
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #e53531;
+  border-radius: 3px;
+  display: block;
+}
+.niurenyindaotanchuang .nrbsj {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  background: #f5f5f5;
+}
+.niurenyindaotanchuang .nrbsj td {
+  border: 1px solid #eee;
+  line-height: 1.5em;
+  padding: 0 0 0 5px;
+  font-size: 14px;
+  color: #666;
+}
+.niurenyindaotanchuang td.tdright {
+  text-align: right;
+  padding: 0 3px 0 0;
+  font-size: 14px;
+  color: #333;
+}

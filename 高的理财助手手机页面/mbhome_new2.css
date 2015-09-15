@@ -68,10 +68,10 @@ li.ytimg3 a{height:88px; text-align:center; display:block; width:100%; line-heig
 .zjjs1{ border-bottom:1px solid #eee; background:#fff;}
 .zjjs1 .zjjsl{ width:140px; height:140px;}
 .zjjs1 .zjjsl img{ width:140px; height:140px; border-radius:6px;}
-.zjjs1 .zjjsr{ width:300px;}
-.zjjs1 .zjjsr h2{ position:relative;}
-.zjjs1 .zjjsr h2 a{ font-size:16px; color:#fff; background:#e53531; padding: 0 8px; border-radius:3px; position:absolute; z-index:1; right:0; top:5px;}
-
+.zjjs1 .zjjsr{ width:300px; color:#666;}
+.zjjs1 .zjjsr h2{ position:relative; font-size:18px;}
+.zjjs1 .zjjsr h2 a{ font-size:16px; color:#fff; background:#e53531; padding: 6px 15px; border-radius:3px; position:absolute; z-index:1; right:0; top:-5px;}
+.zjjs1 .zjjsr h2 span{ font-size:16px;}
 .zjjs12{   border-bottom: 1px solid #eee; background: #fff; border-radius: 6px;}
 
 .zjjs1 .zjjsr h2 .zjname{ position:relative; font-size:24px; background:none; color:#333; padding:0; top:auto;}
@@ -86,7 +86,7 @@ li.ytimg3 a{height:88px; text-align:center; display:block; width:100%; line-heig
 
 
 .mbdetailed{ width:100%; background:#fff;overflow: hidden;}
-.mbdetailed_titl{ width:100%;line-height:63px;height:63px;  position:relative; background:#fff; border-bottom:1px solid #eee;}
+.mbdetailed_titl{ width:100%;line-height:40px;height:40px;  position:relative; background:#fff; border-bottom:1px solid #eee;}
 .mbdetailed_titl .daohang{color:#333; background:url(images/yousanjiao_03.png) no-repeat right center; float:left; padding: 0 20px;font-size:22px;}
 
 

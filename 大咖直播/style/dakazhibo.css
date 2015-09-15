@@ -14,7 +14,7 @@
 .nrtopl{ display:block; width:60px; height:60px; float:left; margin: 0 15px 0 15px;}
 .nndmz{ font-size:24px; color:#333; line-height:60px; float:left;}
 .nrtop span{ position:absolute; z-index:1; right:15px; top:0; font-size:20px;}
-.nrbottom{ width:100%; overflow:hidden; font-size:20px; line-height:33px; position:relative; text-indent:15px;}
+.nrbottom{ width:100%; overflow:hidden; font-size:18px; line-height:33px; position:relative; text-indent:15px;}
 .mmdm{ color:#333; font-size:22px;}
 .timetag{ color:#999; position:relative;}
 .buylook{ position:absolute; z-index:1; right:15px; bottom:15px; color:#fff; width:80px; height:35px; text-align:center; text-indent:22px; line-height:35px; background:url(../images/lookico.png) no-repeat #e53531 7px 7px; border-radius:3px;}
@@ -94,7 +94,7 @@ a.wydzb2{ bottom:120px;}
 .lbyr2{ width:450px;}
 .tablist2{ background:#f5f5f5;}
 
-.zjjs{ overflow:hidden; width:450px; padding:15px; margin:0 auto; background:#fff;}
+.zjjs{ overflow:hidden; width:100%; margin:0 auto; background:#fff;}
 .zjjsl{ float:left; width:100px; height:120px; margin: 0 10px 0 0;}
 .zjjsl img{ width:100px; height:120px;}
 
@@ -105,26 +105,24 @@ a.wydzb2{ bottom:120px;}
 .zjzlhz{ padding:10px 0 0 0;}
 .zjzlhz a{ background:#e53531; font-size:18px; color:#fff; margin: 0 10px 0 0 ; padding: 0px 10px; border-radius:3px;}
 .zjjs1{ border-bottom:1px solid #eee;}
-.zjjs1 .zjjsl{ width:140px; height:140px;}
-.zjjs1 .zjjsl img{ width:140px; height:140px;}
-.zjjs1 .zjjsr{ width:300px;}
-.zjjs1 .zjjsr h2{ position:relative; font-size:22px;}
-.zjjs1 .zjjsr h2 a{ font-size:16px; color:#fff; background:#e53531; padding: 0 8px; border-radius:3px; position:absolute; z-index:1; right:0; top:5px;}
+.zjjs1 .zjjsl{ width:30%; margin:2%;height:auto;}
+.zjjs1 .zjjsl img{ width:100%; height:auto;}
+.zjjs1 .zjjsr{ width:66%; margin:2% 0 0 0;}
+.zjjs1 .zjjsr h2{ position:relative; font-size:18px; font-weight:bold;}
+.zjjs1 .zjjsr h2 a{ font-size:16px; color:#fff; background:#e53531; padding:6px 15px; border-radius:3px; position:absolute; z-index:1; right:10px; top:-5px;}
+.zjjs1 .zjjsr h2 span{ font-size:16px; color:#e53531; display:block;}
 
 .zjjs12{   border-bottom: 1px solid #eee; background: #fff; border-radius: 6px;}
 
-.zjjs1 .zjjsr h2 .zjname{ position:relative; font-size:24px; background:none; color:#333; padding:0; top:auto;}
+.zjjs1 .zjjsr h2 .zjname{ position:relative; font-size:20px; background:none; color:#333; padding:0; top:auto; right:0;}
 
 .zjzlhz2 a{ background:none; color:#999; font-size:14px; padding:0;}
 .zjzlhz2 a span{ color:#333; margin: 0 0 0 3px;}
 
 
 /* dakazhibo */
-.dakatoutu,.dakatoutu img{ width:100%; max-width:480px; margin:0 auto; height:160px;}
+.dakatoutu,.dakatoutu img{ width:100%; max-width:480px; margin:0 auto; }
 .zjjsr{ color:#666;}
-.zjjs1 .zjjsr2  h2 .zjname{ padding: 0 0 10px 0; font-size:20px;}
-.zjjsr2 h2 span{ font-size:18px; color:#e53531; margin: 0 0 0 10px; }
-.zjjs1 .zjjsr2 h2 a{  top:0px; width: 40px; height: 28px; line-height: 28px; text-align: center;}
 .ssdk { position:relative; width:480px; margin:0 auto; text-align:center; padding:10px 0;}
 .ssdk input{ width:420px;  border:1px solid #ddd; height:38px; border-radius:3px; background:url(../images/searchdaka.png) #fff no-repeat 10px center; padding: 0 0 0 40px; font-size:16px; color:#333;}
 .ssdk .clears{ background:url(../images/deletet2.png) no-repeat; position:absolute; z-index:1; right:20px; width:18px; height:18px; top:20px; opacity:0.8;}
