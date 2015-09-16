@@ -45,9 +45,9 @@ a img{ border:none;}
 .red{ color:#e53531 !important}
 .blue{ color:#2f87e4 !important}
 
-html,body{height:100%; overflow:hidden;}
+html,body{height:100%; overflow:hidden;background: #000;}
 
-.main{ width:100%; min-width:1000px; background:#1e1e1e; margin:0 auto; height:100%;}
+.main{ width:100%; max-width:1000px; background:#1e1e1e; margin:0 auto; height:100%;}
 .nav-left{ width:280px; background:#181717; float:left; color:#bbb; font-size:14px; height:100%; overflow-y:scroll;}
 
 .nav-left .timeline{ overflow:hidden; width:100%; line-height:52px; overflow:hidden; background:url(../images/linetime_07.png) repeat-y 102px 0 ; color:#e1e1e1;}
