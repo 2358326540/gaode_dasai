@@ -88,8 +88,8 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .bgenmai{ background-position:7px -154px; background-color:#2f87e4;}
 
 /* 牛人 */
-.niuguanggao{ width:100%; height:160px; margin:0 auto; border-top:1px solid #fff;}
-.niuguanggao img{ width:100%; height:160px;}
+.niuguanggao{ width:100%;  margin:0 auto; }
+.niuguanggao img{ width:100%; }
 .niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;}
 .niugebang1{ width:25%; float:left; text-align:center; padding: 0 0 20px;}
 .niugebang1 p{ width:70px; height:70px; border-radius:40px; margin: 0 auto 8px;}
@@ -104,6 +104,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .jifen{ background:#2a73e1;}
 .kefu{ background:#5cbc3a;}
 .niugebang1 p img{ margin:15px 0 0 0;}
+.jhgd h5{ color:#333; font-weight:bolder;}
 
 .jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
 .jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531; border:1px solid #e53531; font-size:18px; width:72px; }
@@ -270,6 +271,49 @@ td.tdright {text-align: right;	padding: 0 5px 0 0;	color: #333;width:auto;}
 .wydzb{ position:fixed; z-index:1; bottom:70px; left:5px; background:#e53531; color:#fff; width:20px; padding: 5px 0 5px 3px; border-radius:3px;}
 a.wytw{ right:5px; left:auto;}
 a.wydzb2{ bottom:120px;}
+
+
+
+
+/* 积分商城 */
+.jfxuanchuantu{ margin:0 auto; width:480px; height:160px;}
+.wodejifen{ background:#fff; padding:15px 0; margin: 0 0 10px 0; text-align:center; font-size:20px;}
+.wodejifen a{ margin: 0 0 0 30px; color:#999;}
+.jfsc{ width:100%; text-align:center; font-size:18px;}
+.jfsc span{ font-size:24px; display:block; padding:20px 0 0 0;}
+.jcdhjp { width:100%; overflow:hidden; margin:0 auto;}
+.jcdhjp ul{ float:left; width:33.33%; font-size:14px; text-align:center; line-height:1.8em; margin: 0 0 1%; }
+.jcdhjp ul li{ width:98%; background: #fff; margin: 0 0 0 1%;}
+.jcdhjp ul a{ background:#e53531; color:#fff; display:block; width:145px; height:27px; line-height:27px; border-radius: 3px;display: inline-block;  margin:  0 0 10px;}
+.jcdhjp ul span{ color:#e53531;}
+.jcdhjp ul img{ padding:30px 0 0 0;}
+
+
+
+
+/* 邀请好友 */
+.huisetag{ color:#999; margin: 0 0 0 5px; font-size:18px;}
+.yqhyan{ width:100%; padding:40px 0; text-align:center;}
+.yqhyan1{ background:url(../images/yaoqinghaoyouanniu.png) center no-repeat #fa433f; display:block; margin:0 auto; border-radius:3px; width:200px; height:60px;}
+
+.yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:absolute; z-index:2000; left:0; top:0; text-align:center;}
+.yqgz{ position:fixed; z-index:2; left:50%; top:50%; margin: -200px 0  0 -200px; background:#fff; border:2px solid #ca0804; border-radius:10px; padding:30px 20px; font-size:14px; line-height:2em;}
+.yqgz .title{ text-align:center; color:#333; font-size:20px; padding: 0px 0 20px 0;}
+.yqgz .closed{ position:absolute; z-index:1; right:-15px; top:-15px; border-radius:111px; width:40px; height:40px; background:#ca0804; color:#fff; text-align:center; font-size:22px; line-height:35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
