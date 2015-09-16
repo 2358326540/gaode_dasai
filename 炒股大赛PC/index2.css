@@ -23,11 +23,11 @@
 .dsmrtlistt{ overflow:hidden; line-height:1.3em; margin: 0 0 10px;}
 .dsmrtlisttl,.dsmrtlisttl img{ float:left; width:60px; height:60px;}
 .dsmrtlisttr{ float:left; margin: 0 0 0 10px; font-size:12px;}
-.dsmrname a{ font-size:14px; font-weight:bolder;}
+.dsmrname a{ font-size:12px; font-weight:bolder;}
 .dsmrtzsy{ color:#999;}
 .dsmrtlist2{ font-size:12px; color:#666; line-height:1.6em;}
 .dsmrtlist3 a{ float:right; margin: 0 10px 0 0 ; color:#fff; background:#eb0000; border-radius:3px; display:block; width:80px; height:29px; font-size:14px; line-height:29px; text-align:center;}
-.huangguan1{ position:absolute; z-index:1; background:url(images/dasaimingrentang_03.png) no-repeat; width:35px; height:28px; right:10px; top:10px;}
+.huangguan1{ position:absolute; z-index:1; background:url(images/dasaimingrentang_03.png) no-repeat; width:35px; height:28px; right:5px; top:5px;}
 .huangguan2{ background:url(images/dasaimingrentang_05.png);}
 .huangguan3{ background:url(images/dasaimingrentang_07.png);}
 .dsmrtlistlast{ margin:0;}
@@ -124,8 +124,8 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
 	.dl-list dl dd{ float: left; font-size: 14px; line-height: 28px; color: #666;}
 	.dl-list dl dt{ width: 18px; text-align: left;}
 	.dl-list dl .best-user{ color: #a11;}
-	.dl-list dl dd{ width: 117px;}
-	.dl-list dl .dl-number{ width: 80px; padding-left: 17px; text-align: center;}
+	.dl-list dl dd{ width: 149px;}
+	.dl-list dl .dl-number{ width: 66px; padding-left: 5px; text-align: center;}
 	.dl-list dl dd .list-user-img{ display: inline-block; width: 28px; border: 1px solid #ddd; float: left; font-size: 0; line-height: 0;}
 	.dl-list dl dd .list-user-img img{ width: 28px; height: 28px;}
 	.dl-list dl dd .list-user-name{  border: none; margin-left: 6px; font-size: 14px;}
