@@ -240,7 +240,7 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 .tgzdlist{ border-top:1px solid #000; overflow:hidden;}
 .con-right-zdsyb{ overflow:hidden; width:100%;}
 .con-right-zdsyb .crzbm,.con-right-zdsyb .crzbl,.con-right-zdsyb .crzbr{ float:left; width:33%;  border-left: 1px solid #000;}
-.jtgtitle3{ position:relative; text-align:left; text-indent:17px; z-index:inherit; left:inherit; top:inherit;}
+.jtgtitle3{ position:relative; text-align:left; text-indent:17px; }
 .con-right-zdsyb .scjddp{}
 .con-right-zdsyb .scjddp a{ font-size:14px; color:#fff;}
 .con-right-zdsyb .scjddp li{ background:none; border-bottom:1px solid #3a3a3a;border-top:1px solid #191919; line-height:20px; padding:10px 0;}
@@ -287,7 +287,7 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 .ctlrb-jtgsy2 .rxcphjlist2{text-align:left;}
 .rxcphjyljgm2{ background:#666;}
 /**/
-.main2{ overflow-y:scroll;}
+.main2{ overflow-y:scroll; position:relative;}
 .cbbt{ color:#fca600; font-size:30px; text-align:center; padding:20px 0 0 0;}
 .qsrq{ font-size:14px; color:#c0c0c0; text-align:center; padding: 0 0 10px 0;}
 .jycljsy{ width:100%; overflow:hidden;}
@@ -320,7 +320,7 @@ td.jhsxx{ line-height:1.5em;}
 .shipinjiaoxuecon span{ background:#313131; padding: 3px 8px;}
 
 .chakanshipin{ position:absolute; z-index:1; right:40px; background:url(../images/chakanshipin_07.png) no-repeat; width:105px; height:39px; top:50%; margin:-19px 0 0 0;}
-.fanye{ text-align:center; padding:10px 0;}
+.fanye{ text-align:center; padding:10px 0; width:100%; overflow:hidden;}
 .fanye a{ color:#d8b97d; margin: 0 5px; font-size:14px;}
 .fanye a.select{ background:#000; padding: 1px 5px;}
 
