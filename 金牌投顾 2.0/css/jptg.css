@@ -76,7 +76,7 @@ html,body{height:100%; overflow:hidden;background: #000;}
 .ctlr{width:228px;float:right; height:100%; border-left:1px solid #000;font-size:14px;}
 .rmbq a{ display:inline-block; line-height:50px; text-align:center; border-bottom:1px solid #252525;border-right:1px solid #252525; background:#1a1818; font-size:22px;}
 .rmbq a:hover{ color:#fff;}
-.rmbq .rmbq1{ width:127px;}
+.rmbq .rmbq1{ width:111px;}
 .rmbq .rmbq2{ width:99px;}
 .rmbq .rmbq3{ width:227px;}
 .rmbq .select{ background:#796e5c; color:#fff;}

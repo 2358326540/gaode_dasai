@@ -195,7 +195,7 @@ div.ui-front{z-index: 5000;}
 /* 回顶部 */
 .huidingbu{ position:fixed; z-index:1; right:0; width:108px;  background:#eee; bottom:20%;}
 .huidingbu1{ border-top:3px solid #d12627;}
-.huidingbu1 a{ font-size:14px; color:#333; display:block; text-align:center;border-bottom:1px solid #fff; padding:8px 0;}
+.huidingbu1 a{ font-size:14px; color:#333; display:block; text-align:center;border-bottom:1px solid #fff; padding:8px 0; text-decoration:none;}
 a.bmcs{ background:#fff; color:#e53531; font-size:16px;}
 .huidingbu1 a img{ vertical-align:middle;}
 a.huidingbu2{ background:#e53531; text-align:center; width:108px; display:block; padding:10px 0;}

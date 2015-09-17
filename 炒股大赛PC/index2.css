@@ -48,7 +48,7 @@ a.last{ margin:0;}
 .main h2 span{ font-size:12px; margin: 0 0 0 80px;}
 .main h2 .title{ color:#fff; font-weight:400;  background:#d12627; border-radius:3px 3px 0px 0px;}
 h2.tybt{ text-indent:0; }
-.main h2.tybt .title{ padding:9px 30px;}
+.main h2.tybt .title{ padding:9px 30px; text-decoration:none;}
 h2.tybt span{ color:#999; margin: 0 0 0 260px; }
 h2.tybt2{ text-indent:0; margin:0;}
 
