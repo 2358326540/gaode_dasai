@@ -248,7 +248,7 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
   height: 45px;
   line-height: 45px;
 }
-
+.live-index-block-cnt ul li div.tit-wrap{ line-height:1.5em;}
 .live-index-block-cnt ul li div.col-1 {
   padding-left: 15px;
   width: 50px;

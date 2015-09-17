@@ -58,7 +58,7 @@ body{ padding:41px  0 0 0;}
 .top a.register{ margin: 0 40px 0 0 ;}
 .top span{ margin: 0 40px;}
 .topright{ position:absolute; z-index:1; right:0; top:0;}
-.banner{ background:url(images/banner.jpg) repeat-x center; height: 245px;width: 100%;margin: 0 auto;}
+.banner{ background:url(images/shouyebanner_02.jpg) no-repeat center #eb2c24; height: 286px;width: 100%;margin: 0 auto;}
 .top1{margin:0 auto; width:1000px;text-align:right; position:relative;}
 
 .login b,.top .top1 ul li a b{ background:#a11; color:#fff; position:absolute; z-index:1; width:20px;min-width:20px; height:20px; line-height:20px; text-align:center; border-radius:99px; top:-2px; right:5px; font-size:12px;}
