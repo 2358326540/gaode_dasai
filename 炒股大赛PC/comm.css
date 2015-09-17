@@ -69,7 +69,7 @@ img.sjjt{ width:9px; height:5px;}
 .nav .top1 ul li a{border-bottom:1px solid #ddd; line-height:2.5em; display:block; margin:0; width:84px; padding: 0 0 0 26px; position:relative;}
  .top1 ul li a b{ top:5px;}
 .nav .top1 ul li a:hover{ background:#a11; color:#fff; border-bottom:1px solid #a11;}
-.nav4{ background:url(images/navbg_03.png)repeat-x; width:100%; height:63px; margin: 0 0 15px; }
+.nav4{ background:url(images/navbg_03.png)repeat-x; width:100%; height:63px; margin: -1px 0 15px; }
 .nav41{ overflow:hidden; width:1000px; margin:0 auto;line-height:62px;}
 .logo{ background:url(images/logo_06.png) no-repeat center; width:170px; height:63px; float:left;}
 .nav4r{ float:left; margin: 0 0 0px 25px;}

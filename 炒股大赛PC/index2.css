@@ -46,7 +46,7 @@ a.last{ margin:0;}
 .main h2 a{ color:#a11; font-size:16px; font-weight:400;}
 .main h2 .more{ position:absolute; z-index:1; right:0px; top:0;font-size:12px; color:#999; font-weight:100; width:60px; text-align:center; text-indent:0;}
 .main h2 span{ font-size:12px; margin: 0 0 0 80px;}
-.main h2 .title{ color:#fff; font-weight:400; margin: 0 30px 0 0; background:#d12627; border-radius:3px 3px 0px 0px;}
+.main h2 .title{ color:#fff; font-weight:400;  background:#d12627; border-radius:3px 3px 0px 0px;}
 h2.tybt{ text-indent:0; }
 .main h2.tybt .title{ padding:9px 30px;}
 h2.tybt span{ color:#999; margin: 0 0 0 260px; }
@@ -331,23 +331,34 @@ a.txweixin:hover b{ display:block;}
 .yhhyjl td{border:1px solid #eee;}
 
 
+/* 积分商城 */
+.jfsc{ padding: 0 0 20px;}
+.jfscl{ float:left; width:690px;}
+.jfscr{ float:right; width:300px;}
+.myvantages{ background:#f5f5f5; text-align:center; height:249px;}
+.myvantages img{ width:80px; height:80px; border-radius:80px; margin:40px 30px 10px;;}
+.myvantages a{ display:block; color:#999; font-size:12px; margin:40px 0 0 0;}
+a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
+.jiangpinliebiao{ border-left:1px solid #eee; }
+.jiangpinliebiao li { float: left; width: 228px; display: inline; border-right:1px solid #eee;  border-bottom:1px solid #eee; padding: 0 0 10px;}
+.jiangpinliebiaoli a img { width: 100%; height: 120px;}
+.jiangpinliebiao li p { padding: 4px 6px; text-align: center;}
+.jiangpinliebiao li p span { color: #666; font-size: 12px; height: 22px; line-height: 22px; margin: 0 3px;}
+.jiangpinliebiao li p .integral_reward_btn { width: 190px; text-align: center; margin: 0 auto; display:block; line-height:30px;color: white; font-size: 14px; background: #a11; border-radius: 29px;}
+.jfdhmd{ border:1px solid #eee; border-top:none; font-size:14px; color:#666; line-height:2.4em; text-indent:15px; margin: 0 0 20px;}
+.jfdhmd2{ background:#f5f5f5;}
+
+.wodejiangpin{ width:100%; background:#fff; text-align:center; font-size:14px;}
+.wodejiangpin th{ color:#333;border:1px solid #eee;border-top:none;line-height:2.3em; }
+.wodejiangpin td{ border:1px solid #eee; color:#999;line-height:2.3em; }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 交易规则 */
+.rulse-container { font-size: 14px; padding: 15px;}
+.rulse-container dl { line-height: 26px; border-bottom: 1px solid #eee; padding: 0 0 20px 0; margin-bottom: 20px;}
+.rulse-container dl dd { color: #666; padding-left: 26px; position: relative; margin-bottom: 6px;}
+.rulse-container .no-num dd { padding-left: 0;}
+.rulse-container dl dt { font-size: 16px; font-weight: bold; margin-bottom: 8px;}
 
 
 
