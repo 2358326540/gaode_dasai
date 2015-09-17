@@ -184,7 +184,7 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
 .toutiao{ float:left; width:280px;}
 .banner2{ width:720px; float:left; margin: 0 0 10px 0; position:relative;}
 .KinSlideshow a img{ width:720px; height:280px;}
-.KSS_titleBox,.KSS_titleBar,.KSS_btnBox{ display:none;}
+.KSS_titleBar{ display:none;}
 .loginlo{ float:left; width:270px;}
 .left-gsgd{ width:490px; float:left;}
 .left-gsgd1{ margin: 0 20px 0 0;}
