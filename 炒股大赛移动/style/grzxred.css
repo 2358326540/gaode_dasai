@@ -108,11 +108,13 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .jhgd h5{ color:#333; font-weight:bolder;}
 .jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
 .jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531; border:1px solid #e53531; font-size:18px; width:72px; }
+.yijiaguanzhu{ border:none;}
 .nrbottomjhgd{ overflow:visible;}
 .flower{ position:absolute; z-index:1; right:15px; color:#999;}
 .flower img{ margin: 0 5px  0 0;}
 .dsgstj{ position:relative;}
 .dsgstjl{ float:left; width:110px; background:#e53531; height:80px; border-radius:110px; color:#fff; text-align:center;  font-size:18px; padding:30px 0 0 0; margin: 0 0 0 10px;}
+.dsgstjl span{ display:block;}
 .dsgstjr{ float:right; width:350px; line-height:1.6em;}
 .dsgstjrname a{ font-size:22px; color:#333; display:inline-block;margin: 0 5px 0 0; line-height: 1.6em;width: 130px; text-overflow: ellipsis; overflow: hidden; vertical-align: bottom; white-space: nowrap;}
 .dsgstjrname{ font-size:14px; color:#999;}
