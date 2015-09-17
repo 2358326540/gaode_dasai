@@ -61,7 +61,7 @@ html,body{height:100%; overflow:hidden;background: #000;}
 
 
 .crtl{ min-width:445px; padding:20px; overflow-y:scroll; height:100%;}
-.crtl h2{ color:#fca600; font-size:22px; padding:10px  0 30px 0;}
+.crtl h2,.crtl h2 p{ color:#fca600; font-size:22px; padding:10px  0 30px 0;}
 .crtl p{ text-indent:2em; line-height:1.8em; color:#bbb;}
 .contag{ color:#bbb; font-size:12px;padding: 0 0 10px; margin: 0 0 10px;border-bottom: 1px solid #333;}
 .contag .big,.contag .small{ background:#626262; color:#bbb; padding: 0 3px; margin: 0 3px; cursor:pointer;}
