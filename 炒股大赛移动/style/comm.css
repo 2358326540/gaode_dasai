@@ -15,7 +15,7 @@ a:active,a:hover {    outline: 0 none;}
  * 
  */
 a:focus {
-    outline: 1px dotted;
+    outline: none;
 }
 /* 去掉iphone默认按钮样式 */
 input[type=”button”], input[type=”submit”], input[type=”reset”] {

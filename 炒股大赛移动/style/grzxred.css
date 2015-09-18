@@ -93,6 +93,7 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;}
 .niugebang1{ width:25%; float:left; text-align:center; padding: 0 0 20px;}
 .niugebang1 p{ width:70px; height:70px; border-radius:40px; margin: 0 auto 8px;}
+.niugebang1 p a{width:70px; height:70px; display:block;border-radius:40px; }
 .niugebang1 span{ font-size:18px;}
 .riniu{ background:#ffb400;}
 .shipanbaom{ background:#ff8315;background:#ddd;}
