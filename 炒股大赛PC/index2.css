@@ -184,7 +184,7 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
 .toutiao{ float:left; width:280px;}
 .banner2{ width:720px; float:left; margin: 0 0 10px 0; position:relative;}
 .KinSlideshow a img{ width:720px; height:280px;}
-.KSS_titleBar{ display:none;}
+.KSS_titleBar,.KSS_titleBox{ display:none;}
 .loginlo{ float:left; width:270px;}
 .left-gsgd{ width:490px; float:left;}
 .left-gsgd1{ margin: 0 20px 0 0;}
@@ -337,7 +337,7 @@ a.txweixin:hover b{ display:block;}
 .jfscl{ float:left; width:690px;}
 .jfscr{ float:right; width:300px;}
 .myvantages{ background:#f5f5f5; text-align:center; height:249px;}
-.myvantages img{ width:80px; height:80px; border-radius:80px; margin:40px 30px 10px;;}
+.myvantages img{ width:80px; height:80px; border-radius:80px; margin:40px 30px 10px;}
 .myvantages a{ display:block; color:#999; font-size:12px; margin:40px 0 0 0;}
 a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 .jiangpinliebiao{ border-left:1px solid #eee; }

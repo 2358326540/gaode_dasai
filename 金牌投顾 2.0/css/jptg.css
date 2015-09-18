@@ -191,7 +191,7 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 .nav-left .select li{ border-bottom:1px solid #313131; height:35px; color:#fff;}
 .con-right-zdsy{ min-width:755px ; height:100%;}
 .con-right-zdsyt{ height:62%; border-top:1px solid #000; border-bottom:1px solid #000;}
-.con-right-zdsyb{ position:relative;height:38%;}
+.con-right-zdsyb{ position:relative;height:38%;background: #000; z-index: 1;}
 .zhanweifuwushan2{ float:left; height:100%; width:155px;}
 .weizhiquyu{ padding: 0 0 0 155px; height:100%;}
 .crzbl{ position:relative; z-index:1; height:100%;}
