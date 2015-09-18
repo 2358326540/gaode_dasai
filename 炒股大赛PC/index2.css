@@ -331,6 +331,7 @@ a.txweixin:hover b{ display:block;}
 .yhhyjl th{ background:#f5f5f5;border:1px solid #eee;}
 .yhhyjl td{border:1px solid #eee;}
 
+.zhichidanwei{ width:1000px; height:311px; background:url(images/zhichidanwie_24.png) no-repeat; overflow:hidden;}
 
 /* 积分商城 */
 .jfsc{ padding: 0 0 20px;}
