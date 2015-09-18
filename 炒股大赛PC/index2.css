@@ -361,5 +361,7 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 .rulse-container .no-num dd { padding-left: 0;}
 .rulse-container dl dt { font-size: 16px; font-weight: bold; margin-bottom: 8px;}
 
-
-
+/* 奖励方案 */
+.jianglifangan1{ overflow:hidden; height:990px;}
+.jianglifangan1 img{vertical-align:bottom;}
+.jianglifangan11 img{ margin: -15px 0 0 0;}
