@@ -306,9 +306,15 @@ a.wydzb2{ bottom:120px;}
 .yqgz .closed{ position:absolute; z-index:1; right:-15px; top:-15px; border-radius:111px; width:40px; height:40px; background:#ca0804; color:#fff; text-align:center; font-size:22px; line-height:35px;}
 
 
+/* 大赛客服 */
+.banner-inner{ width:100%; background:#fff; padding:20px 0;}
+.banner-inner p{ padding: 0 3%; line-height:2em; font-size:1.4rem; color:#333;}
 
-
-
+.common-problems{ background:#fff; padding: 0 2%;  margin:0 auto;}
+.common-problems dl { padding: 20px 0 30px; margin-bottom: 10px; border-bottom: 1px solid #ddd;}
+.common-problems dl dt { padding-left: 30px; background: url(http://asset6.uniwa.cn/assets/custom/dasai/kefu_03-df8c1f182263837756aa45b13419d717.jpg) left top no-repeat; margin-bottom: 15px; line-height: 24px;
+  font-size: 16px; font-weight: bold;}
+.common-problems dl dd { padding-left: 30px; background: url(http://asset5.uniwa.cn/assets/custom/dasai/kefu_06-449c3223ff7ec2e826872e7c6a9ad0c4.jpg) left top no-repeat; line-height: 24px; font-size: 14px; color: #666;}
 
 
 
