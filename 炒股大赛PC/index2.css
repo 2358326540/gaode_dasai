@@ -213,17 +213,9 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
 .paimngmore,.paimngmore a{font-size: 14px;color: #a11;background: #FAFAFA;line-height: 40px;}
 
 /*牛人直播*/
-.live-index-block-cnt {
-  border-bottom: 1px solid #ddd;
-  background: #f1f1f1;
-  height: 395px;
-  overflow: hidden;
-
-}
-.live-index-block-cnt ul {
-  position: relative;}
- .live-index-block-cnt ul li {
-  padding: 10px 0;
+.live-index-block-cnt { border-bottom: 1px solid #ddd; background: #f1f1f1; height: 395px; overflow: hidden;}
+.live-index-block-cnt ul { position: relative;}
+ .live-index-block-cnt ul li { padding: 10px 0;
   height: 45px;
   font-size: 14px;
   border-bottom: 1px dashed #ddd;
@@ -297,7 +289,7 @@ table td{ line-height:48px; border-bottom:1px solid #eee; color:#666;}
 }
 
 
-/* 推jianniuno */
+/* 推荐牛播 */
 .tuijiannniubo{ padding:5px 0 0 0;}
 .tuijiannniubolist{ overflow:hidden; border-bottom:1px solid #eee; padding:10px 0; height:45px;}
 .tuijiannniubohead{ float:left; width:40px; margin: 0 0 0 10px;}
