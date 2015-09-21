@@ -109,6 +109,7 @@ html,body{height:100%; overflow:hidden;background: #000;}
 .timeline2 .timetiler{ float:none; font-size:14px; overflow:hidden;}
 .timeline2 .timetiler h3{ padding:10px 0 6px 0; }
 .timeline2 .timetiler p{ line-height:1.5em;}
+.timeline2 .timetiler p img{ width:100%;}
 .con-right2 .ctlr{ width:275px; height:95%;}
 .con-right2 .ltimg{ width:70px; height:70px; border:1px solid #575757;}
 .con-right2 .ltimg img{width:70px; height:70px;}
@@ -175,6 +176,7 @@ div.tjtpwzbq2{ position:relative; top:auto; background:#333232;}
 .ctlrt-tdzb{ width:180px; height:100%; position:relative;}
 .ctlrt-tdzb li{ background:url(../images/shipinli_03.png) repeat-x; text-align:center;}
 .list-tdzb{ border-bottom:1px dashed #433d32; padding:20px 10px; color:#d8b97d;}
+.list-tdzb p img{ width:100%;}
 .list-tdzbtime{ padding: 0 0 10px; position:relative; font-size:14px;}
 .list-tdzbtime h4{ font-weight:bolder;}
 .list-tdzbtime span{ color:#8e8e8e;  position:absolute; z-index:1; right:10px; top:0;}
