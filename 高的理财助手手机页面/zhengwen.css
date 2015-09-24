@@ -16,7 +16,8 @@ body{width:100%;font-size: 1.4rem;line-height: 1.6;  max-width: 700px; margin:0 
 /* 正文 */
 .mbdetailed{ width:100%; background:#fff;overflow: hidden; padding: 0 0 40px;}
 .mbdetailed_titl{ width:100%;line-height:40px;height:40px;  position:relative; background:#fff; border-bottom:1px solid #eee;}
-.mbdetailed_titl .daohang{color:#333; background:url(images/yousanjiao_03.png) no-repeat right center; float:left; padding: 0 20px;font-size:2rem;}
+.mbdetailed_titl .daohang{color:#333; background:url(images/yousanjiao_03.png) no-repeat right center; float:left;padding: 0 20px 0 10px;
+  font-size: 1.8rem;}
 
 
 .returnt{ background:url(images/retun.png) center no-repeat ; width:13%; position:absolute; z-index:1; left:1%; top:0; text-indent:-99999999999%; font-size:1.7em; cursor:pointer;}
