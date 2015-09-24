@@ -101,7 +101,7 @@ p.erjititle,.mbdetailedcon h5{ color:#2c85d8;}
 .fabiaopingluntc1 { border-bottom:1px solid #eee; line-height:35px; overflow:hidden; padding:10px 0;}
 .fabiaopingluntc1 a{ float:left; width:80px; font-size:1.5rem; height:35px; text-align:center; background:#eee; color:#999;}
 .fabiaopingluntc1 input{ float:right;width:110px; font-size:1.5rem; height:35px; text-align:center; background:#e53531; color:#fff; border:none;border-radius:3px;}
-.fabiaopingluntc textarea{ width:96%; height:190px; color:#666; font-size:1.4rem; padding:2%; line-height:1.6em; margin:0 auto; background:#fff; border:1px solid #ddd;}
+.fabiaopingluntc textarea{ width:100%; height:190px; color:#666; font-size:1.4rem;  line-height:1.6em; margin:0 auto; background:#fff; border:1px solid #ddd;}
 .fabiaopingluntc2{ background:#fff;  padding:10px 0 ; overflow:hidden;}
 .fabiaopingluntc2 .fbbq{ background:url(images/biaoqingicon.png) no-repeat; width:21px; height:21px; float:left; margin: 0 0 0 10px;}
 
