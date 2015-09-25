@@ -60,8 +60,8 @@ a.more{ border:none;}
 
 .jynrl{ width:50%; float:left; padding:40px 0 0 0;}
 .jynrl li{ padding: 5px 0 5px 70px;  color:#a51417;}
-.jynrl li span{ margin: 0 0 0 10px; color:#333;}
-.jynrl li span input{ line-height:26px; border:1px solid #ddd; width:155px;}
+.jynrl li span{ margin: 0 0 0 10px; color:#333; position:relative;}
+.jynrl li span input{ line-height:28px; border:1px solid #ddd; width:155px;}
 .jynrl li .mistag{ font-size:12px; display:block;padding: 0 0 10px 60px;color:#910507;}
 li.buybuy input,li.buybuy span input{ background:#a51417; border:none; color:#fff; width:80px; line-height:24px; cursor:pointer;}
 li.buybuy span { margin: 0 0 0 60px;}
@@ -201,7 +201,8 @@ h2.tybt .shipanrk .jrsp:active{ background:#a11;}
 a.spjydxz{color: #ff8d3b !important;}
 h2.tybt span.spjydxz2{ margin: 0 0 0 10px; font-weight:normal;}
 
-
+div.gupiaokjsr{ position:absolute; z-index:11; left:0px; top:26px; width:155px; background:#fafafa; border:1px solid #ddd; box-shadow:0px 4px 6px #999;}
+div.gupiaokjsr a{ display:block; font-size:14px; line-height:2em; border-bottom:1px solid #eee; text-indent:10px;}
 
 
 

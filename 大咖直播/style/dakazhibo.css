@@ -64,7 +64,7 @@ body{width:100%;font-size: 1.4rem;line-height: 1.6;  max-width: 700px; margin:0 
 /* 直播问答 */
 
 .tdgdlist strong{ font-weight:bolder;}
-.tdgdlist p{ color:#333;}
+.tdgdlist p{ color:#666;}
 .tdgdlist img{ margin: 0 3px;}
 .woyaotiwen{ position:fixed; z-index:1; bottom:0; width:100%; background:#fff; margin:0px auto; background:#f5f5f5;padding:0 0 10px; border-top:1px solid #ccc; }
 .woyaotiwen textarea{ width:370px; border:1px solid #e53531; height:44px; vertical-align:middle; font-size:18px; border-radius:3px; margin: 0 0 0 10px; }
@@ -148,7 +148,18 @@ a.wydzb2{ bottom:120px;}
 
 .shuaxinanniu{ background:url(../images/shuaxin.png) no-repeat center #e53531; width:50px; height:50px; border-radius:6px; position:fixed; z-index:1; bottom:25%; right:10px;}
 
-
+.moremassage{
+  position: fixed;
+  z-index: 99;
+  top: 60px;
+  left: 0;
+  height: 3em;
+  text-align: center;
+  line-height: 3em;
+  width: 100%;
+  background:rgba(255,215,53,0.7);
+  color:#000;
+}
 
 
 
