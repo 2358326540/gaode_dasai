@@ -321,13 +321,12 @@ a.wydzb2{ bottom:120px;}
 /* 新手奖品 */
 .banner-inner2{ text-align:center;}
 
-
-
-
-
-
-
-
+/* 兑奖信息 */
+.wsdjzl{ line-height:2em; width:90%; font-size:2rem; margin: 0 0 0 5%;}
+.wsdjzl  input{ border:1px solid #ddd; width:90%; height:40px; font-size:1.5rem;}
+.wsdjzl select{ height:40px;font-size:1.5rem;}
+.wsdjzl .tijiaozl{}
+.wsdjzl .tijiaozl input{ height:55px; line-height:55px; border:none; background:#e53531; color:#fff; border-radius:3px; margin:20px 0 0 0; font-size:2rem;}
 
 
 

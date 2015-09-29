@@ -45,7 +45,9 @@ a img{ border:none;}
 .red{ color:#e53531;}
 .blue{ color:#2f87e4}
 .main{ width:100%; overflow:hidden; position:relative; }
-body{ padding: 60px 0 56px 0; background:#f5f5f5;}
+html{ width:100%; background:#f8f8f8;ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;font-size: 66.5%;}
+body{width:100%;font-size: 1.4rem;line-height: 1.6;  max-width: 700px; margin:0 auto;padding: 60px 0 56px 0; background:#f5f5f5;}
+
 /* 头部公共 */
 .mbggheader{ background:#e53531; height:60px; width:100%; position:fixed; z-index:999; top:0; left:0; font-size:28px; color:#fff; line-height:60px;box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);}
 .mbggheader a{ color:#fff;}
