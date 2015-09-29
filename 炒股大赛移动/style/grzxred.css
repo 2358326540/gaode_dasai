@@ -322,10 +322,12 @@ a.wydzb2{ bottom:120px;}
 .banner-inner2{ text-align:center;}
 
 /* 兑奖信息 */
+.mytitle2{ text-align:center; font-size:1.8rem;}
 .wsdjzl{ line-height:2em; width:90%; font-size:2rem; margin: 0 0 0 5%;}
-.wsdjzl  input{ border:1px solid #ddd; width:90%; height:40px; font-size:1.5rem;}
-.wsdjzl select{ height:40px;font-size:1.5rem;}
-.wsdjzl .tijiaozl{}
+.wsdjzl td{ padding:10px 0; font-weight:bolder;}
+.wsdjzl  input{ border:1px solid #ddd; border-radius:3px; width:100%; height:40px; font-size:1.8rem; font-weight:normal;}
+.wsdjzl select{ height:40px;font-size:1.8rem; border:1px solid #ddd;}
+.wsdjzl .smalltext{ font-size:1.6rem; text-align:center; line-height:1.2em; padding:10px 0; font-weight:normal; color:#999;}
 .wsdjzl .tijiaozl input{ height:55px; line-height:55px; border:none; background:#e53531; color:#fff; border-radius:3px; margin:20px 0 0 0; font-size:2rem;}
 
 
