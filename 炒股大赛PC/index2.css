@@ -358,3 +358,24 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 .jianglifangan1{ overflow:hidden; height:990px;}
 .jianglifangan1 img{vertical-align:bottom;}
 .jianglifangan11 img{ margin: -15px 0 0 0;}
+
+/* 实盘报名页面 */
+.sfscspbm{ overflow:hidden; padding: 0 0 50px;}
+.sfscspbm1{ padding:80px 0 0; float:left; width:50%;}
+.sfscspbm1 a{ background:#e53531; color:#fff; display:block; width:280px; line-height:58px; text-align:center; border-radius:3px; margin:0px auto 10px;}
+.sfscspbm2{ padding:20px 0; line-height:1.8em; width:50%; float:left; font-size:14px;}
+.sfscspbm2 li{ padding:0px 0 10px 0; color:#666;}
+.sfscspbm2 .title{ text-align:center; font-weight:bold; }
+
+.sfscspbm table td,.sfscspbm table th{ border:none; font-size:16px; text-align:right;}
+.sfscspbm table th{ font-size:16px; text-align:left; padding:20px 0px 20px 10px;}
+.sfscspbm table td input{ border:1px solid #ddd; width:50%; height:38px; border-radius:3px;}
+.sfscspbm .intext{ text-align:left; padding: 0 0 0 10px;}
+.sfscspbm .tjsh{ border:none; background:#e53531; color:#fff; height:40px; line-height:normal;}
+
+
+
+
+
+
+
