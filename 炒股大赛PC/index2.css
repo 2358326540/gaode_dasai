@@ -369,13 +369,13 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 
 .sfscspbm table td,.sfscspbm table th{ border:none; font-size:16px; text-align:right;}
 .sfscspbm table th{ font-size:16px; text-align:left; padding:20px 0px 20px 10px;}
-.sfscspbm table td input{ border:1px solid #ddd; width:50%; height:38px; border-radius:3px;}
+.sfscspbm table td input{ border:1px solid #ddd; width:50%; height:38px; border-radius:3px;vertical-align:middle;}
 .sfscspbm .intext{ text-align:left; padding: 0 0 0 10px;}
 .sfscspbm .tjsh{ border:none; background:#e53531; color:#fff; height:40px; line-height:normal;}
 
+.sfscspbm .tyxyk{ width:16px; height:16px; vertical-align:middle;}
 
-
-
-
+.sfscspbm11{ text-align:center; border:1px dashed #ddd; width:300px; margin:0 auto; padding:10px 0; font-size:15px; color:#e53531;}
+.sfscspbm11 img{ width:180px; margin:10px 0;}
 
 
