@@ -228,8 +228,8 @@ span.zxytzbsj{ float:right; margin: 0;}
 .fenxianghoutc a{ display:block; background:#eee; width:120px; line-height:40px; margin:20px auto;}
 
 /* 分享黑色浮层 */
-.yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:absolute; z-index:2000; left:0; top:0; text-align:center;}
-
+.yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:absolute; z-index:2000; left:0; top:0; text-align:right; }
+.yqhyfc img{ width:90%; max-width:480px;margin: 0 10px 0 0;}
 
 
 
