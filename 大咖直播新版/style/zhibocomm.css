@@ -6,6 +6,7 @@ textarea{ padding:0; margin:0;}
 li{ list-style:none;}
 table{ border-collapse:collapse;}
 a{ text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur()); color:#666;}
+a:visited{ color:#999;}
 /* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
 a:active {    background-color: transparent;}
 a:active,a:hover {    outline: 0 none;}

@@ -6,15 +6,17 @@
 .zblist1left{float:left; width:50px; margin: 0 0 0 10px; height:50px; position:relative; }
 .zblist1left img{ width:100%;}
 .zblist1right{ padding: 0 10px 0 70px; width:100%;}
-a.zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; display:block; max-height:81px;text-overflow: ellipsis;}
+a.zbneirong, .zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; display:block; max-height:81px;text-overflow: ellipsis;}
 .titletime{ position:relative; padding: 0 0 5px;line-height:1rem; }
-.titletime a{font-size:1.7rem; color:#333;line-height:1.5em; }
+.titletime a, .titletime b{font-size:1.7rem; color:#333;line-height:1.5em; }
 .titletime span{ position:absolute; z-index:1; right:0px; color:#999; font-size:1.4rem; top:9px;}
-.dianzan{ text-align:right; display:block; padding: 0px 15px 0 0; line-height:1rem; margin:10px 0 0 0;}
+.dianzan{ text-align:right; display:block; padding: 0px 15px 0 0; line-height:1rem; margin:10px 0 0 0;font-size:1.4rem; color:#999;}
 .dianzan a{ font-size:1.4rem; color:#999;}
 .dianzan img{ vertical-align:middle; margin:0px 5px 5px 0 ;}
 .dianjitouxiang{ position:absolute; z-index:20; width:50px; height:50px; top:10px; left:10px;}
 .dianjiquanbu{ position:absolute; z-index:10; left:0; top:0; width:100%; height:100%;}
+a.xqylj{ display:block; color:#666;}
+a.xqylj:visited .zbneirong{ color:#999;}
 
 /* 更多 */
 .morelist{ margin:10px 0 0 0;}
@@ -26,7 +28,7 @@ a.mbangzhu{ background-position:15px -260px;}
 .morelist a b{ position:absolute; z-index:1; background:#e53531; width:10px; height:10px; border-radius:10px; top:15px; margin: 0 0 0 2px;}
 
 /* 直播详细页面 */
-.zbxqy{ padding:80px 0 60px 0; background:#fff; }
+.zbxqy{ padding:80px 0 60px 0; background:#fff;}
 a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;}
 .zbxqy .zblist1, .gszy .zblist1{ margin:0 0 0px 0; position:fixed; z-index:99; top:0; left:0;border-bottom:1px solid #f5f5f5; }
 .guanzhu{ position:absolute; z-index:1; right:10px; top:20px; font-size:1.5rem; color:#e53531; background:url(../images/liuyanguanzhu.png) no-repeat 8px 4px; width:70px; height:30px; line-height:30px; text-align:center; text-indent:20px;}
@@ -135,17 +137,18 @@ span.zxytzbsj{ float:right; margin: 0;}
 /* 帮助详情 */
 .bangzhuxq a{ border:none; line-height:40px; height:40px; padding:10px 0 0 0;}
 .bangzhu .bzwenti{ background-position:15px 20px;}
-.xqycontent1 img.huidaico{ display:inline; margin: 0 10px 5px 0; width:20px; height:20px;}
+.xqycontent1 img.huidaico{ display:inline; margin: 0 10px 4px 0; width:20px; height:20px;}
 
 
 /* 免打扰设置 */
- .tssz, .gzdzj{ text-indent:28px; font-size:1.7rem; color:#333; background:url(../images/zhibodingzhiico.png) 0 3px no-repeat; margin:10px auto; width:92%; position:relative;}
+ .tssz, .gzdzj{ text-indent:48px; font-size:1.7rem; color:#333; background:url(../images/zhibodingzhiico.png) 20px 13px no-repeat; margin:10px auto; width:100%; position:relative; padding:10px 0;}
 .tssz1{ width:100%; padding: 10px 0 10px 11%; margin:0 auto; font-size:1.7rem; position:relative; background:#fff;}
 .tssz11{ font-size:1.3rem; color:#999;}
 .dzan{ position:absolute; z-index:1; width:110px;; right:15px; top:15px; height:38px;}
-.xzzj{ position:absolute; z-index:1; right:0; top:0; color:#999;}
+.gzdzj .dzan{position:absolute; z-index:1; right:15px; top:5px; color:#999;}
+.qbqx{ position:absolute; z-index:1; right:115px; font-size:1.4rem; color:#999; top:13px;}
 .zjkz, .zjkz:hover{ background:#fff; border-bottom:1px solid #eee; font-size:1.7rem; width:100%; padding: 20px 0 20px 11%; position:relative; display:block; color:#999;}
-.gzdzj{ background:url(../images/liuyanguanzhu.png) 2px 3px no-repeat;}
+.gzdzj{ background:url(../images/liuyanguanzhu.png) 22px 13px no-repeat;}
 .button { width:90px; height:28px;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -220,8 +223,12 @@ span.zxytzbsj{ float:right; margin: 0;}
 
 /* 分享后 */
 .fenxianghou{ text-align:center; font-size:1.8rem; background:#f5f5f5; padding:30px 0;}
-.fenxianghou img{ width:50%;}
+.fenxianghou img, .fenxianghoutc img{ width:50%; margin:10px 0;}
+.fenxianghoutc{ position:absolute; z-index:1; width:75%; top:40%; left:50%; margin: -160px 0 0 -35%; background:#fff; border-radius:6px; border:1px solid #c1100a; box-shadow: 0px 4px 6px 0px rgba(6, 0, 1, 0.39); text-align:center; font-size:1.4rem; padding:20px 0 0 0;}
+.fenxianghoutc a{ display:block; background:#eee; width:120px; line-height:40px; margin:20px auto;}
 
+/* 分享黑色浮层 */
+.yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:absolute; z-index:2000; left:0; top:0; text-align:center;}
 
 
 
