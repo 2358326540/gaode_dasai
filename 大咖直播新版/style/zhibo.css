@@ -31,12 +31,12 @@ a.mbangzhu{ background-position:15px -260px;}
 .zbxqy{ padding:80px 0 60px 0; background:#fff;}
 a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;}
 .zbxqy .zblist1, .gszy .zblist1{ margin:0 0 0px 0; position:fixed; z-index:99; top:0; left:0;border-bottom:1px solid #f5f5f5; }
-.zbxqy .zblist12, .gszy .zblist12{ position:fixed; top:0;}
+.zbxqy .zblist12, .gszy .zblist12{ position:fixed; top:0; padding:5px 0;}
 .zbxqy .zblist12 .zblist1left, .gszy .zblist12 .zblist1left{ width:40px; height:40px;display: block;}
 .zbxqy .zblist12 .zblist1right, .gszy .zblist12 .zblist1right{padding: 0 10px 0 60px;}
 .zbxqy .zblist12 .titletime, .gszy .zblist12 .titletime { padding:0;}
 .zbxqy .zblist12 .titletime a, .gszy .zblist12 .titletime a{ line-height:40px;}
-.zbxqy .zblist12 .guanzhu, .gszy .zblist12 .guanzhu{ top:15px;}
+.zbxqy .zblist12 .guanzhu, .gszy .zblist12 .guanzhu{ top:10px;}
 
 .guanzhu{ position:absolute; z-index:1; right:10px; top:20px; font-size:1.5rem; color:#e53531; background:url(../images/liuyanguanzhu.png) no-repeat 8px 4px; width:70px; height:30px; line-height:30px; text-align:center; text-indent:20px;}
 .liuyan{ background:url(../images/liuyanicon.png) no-repeat 8px 6px; }
