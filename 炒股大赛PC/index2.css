@@ -375,7 +375,8 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 
 .sfscspbm .tyxyk{ width:16px; height:16px; vertical-align:middle;}
 
-.sfscspbm11{ text-align:center; border:1px dashed #ddd; width:300px; margin:0 auto; padding:10px 0; font-size:15px; color:#e53531;}
-.sfscspbm11 img{ width:180px; margin:10px 0;}
+.sfscspbm11{ text-align:center; font-size:14px; color:#666;}
+.sfscspbm11 div{ text-align:center; width:283px; height:228px; margin:0 auto; font-size:15px; color:#333; background:url(images/ds_03.png);}
+.sfscspbm11 p{ border-bottom:1px dashed #333; width:260px; margin:0 auto; padding: 10px 0 10px;}
 
 
