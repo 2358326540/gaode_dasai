@@ -152,82 +152,91 @@ span.zxytzbsj{ float:right; margin: 0;}
  .tssz, .gzdzj{ text-indent:48px; font-size:1.7rem; color:#333; background:url(../images/zhibodingzhiico.png) 20px 13px no-repeat; margin:10px auto; width:100%; position:relative; padding:10px 0;}
 .tssz1{ width:100%; padding: 10px 0 10px 11%; margin:0 auto; font-size:1.7rem; position:relative; background:#fff;}
 .tssz11{ font-size:1.3rem; color:#999;}
-.dzan{ position:absolute; z-index:1; width:90px;; right:15px; top:15px; height:38px;}
-.gzdzj .dzan{position:absolute; z-index:1; right:15px; top:5px; color:#999;}
+.dzan{ position:absolute; z-index:1; width:70px; right:15px; top:17px; height:35px;}
+.gzdzj .dzan{position:absolute; z-index:1; right:15px; top:5px; color:#999;text-indent:0;}
 .qbqx{ position:absolute; z-index:1; right:100px; font-size:1.4rem; color:#999; top:13px;}
 .zjkz, .zjkz:hover{ background:#fff; border-bottom:1px solid #eee; font-size:1.7rem; width:100%; padding: 20px 0 20px 11%; position:relative; display:block; color:#999;}
 .gzdzj{ background:url(../images/liuyanguanzhu.png) 22px 13px no-repeat;}
-.button { width:90px; height:28px;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border-radius: 40px;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
-  cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+/* 免打扰设置按钮 */
+.checkbox {
+  position: relative;
+  display: inline-block;
 }
-.button span { position: absolute; display: block;}
-.button span:first-of-type {
-  z-index: 100;
-  top: 4px;
-  right: 26px;
-  width: 48px;
-  height: 28px;
-  background: -webkit-linear-gradient(top, #eee 0%, #ccc 100%);
-  background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
-  box-shadow: 0 4px 2px rgba(255, 255, 255, 0.1) inset, 0 1px 1px rgba(255, 255, 255, 0.2) inset, 0 -0px 0px rgba(0, 0, 0, 0.2) inset, 0 -0px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 2px rgba(0, 0, 0, 0.4), -2px 1px 3px rgba(0, 0, 0, 0.3), 2px 0 1px rgba(242, 201, 197, 0.5) inset;
-  border-radius: 36px;
-  -webkit-transition: right 400ms cubic-bezier(1, 0, 0, 1), box-shadow 400ms ease;
-          transition: right 400ms cubic-bezier(1, 0, 0, 1), box-shadow 400ms ease;
+.checkbox:after, .checkbox:before {
+  font-family: FontAwesome;
+  -webkit-font-feature-settings: normal;
+     -moz-font-feature-settings: normal;
+          font-feature-settings: normal;
+  -webkit-font-kerning: auto;
+     -moz-font-kerning: auto;
+          font-kerning: auto;
+  -webkit-font-language-override: normal;
+     -moz-font-language-override: normal;
+          font-language-override: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant: normal;
+  font-weight: normal;
+  text-rendering: auto;
 }
-.button span:nth-last-of-type(-n+2) {
-  z-index: 10;
-  top: 4px;
-  width: 34px;
-  height: 28px;
-  -webkit-transition: opacity 800ms ease 100ms;
-          transition: opacity 800ms ease 100ms;
+.checkbox label {
+  width: 90px;
+  height: 35px;
+  background: #ccc;
+  position: relative;
+  display: inline-block;
+  border-radius: 46px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
-.button span:nth-last-of-type(-n+2):after {
+.checkbox label:after {
+  content: '';
   position: absolute;
-  top: 26px;
-  line-height: 1;
-  font-family: "Open Sans";
-  font-weight: 800;
-  font-size: 24px;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 20px #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  left: 0;
+  top: -5px;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
-.button span:nth-of-type(2) {
-  left: 16px;
-  background: -webkit-linear-gradient(top, #2ecc71 0%, #7ee2a8 100%);
-  background: linear-gradient(to bottom, #2ecc71 0%, #7ee2a8 100%);
-  border-top-left-radius: 36px;
-  border-bottom-left-radius: 36px;
-  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.3) inset, 0 -2px 6px rgba(0, 0, 0, 0.2) inset;
+.checkbox input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkbox input:hover + label:after {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.checkbox input:checked + label:after {
+  left: 40px;
 }
 
-.button span:last-of-type {
-  right: 7px;
-  background: -webkit-linear-gradient(top, #eee 0%, #f5f5f5 100%);
-  background: linear-gradient(to bottom, #eee 0%, #f5f5f5 100%);
-  border-top-right-radius: 36px;
-  border-bottom-right-radius: 36px;
-  box-shadow: -4px 4px 12px 4px rgba(0, 0, 0, 0.5) inset, 0 -2px 8px rgba(0, 0, 0, 0.4) inset;
-  opacity: 0.2;
+.model-2 .checkbox label {
+  width: 69px;
+}
+.model-2 .checkbox label:after {
+  top: 0;
+  width: 35px;
+  height: 35px;
+}
+.model-2 .checkbox input:checked + label {
+  background: #4BD865;
+}
+.model-2 .checkbox input:checked + label:after {
+  left: 35px;
 }
 
-.button input[type="checkbox"] { display: none;}
-.button input[type="checkbox"]:checked ~ span:first-of-type {
-  right: 7px;
-  box-shadow: 0 4px 2px rgba(255, 255, 255, 0.1) inset, 0 1px 0px rgba(255, 255, 255, 0.2) inset, 0 -0px 0px rgba(0, 0, 0, 0.2) inset, 0 -0px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 2px rgba(0, 0, 0, 0.4), -4px 2px 6px rgba(0, 0, 0, 0.4), 2px 0 1px rgba(242, 201, 197, 0.5) inset;
-}
-.button input[type="checkbox"]:checked ~ span:nth-of-type(2) {
-  opacity: 1;
-}
-.button input[type="checkbox"]:checked ~ span:last-of-type {
-  opacity: 0.2;
-}
 
 /* 分享后 */
 .fenxianghou{ text-align:center; font-size:1.8rem; background:#f5f5f5; padding:30px 0;}
