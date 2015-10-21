@@ -243,6 +243,7 @@ span.zxytzbsj{ float:right; margin: 0;}
 .fenxianghou img, .fenxianghoutc img{ width:50%; margin:10px 0;}
 .fenxianghoutc{ position:absolute; z-index:1; width:75%; top:40%; left:50%; margin: -160px 0 0 -35%; background:#fff; border-radius:6px; border:1px solid #c1100a; box-shadow: 0px 4px 6px 0px rgba(6, 0, 1, 0.39); text-align:center; font-size:1.4rem; padding:20px 0 0 0;}
 .fenxianghoutc a{ display:block; background:#eee; width:120px; line-height:40px; margin:20px auto;}
+.xqymnav2 li{ width:33.333%;}
 
 /* 分享黑色浮层 */
 .yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:absolute; z-index:2000; left:0; top:0; text-align:right; }
