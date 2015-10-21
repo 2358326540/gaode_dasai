@@ -6,7 +6,7 @@
 .zblist1left{float:left; width:50px; margin: 0 0 0 10px; height:50px; position:relative;}
 .zblist1left img{ width:100%;}
 .zblist1right{ padding: 0 10px 0 70px; width:100%;}
-a.zbneirong, .zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; display:block; max-height:81px;text-overflow: ellipsis;}
+a.zbneirong, .zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; display:block; max-height:76px;text-overflow: ellipsis;}
 .titletime{ position:relative; padding: 0 0 5px;line-height:1rem; }
 .titletime a, .titletime b{font-size:1.7rem; color:#333;line-height:1.5em; }
 .titletime span{ position:absolute; z-index:1; right:0px; color:#999; font-size:1.4rem; top:9px;}
@@ -17,6 +17,8 @@ a.zbneirong, .zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; di
 .dianjiquanbu{ position:absolute; z-index:10; left:0; top:0; width:100%; height:100%;}
 a.xqylj{ display:block; color:#666;}
 a.xqylj:visited .zbneirong{ color:#999;}
+.news{ position:absolute; z-index:8; top:50px; width:100%; background:rgba(255,231,126,0.8); line-height:50px; text-align:center; color:#333; font-size:1.6rem;}
+
 
 /* 更多 */
 .morelist{ margin:10px 0 0 0;}
