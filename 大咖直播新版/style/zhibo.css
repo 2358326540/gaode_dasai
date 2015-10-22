@@ -30,8 +30,8 @@ a.mbangzhu{ background-position:15px -260px;}
 .morelist a b{ position:absolute; z-index:1; background:#e53531; width:10px; height:10px; border-radius:10px; top:15px; margin: 0 0 0 2px;}
 
 /* 直播详细页面 */
-.zbxqy{ padding:80px 0 60px 0; background:#fff;transition: all 0.2s ease 0s;}
-a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;transition: all 0.2s ease 0s;}
+.zbxqy{ padding:80px 0 60px 0; background:#fff;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
+a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
 .zbxqy .zblist1, .gszy .zblist1{ margin:0 0 0px 0; position:fixed; z-index:99; top:0; left:0;border-bottom:1px solid #f5f5f5; }
 .zbxqy .zblist12, .gszy .zblist12{ position:fixed; top:0; padding:5px 0;}
 .zbxqy .zblist12 .zblist1left, .gszy .zblist12 .zblist1left{ width:40px; height:40px;display: block;}
@@ -73,8 +73,8 @@ a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;
 .xqymnav .select > a{ color:#333;}
 
 /* 高手主页 */
-.gszy{ padding:114px 0 60px;transition: all 0.2s ease 0s;}
-.fxzb{ width:100%; line-height:30px;height:30px; margin:8px 0 0px 0;transition: all 0.2s ease 0s;}
+.gszy{ padding:114px 0 60px;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
+.fxzb{ width:100%; line-height:30px;height:30px; margin:8px 0 0px 0;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
 .fxzb span{ margin:0 15px 0 0;font-size:1.2rem; color:#999; float:left;line-height: 30px; height: 30px;}
 .gszycont{ margin: 0 0 10px;}
 .gszylist{ background:#fff; border-bottom:1px solid #f5f5f5; font-size:1.5rem; padding:15px; position:relative;}
