@@ -57,10 +57,10 @@ a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;
 .xqycontent1 p{ margin: 0 0 1.5em 0;}
 .xqycontent1 img{max-width:100%; margin:0 auto; display:block;}
 .xqycontent1 p a{ color:#999;border-bottom:1px dashed #999;}
-.nextpre{ width:100%; line-height:74px; border-top:1px solid #f5f5f5; border-bottom:1px solid #f5f5f5; font-size:1.5rem;}
-.nextpre a{ width:50%; display:inline-block; text-align:center;}
+.nextpre{ width:100%; border-top:1px solid #f5f5f5; border-bottom:1px solid #f5f5f5; font-size:1.5rem;}
+.nextpre a{ width:50%; display:inline-block; text-align:center;padding: 20px 0;}
 .next{  border-left:1px solid #f5f5f5;}
-.nextpre a b{ color:#999; font-size:1.4rem; margin: 0 10px;}
+.nextpre a b{ color:#999; font-size:1.4rem; margin: 0 10px;  display: block; line-height: 1.5rem;}
 .lookmore{ font-size:1.5rem; text-align:center; padding:30px 0; display:block;}
 .xqymnav>li{ width:25%; text-align:center; line-height:60px;  float:left;}
 .xqymnav li > a{ font-size:1.5rem; display:block;color:#999;}
