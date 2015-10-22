@@ -361,16 +361,17 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 
 /* 实盘报名页面 */
 .sfscspbm{ overflow:hidden; padding: 0 0 50px;}
-.sfscspbm1{ padding:80px 0 0; float:left; width:50%;}
+.sfscspbm1{ padding:20px 0 0; float:left; width:50%;}
 .sfscspbm1 a{ background:#e53531; color:#fff; display:block; width:280px; line-height:58px; text-align:center; border-radius:3px; margin:0px auto 10px;}
 .sfscspbm2{ padding:20px 0; line-height:1.8em; width:50%; float:left; font-size:14px;}
 .sfscspbm2 li{ padding:0px 0 10px 0; color:#666;}
-.sfscspbm2 .title{ text-align:center; font-weight:bold; }
+.sfscspbm2 .title{ text-align:center; font-weight:bold; font-size:16px; }
 
+.sfscspbm table { width:100%;}
 .sfscspbm table td,.sfscspbm table th{ border:none; font-size:16px; text-align:right;}
-.sfscspbm table th{ font-size:16px; text-align:left; padding:20px 0px 20px 10px;}
-.sfscspbm table td input{ border:1px solid #ddd; width:50%; height:38px; border-radius:3px;vertical-align:middle;}
-.sfscspbm .intext{ text-align:left; padding: 0 0 0 10px;}
+.sfscspbm table th{ font-size:16px; text-align:left; }
+.sfscspbm table td input{ border:1px solid #ddd; width:70%; height:38px; border-radius:3px;vertical-align:middle; line-height:38px;}
+.sfscspbm .intext{ text-align:left; padding: 0 0 0 10px; width:388px;}
 .sfscspbm .tjsh{ border:none; background:#e53531; color:#fff; height:40px; line-height:normal;}
 
 .sfscspbm .tyxyk{ width:16px; height:16px; vertical-align:middle;}
@@ -378,5 +379,22 @@ a.jfdenglu{ margin:0; line-height:249px; font-size:16px;}
 .sfscspbm11{ text-align:center; font-size:14px; color:#666;}
 .sfscspbm11 div{ text-align:center; width:283px; height:228px; margin:0 auto; font-size:15px; color:#333; background:url(images/ds_03.png);}
 .sfscspbm11 p{ border-bottom:1px dashed #333; width:260px; margin:0 auto; padding: 10px 0 10px;}
+
+.sfscspbm12 a{background:none; color:#333; display:inline; width:280px; line-height:auto; text-align:center; border-radius:3px; margin:0px auto 10px; }
+.sfscspbm .spbmtit{ text-align:center; width:100%; font-weight:bolder; font-size:16px;}
+.sfscspbm .spbmtit span{ color:#999; font-weight:normal; font-size:14px; padding:10px 0 20px 0; display:block;}
+.spbmtit1 span{ color:#666; font-size:14px; display:block; text-align:center; line-height:40px;}
+.spbmtit1 a{ background:#e53531; color:#fff; margin:50px auto 0; width:280px; display:block; line-height:40px; }
+.sfscspbm13 .spbmtit{ padding:42px 0 0px 0; color: #e53531;}
+
+
+
+
+
+
+
+
+
+
 
 

@@ -336,10 +336,11 @@ a.wydzb2{ bottom:120px;}
 /* 实盘报名页面 */
 .sfscspbm{ overflow:hidden; padding: 0 0 50px; width:100%;}
 .sfscspbm1{ padding:80px 0 0; width:100%;}
-.sfscspbm1 a{ background:#e53531; color:#fff; display:block; width:280px; line-height:58px; text-align:center; border-radius:3px; margin:0px auto 10px;}
+.sfscspbm1 a{ background:#e53531; color:#fff; display:block; width:300px; line-height:58px; text-align:center; border-radius:3px; margin:0px auto 10px; font-size:15px;}
+.sfscspbm1 p{ font-size:14px; width:80%; margin:30px auto 0;}
 .sfscspbm2{ padding:20px 0; line-height:1.8em; width:80%;  font-size:14px; margin:0 auto;}
 .sfscspbm2 li{ padding:0px 0 10px 0; color:#666;}
-.sfscspbm2 .title{ text-align:center; font-weight:bold; }
+.sfscspbm2 .title{ text-align:center; font-weight:bold; font-size:18px; }
 
 .sfscspbm table{ width:100%;}
 .sfscspbm table td,.sfscspbm table th{ border:none; font-size:16px; text-align:right;}
