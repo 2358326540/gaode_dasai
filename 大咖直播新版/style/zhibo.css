@@ -225,18 +225,18 @@ span.zxytzbsj{ float:right; margin: 0;}
   left: 40px;
 }
 
-.model-2 .checkbox label {
+.checkbox label {
   width: 69px;
 }
-.model-2 .checkbox label:after {
+.checkbox label:after {
   top: 0;
   width: 35px;
   height: 35px;
 }
-.model-2 .checkbox input:checked + label {
+.checkbox input:checked + label {
   background: #4BD865;
 }
-.model-2 .checkbox input:checked + label:after {
+.checkbox input:checked + label:after {
   left: 35px;
 }
 

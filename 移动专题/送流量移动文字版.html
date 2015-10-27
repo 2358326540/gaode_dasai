@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" id="viewport">
+
+<title>无标题文档</title>
+<style>
+* {	padding: 0;	margin: 0;font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+img{ vertical-align:middle;}
+a{ text-decoration:none; color:#fff;}
+table{ border-collapse:collapse;}
+a img{ border:none;}
+li{ list-style:none;}
+
+@-moz-keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.3); }
+	to { transform: none; }
+}
+@-webkit-keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.3); }
+	to { transform: none; }
+}
+@-ms-keyframes pound {
+	from { transform: none; }
+	50% { transform: scale(1.3); }
+	to { transform: none; }
+}
+.main{ position:relative;
+	
+	width:480px;
+	height:800px;
+	margin:0 auto;
+ background:#30a9ed;
+}
+
+.tit1{ font-size:48px; color:#fff; font-weight:bolder;text-align:left; padding: 30px 0 175px 20px;}
+.tit1 span{color:#fffc00;}
+
+.khby{ font-size:32px; color:#fff; text-align:center; }
+.khby span{ color:#fffc00; font-size:87px;}
+.qhbn {
+	display:block;
+	-moz-animation: pound 1s infinite;
+	-webkit-animation: pound 1s infinite;
+	-ms-animation: pound 1s infinite;
+	transform-origin: center;
+		margin:70px auto;
+  border-radius: 666px;
+  background: #fffc00;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+  width: 210px;
+  height: 44px;
+  line-height:44px;
+  color:#000; font-size:30px; text-align:center;
+  font-weight:bolder; margin:70px auto;
+}
+.hdgz{ text-align:left; font-size:20px; margin:0 auto; width:400px; line-height:1.4em; color:#fff;}
+.gfwz{ display:block; width:480px; line-height:45px; position:absolute; z-index:1; bottom:0; left:0;}
+
+
+.tanchuan{ width:400px; background:url(images/wynxj.png); position:fixed; z-index:999; top:32%; left:50%; margin: 0 0 0 -202px; border-radius:6px; text-align:center; padding:110px 0 0px; font-size:22px; color:#666; line-height:2em; height:215px;}
+.intel{ background:#e8b02c; border:2px solid #9d0000; width:200px; height:40px; font-size:22px; border-radius:3px; margin:10px 0 0 0; vertical-align:middle;}
+.subbt2{ display:block; margin: 10px auto 0; border-radius: 3px; background:#30a9ed; box-shadow:0 3px 0px 0px #006096; font-size:22px; line-height:46px; color:#fff; height:46px; width:136px;}
+.ztclosed{ position:absolute; z-index:1; right:30px; top:55px; width:34px; height:34px; line-height:28px; background:#fff; border-radius:60px;}
+.send_captcha{ background:#30a9ed; color:#fff; border:1px solid #eee; width:90px; line-height:43px; vertical-align:middle;margin: 10px 0 0 5px; font-size:16px; border-radius:3px;}
+.send_captcha_time{ background:#999;}
+.tanchuan_yzm .intel2{ width:240px; background:#fff; border:2px solid #ccc; margin:10px 0 0 0; vertical-align:middle;}
+.tanchuan_yzm .intel3{ width:148px;}
+.red{ color:#ff2400;}
+</style>
+</head>
+
+<body>
+<div class="main">
+<div class="tit1">MM财经<span>送好礼</span></div>
+    <div class="khby">——— <b>参与模拟炒股</b> ———</div>
+    <div class="khby"><b>送<span>30M流量</span></b></div>
+    <a class="qhbn">马上领取</a>
+    <div class="hdgz">「MM财经用户在炒股大赛完成一笔模拟交易后，可免费获得一份30M移动流量包，流量当月有效。」
+</div>
+<div class="gfwz"><img src="images/logo_02.png"></div>
+</div>
+
+
+<div class="tanchuan tanchuan_yzm"><div><input class="intel intel2 " placeholder="请输入手机号"  type="tel"><br><input class="intel intel2 intel3" placeholder="请输入验证码"  type="tel"><input type="button" value="获取验证码" class="send_captcha" id="send_captcha"><input type="button" value="120S" class="send_captcha send_captcha_time" id="send_captcha"></div>
+<a class="subbt2">确定</a>
+<span class="red">手机号码错误</span><a class="ztclosed"><img src="images/cha.png"></a>
+</div>
+
+</body>
+</html>
