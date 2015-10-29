@@ -252,10 +252,10 @@ span.zxytzbsj{ float:right; margin: 0;}
 .yqhyfc{ background:rgba(0,0,0,0.7);  width:100%; height:100%; position:fixed; z-index:2000; left:0; top:0; text-align:right; }
 .yqhyfc img{ width:90%; max-width:480px;margin: 0 10px 0 0;}
 
-
-
-
-
+/* 分享后提示页面 */
+.tsym{ text-align:center; background:#fff; padding:30px 30px 60px 30px; font-size:1.8rem; width:100%; height:100%;}
+.tsym div{ text-align:left;}
+.tsym img{ width:80%;}
 
 
 
