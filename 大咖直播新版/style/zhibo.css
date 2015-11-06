@@ -19,7 +19,8 @@ a.xqylj{ display:block; color:#666;}
 a.xqylj:visited .zbneirong{ color:#999;}
 .news{ position:fixed; z-index:8; top:50px; width:100%; background:rgba(255,231,126,0.8); line-height:50px; text-align:center; color:#333; font-size:1.6rem;}
 .news2{top:60px;}
-
+.zhiding{ width:25px; height:26px; position:absolute; z-index:1; top:0px; left:0; line-height:26px;}
+.zhiding img{ vertical-align:baseline;}
 /* 更多 */
 .morelist{ margin:10px 0 0 0;}
 .morelist a{ background:url(../images/moreicon.png) no-repeat #fff 15px 20px ; margin:0 0 10px 0; display:block; height:60px; line-height:60px; font-size:1.7rem; color:#333; text-indent:50px; position:relative;}
@@ -253,7 +254,7 @@ span.zxytzbsj{ float:right; margin: 0;}
 .yqhyfc img{ width:90%; max-width:480px;margin: 0 10px 0 0;}
 
 /* 分享后提示页面 */
-.tsym{ text-align:center; background:#fff; padding:30px 30px 60px 30px; font-size:1.8rem; width:100%; height:100%;}
+.tsym{ text-align:center; background:#fff; margin:50px 0 0 0; padding:30px 30px 60px 30px; font-size:1.8rem; width:100%; height:100%;}
 .tsym div{ text-align:left;}
 .tsym img{ width:80%;}
 
