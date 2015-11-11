@@ -5,7 +5,7 @@
 .zblist1{ width:100%; background:#fff; margin: 0 0 10px; overflow:hidden; position:relative;}
 .zblist1left{float:left; width:50px; margin: 10px 0 0 10px; height:50px; position:relative;}
 .zblist1left img{ width:100%;}
-.zblist1right{ padding: 0 10px 0 70px; width:100%;}
+.zblist1right{padding: 10px 10px 10px 70px; width:100%;}
 a.zbneirong, .zbneirong{ font-size:1.5rem;line-height:1.6em; overflow:hidden; display:block; max-height:76px;text-overflow: ellipsis;}
 a.zbneirong img, .zbneirong img{ width:18px; margin: 0 3px 2px 0;}
 .titletime{ position:relative; padding: 0 0 5px;line-height:1rem; }
@@ -21,7 +21,7 @@ a.xqylj:visited .zbneirong{ color:#999;}
 .news{ position:fixed; z-index:8; top:50px; width:100%; background:rgba(255,231,126,0.8); line-height:50px; text-align:center; color:#333; font-size:1.6rem;}
 .news2{top:60px;}
 .zhiding{ width:25px; height:26px; position:absolute; z-index:1; top:0px; left:0; line-height:26px;}
-.zhiding img{ vertical-align:baseline;}
+.zhiding img{ vertical-align:baseline; width:100%;}
 /* 更多 */
 .morelist{ margin:10px 0 0 0;}
 .morelist a{ background:url(../images/moreicon.png) no-repeat #fff 15px 19px ; margin:0 0 10px 0; display:block; height:60px; line-height:60px; font-size:1.7rem; color:#333; text-indent:50px; position:relative; background-size: 24px 316px;}
@@ -34,18 +34,23 @@ a.mbangzhu{ background-position:15px -275px;}
 /* 直播详细页面 */
 .zbxqy{ padding:80px 0 60px 0; background:#fff;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
 a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
-.zbxqy .zblist1, .gszy .zblist1{ margin:0 0 0px 0; position:fixed; z-index:99; top:0; left:0;border-bottom:1px solid #f5f5f5; }
-.zbxqy .zblist12, .gszy .zblist12{ position:fixed; top:0; padding:5px 0;}
-.zbxqy .zblist12 .zblist1left, .gszy .zblist12 .zblist1left{ width:40px; height:40px;display: block;}
+.zbxqy .zblist1, .gszy .zblist1{ margin: 0 0 10px; position:fixed; z-index:99; top:0; left:0;border-bottom:1px solid #f5f5f5; }
+.zbxqy .zblist12, .gszy .zblist12{ position:fixed; top:0; padding:10px 0 15px;}
+.zbxqy .zblist12 .zblist1left, .gszy .zblist12 .zblist1left{ width:40px; height:40px;display: block; margin-top:0px;}
 .zbxqy .zblist12 .zblist1right, .gszy .zblist12 .zblist1right{padding: 0 10px 0 60px;}
 .zbxqy .zblist12 .titletime, .gszy .zblist12 .titletime { padding:0;}
 .zbxqy .zblist12 .titletime a, .gszy .zblist12 .titletime a{ line-height:40px;}
 .zbxqy .zblist12 .guanzhu, .gszy .zblist12 .guanzhu{ top:10px;}
 .zbxqy .zblist12 .zbneirong2, .gszy .zblist12 .zbneirong2, .zbxqy .zblist12 .fxzb, .gszy .zblist12 .fxzb{ height:0; line-height:0; overflow:hidden;}
+.zbxqy .guanzhuweizhi{ top:5px;}
 
-.guanzhu{ position:absolute; z-index:1; right:10px; top:20px; font-size:1.5rem; color:#e53531; background:url(../images/liuyanguanzhu.png) no-repeat 8px 4px; width:70px; height:30px; line-height:30px; text-align:center; text-indent:20px; background-size:18px;}
-.liuyan{ background:url(../images/liuyanicon.png) no-repeat 8px 6px; background-size: 18px; }
+
+.guanzhuweizhi{ position:absolute; z-index:1; right:15px; top:20px;font-size:1.2rem; color:#e53531; width:96px; height:100px; text-align:center; }
+.guanzhu{ position:absolute; z-index:1; right:10px; top:20px; font-size:1.5rem; color:#fff; background:url(../images/liuyanguanzhu.png) no-repeat 8px 4px #e53531; width:80px; height:30px; line-height:30px; text-align:center; text-indent:20px; background-size:18px; border-radius:3px;}
+.guanzhu2{ width:96px; height:40px; display:block; font-size:1.5rem; color:#fff; line-height:40px; text-align:center; text-indent:23px; border-radius:3px;background:url(../images/liuyanguanzhu2.png) no-repeat 20px 10px #e53531;background-size: 18px;}
+.liuyan{ background:url(../images/liuyanicon.png) no-repeat 8px 6px; background-size: 18px; color:#e53531; }
 .yiguanzhu{ color:#999; background:none; text-indent:0;}
+.yiguanzhu2, .yiguanzhu2:active{ color:#999; background:#ddd; text-indent:0;}
 .xqycontent{ padding:15px; background:#fff;}
 .timezan{ font-size:14px; position:relative; color:#999;}
 .timezan a, .timezan span{ position:absolute; z-index:1; right:0; color:#999;}
@@ -146,7 +151,7 @@ span.zxytzbsj{ float:right; margin: 0;}
 /* 帮助 */
 .bangzhu{ margin:0;  padding: 50px 0 0px 0;}
 .bangzhu a{ margin:0; border-bottom:1px solid #f5f5f5;}
-.bangzhu .bzwenti{ background:url(../images/wendayiwen.png) no-repeat #fff 15px 20px ;text-indent: 45px;overflow: hidden;  text-overflow: ellipsis;  white-space: nowrap;}
+.bangzhu .bzwenti{ background:url(../images/wendayiwen.png) no-repeat #fff 15px 20px ; background-size:20px; text-indent: 45px;overflow: hidden;  text-overflow: ellipsis;  white-space: nowrap;}
 
 /* 帮助详情 */
 .bangzhuxq a{ border:none; line-height:40px; height:40px; padding:10px 0 0 0;}
