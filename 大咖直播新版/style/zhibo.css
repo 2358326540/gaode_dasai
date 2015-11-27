@@ -19,7 +19,7 @@ a.zbneirong img, .zbneirong img{ width:18px; margin: 0 3px 2px 0;}
 a.xqylj{ display:block; color:#666;width: 100%; padding: 10px 0;}
 a.xqylj:visited .zbneirong{ color:#999;}
 .news{ position:fixed; z-index:8; top:50px; width:100%; background:rgba(255,231,126,0.8); line-height:50px; text-align:center; color:#333; font-size:1.6rem;}
-.news2{top:60px;}
+.news2{top:71px;}
 .zhiding{ width:25px; height:26px; position:absolute; z-index:1; top:0px; left:0; line-height:26px;}
 .zhiding img{ vertical-align:baseline; width:100%;}
 /* 更多 */
