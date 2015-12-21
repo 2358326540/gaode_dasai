@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{ padding:0; margin:0; font-family: "Microsoft YaHei";}
+a{ text-decoration:none; color:#767676;}
+li{ list-style:none;}
+html{ width:100%; background:#eee;ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;font-size: 66.5%;}
+body{width:100%;font-size: 1.4rem;line-height: 1.6;  max-width: 700px; margin:0 auto; padding:0;}
+
+.mblist{ padding:60px 0 0 0;}
+.mblistlt{  box-shadow: 0px 3px 3px 0px rgba(46, 42, 58, 0.05); width:96%; margin:10px auto 0; border-radius:10px;}
+.nrhlb{ width:100%; overflow:hidden; font-size:1.5rem;border-radius: 0 0 10px 10px; background:#fafafa; padding:15px 0;}
+.nrhlb table{ float:left; margin: 0 0 0 2%; color:#333;}
+.nrhlb .title{ text-align:right;}
+.nrhlb img{ margin:0 0 5px 3px}
+.nrhlb a{ float:right; color:#e53531; position:relative; padding:10px 30px 0 0; display:block;}
+.nrhlb a b{ position:absolute; z-index:1; right:10px; top:0px; font-size:5rem; color:#999; line-height:1.1em;}
+.nrhlb a b img{ margin:0;}
+
+.zjjs{ overflow:hidden; width:100%; margin:0 auto; background:#fff;}
+.zjjsl{ float:left; width:17%; margin:2%;height:auto;}
+.zjjsl img{  width:100%; height:auto; border-radius:5px;}
+.zjjsr{ float:right; width:73%; font-size:1.5rem;}
+.zjjsr h2{ padding: 0 0 5px 0; color:#333;}
+.zxgd{ width:100%; margin:0 auto; font-size:1.8rem; border-bottom:1px solid #eee; border-top:1px solid #eee; line-height:50px; text-indent:20px;}
+.zjzlhz{ padding:10px 0 0px 0;position: absolute; z-index: 1; bottom: 33px; left:25%}
+.zjzlhz a{ background:#e53531; font-size:1rem; color:#fff; margin: 0 10px 0 0 ; padding: 3px 12px; border-radius:3px;}
+.zjjs1{ position: relative; border-radius:10px 10px 0 0;}
+.zjjs1 .zjjsl{ width:20%; margin:2%;height:auto;}
+.zjjs1 .zjjsl img{ width:100%; height:auto;}
+.zjjs1 .zjjsr{ width:74%; margin:2% 2% 0 0; padding: 0 0 15px 0;}
+.zjjs1 .zjjsr2{ color:#999;}
+.zjjs1 .zjjsr h2 .dyan, h2 .dyan{position:absolute; z-index:1; right:0px; top:0px; font-size:13px; color:#e53351; font-weight:normal; text-align:center;}
+ h2 .dyan{ top:15px; right:15px; line-height:1.8em;}
+.zjjs1 .zjjsr h2, h2.name{ position:relative; font-size:2rem; font-weight:bold;}
+.zjjs1 .zjjsr h2 a, h2.name a{ font-size:1.5rem; color:#fff; background:#e53531; padding:2px 8px; border-radius:3px;  font-weight:normal;}
+.zjjs1 .zjjsr h2 span， h2.name span{ font-size:16px; color:#e53531; display:block;}
+.zjjs12{   border-bottom: 1px solid #eee; background: #fff; border-radius: 6px;}
+
+.zjjs1 .zjjsr h2 .zjname, h2.name .zjname{ position:relative; font-size:2rem; background:none; color:#333; padding:0; top:auto; right:0;}
+.zjzlhz2{bottom:4%;}
+.zjzlhz2 a{ background:none; color:#999; padding:0;}
+.zjzlhz2 a span{ color:#333; margin: 0 0 0 3px;}
+
+
+
+.mbdetailed{ width:100%; overflow: hidden;}
+.mbdetailed_titl{ width:100%;line-height:40px;height:40px;  position:relative; background:#fff; border-bottom:1px solid #eee;}
+.mbdetailed_titl .daohang{color:#333; background:url(images/yousanjiao_03.png) no-repeat right center; float:left; padding: 0 20px 0 10px;font-size:1.8rem;}
+
+.mblistlt2, .mblistlt2 .zjjs1{ background:#fff; border-radius:0; box-shadow:none; width:100%;}
+.name{ padding:1% 2%; position:relative;}
+h2.name a{ top:10px; right:2%; padding:5px 20px;}
+h2.name .zjname{ font-size:2.1rem;}
+.jianjie{ position:relative;}
+.jianjie p{ height:75px; overflow:hidden;}
+.zhankai{ float:right; padding: 0 2% 0 0;}
+.zhankai img{-webkit-transform:rotate(90deg); height:16px; margin: 0 0 0 10px;}
+.shouqi img{-webkit-transform:rotate(-90deg);}
+.shouyilv{ background:#fff; width:100%; margin:10px 0; text-align:center; font-size:1.7rem;}
+.shouyilv td{ padding:15px 0; border:1px solid #eee;}
+.big{ font-size:3.5rem;}
+td.right{ text-align:left; padding-left:2%;}
+.right b{ float:right; padding: 0 2% 0 0;}
+.sylqx{ margin: 0 0 10px; background:#fff; padding:10px 0; }
+.cplsjl{ background:#fafafa; text-indent:2%; font-size:1.7rem; color:#333; padding:15px 0;}
+.cplsjllist{ background:#fff; width:100%; text-align:center; font-size:1.5rem;}
+.cplsjllist td{ border-bottom:1px solid #eee; padding:10px 0;}
+
+
+
+
+

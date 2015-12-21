@@ -88,7 +88,7 @@ img.sjjt{ width:9px; height:5px;}
     clear: both;
 }
 
-.main{ width:1000px; margin:0 auto 20px; overflow:hidden;}
+.main{ width:1000px; margin:0 auto 10px; overflow:hidden;}
 .footer{ font-size:14px; width:100%;margin:0 auto;  text-align:center; background:#d12627; color:#fff; border-top:1px solid #a11; line-height:67px; height:67px;}
 .footer a{ color:#fff; }
 

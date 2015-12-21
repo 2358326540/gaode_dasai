@@ -358,6 +358,9 @@ input.tyxyk{ width:20px; height:20px; vertical-align:middle; margin: 0 5px  0 0 
 .iosban{right:16%;}
 
 
-.jyymgg{ width:100%; height:120px;}
-.jyymgg img{ width:100%;}
-
+.jyymgg{ width:100%;}
+.jyymgg img{ width:100%; vertical-align:middle;}
+.jyzctj2{ padding:0; margin:2px 0; border:none;}
+.sqspts{ width:100%; position:relative;}
+.sqspts img{margin: 0 auto;display: block; width:100%;}
+.sqspts2{ position:absolute; z-index:1; left:8.18%; bottom:29.5%; width:45.22%; height:6.25%;}

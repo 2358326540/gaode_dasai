@@ -4,7 +4,7 @@
 .showed{ box-shadow:1px 1px 3px rgba(0,0,0, 0.1); background:#fff;}
 .mynav a{ float:left; width:25%; text-align:center;}
 .mynav .select{ background:#a51417; color:#fff;}
-.myzh{ width:1000px;}
+.myzh{ width:1000px; position:relative;}
 .myzhl{ width:250px; float:left;}
 
 .grxx{ width:250px; margin: 0 0 10px 0;}
@@ -211,8 +211,9 @@ div.gupiaokjsr a{ display:block; font-size:14px; line-height:2em; border-bottom:
 .shoujiban{ right:41px;}
 
 .jyymgg{ width:1000px; height:80px; margin: 0 0 10px;}
-
-
+.myzh2{ position:relative;}
+.myzh2 img, .jyymgg img{ vertical-align:middle;}
+.myzh2 a{ position:absolute; z-index:1; display:block; width:199px; height:27px; left:399px; top:219px; cursor:pointer;}
 
 
 

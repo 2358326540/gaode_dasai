@@ -11,6 +11,7 @@ a.zbneirong img, .zbneirong img{ width:18px; margin: 0 3px 2px 0;}
 .titletime{ position:relative; padding: 0 0 5px;line-height:1rem; }
 .titletime a, .titletime b{font-size:1.7rem; color:#333;line-height:1.5em; }
 .titletime span{ position:absolute; z-index:1; right:0px; color:#999; font-size:1.4rem; top:9px;}
+
 .dianzan{ text-align:right; display:block; padding: 0px 15px 0 0; line-height:1rem; margin:10px 0 0 0;font-size:1.4rem; color:#999;}
 .dianzan a{ font-size:1.4rem; color:#999;}
 .dianzan img{ vertical-align:middle; margin:0px 5px 5px 0 ; width:18px;}
@@ -55,7 +56,7 @@ a.zbneirong2{ font-size:1.4rem; max-height:24px; width:75%; white-space: nowrap;
 .timezan{ font-size:14px; position:relative; color:#999;}
 .timezan a, .timezan span{ position:absolute; z-index:1; right:0; color:#999;}
 .timezan a img, .timezan span img{ margin:0 5px 5px 0; width:18px;}
-.tanchuzank{ box-shadow: 0px 4px 6px 0px rgba(6, 0, 1, 0.1); position: absolute; width:70%;  z-index: 1; border:1px solid #ccc; background:#fafafa;  right:60px; top:-5px; border-radius:2px;}
+.tanchuzank{ box-shadow: 0px 4px 6px 0px rgba(6, 0, 1, 0.1); position: absolute; width:70%;  z-index: 1; border:1px solid #ccc; background:#fafafa;  right:60px; top:-5px; border-radius:2px; display:none;}
 .tanchuzankcont{overflow-y:auto;max-height: 325px;padding:15px ;}
 .tanchuzank a{ background:#eee; color:#666; height:42px; line-height:42px; text-align:right; padding: 0 20px 0 0; display:block; position:relative;}
 .tanchuzank .sanjiaoright{ background:url(../images/sanjiaoright_03.png) no-repeat; width:13px; height:16px; position:absolute; z-index:1; right:-13px; top:7px;}
@@ -265,46 +266,53 @@ span.zxytzbsj{ float:right; margin: 0;}
 .tsym div{ text-align:left;}
 .tsym img{ width:80%;}
 
+/* 加锁 */
+.titletime img{ width:18px; margin: 0 5px 5px;}
+.timezan b img{ margin:0 0px 5px 5px; width:18px;}
+.buylock{  display:block; width:100%; background:#eaeaea; border-radius:10px; padding:30px 0; text-align:center; color:#e53531; font-size:2.2rem; line-height:1.6em;}
+.buylock img{ width:75px;}
+.buylock:active{ background:#eee;}
 
 
+/* 猜涨跌 */
+.caishangzheng{ width:100%; background:#fff; font-size:1.5rem; margin:  0 0 20px; padding: 0 0 20px; box-shadow: 0px 3px 3px #ddd; position:relative;}
+.caishangzheng .title{ text-align:center; font-size:1.8rem; font-weight:bolder; color:#333; padding:40px 0 20px 0;}
+.caishangzheng .cyrs{ color:#333; padding:0 15px; font-size:1.5rem;}
+.caishangzheng .cyrs span{ float:right; color:#999;}
+.gdt{ width:90%; margin:20px auto; overflow:hidden;}
+.gdt li{ line-height:2em;float:left; width:50%; background:#e53531; color:#fff; text-align:center;}
+.gdt .zhang{ border-radius:99px 0 0 99px;}
+.gdt .die{ border-radius:0 99px 99px 0; background:#48a515;}
+.zddbtn{ overflow:hidden; width:90%; margin:0 auto;}
+.zddbtn a{ float:left; border:2px solid #e53531; border-radius:10px; width:30%; text-align:center; line-height:2.6em; font-size:1.7rem;}
+a.czhang{ color:#e53531;}
+a.cdie{ float:right; border-color:#48a515; color:#48a515;}
+.czhang.yicai{ background:#e53531; color:#fff;}
+.cdie.weicai, .czhang.weicai, div.cztiiao2 a{ background:#eee; border-color:#eee; color:#fff;}
+.cdie.yicai{ background:#48a515; color:#fff;}
+.jiangli{ width:100%; padding: 15px; font-size:1.6rem; color:#333; border-top:1px solid #eee; background:#fafafa;border-bottom:1px solid #eee; margin:20px 0 0 0;}
+.cyjl{ display:block; width:100%; text-align:center; padding: 15px 0;font-size:1.6rem;background:#fafafa;border-bottom:1px solid #eee;}
+.cyjl img{ margin: 0 0 3px 5px;transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s;}
+.cyjl-click img{ -webkit-transform:rotate(90deg); width:10px;}
 
+.jcjl{ width:100%;background:#fafafa;}
+.jcjl th{ font-size:1.6rem; padding:15px 0 5px;}
+.jcjl th p{ color:#999; font-size:1.4rem;}
+.jcjl td{ text-align:center; padding:3px 0;font-size:1.4rem; color:#808080;}
+.jcjl .biaoti td{ color:#333;}
 
+/* 猜指数 */
+.czs { width:100%; text-align:center;}
+.czs input{ border:2px solid #ccc; border-radius: 10px; width:90%; text-align:center; font-size:1.5rem; line-height:3em; margin:20px 0;}
+.cztiiao a{border:2px solid #e53531; border-radius:10px; width:30%; text-align:center; line-height:2.6em; font-size:1.7rem; color:#e53531; display:block; margin:0 auto;}
+.asweicai{ position:absolute; right:0; top:0; z-index:1;width:0;height:0;
+border-left:60px solid transparent; border-top:60px solid #e53531; color:#fff; font-size:1.5rem;}
+.asweicai span{ position:absolute; z-index:1; left:-20px; top:-59px; display:block; width:10px; line-height:1.3em; font-size:1.4rem;}
+.asweicai2{  border-top:60px solid #ccc;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 猜股票 */
+.cgpkx{ width:90%; margin:0 auto;}
+.cgpkx img{ width:100%;}
 
 
 

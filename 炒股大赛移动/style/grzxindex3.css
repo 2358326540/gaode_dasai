@@ -32,22 +32,25 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .syqxt{ width:225px; height:140px; margin:8px 0;}
 .buygp{ display:block; width:225px; background:#e53531; color:#fff; height:48px; line-height:48px; text-align:center; font-size:24px; border-radius:3px; }
 
-.wdgpcc{ width:100%; border-top:1px solid #eee; margin: 0 0 10px 0;}
+.wdgpcc{ width:100%; margin: 0 0 10px 0;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);}
 /* cmtitle */
-.mytitle{ width:100%; font-size:24px; color:#333; line-height:43px; position:relative; text-indent:15px; background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(250,250,250) 100%); border-top:1px solid #fff;}
+.mytitle{ width:100%; font-size:24px; color:#333; padding:20px 0 10px 0; position:relative; text-indent:15px; background:#fff; border-bottom:1px  solid #eee;}
+
 .mytitle a{ position:absolute; z-index:1; right:15px; top:0; font-size:22px; text-indent:0; color:#999;}
+a.huanyipi{ font-size:1.3rem; color:#2d94df; top:22px;}
 .chicangmx{ width:100%; font-size:18px; color:#666;}
 .chicangmx th{ line-height:43px; background:#f9f9f9; border-bottom:1px solid #eee;}
 .chicangmx td{ padding:20px 0; text-align:center; border-bottom:1px solid #eee; background:#fff;}
 .pclick td{ padding:10px 0; background:#eee; font-size:20px;}
 .pclick td img{ vertical-align:middle; margin: -3px 5px 0 0;}
 
-.nrjylist{ width:100%; overflow:hidden; padding:15px 0; margin:0 0 5px; background:#fff; }
-.nrtop{ width:100%; position:relative; overflow:hidden; margin: 0 0 10px 0;}
-.nrtopl{ display:block; width:50px; height:50px; float:left; margin: 0 15px 0 15px;}
-.nndmz{ font-size:22px; color:#666; line-height:50px; float:left;}
-.nrtop span{ position:absolute; z-index:1; right:15px; top:0; font-size:20px;}
-.nrbottom{ width:100%; overflow:hidden; font-size:20px; line-height:33px; position:relative; text-indent:15px;}
+.nrjylist{ width:100%; overflow:hidden; padding:15px 0 ; border-bottom:1px solid #eee; background:#fff; line-height:1.5em; }
+.nrtop{ width:100%; position:relative; overflow:hidden; padding: 0 0 10px; }
+.nrtopl{ margin:0 10px 0 15px; float:left;}
+.nrtopl img{width:30px; height:30px; border-radius:30px;vertical-align: middle;}
+.nndmz{ font-size:18px; color:#333; line-height:30px;}
+.nrtop span{ position:absolute; z-index:1; right:15px; top:3px; font-size:14px; color:#999;}
+.nrbottom{ width:100%; overflow:hidden; font-size:20px; line-height:33px; position:relative; margin:0 auto;}
 .mmdm{ color:#333; font-size:22px;}
 .timetag{ color:#999; position:relative; padding:10px 0 0 0; font-size:18px;}
 .buylook{ position:absolute; z-index:1; right:15px; bottom:15px; color:#fff; width:80px; height:35px; text-align:center; text-indent:22px; line-height:35px; background:url(../images/lookico.png) no-repeat #e53531 7px 7px; border-radius:3px; font-size:20px;}
@@ -57,11 +60,11 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 /* 牛人首页 */
 .niuguanggao{ width:100%;  margin:0 auto; }
 .niuguanggao img{ width:100%; }
-.niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;}
+.niurendbang{ width:100%; overflow:hidden; padding:30px 0 0 0; background:#fff;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);}
 .niugebang1{ width:20%; float:left; text-align:center; padding: 0 0 20px;}
 .niugebang1 p{ width:64px; height:64px; border-radius:5px; margin: 0 auto 0px;}
 .niugebang1 p a{width:64px; height:64px; display:block;border-radius:5px; }
-.niugebang1 span{ font-size:1.5rem;}
+.niugebang1 span{ font-size:1.7rem;}
 .riniu{ background:#f4b11c;}
 .zongniu{ background:#e95a4a;}
 .duanniu{ background:#e05e8a;}
@@ -69,33 +72,59 @@ a.pingji{color:#fff000; margin: 0 0 0 10px;}
 .qiniu{ background:#e95a4a;}
 
 .niugebang1 p img{ margin:15px 0 0 0;}
-.jhgd h5{ color:#333; font-weight:bolder;}
-.jhgd{ width:93%; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
+.jhgd h5 a{ color:#333; }
+.jhgd a b{ font-weight:bolder; color:#333;}
+.jhgd{ padding: 0 15px; margin:0 auto; line-height:1.5em; font-size:20px; text-indent:0;}
 .jiaguanzhu{ background:#fff; text-indent:0; top:-60px; color:#e53531; border:1px solid #e53531; font-size:18px; width:72px; }
 .yijiaguanzhu{ border:none;}
 .nrbottomjhgd{ overflow:visible;}
 .flower{ position:absolute; z-index:1; right:15px; color:#999;}
 .flower img{ margin: 0 5px  0 0;}
-.dsgstj{ position:relative;}
-.dsgstjl{ float:left; width:110px; background:#e53531; height:80px; border-radius:110px; color:#fff; text-align:center;  font-size:18px; padding:30px 0 0 0; margin: 0 0 0 10px;}
-.dsgstjl span{ display:block;}
-.dsgstjr{ float:right; width:350px; line-height:1.6em;}
-.dsgstjrname a{ font-size:22px; color:#333; display:inline-block;margin: 0 5px 0 0; line-height: 1.6em;width: 130px; text-overflow: ellipsis; overflow: hidden; vertical-align: bottom; white-space: nowrap;}
-.dsgstjrname{ font-size:14px; color:#999;}
-.dsgstj .jiaguanzhu{ top:0; font-size:20px;}
-.nrtopl img{ width:50px; height:50px;}
-.bsgzjs{ background:#fff; margin:10px 0; font-size:1.5rem; padding:15px 0; text-align:center; color:#e5e5e5;}
-.bsgzjs a{ margin: 0 35px;font-size:1.3rem;}
+.bsgzjs{ background:#fff; margin:10px 0; padding:15px 0; text-align:center; color:#e5e5e5;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);}
+.bsgzjs a{ margin: 0 20px;font-size:1.9rem;}
 a.dycp{ color:#fff; background:#e53531; padding: 0 15px; border-radius:3px;}
-
+.jrrmglist{ width:100%; background:#fff; }
+.jrrmglist>div{ width:100%; font-size:18px; display:block; padding:12px 0; overflow:hidden; border-bottom:1px solid #eee; }
+.jrrmglist  span{ float:left; }
+.jrrmglist .gpmc{ font-weight:bolder;font-size:20px; color:#333; line-height:1em; padding: 0 0 0 3%; width:20%; float:left;}
+.jrrmglist .gpmc b{ font-size:1.3rem; color:#999; font-weight:normal;}
+.jrrmglist span.red, .jrrmglist span.green{ font-weight:bolder; width:23%; text-align:center;}
+.gpmc3 { width:53%; text-align:center;}
+.gpmc3 .red{ background:#e53531; color:#fff; padding: 0 5px; margin: 0 5px}
 /**/
-.dsggtt{ background:#fff; width:100%; margin:15px 0 0 0; padding:12px 0;}
+.dsggtt{ background:#fff; width:100%; margin:15px 0 0 0; padding:12px 0;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);}
 .dsggtt li{ overflow:hidden; line-height:43px;}
-.dsggtt .last{ border:none;}
-.dsggtt a{ font-size:1.7rem; color:#333; float:right; border-bottom:1px solid #eee; width:86%;}
+.dsggtt .last a{ border:none;}
+.dsggtt a{ font-size:1.9rem; color:#333; float:right; border-bottom:1px solid #eee; width:86%;}
 .dsggtt span{ border-radius:5px; color:#fff; font-size:1.3rem; float:left; width:24px; height:24px; text-align:center; line-height:24px; margin: 10px 20px 0;}
 .dsggtt .hot{ background:#e43530;}
 .dsggtt .jing{ background:#f4b11c;}
 .dsggtt .xin{ background:#2d94df;}
+.dsgsjt{ background:#fff; width:100%;overflow:hidden;}
+.dsgsjtlist{ padding: 0 0 20px 0; border-bottom:1px solid #eee;}
+.dsgsjtlist1{ overflow:hidden; font-size:20px; color:#333; padding:20px 0 0;}
+.dsgsjtlist1 .name {}
+.dsgsjtlist1 .name img{ width:50px; height:50px; border-radius:50px;}
+.dsgsjtlist1 .name a{ color:#333; font-size:22px; margin: 0 0 0 15px;}
+.dsgsjtlist1>div{ float:left;}
+.dsgsjtlist1 .gscgl{ float:right; margin: 0 15px 0 0; text-align:center;}
+.dsgsjtlist1 .gszyl{ float:right; margin: 0 15px 0 0; text-align:center;}
+.dsgsjtlist2{ background:#f8f8f8; width:94%; margin:0 auto; overflow:hidden; border-radius:3px; padding: 15px 0;}
+.dsgsjtlist21{ border-bottom:1px solid #f1f1f1; font-size:20px; color:#333; padding: 0 0 10px; text-indent:14px;}
+.dsgsjtlist21 b{ font-size:16px; color:#999; margin: 0 0 0 5px;}
+.dsgsjtlist22{ font-size:18px; color:#666; padding:10px 0 0 0; position:relative; text-indent:14px;}
+.dsgsjtlist22 a{ position:absolute; z-index:1; background:#e53531; color:#fff; border-radius:5px; right:10px; width:70px; height:36px; text-align:center; line-height:36px; top:8px; text-indent:0; font-size:20px;}
 
+.nrjylist1{ float:left; width:17%;}
+.nrjylist2{ float:left; width:80%; border-bottom:1px solid #eee; padding: 0 0 10px;}
+
+/* 个股持仓 */
+.gscgl2{ border-left:1px solid #eee; width:15%;}
+.dsgsjtlist3{ overflow:hidden; width:100%; border-top:1px solid #eee; border-bottom:1px solid #eee; padding:10px 0; margin:10px 0 0 0;}
+.dsgsjtlist3 span{ float:left; text-align:center; width:18%; font-size:1.7rem;}
+.dsgsjtlist3 .ggname{ font-size:1.8rem; width:27%; color:#333; font-weight:bolder; border-right:1px solid #eee;}
+.ggname b{ font-size:1.3rem; color:#999; font-weight:normal;}
+.lookcc{ overflow:hidden;}
+.lookcc a{ float:right; background:#e53531; color:#fff; font-size:18px; border-radius:5px; padding:5px 10px; margin:15px 15px 0 0;}
+.dsgsjtlistgg{ border:none; margin: 0 0 10px; background:#fff;}
 

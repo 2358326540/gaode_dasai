@@ -70,10 +70,10 @@ body{width:100%; background:#f5f5f5;font-size: 1.5rem;line-height: 1.6;  max-wid
 .loading { text-align: center; background: -webkit-linear-gradient(top, #fff, #f5f5f5); line-height: 5.5em; width:100%; font-size:1.4rem;}
 .loading img{ vertical-align:middle; margin:0px 5px 2px 0;}
 
-
-
-
-
+.xiazai{ position:fixed; bottom:0; z-index:1000; background:#e53531; color:#fff; width:100%; height:auto; left:0; text-align:center; font-size:1.5rem;}
+.xiazai img{ width:100%;}
+.xiazailj{ position:absolute; z-index:1; width:20.83%; height:65%; right:4.37%; top:18.33%; }
+.xiazai .closed{ background:url(../images/deletet23.png) center; background-size:100%; width:2.5%; height:13.33%; right:5px; top:5px; z-index:1; position:absolute;}
 
 
 
