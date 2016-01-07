@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,input{padding:0;margin:0;vertical-align: baseline;font: inherit;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());  color:#333;}
+/* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:hover{ text-decoration: underline;}
+a:active {    background-color: transparent;}
+a:active,a:hover {    outline: 0 none;}
+/**
+ * 统一 Chrome 和 Safari 的焦点框样式
+ * Chrome 中 thin 关键字放大页面后焦点框不会放大 http://jsbin.com/ehakom/1
+ * Firefox 中 box-shadow 会导致焦点框位置偏移，需用「outline-offset」修正
+ * 
+ */
+a:focus {outline: 1px dotted #fff; outline: 0 none;}
+
+/* 闭合浮动*/
+.clearfix:before, .clearfix:after {content: ""; display: table;}
+.clearfix:after { clear: both;}
+.clearfix { *zoom: 1; /* IE6-7 触发 hasLayout */}
+
+a img, img{ border:none; vertical-align:middle;}
+.green{ color:#1A772A;}
+.red{ color:#cf3826;}
+.blue{ color:#0055bb}
+.hidden{display: none;}
+.bolder{font-weight: bolder;}
+
+
+/* 内容区域 */
+.main{ width:100%; margin:0 auto; overflow:hidden;}
+.tnbbg1{ background:url(../images/TNBBG_01.png) center repeat-x; height:700px; position:relative;z-index:20; }
+
+.hand, .linebg, .slb1, .slb2, .slb3, .slb4{ position:absolute; z-index:10; left:50%; bottom:-33px; margin: 0 0 0 -570px;}
+.linebg{ z-index:5; margin: 0 0 0 -635px; bottom:30px;}
+
+.texttp, .slb11, .slb21, .slb31, .slb41{ position: absolute; margin:0 ; right:0; left:50%; margin:0 0px 0 185px; top:180px; z-index:5;}
+.down{position: absolute; margin:0; right:0; left:50%; margin:0 0px 0 197px; bottom:158px; width:260px; text-align:center;}
+.down a{ display:block; margin:5px 0 0 ;}
+
+.tnbbg2{ background:url(../images/TNBBG_02.png) center repeat-x; height:700px;position:relative; z-index:10;}
+.slb1{ bottom:110px;margin: 0 0 0 -365px;}
+.slb11{ margin:0 0px 0 74px; top:224px;}
+
+.tnbbg3{ background:url(../images/TNBBG_03.png) center repeat-x; height:700px;position:relative; z-index:8;}
+.slb2{bottom:60px;margin: 0 0 0 -364px; }
+.slb2-1{}
+.slb2-2, .slb31-2, .slb4-2{ position:absolute; z-index:1; left:-24px;  top:63px;}
+.slb21{margin-left:86px; top:315px;}
+.tnbbg4{ background:url(../images/TNBBG_04.png) center repeat-x; height:700px;position:relative; z-index:6;}
+.slb3{ bottom:306px; margin-left:-325px;}
+.slb31{ top:108px; margin-left:75px;}
+.slb31-2{ left:-35px; top:150px;}
+.tnbbg5{ background:url(../images/TNBBG_05.png) center repeat-x; height:700px;position:relative; z-index:4;}
+.slb4{bottom:14px; margin-left:-364px;}
+.slb41{ top:400px; margin-left:130px;}
+.slb4-2{ left:-66px; top:168px;}
+
+
+
+.tnbbg6{ background:url(../images/TNBBG_06.png) center repeat-x; height:315px; text-align:center; font-size:14px; line-height:1.7em; color:#fff;}
+.tnbbg6 p{ padding:245px 0 0 0;}
+
+
+
+
+.fadeIn {
+	-webkit-animation: easeIn 1s ease;
+	-moz-animation: easeIn 1s ease;
+	-o-animation: easeIn 1s ease;
+	animation: easeIn 1s ease;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+.topIn {
+	-webkit-animation: t_b 1s ease 1s;
+	-moz-animation: t_b 1s ease 1s;
+	-o-animation: t_b 1s ease 1s;
+	animation: t_b 1s ease 1s;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+.leftIn {
+	-webkit-animation: l_r 1s ease;
+	-moz-animation: l_r 1s ease;
+	-o-animation: l_r 1s ease;
+	animation: l_r 1s ease;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+.rightIn {
+	-webkit-animation: r_l 1s ease;
+	-moz-animation: r_l 1s ease;
+	-o-animation: r_l 1s ease;
+	animation: r_l 1s ease;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+.shake {
+	-webkit-animation: shake .8s ease 1s;
+	-moz-animation: shake .8s ease 1s;
+	-o-animation: shake .8s ease 1s;
+	animation: shake .8s ease 1s;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+.scale {
+	-webkit-animation: scale_r .6s ease 1s;
+	-moz-animation: scale_r .6s ease 1s;
+	-o-animation: scale_r .6s ease 1s;
+	animation: scale_r .6s ease 1s;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+	-o-animation-fill-mode: backwards;
+	animation-fill-mode: backwards
+}
+
+.transition  { transition: all 0.2s ease 0s;
+    -webkit-transition: all 0.2s ease 0s;
+
+   }
+
+
+/* 淡入 */
+@-webkit-keyframes fadein{
+%{opacity:0;}
+%{opacity:1;}
+}
+@-moz-keyframes fadein{
+%{opacity:0;}
+%{opacity:1;}
+}
+@-ms-keyframes fadein{
+%{opacity:0;}
+%{opacity:1;}
+}
+@keyframes fadein{
+%{opacity:0;}
+%{opacity:1;}
+}
+
+
+
+
+
+
+

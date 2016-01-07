@@ -18,7 +18,7 @@ a:focus {
     outline: none;
 }
 /* 去掉iphone默认按钮样式 */
-input[type=”button”], input[type=”submit”], input[type=”reset”] {
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
 
 -webkit-appearance: none;
 

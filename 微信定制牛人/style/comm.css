@@ -18,11 +18,8 @@ a:focus {
     outline: 1px dotted;
 }
 /* 去掉iphone默认按钮样式 */
-input[type=”button”], input[type=”submit”], input[type=”reset”] {
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
 
--webkit-appearance: none;
-
-}
 /**
 * 闭合浮动*/
 

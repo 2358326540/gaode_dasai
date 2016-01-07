@@ -36,7 +36,7 @@ a:focus {
     *zoom: 1; /* IE6-7 触发 hasLayout */
 }
 
-a img{ border:none;}
+a img, img{ border:none; vertical-align:middle;}
 .green{ color:#1A772A;}
 .red{ color:#cf3826;}
 .blue{ color:#0055bb}

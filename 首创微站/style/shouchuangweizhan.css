@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input{padding:0;margin:0;font: inherit;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; color:#666;}
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur()); color:#666;}
+a:active { background-color: transparent;}
+a:active,a:hover { outline: 0 none;}
+a:focus {outline: 1px dotted #fff;}
+/* 去掉iphone默认按钮样式 */
+input[type=”button”], input[type=”submit”], input[type=”reset”] {-webkit-appearance: none;}
+
+a img, img{ border:none; vertical-align:middle;}
+.green{ color:#0c8c2d;}
+.red{ color:#e53531;}
+.blue{ color:#2f87e4}
+html{ width:100%; background:#f8f8f8;ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;font-size: 66.5%;}
+body{width:100%;font-size: 1.4rem;line-height: 1.6;  max-width: 700px; margin:0 auto;}
+
+/* 头部公共 */
+.mbheader{ background:#e53531;width:100%; position:fixed; z-index:999; top:0; left:0; font-size:2rem; color:#fff; line-height:2em;box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15); text-align:center;}
+.mbheader .fanhui{ background:url(../images/sjxzanfh.png) no-repeat center; display:block; position:absolute; z-index:1; left:0; top:0; width:47px;line-height:2em; height:2em; }
+
+.main{ padding:42px 0 0 0;}
+
+/* 正文 */
+.mbdetailedcon{width:94%;line-height: 1.5em;font-size: 1.6rem; margin:0 auto;}
+.mbdetailedcon p{ width:100%;font-size:1.6rem;  color:#2d2b2b; margin: 0 0 1.5rem; line-height:1.5em;}
+.mbdetailedcon br{ line-height:3em;}
+.mbdetailedcon p a{color:#999;}
+.mbdetailedcon p a.red{ color:#e53531;}
+.mbdetailedcon img{ max-width:100%; display:block; margin:0 auto;}
+.mbdetailedcon .title{color:#2c85d8;}
+.mbdetailedcon .bolder{ font-weight:bolder;}
+.time{ font-size:1.5rem; color:#999;width:94%; padding:15px 0 15px;margin:0 auto;}
+.time a{ color:#e53531; float:right;}
+.time img{ width:16px; margin: 0 5px 3px 0;}
+
+/* 往期视点 */
+.wqsd{ margin:0 auto;}
+.wqsd a{ display:block; border-bottom:1px solid #eee; font-size:1.6rem; line-height:3em; text-indent:3%;}
+
+/* 名家实盘 */
+.mjsp{ margin:0 auto; background:#eee;}
+.mjsp .mjsplist{padding: 0 3%; background:#fff;  margin: 0 auto 10px; }
+.mjsp h2{ font-weight:bold; font-size:1.6rem; padding:20px 0 0 0;}
+.mjsp .time{ padding:0; width:100%;}
+.mjsp table{ width:100%; font-size:1.4rem;}
+.mjsp td{ padding:6px 0;}
+.mjsp img{ max-width:100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
