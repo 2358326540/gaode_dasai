@@ -336,6 +336,7 @@ td.jcjl2 table{ width:100%;}
 
 /* 分享后2 */
 a.zbneirong3 {width: 100%;max-height: 40px; color:#666; line-height:1.3em; white-space:normal;}
+.mianze2{ padding-bottom:50px;}
 
 /* 发现 */
 .find{ width:100%; font-size:1.5rem; padding:0 0 10px 0;}
@@ -355,9 +356,10 @@ a.zbneirong3 {width: 100%;max-height: 40px; color:#666; line-height:1.3em; white
 .wyw3 a span { background:none; margin:0;}
 .wyw3 p{ font-size:1.1rem; width:100%; padding: 0  0 0 5%; }
 .wyw3 .first{ border:none;}
-.wyw3 a b, .wyw3 a .yjs, .wyw3 a .wks{ position:absolute; z-index:1; top:0; right:0; background: url(../images/zhuangtaijxz_01.png) no-repeat; background-size:100%; width:30%; height:40%; }
+.wyw3 a b, .wyw3 a .yjs, .wyw3 a .wks, .wyw3 a .wsx{ position:absolute; z-index:1; top:0; right:0; background: url(../images/zhuangtaijxz_01.png) no-repeat; background-size:100%; width:30%; height:40%; }
 .wyw3 a .yjs{background: url(../images/zhuangtaijxz_03.png) no-repeat;background-size:100%;}
 .wyw3 a .wks{background: url(../images/zhuangtaijxz_05.png) no-repeat;background-size:100%;}
+.wyw3 a .wsx{background: url(../images/weixianshang.png) no-repeat;background-size:100%;}
 
 .gslb h3 span{ background:#e8782c;}
 .gslb{ background-image:url(../images/yueqil.png);}
