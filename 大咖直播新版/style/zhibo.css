@@ -312,7 +312,7 @@ td.jcjl2 table{ width:100%;}
 .asweicai{ position:absolute; right:0; top:0; z-index:1;width:0;height:0;border-left:60px solid transparent; border-top:70px solid #e53531; color:#fff; font-size:1.5rem;}
 .asweicai span{ position:absolute; z-index:1; left:-20px; top:-69px; display:block; width:10px; line-height:1.3em; font-size:0.8rem;}
 .asweicai2{  border-top:70px solid #ccc;}
-
+.asweicai3{ border-top:70px solid #ffb16c;}
 /* 猜股票 */
 .cgpkx{ width:90%; margin:0 auto;}
 .cgpkx img{ width:100%;}
@@ -364,7 +364,8 @@ a.zbneirong3 {width: 100%;max-height: 40px; color:#666; line-height:1.3em; white
 .gslb h3 span{ background:#e8782c;}
 .gslb{ background-image:url(../images/yueqil.png);}
 .gslblist{ padding:15px;border-top:1px solid #e4e4e4;}
-.gslblist a{ padding:0; color:#999; font-size:1.4rem; line-height:1.6em; }
+.gslblist a{ padding:0; color:#999; font-size:1.4rem; padding:0.4em 0; line-height:1.5em; }
+.gslblist .yzzd{ line-height:1.8em;}
 
 .yqlb h3 span{ background-color:#ff9c00;}
 .yqlb{ background-image:url(../images/yueqilai.png);}
@@ -374,6 +375,32 @@ a.zbneirong3 {width: 100%;max-height: 40px; color:#666; line-height:1.3em; white
 
 .sjt h3 span{ background-color:#ff638f;}
 .sjt{ background-image:url(../images/shujutong.png);}
+
+/* 完善个人信息 */
+.wsgrxx{ width:100%; color:#333;}
+.wsgrxx li{ background:#fff; margin-bottom:2px; font-size:1.6rem; padding:15px;}
+.wsgrxx span{ color:#999; padding: 0 25px 0 0;}
+.danxuan{ border:1px solid #999; background:#fff; width:18px; height:18px; vertical-align:middle; margin: 0 8px 0 0;}
+.wsgrxx select{ border:1px solid #ccc; border-radius:2px; color:#333; margin: 0 8px 0 0; padding:5px;}
+li.baocun, .wsgrxx .red{ background:none; text-align:center; font-size:1.3rem; }
+li.baocun input{ background:none; background-image: -webkit-linear-gradient( 90deg, rgb(229,49,49) 0%, rgb(254,86,86) 100%); box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2); color:#fff; border:none; border-radius:4px; width:100%; margin:0 auto; line-height:2.8em; font-size:1.6rem;}
+
+.bctsk{ text-align:center; width:80%; background:#fff; border-radius:6px; margin:0 auto; font-size:1.3rem; position:absolute; z-index:1; top:50%; height:100px; line-height:100px; left:50%; margin: -50px 0 0 -40%;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);}
+.bctsk img{ width:18px; margin: 0 5px 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
