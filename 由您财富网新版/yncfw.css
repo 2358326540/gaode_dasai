@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,input{padding:0;margin:0;vertical-align: baseline;font: inherit;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());  color:#333;}
+/* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:hover{ text-decoration: underline;}
+a:active {    background-color: transparent;}
+a:active,a:hover {    outline: 0 none;}
+/**
+ * 统一 Chrome 和 Safari 的焦点框样式
+ * Chrome 中 thin 关键字放大页面后焦点框不会放大 http://jsbin.com/ehakom/1
+ * Firefox 中 box-shadow 会导致焦点框位置偏移，需用「outline-offset」修正
+ * 
+ */
+a:focus {
+    outline: 0 none;
+}
+/**
+* 闭合浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /* IE6-7 触发 hasLayout */
+}
+
+a img, img{ border:none; vertical-align:middle;}
+.green{ color:#1A772A;}
+.red{ color:#cf3826;}
+.blue{ color:#0055bb}
+.hidden{display: none;}
+.bolder{font-weight: bolder;}
+
+body{ width:100%; margin:0 auto; color:#666;}
+
+
+/* 首页 */
+.top{ width:100%; line-height:22px; background:#f7f6f2; text-align:right; font-size:12px; color:#999;}
+.top div{ width:1000px; margin:0 auto;}
+.top a{ font-size:12px; color:#999; margin: 0 0px 0 30px;}
+.nav{ width:1000px; margin:0 auto; height:143px; position:relative; overflow:hidden;}
+.nav .logo{ padding:54px 0 0 0; width:270px; float:left;}
+.fwrx{ position:absolute; z-index:1; right:0; top:54px; font-size:14px;}
+.fwrx span{ font-size:20px; margin: 0 0 0 10px;}
+.nav2{ float:right; padding:110px 0 0 0; color:#b5b5b5;}
+.nav2 a{ padding: 0 0 11px 0; color:#333; margin: 0 10px;}
+.nav2 .select{ color:#b18138; border-bottom:1px solid #b18138; background:url(images/shangsanjiao.png) no-repeat center bottom;}
+.banner{ width:100%; margin:0 auto; background:url(images/sy.jpg) no-repeat; height:600px;}
+.mainjs{ width:1000px; margin:0 auto; padding:20px 0 0 0; }
+.mainjs p{ padding:1.8em 0 0 0;line-height:27px;}
+
+.about{ color:#dac7af; width:1000px; margin:120px auto 0; text-align:center;}
+.about a{ color:#b18138; font-size:14px; margin:  0 10px;}
+
+.fdlink{ color:#333; font-size:14px; width:1000px; margin:15px auto ; text-align:center;}
+.fdlink a{ color:#b18138; padding:0 8px;}
+
+.footer{ font-size:14px; text-align:center; width:100%; border-top:2px solid #cdb082; padding:20px 0 55px 0; background:#f7f6f2;}
+
+
+/* 产品与服务 */
+.bannercpyfw{ height:300px; background-image:url(images/cpyfw2.jpg)}
+.cpyfw h2{ text-align:center; font-size:18px; color:#b18138; border-bottom:1px solid #b18138; padding:10px 0; margin:88px auto 0; width:1000px; }
+.cpyfw h2 span{ border-bottom:7px solid #b18138; padding: 7px 0;}
+
+.jtcpfwjs{ width:1000px; margin:0 auto; overflow:hidden; padding:60px 0 0 0;}
+.jtcpfwjs ul{ float:left; font-size:16px; margin: 0 10px 0 0; width:242px; overflow:hidden; line-height:27px; color:#666; }
+.jtcpfwjs ul.last{ margin:0;}
+.jtcpfwjs .stitle{ color:#b18138; padding:40px 0 0 0; font-size:18px; text-align:center; height: 66px; }
+.cpjs{ padding:0 10px;}
+
+/* 合作伙伴 */
+.bannerhzhb{ height:300px; background-image:url(images/hzhb.jpg);}
+.jtcpfwjs2{ text-align:center;}
+
+/* 联系我们 */
+.bannerlxwm{ height:300px; background-image:url(images/lxwm.jpg);}
+.lxwml{ float:left; width:764px;}
+.lxwmr{ float:right; width:216px; line-height:27px;}
+.lxwmr span{color:#b18138; border-left:7px solid #b18138; padding: 0px 0 0 12px;}
+
+/* 招贤纳士 */
+.bannerzxns{ height:300px; background-image:url(images/zxns.jpg);}
+.rczp1{ color:#b18138; font-size:18px; width:1000px; margin:0 auto; padding:35px 0; line-height:30px;}
+.zxnsxq{ text-align:center;}
+
+
+
+
+
+
+
+
+
+

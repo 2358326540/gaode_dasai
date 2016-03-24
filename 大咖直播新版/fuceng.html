@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+
+<title></title>
+<style>
+*{ padding:0 ; margin:0;}
+html, body{  width:100%; height:100%;}
+.xzkhdldfc{background:#000; position:fixed; z-index:999;width:100%; height:100%; text-align:center; color:#fcff23; font-size:2.0rem;}
+.xzkhdldfc img{ margin:15% 0 0 0; border:6px solid #fff; border-radius:3px;}
+.dotting {
+    display: inline-block; width: 18px; min-height: 3px;
+    padding-right:2px;
+    border-left: 5px solid currentColor; border-right: 4px solid currentColor;   
+    background-color: currentColor; background-clip: content-box;
+    box-sizing: border-box;
+    animation: dot 4s infinite step-start both;
+    *zoom: expression(this.innerHTML = '...'); /* IE7 */
+}
+.dotting:before { content: '...'; } /* IE8 */
+.dotting::before { content: ''; }
+:root .dotting { margin-left: 3px; padding-left: 2px; } /* IE9+ */
+
+@keyframes dot {
+    25% { border-color: transparent; background-color: transparent; }          /* 0个点 */
+    50% { border-right-color: transparent; background-color: transparent; }    /* 1个点 */
+    75% { border-right-color: transparent; }                                   /* 2个点 */
+}
+</style>
+</head>
+
+<body>
+
+<div class="xzkhdldfc">
+<img src="5-120604091309-50.gif"><br>
+加载中<span class="dotting"></span>
+</div>
+
+
+</body>
+</html>

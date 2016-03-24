@@ -17,10 +17,10 @@ a:active,a:hover {    outline: 0 none;}
  * 
  */
 a:focus {
-    outline: none;
+   outline: none;
 }
 /* 去掉iphone默认按钮样式 */
-input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"] {-webkit-appearance: none;}
 /**
 * 闭合浮动*/
 
