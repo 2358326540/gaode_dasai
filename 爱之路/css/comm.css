@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,input{padding:0;margin:0;vertical-align: baseline;font: inherit;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());  color:#333;}
+/* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:hover{ text-decoration: underline;}
+a:active {    background-color: transparent;}
+a:active,a:hover {    outline: 0 none;}
+/**
+ * 统一 Chrome 和 Safari 的焦点框样式
+ * Chrome 中 thin 关键字放大页面后焦点框不会放大 http://jsbin.com/ehakom/1
+ * Firefox 中 box-shadow 会导致焦点框位置偏移，需用「outline-offset」修正
+ * 
+ */
+a:focus {
+    outline: 1px dotted;
+    outline: 0 none;
+}
+/**
+* 闭合浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /* IE6-7 触发 hasLayout */
+}
+
+a img, img{ border:none; vertical-align:middle;}
+.green{ color:#1A772A;}
+.red{ color:#cf3826;}
+.blue{ color:#0055bb}
+.hidden{display: none;}
+.bolder{font-weight: bolder;}
+
+
+/* top */
+.top{ background:#232323; width:100%; color:#5e5959; border-top:1px solid #3f3f3f; border-bottom:1px solid #fff; }
+.top-wd{ width:1200px; margin:0 auto; overflow:hidden; line-height:45px;}
+.top-l{ float:left; font-size:16px;color:#fff;}
+.top-r{ float:right;}
+.top-r a{ font-size:14px;color:#fff; padding:0 10px;}
+
+.pheadlist{ width:100%; overflow:hidden; position:relative;}
+.prv, .prv:active{ background:url(../images/leftd.png) no-repeat center #000; position:absolute; z-index:10; left:0; top:0; height:100%; width:30px; opacity:0.56;}
+.nxt, .nxt:active{ background:url(../images/rightd.png) no-repeat center #000; position:absolute; z-index:10; right:0; top:0; height:100%; width:30px; opacity:0.56;}
+.pheadlist-wd{ width:150%; overflow:hidden; height:125px;}
+.pheadlist-wd a{ display:inline-block; position:relative;}
+.pheadlist-wd a div{ position:absolute; z-index:1; bottom:0px; background:rgba(0,0,0,0.6); color:#fff; font-size:12px; width:100%; line-height:20px; text-indent:5px; display:none;}
+.pheadlist-wd a:hover div{ display:block;}
+.pheadlist-wd a div span{ position:absolute; z-index:1; right:5px; bottom:0;}
+
+.nav{ width:100%; border-bottom:2px solid #ed008c;}
+.nav-wd{ width:1200px; margin:0 auto; overflow:hidden; height:88px;}
+.logo{ background:url(../images/aijiaoyoulogo.png) no-repeat; float:left; width:201px; height:56px; margin:16px 0 0 0;}
+.nav-m{ float:left; padding:40px 0 0 0; margin: 0 0 0 30px;}
+.nav-m a{ margin: 0 0 0 70px; float:left; font-size:18px;}
+.nav-m .select{ color:#ed008c; }
+.nav-m .select i{ background:url(../images/xinxiaoxi_13.png) no-repeat center; padding:5px; margin: 0 10px 0 0;}
+.nav-m i{  padding:5px; margin: 0 10px 0 0;}
+.nav-r{ float:right; width:136px; height:34px; margin: 30px 0 0 0; border:1px solid #e6e6e6; background:#f9f9f9; line-height:34px; font-size:12px; position:relative;}
+.nav-r img{ margin: 0 9px 3px 17px; vertical-align:middle;}
+.nav-r b{ background:url(../images/shuzitishi.png) no-repeat; width:16px; height:16px; position:absolute; z-index:1; color:#fff; top:0; right:25px; font-size:12px; line-height:16px; text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 回顶部 */
+.huidingbu{ position:fixed; z-index:1; right:0; width:108px;  background:#eee; bottom:20%;}
+.huidingbu1{ border-top:3px solid #d12627;}
+.huidingbu1 a{ font-size:14px; color:#333; display:block; text-align:center;border-bottom:1px solid #fff; padding:8px 0; text-decoration:none;}
+a.bmcs{ background:#fff; color:#e53531; font-size:16px;}
+.huidingbu1 a img{ vertical-align:middle;}
+a.huidingbu2{ background:#e53531; text-align:center; width:108px; display:block; padding:10px 0;}

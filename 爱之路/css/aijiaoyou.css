@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{ position:relative;}
+.login{ width:318px; position:absolute; z-index:1; top:0; left:50%; margin: 0 0 0 -600px; height:414px; padding:26px;background:url(../images/xiaixiai.png) center 295px no-repeat #fff;}
+.login ul{ }
+.login li{ padding:5px 0;}
+.login-t{ font-size:20px;}
+.userdl{height:44px; border:1px solid #d1d1d1; width:317px; text-indent:5px;}
+.autolf{ font-size:12px; color:#333; margin:3px 0;}
+.autolf input{ vertical-align:middle; margin: 0 3px 0 0;}
+.autolf  a{ float:right;}
+.loginbtn input{ background:#f73e3e; color:#fff; height:43px; width:317px; border:none; font-size:22px;}
+.qzhuce{ text-align:center; font-size:14px; color:#a9a9a9;}
+.qzhuce img{ margin:0 3px 0 0; }
+.qzhuce a{ color:#f73e3e;}
+li.sfdlbt{ color:#a9a9a9; text-align:center; padding:70px 0 0 0; font-size:14px;}
+.sfrk a{ display:inline-block; background:url(../images/QQweixin.png) no-repeat; height:32px; width:32px; float:left;}
+li.sfrk{ padding:25px 0 0 98px; overflow:hidden;}
+.sfrk a.Weixin{ background-position:right; width:38px; margin: 0 0px 0 53px;}
+
+.shaixuan{ background:#f5f5f5; width:100%; border-bottom:1px solid #dedede;}
+.shaixuan-wd{ width:1200px; margin:0 auto; padding:20px 0; font-size:12px; color:#333;}
+.shaixuan-wd select{  border:1px solid #ccc; height:28px;border-radius:3px; color:#666;font-size:12px; }
+.shaixuan-wd img{ margin: 0 20px 0 12px;}
+.search{ background:#df0064; font-size:18px; color:#fff; border:none; width:94px; height:29px; border-radius:3px; margin:  0 0 0 20px; }
+
+.shipin{ padding:37px 0;}
+
+.zdxf{ width:100%; background:#333; padding:58px 0;}
+.zdxf-wd, .xktj-wd, .footer-wd{ width:1200px; margin:0 auto; overflow:hidden;}
+.zdxfoo li{ float:left; margin:0 0px 0 1px;}
+.zdxfoo .first{ margin:0;}
+.zdxfoo a{ display:block; position:relative; width:120px; height:118px; overflow:hidden;margin:0 0px 1px 0;}
+.zdxfoo a img{ width:100%;}
+.zdxfoo  .datt{ width:238px; height:238px;}
+.zdxfoo a div{ position:absolute; z-index:1; bottom:0px; background:rgba(0,0,0,0.6); color:#fff; font-size:12px; width:100%; line-height:28px; text-indent:5px; display:none;}
+.zdxfoo a:hover div{ display:block;}
+.zdxfoo a div span{ position:absolute; z-index:1; right:5px; bottom:0;}
+.zdxfoo  .xatt{ height:119px;}
+.zdxfoo li.xzzjdxf{ background:#ed008c;}
+.zdxfoo li.xzzjdxf a{ color:#fff; font-size:42px; width:480px; height:237px; text-align:center; line-height:238px;}
+.zdxfoo2 li{ margin: 0 1px 0 0;}
+
+.xktj{ width:100%; padding:40px 0;}
+.xktj-wd h2{ font-size:28px; padding:0px 0 20px 0;}
+.xktj-wd h2 span{ font-size:18px; color:#909090; margin: 0 0 0 10px;}
+.splist{ overflow:hidden;}
+.spid{ float:left; width:236px; line-height:1em; margin:0 2px;}
+.spid .title{ padding:10px; font-size:12.6px; display:block; text-align:center;}
+.spid .jiage{ font-size:20px; color:#ff0097; display:block; text-align:center; margin:5px 0 15px 0;}
+.footer{ background:#232323; width:100%; color:#b3b5ba; font-size:12px; padding:30px 0;}
+.footerl{ float:left;}
+.footer a{color:#b3b5ba; margin: 0 10px;}
+.footerl p{ margin:  15px 0 0 10px;}
+.footerr{ float:right;}
+.footerr p{ font-size:12px;}
+.footerr p span{ font-size:20px; color:#e5e5e5;}
+.footerr .dhyx{ font-size:14px; padding:10px 0 0 0;}
+.footerr .dhyx img{ margin: 0 10px 0 0;}
+
+
+/* 动态 */
+
+.dongtai{ width:1200px; margin:0 auto; overflow:hidden;}
+.dongtail{width:880px; float:left;}
+.dongtair{ width:300px; float:right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
