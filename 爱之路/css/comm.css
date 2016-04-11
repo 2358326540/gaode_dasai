@@ -4,9 +4,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial,"Helvetica Neue",Helvetica,STHeiTi,sans-serif; }
 li{ list-style:none;}
 table{ border-collapse:collapse;}
-a{ text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());  color:#333;}
+a{outline:none;blr:expression(this.onFocus=this.blur()); text-decoration:none;  color:#333;}
 /* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
-a:hover{ text-decoration: underline;}
+a:hover{ text-decoration: none;}
 a:active {    background-color: transparent;}
 a:active,a:hover {    outline: 0 none;}
 /**
@@ -42,7 +42,7 @@ a img, img{ border:none; vertical-align:middle;}
 .blue{ color:#0055bb}
 .hidden{display: none;}
 .bolder{font-weight: bolder;}
-
+body{ background:#edeff5;}
 
 /* top */
 .top{ background:#232323; width:100%; color:#5e5959; border-top:1px solid #3f3f3f; border-bottom:1px solid #fff; }
@@ -51,7 +51,7 @@ a img, img{ border:none; vertical-align:middle;}
 .top-r{ float:right;}
 .top-r a{ font-size:14px;color:#fff; padding:0 10px;}
 
-.pheadlist{ width:100%; overflow:hidden; position:relative;}
+.pheadlist{ width:100%; overflow:hidden; position:relative; background:#fff;}
 .prv, .prv:active{ background:url(../images/leftd.png) no-repeat center #000; position:absolute; z-index:10; left:0; top:0; height:100%; width:30px; opacity:0.56;}
 .nxt, .nxt:active{ background:url(../images/rightd.png) no-repeat center #000; position:absolute; z-index:10; right:0; top:0; height:100%; width:30px; opacity:0.56;}
 .pheadlist-wd{ width:150%; overflow:hidden; height:125px;}
@@ -60,7 +60,7 @@ a img, img{ border:none; vertical-align:middle;}
 .pheadlist-wd a:hover div{ display:block;}
 .pheadlist-wd a div span{ position:absolute; z-index:1; right:5px; bottom:0;}
 
-.nav{ width:100%; border-bottom:2px solid #ed008c;}
+.nav{ width:100%; border-bottom:2px solid #ed008c; background:#fff;}
 .nav-wd{ width:1200px; margin:0 auto; overflow:hidden; height:88px;}
 .logo{ background:url(../images/aijiaoyoulogo.png) no-repeat; float:left; width:201px; height:56px; margin:16px 0 0 0;}
 .nav-m{ float:left; padding:40px 0 0 0; margin: 0 0 0 30px;}
