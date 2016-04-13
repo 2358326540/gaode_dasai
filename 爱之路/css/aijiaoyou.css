@@ -126,8 +126,9 @@ td.fwtitel{ color:#333;}
 .gerenxinxir{ float:left; padding: 0 0 0 20px; color:#fff; width:430px;}
 
 
-.gerenxinxil{ width:300px; height:320px; border:5px solid #fff; overflow:hidden;}
+.gerenxinxil{ width:300px; height:320px; border:5px solid #fff; overflow:hidden; position:relative;}
 .gerenxinxil img{ width:100%; height:100%;}
+.gerenxinxil .xgtx{ position:absolute; z-index:1; right:0; background:rgba(255,0,151,0.5); bottom:0; width:80px; text-align:center; line-height:36px; color:#fff;}
 
 .grname{ font-size:24px; color:#fff; padding:30px 0 0 0;}
 .grname img{ margin:0 0 0 5px;}
@@ -153,7 +154,7 @@ td.fwtitel{ color:#333;}
 .grzydtts{ font-size:14px; color:#a7a7a7; width:1200px; text-indent:30px; padding:60px 0 20px 0; margin:0 auto;}
 
 .grzydt{ width:1200px; padding-top:0; padding-bottom:20px; overflow:hidden; margin:0 auto;}
-.grzydt-grl{ float:left; width:860px; margin: 0 0 0 30px; background:#fff; padding:10px 0 0 0;}
+.grzydt-grl{ float:left; width:860px; margin: 0 0 0 30px; background:#fff; padding:10px 0 30px 0;}
 .wddthzl{ width:815px; border-bottom:2px solid #fccabf; line-height:60px; margin:0 auto;text-indent: 0;}
 .wddthzl a{ font-size:18px;  padding:19px 40px;}
 .wddthzl .select{border-bottom:2px solid #ff5026; color:#ff5026; background:url(../images/j.png) no-repeat center bottom;}
@@ -161,17 +162,21 @@ td.fwtitel{ color:#333;}
 .mydt .yhdtlb-idr{ float:none; width:725px; border-bottom:1px solid #e9ecf3; padding:0px 35px 0px 100px; background:url(../images/timelingbg_03.png) repeat-y 23px ; position:relative;}
 .yhdtlbday{ padding:30px 0;border-bottom:1px solid #e9ecf3; margin-bottom:-1px;position:relative;}
 .timeday{ position:absolute; z-index:1; border:1px solid #dfe3ed; left:-30px; background:#fff; width:88px; height:33px; line-height:33px; font-size:12px; text-indent:5px; top:38px; }
-.timeday span{ font-size:22px; color:#ff3333; float:right; width:40px; text-align:center; font-weight:bold;}
+.timeday span{ font-size:22px; color:#ff3333; position:absolute; z-index:1; right:0; top:0; width:40px; text-align:center; font-weight:bold;}
 .timeup{ background:url(../images/daitaiupdown_03.png) no-repeat; width:5px; height:5px; position:absolute; z-index:1; right:32px; top:-6px;}
 .timedown{ background:url(../images/daitaiupdown_06.png) no-repeat; width:5px; height:5px; position:absolute; z-index:1; right:32px; bottom:-6px;}
 .yhdtlbday .closed{ background:url(../images/zl.png) no-repeat center; width:15px; height:15px; position:absolute; z-index:1; top:15px; right:0;}
 
-
-
-
-
-
-
+.grymyzl{ width:770px; margin:0 auto; font-size:14px;}
+.zwjs textarea{ width:770px; height:100px; border:1px solid #ccc;} 
+.grymyzl .title{ color:#ff5026; padding:30px 0 15px; position:relative;}
+.grymyzl .title a{ color:#fff; background: url(../images/zi.png) 5px center  no-repeat #f08fc8; position:absolute; z-index:1; right:0px; top:30px; width:50px; height:22px; display:block; font-size:12px; text-indent:20px; line-height:22px;}
+.grymyzl .title .baocun{ text-indent:0; text-align:center; background:#ff0097;}
+.wdzlbd{ width:100%; overflow:hidden;}
+.wdzlbd .bdtitle{ color:#787878; width:78px; }
+.wdzlbd ul{ width:50%; float:left; line-height:2.4em;}
+.wdzlbd  ul input, .wdzlbd  ul select{ line-height:26px; border:1px solid #ccc; vertical-align:middle;}
+.wdzlbd .bdtitle5{ width:110px;}
 
 
 
@@ -189,13 +194,45 @@ td.fwtitel{ color:#333;}
 .xqrname a{ color:#ff5026; }
 .xqrz{ color:#999; font-size:12px;}
 
+/* 注册 */
+.hyzc{ font-size:22px; line-height:40px; padding: 0 0 0 20px; border-left:1px solid #ccc; float:left; margin: 24px 0 0 20px;}
+.yzcqdl{ float:right;font-size:16px; color:#999; margin:50px 0 0 0;}
+.yzcqdl a{ margin: 0 0 0 8px;}
 
+.zcydbz{ background:url(../images/s.png) no-repeat center; height:160px; width:1124px; margin:0 auto; }
+.zcydbz span{ font-size:14px; color:#999; float:left; width:33.33%; text-align:center;}
+.zcydbz2{ width:1000px; margin:0 auto; padding:118px 0 0 0;}
+.zcydbz .select{ color:#ff0097;}
+.ajyzclc{ width:1000px; margin:0 auto 80px; background:#fff; border:1px solid #d7d9de; padding: 50px 0 50px 200px; overflow:hidden;}
+.ajyzclc .title{ font-size:24px; padding: 0 0 20px;}
 
+.ajyzclc ul{ margin: 0 0 20px;}
+.ajyzclc li{ padding:10px 0;}
+.ajyzclc  i{ color:red; margin:0 5px;}
+.ajyzclc input{height:30px;line-height:30px; border:1px solid #ccc; width:280px; vertical-align:middle;}
+input.radio{ width:15px; margin: 0 3px 0 5px;}
 
+.ajyzclc .ljzcan{ width:273px; line-height:42px;height:42px; color:#fff; background:#f10180;  border:none; font-size:24px; text-align:center; display:block; margin: 0 0 0 102px;}
+.ajyzclc .titiel2{ font-size:12px; color:#999; border-bottom:1px solid #ddd; text-align:center; width:460px; height:0px; margin:0 0 20px;}
+.ajyzclc .titiel2 span{ background:#fff; padding: 0 10px;}
 
+li.fwtkck{ padding-left:102px; font-size:12px;}
+li.fwtkck a{ color:#005aa0;}
 
+.ajyzclc input.hqyzm{ width:136px; margin: 0 0 0 5px; border:none;}
 
+.zcydbz-two{ background-image:url(../images/t.png);}
+.zcajyl{ float:left; width:430px; border-right:1px solid #ddd;}
+.zcajyl .title, .zcajyr .title{ font-size:14px; font-weight:bolder; padding:0; line-height:2em;}
+.zcajyl .titlezs, .zcajyr .titlezs{ font-size:12px; color:#999;line-height:2em;}
+.titlezs i{ color:#999; font-size:8px;}
+.zcajyr{ float:left; padding: 0 0 0 56px;}
 
+.zcydbz-three{ background-image:url(../images/u.png);}
+.gxzcwc{ width:740px; text-align:center; font-size:24px; color:#ff0097; padding:30px 0;}
+.gxzcwc img{ margin: 0 30px 0 0;}
+.zcwcts{ width:740px; text-align: center; border-top:1px dashed #ccc; padding:30px 0; font-size:14px; color:#999;}
+.ajyzclc a.ljzcan2{ margin:0 0 80px 234px; }
 
 
 
