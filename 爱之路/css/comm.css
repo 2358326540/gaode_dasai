@@ -38,7 +38,7 @@ a:focus {
 
 a img, img{ border:none; vertical-align:middle;}
 .green{ color:#1A772A;}
-.red{ color:#cf3826;}
+.red{ color:#ff0000;}
 .blue{ color:#0055bb}
 .hidden{display: none;}
 .bolder{font-weight: bolder;}
@@ -47,9 +47,10 @@ body{ background:#edeff5;}
 /* top */
 .top{ background:#232323; width:100%; color:#5e5959; border-top:1px solid #3f3f3f; border-bottom:1px solid #fff; }
 .top-wd{ width:1200px; margin:0 auto; overflow:hidden; line-height:45px;}
-.top-l{ float:left; font-size:16px;color:#fff;}
+.top-l{ float:left; }
+.top-l a{ color:#e1e1e1;font-size:12px; margin: 0 30px 0 0;}
 .top-r{ float:right;}
-.top-r a{ font-size:14px;color:#fff; padding:0 10px;}
+.top-r a{ font-size:12px;color:#e1e1e1; padding:0 15px;}
 
 .pheadlist{ width:100%; overflow:hidden; position:relative; background:#fff;}
 .prv, .prv:active{ background:url(../images/leftd.png) no-repeat center #000; position:absolute; z-index:10; left:0; top:0; height:100%; width:30px; opacity:0.56;}
