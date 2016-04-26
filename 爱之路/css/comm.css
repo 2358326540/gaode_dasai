@@ -39,8 +39,10 @@ a:focus {
 a img, img{ border:none; vertical-align:middle;}
 .green{ color:#1A772A;}
 .red{ color:#ff0000;}
-.blue{ color:#0055bb}
+.blue{ color:#36C}
 .hidden{display: none;}
+.text-center{ text-align:center;}
+.text-right{ text-align:right;}
 .bolder{font-weight: bolder;}
 body{ background:#edeff5;}
 
