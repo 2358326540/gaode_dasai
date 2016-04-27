@@ -438,14 +438,14 @@ li.baocun input{ background:none; background-image: -webkit-linear-gradient( 90d
 /*  */
 .xitxym{ position:relative; background:#fff; text-align:center; width:100%;}
 .xitxym img{ width:95%;}
-.xitxym a{ width:80%;  display:block; margin:0 auto; border-radius:10px;padding:10px 0; text-align:center; font-size:1.8rem; color:#fff; position:absolute; z-index:1; bottom:5%; left:10%;
+.xitxym a{ width:80%;  display:block; margin:0 auto; border-radius:10px;padding:10px 0; text-align:center; font-size:1.8rem; color:#fff; position:fixed; z-index:1; bottom:3%; left:10%;
   border-radius: 6px;
   background-image: -moz-linear-gradient( 90deg, rgb(229,49,49) 0%, rgb(254,86,86) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(229,49,49) 0%, rgb(254,86,86) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(229,49,49) 0%, rgb(254,86,86) 100%);
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);}
 
-
+.xitxym2 a{ border-radius:999px; }
 
 
 
