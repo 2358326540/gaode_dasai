@@ -278,12 +278,10 @@ ul.erweima li{ list-style:none;}
 .product-sku .txt label{ line-height:46px;}
 .product-sku .txt a { font-weight:bolder; padding: 12px 15px 11px 15px; font-size: 14px; width:auto; height:auto;}
 .product-sku .txt .size-section-no, .product-sku .img a.color-section-no{ color:#eee; border-color:#bbb; opacity:0.2;}
-.color-section-no
 
-.data-crease { display: inline-block;  font-size: 26px; color: #999; overflow: hidden; border: 1px solid #CCC; background: #f2f2f2; text-align: center; margin: 0 -1px; cursor: pointer; vertical-align: middle;}
-.data-crease { width: 40px;  height: 40px; line-height: 38px;}
-.data-num {   display: inline-block;  border: 1px solid #CCC; padding-top: 2px; text-align: center; font-weight: bold; font-family: Arial;vertical-align: middle;}
-.data-num { width: 70px;  height: 38px; line-height: 40px; font-size: 14px;}
+.data-crease { width: 40px;  height: 40px; line-height: 38px; display: inline-block;   font-weight: bold; font-style: normal; font-size: 25px; color: #999; overflow: hidden; border: 1px solid #CCC; background: #f2f2f2; text-align: center; margin: 0 -1px; cursor: pointer; vertical-align: middle;}
+.data-num {   display: inline-block;  border: 1px solid #CCC; padding-top: 2px; text-align: center; font-weight: bold; font-family: Arial;vertical-align: middle;width: 70px;  height: 38px; line-height: 40px; font-size: 14px;}
+
 
 .store-span{ margin: 0 0 0 10px;}
 .store-span b{ font-weight:bolder;}
@@ -303,7 +301,7 @@ button.first{ background:#ff0097; color:#fff;}
 .product-others { padding-top: 10px; border-top: 1px dotted #ccc;overflow: hidden;}
 .share-box { float: right; margin-top: 3px;}
 .product-other-operator { float: right; padding: 5px 18px 5px 0; font-family: Arial;}
-.float-left { float: left; font-size:12px; padding:6px 0 0 0;}
+.float-left { float: left; font-size:12px;}
 .share-box a.share { cursor: pointer; outline: 0;  vertical-align: middle; display: inline-block; width: 16px; height: 16px; background-image: url(../images/icon_share.png);  background-repeat: no-reepat; margin: 0 1px;}
 .share-box .weixin { background-position: 0 -312px;}
 .share-box .qq { background-position: 0 -364px;}
@@ -360,7 +358,7 @@ button.first{ background:#ff0097; color:#fff;}
 .important.level-one {font-size: 20px;color:red;}
 .text-right{ font-family: Arial;}
 
-
+/*下单*/
 .button.button-l {box-shadow: 0 1px 2px #CCC;background:#db0000;font-size:14px;	color:#fff;	border:#db0000;	border-radius:3px; line-height: 40px; height: 40px; padding: 0 25px;}
 
 h2.order-title {font-family:airal; font-weight:bolder; font-size: 14px; border-bottom: 1px dotted #AAA; margin: 15px 0 5px 0; padding: 8px 0 5px 0; line-height: 25px;}
@@ -383,7 +381,7 @@ h2.order-title {font-family:airal; font-weight:bolder; font-size: 14px; border-b
 .address-addhover:hover .fa-plus-circle{ background-image:url(../images/tjdz.png);}
 .lybzdd{ width:335px;}
 .table-lightgrey tr.item2{ border-right:0; line-height: 2em;}
-.order-toggle-item{ color:#db0000; line-height:20px; margin:5px 0;}
+.order-toggle-item{ color:#db0000; line-height:20px; margin:5px 0 8px;}
 .order-toggle-item .fa-plus-circle:before{content:url(../images/shouqi.png) ; vertical-align:middle;font-size: 18px;}
 .tab-small { width: 250px; height: 26px; line-height: 26px; border: 1px solid #db0000;  border-radius: 8px; text-align: center; margin-bottom: 10px;}
 div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
@@ -391,27 +389,117 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .first-child.selected{border-top-left-radius: 5px; border-bottom-left-radius: 5px;}
 .last-child.selected{border-top-right-radius: 5px; border-bottom-right-radius: 5px;}
 
-.order-coupon-item {
-    display: block;
-    border: 1px solid #f1d2d2;
-    background: #fef2f2;
-    padding: 15px;
-	margin:-1px 0 30px;
-}
-.button.button-xl {
-    line-height: 50px;
-    height: 50px;
-    font: bold 18px 'Microsoft Yahei','Helvetica Neue';
-    padding-left: 30px;
-    padding-right: 30px;
-	border:1px solid #db0000;
-	background:#db0000;
-	color:#fff;
-	box-shadow: 0 1px 2px #CCC;
-	border-radius:3px;
-}
+.order-coupon-item {display: block;border: 1px solid #f1d2d2;background: #fef2f2;padding: 15px;margin:-1px 0 30px;}
+.order-coupon-item input{ margin:0 5px 3px 0;}
+.button.button-xl {line-height: 50px;height: 50px;font: bold 18px 'Microsoft Yahei','Helvetica Neue';padding-left: 30px;padding-right: 30px;border:1px solid #db0000;background:#db0000;color:#fff;box-shadow: 0 1px 2px #CCC;border-radius:3px;}
 
-.top-line{border-top: 1px dotted #CCC;}
+.table-lightgrey td .top-line{border-top: 1px dotted #CCC; padding:10px 0 0;}
+.table-lightgrey td p span,.table-lightgrey td p a {margin:0 5px;}
+.table-lightgrey td p b{ margin:0 10px; color:#999;}
+.order-toggle-item  .fa-minus-circle:before{content:url(../images/zhankai.png) ;}
+
+.pay-order-info { padding-left: 5%; width: 44%; line-height: 3em;float:left;font-size:12px;margin:20px 0;font-family:SimSun,"宋体";}
+.pay-order-info .small{ font-family:"微软雅黑";}
+.pay-order-products { width: 50%; margin-right: 1%;	float:right;font-size:12px;}
+.pay-order-products li { clear: both; padding: 10px 0 0 0; height: 60px; overflow: hidden;line-height:1.6em;}
+
+.pay-order-products li p.img { float: left; margin: 0 10px 0 0;}
+.payment-div .payment-li .payment-li-label { padding: 12px 30px; display: block; cursor: pointer;font-size:12px;font-family:SimSun,"宋体";}
+.payment-li-label .check-radio { display: inline-block; background-color: #db0000; padding: 9px 15px; border-radius: 3px; color: #FFF; font-weight: bold; margin-right: 20px;line-height:17px;}
+.check-radio .fa-check-circle:before{ content:url(../images/duigoubai.png); vertical-align:middle;}
+.pay-title { text-align: left; font-size: 16px; font-weight: bold; color: #333; margin-bottom: 15px;}
+.payment-li .pay-li {float: left; margin: 0 15px 8px 0;}
+.payment-li .pay-li input {float: left;margin-top: 13px;}
+ .pay-li label {display: block;float: left;margin-left: 5px;background-color: #FFF;background-image: url('../images/combo.png');background-repeat: no-repeat;width: 190px;line-height: 36px;text-indent: -9999px;border: 1px solid #CCC;cursor: pointer;}
+.payment-div .payment-li.on ul { display: block; margin-left: 155px;}
+.pay-li label.ALIPAY {background-image: url('../images/icon_alipay.gif');}
+.pay-li label.WXSCANPAY {background-image: url('../images/icon_wxpay.gif');}
+.COMM {background-position: 10px -360px;}
+.ICBC {background-position: 10px -504px;}
+.CMB {background-position: 10px -288px;}
+.CCB {background-position: 10px -144px;}
+.BOC {background-position: 10px -108px;}
+.ABC {background-position: 10px -0px;}
+.SPABANK {background-position: 10px -720px;}
+.CEB {background-position: 10px -180px;}
+.CMBC {background-position: 10px -324px;}
+.GDB {background-position: 10px -432px;}
+.CITIC {background-position: 10px -252px;}
+.HZCB {background-position: 10px -468px;}
+.NBBANK {background-position: 10px -540px;}
+.SDB {background-position: 10px -612px;}
+.SHBANK {background-position: 10px -648px;}
+.SPDB {background-position: 10px -756px;}
+
+/* 登录 */
+.loginbg{ position:relative;}
+.account-wrap {position: absolute; top: 156px; left: 50%; width: 420px; margin-left: -210px; background-color: #FFF; border-radius: 3px;font-size:12px;}
+.account-wrap form { padding: 25px 25px 15px 25px;}
+.account-wrap .account-title { height: 55px; background: url('../images/img_account.png') 0 0 no-repeat;}
+.account-wrap .account-input { border: 1px solid #DDD; margin-bottom: 10px; padding: 6px 8px;   position: relative;}
+
+.account-wrap .account-input input { border: 0; padding: 5px; width: 86%; font-family: Arial;   font-size: 14px; color: #dc4b4b;outline: none;}
+
+.account-wrap .account-bar { line-height:30px;height: 30px;}
+
+.account-wrap .account-btn input { cursor: pointer; height: 42px; width: 100%; color: white;    background-color: #dc4b4b; border: 0; font: bold 18px 'Microsoft Yahei','Pingfang SC','Helvetica Neue'; letter-spacing: 5px;}
+.quick-login { height: 20px; background-color: #b0cdde; margin-top: 15px; padding: 15px 15px 13px; color: #FFF;}
+.account-wrap .account-bottom { height: 17px; background: url('../images/img_account.png') 0 -112px repeat-x; width: 100%;}
+
+.account-wrap .quick-login a { float: left; display: block; width: 23px; height: 23px;   margin-bottom: 5px; border-radius: 3px; background: #FFF url('../images/login_app.png') no-repeat; text-indent: -9999px; margin-left: 5px;}
+.account-wrap .quick-login .qq-login { background-position: 2px -150px;}
+.account-wrap .quick-login .sina-login { background-position: 2px -127px;}
+.account-wrap .quick-login .wx-login { background-position: 2px -173px;}
+.fa-user:before{ content:url(../images/useico_03.png); vertical-align:middle;}
+.fa-lock:before{content:url(../images/useico_06.png);vertical-align:middle;}
+.account-wrap .login-title { background-position: 0 -55px;}
+.account-wrap .msg { display: none; background-color: #ffb; border: 1px solid #feb; padding: 7px 0; color: red; margin-bottom: 5px; text-align: center;}
+.quick-login .float-left{ margin-top: 5px;}
+
+/* 注册 */
+
+.zhuceym{ width:1200px; margin:0 auto; font-size:16px; padding:30px 0 110px ; }
+.zhuceym .text-right{ padding:0px 0 50px; color:#a6a6a6;font-family:"微软雅黑"; }
+.zhuceym .text-right a{ color:#333;}
+.zhuceym .float-left{ width:682px; border-right:1px solid #ddd;}
+.zhuceym .float-left span{ font-size:16px; color:#666;}
+.zhuceym .float-left li{ padding: 0 0 5px; position:relative; }
+.zhuceym .float-left .title{ float:left; font-size:16px; color:#666; line-height:52px; width:100px; text-align:right; margin: 0 15px 0 0;}
+.zhuceym .float-left input{ width:258px; padding:16px 125px 17px 15px; border:1px solid #ddd;}
+.fatanhao:before{ content:url(../images/zo.png); vertical-align:middle; margin: 0 5px  0 0;}
+.zhuceym .float-left p b{ display:block; padding:5px 0; margin: 0 0 0 115px; color:#ccc;}
+
+.zhuceym .float-left .checkbox{ width:14px; vertical-align:middle; margin: 0 3px 3px 0px;}
+.zhuceym .float-left p .ydxy{ color:#666;}
+.yanzhengma{ position:absolute; z-index:1; top:3px; right:170px; width:110px; height:46px;}
+.yanzhengma img{ width:100%; height:100%;}
+.zhuceym .float-left  .button{ background:#ee2222; color:#fff; font-size:16px; border:none; margin: 30px 0 0 115px; width:400px; padding:15px;}
+
+.zhuceym  .float-right{ text-align:center; color:#999; font-size:18px; padding: 70px 80px 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
