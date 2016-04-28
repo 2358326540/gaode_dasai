@@ -137,7 +137,7 @@ li.infotitle a{ font-size:16px; color:#333;}
 .help{ width:100%; background:#000; padding:30px 0; margin:60px 0 0 0;}
 .help-wd{ overflow:hidden; width:1200px; margin:0 auto; font-size:12px; color:#9e9e9e;}
 .help ul{ float:left; padding: 0 80px 0 90px; border-right:1px solid #2e2e2e; height:140px;}
-.help ul li{ padding:3px 0; list-style:square inside;}
+.help ul li{ padding:3px 0; list-style:square inside; white-space: nowrap;}
 .help .title{ font-size:16px; color:#666; padding: 0 0 5px 0; list-style:none;}
 .help .title img{ margin: 0 0 0 5px;}
 .help ul li a{ color:#9e9e9e;}
@@ -382,7 +382,7 @@ h2.order-title {font-family:airal; font-weight:bolder; font-size: 14px; border-b
 .lybzdd{ width:335px;}
 .table-lightgrey tr.item2{ border-right:0; line-height: 2em;}
 .order-toggle-item{ color:#db0000; line-height:20px; margin:5px 0 8px;}
-.order-toggle-item .fa-plus-circle:before{content:url(../images/shouqi.png) ; vertical-align:middle;font-size: 18px;}
+.fa-plus-circle:before{content:url(../images/shouqi.png) ; vertical-align:middle;font-size: 18px;}
 .tab-small { width: 250px; height: 26px; line-height: 26px; border: 1px solid #db0000;  border-radius: 8px; text-align: center; margin-bottom: 10px;}
 div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .tab-small a.selected {  background: #db0000; color: #FFF;}
@@ -396,11 +396,12 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .table-lightgrey td .top-line{border-top: 1px dotted #CCC; padding:10px 0 0;}
 .table-lightgrey td p span,.table-lightgrey td p a {margin:0 5px;}
 .table-lightgrey td p b{ margin:0 10px; color:#999;}
-.order-toggle-item  .fa-minus-circle:before{content:url(../images/zhankai.png) ;}
+.fa-minus-circle:before{content:url(../images/zhankai.png) ;}
 .cofjiajian { position:relative;}
 .cofjiajian input{ width:50px; height:23px; border:1px solid #bbb; text-align:center; padding: 0 14px 0 0;}
 .table-lightgrey td .cofjiajian a{ position:absolute; z-index:1;  width:12px; height:11px; border:1px solid #bbb; background:#fff; margin:0;padding:0; line-height:10px; text-align:center; color:#999;right: 5px; top:-4px;}
 .table-lightgrey td .cofjiajian .jian{ top:8px;}
+.zfmm{ width:160px; height:34px; border:1px solid #ccc;}
 /* 支付 */
 .pay-order-info { padding-left: 5%; width: 44%; line-height: 3em;float:left;font-size:12px;margin:20px 0;font-family:SimSun,"宋体";}
 .pay-order-info .small{ font-family:"微软雅黑";}
@@ -435,7 +436,8 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .SPDB {background-position: 10px -756px;}
 
 /* 登录 */
-.loginbg{ position:relative;}
+.loginbg{ position:relative; width:100%;}
+.loginbg img{ width:100%; height:100%;}
 .account-wrap {position: absolute; top: 156px; left: 50%; width: 420px; margin-left: -210px; background-color: #FFF; border-radius: 3px;font-size:12px;}
 .account-wrap form { padding: 25px 25px 15px 25px;}
 .account-wrap .account-title { height: 55px; background: url('../images/img_account.png') 0 0 no-repeat;}
@@ -458,6 +460,7 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .account-wrap .login-title { background-position: 0 -55px;}
 .account-wrap .msg { display: none; background-color: #ffb; border: 1px solid #feb; padding: 7px 0; color: red; margin-bottom: 5px; text-align: center;}
 .quick-login .float-left{ margin-top: 5px;}
+.help2{ margin:0;}
 
 /* 注册 */
 
