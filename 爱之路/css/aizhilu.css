@@ -239,12 +239,12 @@ ul.erweima li{ list-style:none;}
 
 span.previous_page{ background:url(../images/fanyeleft.png) no-repeat 15px center;;padding: 5px 20px 5px 30px;}
 span.next_page{ background:url(../images/fanyeleft.png) no-repeat 65px center;;padding: 5px 30px 5px 20px ;}
-span.previous_page.disabled{ background-images:url(../images/fanyeleftmiss.png); background-color:#f5f5f5;}
-span.next_page.disabled{background-images:url(../images/fanyerightmiss.png);background-color:#f5f5f5;}
+span.previous_page.disabled{ background:url(../images/fanyeleftmiss.png)  no-repeat 15px center; background-color:#f5f5f5;}
+span.next_page.disabled{background:url(../images/fanyerightmiss.png) no-repeat 65px center;background-color:#f5f5f5;}
 .xqfanye .miss,.xqfanye .disabled{ background:#f2f2f2;}
 .xqfanye .prev.miss i:before,.xqfanye .previous_page.disabled i:before{content:url(../images/fanyeleftmiss.png);}
 .xqfanye .next.miss i:before,.xqfanye .next_page.disabled i:before{content:url(../images/fanyerightmiss.png);}
-.xqfanye .select{ background:#999; color:#fff;border:1px solid #999; padding:5px 12px; margin: 0 3px; font-weight:bolder;}
+.xqfanye .select, .xqfanye .current{ background:#999; color:#fff;border:1px solid #999; padding:5px 12px; margin: 0 3px; font-weight:bolder; }
 
 
 /* 商品详情 */
