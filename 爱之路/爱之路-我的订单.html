@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<link href="css/comm.css" type="text/css" rel="stylesheet">
+<link href="css/aijiaoyou.css" type="text/css" rel="stylesheet">
+<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+<link href="css/aizhilu.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	
+<div class="top top-azl">
+  <div class="top-wd">
+    <div class="top-l"><a>欢迎来爱之路</a><a>请登录</a><a>免费注册</a></div>
+    <div class="top-r"><a>我的爱交友</a><a>我的爱购物</a><a>购物车(0)</a><a>我的订单</a><a>联系客服</a></div>
+  </div>
+</div>
+<div class="nav nav-azl">
+  <div class="nav-wd"> <a class="logo logo-azl"></a>
+
+    <div class="nav-azlr">
+    	<ul class="azlntop">
+        	<li><img src="images/azllxfs_06.png">4008-888-888</li><li class="borderl"><a><i class="zxkfico"></i><i>在线客服</i></a></li>
+        </ul>
+    	<a class="azlnbottom">
+        	扫一扫，下载爱之路移动客户端
+        </a>
+    </div>
+  </div>
+</div>
+<div class="menu">
+	<div class="menu-wd">
+    	<a class="select">首页</a><a>爱交友</a><a>爱INFO</a><a>男人街</a><a>女人街</a><a>LoveRoad Cafe</a>
+    	<div class="shoplist"><img class="shoplistico" src="images/shoplist.png" >商品分类</div>
+    </div>
+</div>
+
+
+<div class="layout-user">
+    <div class="float-left layout-user-left">
+    <div class="user-menu">
+        <dl class="myazl">
+            <dt><i class="fa fa-user-center"></i> 我的爱之路</dt>
+        </dl>
+        <dl>
+            <dt><i class="fa-diamond"></i> 订单中心</dt>
+            <dd><a href="/member/order">我的订单</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-life-ring"></i> 资产中心</dt>
+            <dd><a href="/member/refund/list">余额</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/exchange/list">豆币</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">咖啡</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">优惠券</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-bullseye"></i> 个人中心</dt>
+            <!-- <dd><a href="/member/avatar">设置头像</a> <i class="fa fa-chevron-right"></i></dd> -->
+            <dd><a href="/member/info">个人信息</a> <i class="fa fa-chevron-right"></i></dd>
+          	  <dd><a href="/member/bindD2CMember">修改密码</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">账户安全</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">我的级别</a> <i class="fa fa-chevron-right"></i></dd>
+             <dd><a href="/address/list">收货地址</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-fire"></i> 我的收藏</dt>
+            <dd><a href="/member/interest/collection/list">收藏的商品</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/interest/attention/list">关注的设计师</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>        
+        <dl>
+            <dt><i class=" fa-friend"></i> 我的爱交友</dt>
+        </dl>
+    </div>
+    </div>
+    <div class="float-right layout-user-right">
+        <h1><i class="fa fa-caret-right"></i> 我的订单 </h1>
+        <form id="form-order" name="form_order" method="get" action="/member/order" style="position:relative;">
+        <div class="tab-user-menu clearfix">
+            <ul>
+                <li class="on"><a href="/member/order">所有订单</a><i class="interval">|</i></li>
+                <li><a href="/member/order?orderStatus=WaitingForPay">待付款</a><i class="interval">|</i></li>
+                <li><a href="/member/order?orderStatus=WaitingForDelivery,WaitingForConfirmation">待发货</a><i class="interval">|</i></li>
+                <li><a href="/member/order?orderStatus=Delivered">待收货</a><i class="interval">|</i></li>
+                <li><a href="/member/order?orderStatus=Success">已收货</a><i class="interval">|</i></li>
+                
+            </ul>        
+        </div>
+        
+        </form>
+
+        
+        <table border="0" cellpadding="6" cellspacing="0" width="100%" class="table table-grey">
+            <thead>
+                <tr>
+                    <th colspan="2">宝贝</th>
+                    <th width="10%">单价</th>
+                    <th width="7%">数量</th>
+                    <th width="10%">收货人</th>
+                    <th width="12%">实付款</th>
+                    <th width="11%">状态</th>
+                    <th width="13%">操作</th>
+                </tr>
+            </thead>
+        	<tbody>
+                <tr class="space">
+                    <td colspan="7"></td>
+                </tr>
+                <tr class="title">
+                    <td colspan="8">【支付宝】订单编号：<span class="small">Q14619022014254547</span> &nbsp;&nbsp;&nbsp;&nbsp; 创建时间：<span class="small">2016/04/29 11:56:41</span>
+                    
+                    </td>
+                </tr>
+                <form name="form-order-117753" id="form-order-117753" action="/cart/myOrders/buy" method="GET"></form>
+               	<input type="hidden" name="quantities" value="1">
+                <input type="hidden" name="skuIds" value="173321"> 
+                <tr class="item align-top">
+                    <td class="text-center border-none"><img src="http://img.d2c.cn//model/1604/bfed76353f7ef1cb8806eeb39835e177!80" alt="" height="70"></td>
+
+                    <td class="productjs border-none"><a href="/product/126356" target="_blank">李欣霓 小翻领短袖不规则下摆浅蓝衬衣式连衣裙摆
+浅蓝衬衣式连衣裙</a>
+                        <span class="display-block grey" >颜色：白色&nbsp;&nbsp;尺码：M码<br>设计师：ZHANGSHUAI</span>
+                        
+                    </td>
+                    <td class="text-center priceone border-none">￥2,460.00</td>
+                    <td class="text-center priceone border-none" >1</td>
+                    <td class="text-center">收货人姓名</td>
+                    <td class="text-center price" rowspan="1">
+                        <p><strong class="priceone" >¥ 2,460.00</strong></p>
+                        <p class="huise">在线支付</p>
+                    </td>
+                    <td class="text-center" >
+                         <p class="green" >正在出库</p>
+                         <p><img src="images/wuliuico.png">跟踪<img src="images/renpoint.png"></p>
+                        <p><a class="qxdn" href="/member/order/Q14619022014254547" target="_blank">订单详情</a></p>
+                    </td>
+                    <td class="text-center" rowspan="1">
+                        <p><a class="qxdn">取消订单</a></p>
+
+                    </td>
+                </tr>
+                
+                <tr class="space">
+                    <td colspan="7"></td>
+                </tr>
+                <tr class="title">
+                    <td colspan="8">【支付宝】订单编号：<span class="small">Q14617426607054547</span> &nbsp;&nbsp;&nbsp;&nbsp; 创建时间：<span class="small">2016/04/27 15:37:40</span>
+                    
+                    </td>
+                </tr>
+                <tr class="item align-top">
+                    <td class="text-center border-none"><img src="http://img.d2c.cn//model/1604/bfed76353f7ef1cb8806eeb39835e177!80" alt="" height="70"></td>
+
+                    <td class="border-none"><a href="/product/126356" target="_blank">ZHANGSHUAI 张帅 范冰冰 明星同款 白色长款西服马甲</a>
+                        <span class="display-block grey" >颜色：白色&nbsp;&nbsp;尺码：M码<br>设计师：ZHANGSHUAI</span>
+                        
+                    </td>
+                    <td class="text-center priceone border-none">￥2,460.00</td>
+                    <td class="text-center priceone border-none" >1</td>
+                    <td class="text-center">收货人姓名</td>
+                    <td class="text-center price" rowspan="1">
+                        <p><strong class="priceone" >¥ 2,460.00</strong></p>
+                        <p class="huise">在线支付</p>
+                    </td>
+                    <td class="text-center" >
+                         <p  class="orange">等待付款</p>
+<p><img src="images/wuliuico.png">跟踪<img src="images/renpoint.png"></p>                        <p><a class="qxdn" href="/member/order/Q14619022014254547" target="_blank">订单详情</a></p>
+                    </td>
+                    <td class="text-center" rowspan="1">
+                        <p><a class="qxdn"><img src="images/timeico.png">剩余<b class="huise">24</b>时<b class="huise">00</b>分</a></p>
+                        <p class="fukuan"><a>付款</a></p>
+                        <p><a class="qxdn">取消订单</a></p>
+                    </td>
+                </tr>
+                
+                
+                <tr class="space">
+                    <td colspan="7"></td>
+                </tr>
+                <tr class="title">
+                    <td colspan="8">【支付宝】订单编号：<span class="small">Q14616506326034547</span> &nbsp;&nbsp;&nbsp;&nbsp; 创建时间：<span class="small">2016/04/26 14:03:52</span>
+                    
+                    </td>
+                </tr>
+
+               	<tr class="item align-top">
+                    <td class="text-center border-none"><img src="http://img.d2c.cn//model/1604/bfed76353f7ef1cb8806eeb39835e177!80" alt="" height="70"></td>
+
+                    <td class="border-none"><a href="/product/126356" target="_blank">ZHANGSHUAI 张帅 范冰冰 明星同款 白色长款西服马甲</a>
+                        <span class="display-block grey" >颜色：白色&nbsp;&nbsp;尺码：M码<br>设计师：ZHANGSHUAI</span>
+                        
+                    </td>
+                    <td class="text-center priceone border-none">￥2,460.00</td>
+                    <td class="text-center priceone border-none" >1</td>
+                    <td class="text-center">收货人姓名</td>
+                    <td class="text-center price" rowspan="2">
+                        <p><strong class="priceone" >¥ 2,460.00</strong></p>
+                        <p class="huise">在线支付</p>
+                    </td>
+                    <td class="text-center" rowspan="2">
+                         <p  class="huise">已完成</p>
+							<p><img src="images/wuliuico.png">跟踪<img src="images/renpoint.png"></p>                       
+				 			<p><a class="qxdn" href="/member/order/Q14619022014254547" target="_blank">订单详情</a></p>
+                    </td>
+                    <td class="text-center" rowspan="2">
+                        <p><a class="pingjia">评价</a></p>
+
+                    </td>
+                </tr>
+                <tr class="item align-top">
+                    <td class="text-center border-none"><img src="http://img.d2c.cn//model/1604/bfed76353f7ef1cb8806eeb39835e177!80" alt="" height="70"></td>
+
+                    <td class="border-none"><a href="/product/126356" target="_blank">ZHANGSHUAI 张帅 范冰冰 明星同款 白色长款西服马甲</a>
+                        <span class="display-block grey" >颜色：白色&nbsp;&nbsp;尺码：M码<br>设计师：ZHANGSHUAI</span>
+                        
+                    </td>
+                    <td class="text-center priceone border-none">￥2,460.00</td>
+                    <td class="text-center priceone border-none" >1</td>
+                    <td class="text-center">收货人姓名</td>
+
+
+                </tr>
+                
+            </tbody>
+        </table>
+<div class="xqfanye xqfanye2">
+  
+    <a class="prev miss"><i></i>Prev</a>
+    <a class="select">1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
+    <b>...</b>
+    <a class="next ">Next<i></i></a>
+  </div>
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="help help2">
+	<div class="help-wd">
+    	<ul>
+        	<li class="title">帮助中心<img src="images/huisesanjiao.png"></li>
+            <li><a>购物流程</a></li>
+			<li><a>发货说明</a></li>
+			<li><a>优惠说明</a></li>
+			<li><a>支付方式</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">关于爱之路<img src="images/huisesanjiao.png"></li>
+            <li><a>爱之路介绍</a></li>
+			<li><a>爱交友介绍</a></li>
+			<li><a>爱购物介绍</a></li>
+			<li><a>联系我们</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">服务中心<img src="images/huisesanjiao.png"></li>
+            <li>服务热线：400-8888-888</li>
+			<li>服务时间：工作日 9:00-24:00</li>
+			<li>服务邮箱：azl@azl.com</li>
+        </ul>
+    	<ul class="erweima">
+        	<li>爱之路APP二维码</li>
+            <li><img src="images/erweima.png"></li>
+
+        </ul>
+    
+    
+    </div>
+</div>
+<div class="footer footer2">
+<div class="footer-wd">
+	
+    <div class="about"><a>关于我们</a>|<a>联系我们</a>|<a>咖啡加盟</a>|<a>营销中心</a>|<a>手机爱之路</a>|<a>友情链接</a>|<a>销售联盟</a>|<a>个人主页</a></div>
+
+    <div class="beianxinxi">AZL.com.cn 保留最终解释权<br>鲁ICP备 88888888号<br>Copyright © 2014-2016 爱之路信息科技有限公司</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
