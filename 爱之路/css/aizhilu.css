@@ -542,7 +542,7 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .centername{ padding:20px 0 0; font-size:18px;}
 .centername img{ margin:0 20px 15px 0;}
 .avatar-user-home a { display: block;}
-.avatar-user-home a img{ width:190px; height:190px; border:5px solid #fff;;}
+.avatar-user-home a img{ width:190px; height:190px; border:5px solid #fff;border-radius: 999px;}
 .avatar-user-home {
     border: 5px solid #FFF;
     box-shadow: 0 1px 2px #CCC;
@@ -585,6 +585,25 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
     box-shadow: 0 1px 2px #ededed;
     padding: 10px;
     border-radius: 3px;
+}
+.user-menu dl dd.selected {
+    background: #f2f2f2;
+    border-radius: 3px;
+    line-height: 38px;
+    border: 0;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.user-menu dl dd.selected i {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 16px;
+	 line-height: normal;
+}
+i.fa-chevron-right:before{ content:url(../images/rightcenter.png);}
+.user-menu dl dd i {
+    display: none;
 }
 .user-panel a i { font-size: 65px; display: block;}
 .fa-file-text-o:before{ content:url(../images/daifukuan.png);}
@@ -664,49 +683,164 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .table-grey tr .productjs{ padding-left:0;}
 p a.pingjia{ color:#444; border:1px solid #efefef; padding:5px 8px;}
 p a.pingjia:hover{ background:#ccc;}
+/* 余额 豆币 咖啡 优惠券 */
+.yue2{ margin: 0 0 15px; padding:20px; font-size:12px;}
+.yue2 b{ font-size:16px; font-weight:bolder; color:#db0000; margin: 0 20px 0 5px;}
+b.zsgdb{ margin:0 5px;}
+.chongzhi{ background:#eef8e7; border:1px solid #bfd6af; border-radius:2px; padding:5px 14px; margin: 0 20px 0 0;}
+.yue2 a{ margin: 0 0 0 20px;}
+.sanjibiaoti{ line-height:30px; position:relative;}
+.sanjibiaoti a{ font-size:12px; color:#999; margin:0px 20px 0 0;padding:5px 0px;font-family:"宋体"; }
+.sanjibiaoti .selected{color:#db0000; font-weight:bolder; font-size:12px; border-bottom:2px solid #db0000; }
+.sanjibiaoti select{ position:absolute; z-index:1; right:0; top:0px;}
+
+.yuebiaodan{ font-size:12px; width:100%; text-align:center; margin:10px 0 0 0;}
+.yuebiaodan th{ background:#f5f5f5; line-height:40px;}
+.yuebiaodan td{ border:1px solid  #f2f2f2; padding:14px 10px; }
+.yuebiaodan .time{ color:#999;}
+
+.tab-user-menu { position:relative;}
+.tab-user-menu li.shiyongshuom{ position:absolute; z-index:1; right:0; top:0; font-size:12px;}
 
 
+.coupon-items{ overflow:hidden;}
+.coupon-items .coupon-item { width: 236px;float: left; margin: 10px 10px 0px 0;  position: relative;display: block; font-size:12px;}
+.coupon-items .coupon-item-four{  margin: 10px 0px 0px 0;}
+.coupon-item .c-type {
+    position: relative;
+    width: 100%;
+    height: 105px;
+    padding: 50px 0 0;
+    
+    color: #fff;
+    text-align: center;
+}
+.coupon-item .c-msg {
+    height: 117px;
+    padding: 15px;
+    background: #faf9f9;
+	color:#999;
+}
+.coupon-item .c-price {
+    padding-left: 69px;
+    margin: 0 0 5px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.coupon-item .c-limit { margin: 0 0 8px;}
+.coupon-item .c-type .c-type-top {
+    position: absolute;
+    width: 46px;
+    height: 15px;
+    top: 0;
+    left: 50%;
+    margin-left: -23px;
+    background: url(../images/coupon20150805.png) 0 -271px no-repeat;
+}
+.coupon-item-d .c-type .c-type-icon {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 49px;
+    left: 40px;
+    background: url(../images/coupon20150805.png); 
+	background-position: -41px -189px;
 
+}
+.coupon-item-d .c-type .c-type-bottom {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background: url(../images/coupon20150805.png) -3px -296px no-repeat;
+	background-position: -3px -311px;
 
+}    
 
+.coupon-item-d .c-type {
+    background-color: #74d2d4;
+}
+.coupon-item .overdue-site, .coupon-item .overdued-site {
+    position: absolute;
+    display: block;
+    width: 65px;
+    height: 66px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    background: url(../images/coupon20150805.png) -99px 0;
+}
+.coupon-item .used-site {
+    position: absolute;
+    top: 80px;
+    right:20px;
+    width: 190px;
+    height: 149px;
+    background: url(../images/yishiyong.png) 0 0;
+    overflow: hidden;
+}
 
+.coupon-item .overdued-site { background-position: -177px 0;}
+.coupon-item-dgray .c-type, .coupon-item-jgray .c-type, .coupon-item-yfgray .c-type {  background-color: #a8a8a8;}
 
+.validate-form{display: block; width:500px; margin:0 auto; font-size:12px; padding: 0 0 30px;}
+.form-item {
+    clear: both;
+    line-height: 35px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #eee;
+    margin-bottom: -1px;
+}
+.form-item>label:first-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    margin-right: 5%;
+    color: #666;
+    vertical-align: middle;
+}
+.form-item>label:first-child {
+    width: 23%;
+}
+.form-item>input[type=text], .form-item>input[type=password], .form-item>select, .form-item>textarea {
+    width: 60%;
+}
+.form-button {
+    padding-top: 15px;
+    text-align: center;
+}
+.grxxbutton {
+    border: 1px solid #f10180;
+    background: #f10180;
+    border-radius: 2px;
+    line-height: 33px;
+    height: 34px;
+    padding: 0 30px;
+    box-shadow: 0 1px 2px #CCC;
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.xgtx { width:900px; margin:20px auto; border-bottom:1px solid #eee; overflow:hidden; padding:20px 0; }
+.xgtx .avatar-user-home a img{ width:93px; height:93px; border:none;}
+.xgtx .avatar {
+    margin: auto;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.xgtx .avatar-user-home span{ bottom:0;}
+.xgtx ul { margin:10px 0 0 0;}
+.xgtx ul li{ line-height:2em; font-size:14px; padding: 0 0 0 20px;}
+.xgtx ul li img{ width:18px; margin: 0 5px 0 0;}
+.jdt{ background:#ddd; display:inline-block; width:90px; height:12px; line-height:12px; }
+.jdt em{ background:#f09513; color:#fff;display:inline-block; height:12px; font-size:10px; line-height:12px; text-align:center; overflow:hidden;}
 
 
 

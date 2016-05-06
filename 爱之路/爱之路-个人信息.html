@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人信息</title>
+<link href="css/comm.css" type="text/css" rel="stylesheet">
+<link href="css/aijiaoyou.css" type="text/css" rel="stylesheet">
+<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+<link href="css/aizhilu.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	
+<div class="top top-azl">
+  <div class="top-wd">
+    <div class="top-l"><a>欢迎来爱之路</a><a>请登录</a><a>免费注册</a></div>
+    <div class="top-r"><a>我的爱交友</a><a>我的爱购物</a><a>购物车(0)</a><a>我的订单</a><a>联系客服</a></div>
+  </div>
+</div>
+<div class="nav nav-azl">
+  <div class="nav-wd"> <a class="logo logo-azl"></a>
+
+    <div class="nav-azlr">
+    	<ul class="azlntop">
+        	<li><img src="images/azllxfs_06.png">4008-888-888</li><li class="borderl"><a><i class="zxkfico"></i><i>在线客服</i></a></li>
+        </ul>
+    	<a class="azlnbottom">
+        	扫一扫，下载爱之路移动客户端
+        </a>
+    </div>
+  </div>
+</div>
+<div class="menu">
+	<div class="menu-wd">
+    	<a class="select">首页</a><a>爱交友</a><a>爱INFO</a><a>男人街</a><a>女人街</a><a>LoveRoad Cafe</a>
+    	<div class="shoplist"><img class="shoplistico" src="images/shoplist.png" >商品分类</div>
+    </div>
+</div>
+
+
+<div class="layout-user">
+    <div class="float-left layout-user-left">
+    <div class="user-menu">
+        <dl class="myazl">
+            <dt><i class="fa fa-user-center"></i> 我的爱之路</dt>
+        </dl>
+        <dl>
+            <dt><i class="fa-diamond"></i> 订单中心</dt>
+            <dd class="selected"><a href="/member/order">我的订单</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-life-ring"></i> 资产中心</dt>
+            <dd><a href="/member/refund/list">余额</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/exchange/list">豆币</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">咖啡</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">优惠券</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-bullseye"></i> 个人中心</dt>
+            <!-- <dd><a href="/member/avatar">设置头像</a> <i class="fa fa-chevron-right"></i></dd> -->
+            <dd><a href="/member/info">个人信息</a> <i class="fa fa-chevron-right"></i></dd>
+          	  <dd><a href="/member/bindD2CMember">修改密码</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">账户安全</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">我的级别</a> <i class="fa fa-chevron-right"></i></dd>
+             <dd><a href="/address/list">收货地址</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-fire"></i> 我的收藏</dt>
+            <dd><a href="/member/interest/collection/list">收藏的商品</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/interest/attention/list">关注的设计师</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>        
+        <dl>
+            <dt><i class=" fa-friend"></i> 我的爱交友</dt>
+        </dl>
+    </div>
+    </div>
+    <div class="float-right layout-user-right">
+        <h1><i class="fa fa-caret-right"></i> 个人信息 </h1>
+        <div class="xgtx">
+        	<div class=" float-left avatar avatar-user-home"><a href=""><img src="images/morentouxiang.png"><span class="animated">编辑头像</span></a></div>
+       		<ul class="float-left">
+            	<li> 用户名：用户注册时输入的用户名</li>
+        		<li><img src="images/V4.png"><a class="blue">V4会员</a></li>
+        		<li>资料完整度：<span class="jdt"><em style="width:50%;">50%</em></span></li>
+            </ul>
+        
+        </div>
+		<form name="form-info" class="validate-form" success-tip="个人信息保存成功！" action="/member/info.json" method="post">
+                <input type="hidden" name="id" value="876423">
+                <input type="hidden" name="memberInfo.id" value="882630">
+                <div class="form-item">
+                    <label>昵称</label>
+                    <input type="text" name="memberInfo.nickname" id="nickname" minlength="2" maxlength="20" value="徘徊的走着" class="input">
+                    <div class="tip tip-validate" data-target="nickname"></div>
+                </div>
+                <div class="form-item">
+                    <label>手机号码</label>
+                    <input type="text" name="memberInfo.mobile" id="mobile" value="13581815364" class="input">
+                    <div class="tip tip-validate" data-target="mobile" data-rule="mobile"></div>
+                </div>
+                <div class="form-item">
+                    <label>电子邮箱</label>
+                    <input type="text" name="memberInfo.email" id="email" value="" class="input">
+                </div>
+                <div class="form-item">
+                    <label>真实姓名</label>
+                    <input type="text" name="memberInfo.name" id="name" minlength="2" maxlength="20" value="" class="input">
+                    <div class="tip tip-validate" data-target="name"></div>
+                </div>
+                <div class="form-item">
+                    <label>性别</label>
+                    <label><input type="radio" id="girl" name="memberInfo.sex" value="女" class="checkbox"> 女 </label>
+                    &nbsp; &nbsp;
+                    <label><input type="radio" id="boy" name="memberInfo.sex" value="男" class="checkbox" checked=""> 男</label>
+                </div>
+                <div class="form-item">
+                    <label>腾讯QQ</label>
+                    <input type="text" name="memberInfo.qq" value="" class="input">
+                </div>
+                <div class="form-item">
+                    <label>微信号</label>
+                    <input type="text" name="memberInfo.weixin" value="" class="input">
+                </div>
+                <div class="form-item">
+                    <label>生日</label>
+                    <span id="birthday" rel="">
+                    <select name="year" class="input" style="width:80px;"><option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="2002">&nbsp;2002&nbsp;</option><option value="2001">&nbsp;2001&nbsp;</option><option value="2000">&nbsp;2000&nbsp;</option><option value="1999">&nbsp;1999&nbsp;</option><option value="1998">&nbsp;1998&nbsp;</option><option value="1997">&nbsp;1997&nbsp;</option><option value="1996">&nbsp;1996&nbsp;</option><option value="1995">&nbsp;1995&nbsp;</option><option value="1994">&nbsp;1994&nbsp;</option><option value="1993">&nbsp;1993&nbsp;</option><option value="1992">&nbsp;1992&nbsp;</option><option value="1991">&nbsp;1991&nbsp;</option><option value="1990">&nbsp;1990&nbsp;</option><option value="1989">&nbsp;1989&nbsp;</option><option value="1988">&nbsp;1988&nbsp;</option><option value="1987">&nbsp;1987&nbsp;</option><option value="1986">&nbsp;1986&nbsp;</option><option value="1985">&nbsp;1985&nbsp;</option><option value="1984">&nbsp;1984&nbsp;</option><option value="1983">&nbsp;1983&nbsp;</option><option value="1982">&nbsp;1982&nbsp;</option><option value="1981">&nbsp;1981&nbsp;</option><option value="1980">&nbsp;1980&nbsp;</option><option value="1979">&nbsp;1979&nbsp;</option><option value="1978">&nbsp;1978&nbsp;</option><option value="1977">&nbsp;1977&nbsp;</option><option value="1976">&nbsp;1976&nbsp;</option><option value="1975">&nbsp;1975&nbsp;</option><option value="1974">&nbsp;1974&nbsp;</option><option value="1973">&nbsp;1973&nbsp;</option><option value="1972">&nbsp;1972&nbsp;</option><option value="1971">&nbsp;1971&nbsp;</option><option value="1970">&nbsp;1970&nbsp;</option><option value="1969">&nbsp;1969&nbsp;</option><option value="1968">&nbsp;1968&nbsp;</option><option value="1967">&nbsp;1967&nbsp;</option><option value="1966">&nbsp;1966&nbsp;</option><option value="1965">&nbsp;1965&nbsp;</option><option value="1964">&nbsp;1964&nbsp;</option><option value="1963">&nbsp;1963&nbsp;</option><option value="1962">&nbsp;1962&nbsp;</option><option value="1961">&nbsp;1961&nbsp;</option><option value="1960">&nbsp;1960&nbsp;</option><option value="1959">&nbsp;1959&nbsp;</option><option value="1958">&nbsp;1958&nbsp;</option><option value="1957">&nbsp;1957&nbsp;</option><option value="1956">&nbsp;1956&nbsp;</option><option value="1955">&nbsp;1955&nbsp;</option><option value="1954">&nbsp;1954&nbsp;</option><option value="1953">&nbsp;1953&nbsp;</option><option value="1952">&nbsp;1952&nbsp;</option><option value="1951">&nbsp;1951&nbsp;</option><option value="1950">&nbsp;1950&nbsp;</option><option value="1949">&nbsp;1949&nbsp;</option><option value="1948">&nbsp;1948&nbsp;</option><option value="1947">&nbsp;1947&nbsp;</option></select> 年
+                    <select name="month" class="input" style="width:60px;"><option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option><option value="1">&nbsp;1&nbsp;</option><option value="2">&nbsp;2&nbsp;</option><option value="3">&nbsp;3&nbsp;</option><option value="4">&nbsp;4&nbsp;</option><option value="5">&nbsp;5&nbsp;</option><option value="6">&nbsp;6&nbsp;</option><option value="7">&nbsp;7&nbsp;</option><option value="8">&nbsp;8&nbsp;</option><option value="9">&nbsp;9&nbsp;</option><option value="10">&nbsp;10&nbsp;</option><option value="11">&nbsp;11&nbsp;</option><option value="12">&nbsp;12&nbsp;</option></select> 月
+                    <select name="day" class="input" style="width:65px;"></select> 日
+                    </span>
+                </div>
+                <div class="form-item">
+                    <label>所在地区</label>
+                    <span id="area-selector">
+                        <select rel="" name="memberInfo.regionPrefix" class="input province" style="width:130px;"><option value="">选择省份</option><option value="110000">北京市</option><option value="120000">天津市</option><option value="130000">河北省</option><option value="140000">山西省</option><option value="150000">内蒙古自治区</option><option value="210000">辽宁省</option><option value="220000">吉林省</option><option value="230000">黑龙江省</option><option value="310000">上海市</option><option value="320000">江苏省</option><option value="330000">浙江省</option><option value="340000">安徽省</option><option value="350000">福建省</option><option value="360000">江西省</option><option value="370000">山东省</option><option value="410000">河南省</option><option value="420000">湖北省</option><option value="430000">湖南省</option><option value="440000">广东省</option><option value="450000">广西壮族自治区</option><option value="460000">海南省</option><option value="500000">重庆市</option><option value="510000">四川省</option><option value="520000">贵州省</option><option value="530000">云南省</option><option value="540000">西藏自治区</option><option value="610000">陕西省</option><option value="620000">甘肃省</option><option value="630000">青海省</option><option value="640000">宁夏回族自治区</option><option value="650000">新疆维吾尔自治区</option><option value="710000">台湾省</option><option value="810000">香港特别行政区</option><option value="820000">澳门特别行政区</option><option value="910000">国外地区</option></select> 
+                        <select rel="" style="width:100px;" name="memberInfo.regionMiddle" class="input city"><option value="">选择城市</option></select> 
+                        <select rel="" style="width:100px;" name="memberInfo.regionSuffix" class="input district"><option value="">选择区县</option></select>
+                     </span>
+                 </div>
+                 <div class="form-item">
+                    <label>街道地址</label>
+                    <textarea id="street" name="memberInfo.street" cols="50" rows="2" class="input require" minlength="5" maxlength="60" data-msg="街道地址必须填写，不能少于5字" style="font-size:12px;"></textarea> 
+                 </div>
+                 <div class="form-button">
+                    <button type="submit" class="grxxbutton">确定</button>
+                </div>
+            </form>
+		
+        
+        
+
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="help help2">
+	<div class="help-wd">
+    	<ul>
+        	<li class="title">帮助中心<img src="images/huisesanjiao.png"></li>
+            <li><a>购物流程</a></li>
+			<li><a>发货说明</a></li>
+			<li><a>优惠说明</a></li>
+			<li><a>支付方式</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">关于爱之路<img src="images/huisesanjiao.png"></li>
+            <li><a>爱之路介绍</a></li>
+			<li><a>爱交友介绍</a></li>
+			<li><a>爱购物介绍</a></li>
+			<li><a>联系我们</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">服务中心<img src="images/huisesanjiao.png"></li>
+            <li>服务热线：400-8888-888</li>
+			<li>服务时间：工作日 9:00-24:00</li>
+			<li>服务邮箱：azl@azl.com</li>
+        </ul>
+    	<ul class="erweima">
+        	<li>爱之路APP二维码</li>
+            <li><img src="images/erweima.png"></li>
+
+        </ul>
+    
+    
+    </div>
+</div>
+<div class="footer footer2">
+<div class="footer-wd">
+	
+    <div class="about"><a>关于我们</a>|<a>联系我们</a>|<a>咖啡加盟</a>|<a>营销中心</a>|<a>手机爱之路</a>|<a>友情链接</a>|<a>销售联盟</a>|<a>个人主页</a></div>
+
+    <div class="beianxinxi">AZL.com.cn 保留最终解释权<br>鲁ICP备 88888888号<br>Copyright © 2014-2016 爱之路信息科技有限公司</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
