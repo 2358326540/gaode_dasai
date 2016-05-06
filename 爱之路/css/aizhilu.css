@@ -377,6 +377,7 @@ h2.order-title {font-family:airal; font-weight:bolder; font-size: 14px; border-b
 .fa-check:before { content:url(../images/duigou.png);position:absolute; z-index:1; right:10px; bottom:0;}
 .address-add{ font-size:12px;}
 .address-add .fa-plus-circle {  display: block; font-size: 60px; line-height: 70px;	background:url(../images/tjdz2.png) no-repeat center;height:70px;}
+.address-add .fa-plus-circle:before{ content:normal;}
  .fa-check{display:none;}
 .address-item.selected{ border:2px solid #db0000; color:#333; }
 .selected .fa-check { display:block;}
@@ -842,7 +843,19 @@ b.zsgdb{ margin:0 5px;}
 .jdt{ background:#ddd; display:inline-block; width:90px; height:12px; line-height:12px; }
 .jdt em{ background:#f09513; color:#fff;display:inline-block; height:12px; font-size:10px; line-height:12px; text-align:center; overflow:hidden;}
 
+.form-item .tip-validate {
+    margin: 0 0 0 28%;
+   
+}
 
+.tip-validate {
+	display:block;	
+    background: 0;
+    color: #f60;
+    box-shadow: none;
+    padding: 8px 0 0 5px;
+    line-height: 15px;
+}
 
 
 
