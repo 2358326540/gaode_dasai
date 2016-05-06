@@ -843,12 +843,12 @@ b.zsgdb{ margin:0 5px;}
 .jdt{ background:#ddd; display:inline-block; width:90px; height:12px; line-height:12px; }
 .jdt em{ background:#f09513; color:#fff;display:inline-block; height:12px; font-size:10px; line-height:12px; text-align:center; overflow:hidden;}
 
-.form-item .tip-validate {
+.form-item div.tip-validate {
     margin: 0 0 0 28%;
    
 }
 
-.tip-validate {
+div.tip-validate {
 	display:block;	
     background: 0;
     color: #f60;
@@ -856,7 +856,7 @@ b.zsgdb{ margin:0 5px;}
     padding: 8px 0 0 5px;
     line-height: 15px;
 }
-
+.city, .district{ width:100px;}
 
 
 
