@@ -479,6 +479,7 @@ div.tab-small a { display: block; float: left; width: 125px; color: #db0000;}
 .zhuceym .float-left input{ width:258px; padding:16px 125px 17px 15px; border:1px solid #ddd;}
 .fatanhao:before{ content:url(../images/zo.png); vertical-align:middle; margin: 0 5px  0 0;}
 .zhuceym .float-left p b{ display:block; padding:5px 0; margin: 0 0 0 115px; color:#ccc;}
+.zhuceym .float-left p b.red{ color:red;}
 
 .zhuceym .float-left .checkbox{ width:14px; vertical-align:middle; margin: 0 3px 3px 0px;}
 .zhuceym .float-left p .ydxy{ color:#666;}
