@@ -162,7 +162,7 @@ ul.erweima li{ list-style:none;}
 .sscxbt{ background:#ff0097; color:#fff; width:87px; height:34px; border:#ff0097;}
 .hotword{ width:452px; height:21px; overflow:hidden;}
 .nav2 .nav-m .select{ background:url(../images/fensanjiao.png) no-repeat bottom center;}
-.nav2 .nav-m a{ padding: 10px 0;}
+.nav2 .nav-m a{ padding: 7px 0;}
 .spfl{ position:absolute; z-index:1; left:50%; top:-38px; margin: 0 0 0 -600px; width:199px; color:#fff;}
 .spfl h2{ font-size:16px; background:#333; line-height:38px; text-indent:15px;}
 .spfl a{ color:#fff; font-size:12px;}
@@ -317,7 +317,8 @@ button.first{ background:#ff0097; color:#fff;}
 .product-other-operator a{ font-size:12px;}
 .ajax-request{ margin: 0 0 0 15px;}
 
-.product-cont-bar { width: 1198px; margin:0 auto; margin-top: 10px; background: #FFF; border: 1px solid #dcdcdc; position: relative;}
+.product-cont-bar{ width:100%; }
+.product-cont-bar .tab { width: 1198px; margin:0 auto; margin-top: 10px; background: #FFF; border: 1px solid #dcdcdc; position: relative;}
 .product-cont-bar .tab li { float: left; padding-left: 25px; padding-right: 25px; position: relative; text-align: center; font-size: 12px; border-top: 2px solid #FFF; width: 150px; cursor: pointer; line-height: 50px; border-left: 1px solid #dcdcdc; border-right: 1px solid #dcdcdc;   margin-right: -1px;font-weight:bold;}
 .product-cont-bar .tab li.on { border-color: #f00; border-left: 1px solid #dcdcdc;  border-right: 1px solid #dcdcdc; position: relative;margin: -1px -1px 0 0;}
 .product-cont-bar .tab li:first-child { border-left: none;}
@@ -327,7 +328,7 @@ button.first{ background:#ff0097; color:#fff;}
 .product-detail{ width:1200px; margin:0 auto; overflow:hidden;}
 .product-detail-left{ float:left; width:860px;position:relative;min-height:710px; }
 
-.product-detail-right{ float:left; width:338px; border:1px solid #dcdcdc;padding-bottom: 9999px;margin-bottom: -9999px; margin-top:-1px;position:relative;}
+.product-detail-right{ float:left; width:338px; border:1px solid #dcdcdc;padding-bottom: 9999px;margin-bottom: -9999px; margin-top:-1px;position:relative; background:#fff;}
 .product-info-suspend {padding: 10px; position: relative;}
 .product-info-suspend .product-sku label{ float:none; line-height:1em; padding:10px 0 10px;}
 .product-info-suspend .product-sku .img{ margin: 10px 0 10px; padding:0;}
@@ -1092,7 +1093,6 @@ left:50%; top:50%;
 .huiyuanjibie{ color:#005ea7; font-size:14px; font-family:"Microsoft Yahei";}
 .huiyuanjibie img{ width:15px; vertical-align:middle; margin: 0 5px 3px;}
 .jibie{ text-align:center;}
-
 
 
 

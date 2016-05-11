@@ -89,9 +89,57 @@ body{ background:#edeff5;}
 
 
 
+.suspend-fixed {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    border-bottom: 0;
+    z-index: 92;
+}
 
-
-
+.product-cont-bar.suspend-fixed {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    border-bottom: 1px solid #dcdcdc;
+    z-index: 92;
+	background:#fff;
+}
+.product-cont-bar.suspend-fixed .tab{
+    margin:0 auto;
+    
+	border: 0;
+   
+}
+.product-cont-bar.suspend-fixed .tab li:first-child {
+    border-left: 1px solid #dcdcdc;
+    padding-left: 0;
+}
+.product-detail-right.suspend-fixed {
+    position: fixed;
+    margin: 0;
+    top: 52px;
+    z-index: 10;
+	background: #fff;
+	width:338px;
+	left: 50%;
+    margin: 0 0 0 260px;
+	
+}
+.menu.suspend-fixed {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    border-bottom: 0;
+    z-index: 92;
+}
+.nav3.suspend-fixed {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    z-index: 92;
+}
 
 
 
