@@ -101,7 +101,7 @@ body{ background:#edeff5;}
 
 
 /* 回顶部 */
-.huidingbu{ position:fixed; z-index:1; right:0; width:108px;  background:#eee; bottom:20%;}
+.huidingbu{ position:fixed; z-index:1; right:50%; width:64px; height:55px;  background: url(../images/TTtop.png) #fff no-repeat center ; bottom:20%; margin: 0 -674px 0 0; border:1px solid #eee; }
 .huidingbu1{ border-top:3px solid #d12627;}
 .huidingbu1 a{ font-size:14px; color:#333; display:block; text-align:center;border-bottom:1px solid #fff; padding:8px 0; text-decoration:none;}
 a.bmcs{ background:#fff; color:#e53531; font-size:16px;}
