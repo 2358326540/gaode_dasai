@@ -809,7 +809,7 @@ b.zsgdb{ margin:0 5px;}
     vertical-align: middle;
 }
 .form-item>label:first-child {
-    width: 23%;
+    width: 19%;
 }
 .form-item>input[type=text], .form-item>input[type=password], .form-item>select, .form-item>textarea {
     width: 60%;
@@ -917,7 +917,7 @@ left:50%; top:50%;
     -webkit-box-shadow: 0 0 10px #333;
     -moz-box-shadow: 0 0 10px #333;
     box-shadow: 0 0 10px #666;
-    border-radius: 5px; z-index:9999; margin: -260px 0 0 -265px; }
+    border-radius: 5px; z-index:9999; margin: -288px 0 0 -265px; }
 
 .modal-inner .modal-title { height: 15px;}
 .modal-inner .modal-remove {
@@ -931,7 +931,7 @@ left:50%; top:50%;
 	 width:20px; height:20px;
 }
 .modal-inner .modal-content { color: #222; padding-bottom: 0;}
-.modal-inner .input{ text-align:left; text-indent:3px;}
+.modal-inner .input{ text-align:left; text-indent:3px;font-size: 12px;font-family: "宋体";}
 .form .form-title {
     background: #CCC;
     line-height: 40px;
