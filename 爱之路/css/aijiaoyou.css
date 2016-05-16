@@ -255,18 +255,21 @@ li.fwtkck a{ color:#005aa0;}
 .tuijianlbr .grjbxx span{  padding:0 15px; color:#e0e0e0;}
 .grnxdb{ font-size:14px; white-space:nowrap; overflow:hidden; color:#666; text-overflow:ellipsis;}
 
+/* 发动态 */
+.ctpfxx{ position:fixed; z-index:999; background:#fff; border:1px solid  #4e4e4e; box-shadow:0 0 5px #666; width:590px; left:50%; top:50%; margin: -200px 0 0 -295px; font-size:12px; color:#999;}
+.ctpfxx h3{ background:#f3f3f3; font-size:"宋体"; font-size:14px; width:590px; height:42px; line-height:42px; font-weight:bolder; text-indent:25px;color:#333;}
+.ctpfxx h3 span{ font-size:12px; font-weight:normal;color:#999;  margin: 0 0 0 10px;}
 
-
-
-
-
-
-
-
-
-
-
-
+.ctpfxx .zhushi{ width:540px; margin:0 auto; padding:20px 0 10px 0;}
+.uppic{ width:540px; margin:0 auto;}
+.uppic p{ float:left; margin: 0 10px 0 0;}
+.uppic p img{ width:127px; height:127px;}
+.uppicbtn{float:left; display:block; width:127px; height:127px; background:#c7c7c7; text-align:center; color:#fff; border-radius:4px; margin: 0 0 10px;}
+.uppicbtn img{ display:block; margin:40px auto 5px;}
+.ctpfxx textarea{ border:1px solid #c7c7c7; width:534px; background:#f0f0f0; margin:0px auto; display:block; height:120px;}
+.fabuts{ text-align:right; width:540px; margin:10px auto;}
+.fabuts input{ width:54px; height:25px; border:none; margin: 0 0 0 10px; background:#f08fc8; color:#fff;}
+.fabuts b{ font-size:15px; font-weight:bold; color:#333; margin:3px;}
 
 
 

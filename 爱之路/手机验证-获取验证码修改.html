@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>手机验证</title>
+<link href="css/comm.css" type="text/css" rel="stylesheet">
+<link href="css/aijiaoyou.css" type="text/css" rel="stylesheet">
+<link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
+<link href="css/aizhilu.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+	
+<div class="top top-azl">
+  <div class="top-wd">
+    <div class="top-l"><a>欢迎来爱之路</a><a>请登录</a><a>免费注册</a></div>
+    <div class="top-r"><a>我的爱交友</a><a>我的爱购物</a><a>购物车(0)</a><a>我的订单</a><a>联系客服</a></div>
+  </div>
+</div>
+<div class="nav nav-azl">
+  <div class="nav-wd"> <a class="logo logo-azl"></a>
+
+    <div class="nav-azlr">
+    	<ul class="azlntop">
+        	<li><img src="images/azllxfs_06.png">4008-888-888</li><li class="borderl"><a><i class="zxkfico"></i><i>在线客服</i></a></li>
+        </ul>
+    	<a class="azlnbottom">
+        	扫一扫，下载爱之路移动客户端
+        </a>
+    </div>
+  </div>
+</div>
+<div class="menu">
+	<div class="menu-wd">
+    	<a class="select">首页</a><a>爱交友</a><a>爱INFO</a><a>男人街</a><a>女人街</a><a>LoveRoad Cafe</a>
+    	<div class="shoplist"><img class="shoplistico" src="images/shoplist.png" >商品分类</div>
+    </div>
+</div>
+
+
+<div class="layout-user">
+    <div class="float-left layout-user-left">
+    <div class="user-menu">
+        <dl class="myazl">
+            <dt><i class="fa fa-user-center"></i> 我的爱之路</dt>
+        </dl>
+        <dl>
+            <dt><i class="fa-diamond"></i> 订单中心</dt>
+            <dd class="selected"><a href="/member/order">我的订单</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-life-ring"></i> 资产中心</dt>
+            <dd><a href="/member/refund/list">余额</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/exchange/list">豆币</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">咖啡</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/reship/list">优惠券</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-bullseye"></i> 个人中心</dt>
+            <!-- <dd><a href="/member/avatar">设置头像</a> <i class="fa fa-chevron-right"></i></dd> -->
+            <dd><a href="/member/info">个人信息</a> <i class="fa fa-chevron-right"></i></dd>
+          	  <dd><a href="/member/bindD2CMember">修改密码</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">账户安全</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/bindD2CMember">我的级别</a> <i class="fa fa-chevron-right"></i></dd>
+             <dd><a href="/address/list">收货地址</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>
+        <dl>
+            <dt><i class="fa-fire"></i> 我的收藏</dt>
+            <dd><a href="/member/interest/collection/list">收藏的商品</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/interest/attention/list">关注的设计师</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>  
+        <dl>
+            <dt><i class="fa-remind"></i> 消息提醒</dt>
+            <dd class="selected"><a href="/member/interest/collection/list">系统通知</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>      
+        <dl>
+            <dt><i class=" fa-friend"></i> 我的爱交友</dt>
+        </dl>
+    </div>
+    </div>
+    <div class="float-right layout-user-right">
+      <h1><em class="fa fa-caret-right"></em> 手机验证 </h1>
+           
+		<div class="mc">
+
+                        <div class="shoujiyz">
+                            
+                            
+                            <div class="v-boxs">
+
+                                <div class="v-box">
+
+                                    
+                                    
+                                    
+
+                                    <div class="item" >
+										<span class="label">
+											已验证手机：
+										</span>
+                                        <div class="fl">
+                                            <strong class="fz-14" id="mobileSpan">135*****364</strong>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="item" >
+										<span class="label">
+											
+										</span>
+                                        <div class="fl">
+                                            <a onclick="sendCode('updateMobile');" href="javascript:void(0)" id="sendMobileCode" class="btn btn-10 ml10">获取短信校验码</a>
+                                            <div id="countDown" class="msg-text" >校验码已发出，请注意查收短信，如果没有收到，你可以在<strong class="ftx-01">120</strong>秒后要求系统重新发送</div>
+                                        </div>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="item" id="sendMobileCodeDiv">
+                                        <span class="label">请填写手机校验码：</span>
+                                        <div class="fl">
+                                            <input class="itxt" name="code" tabindex="1" id="code" onchange="checkCode();" disabled="disabled" type="text">
+                                            
+                                           
+                                            
+                                       
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+
+
+                                    <div class="item" id="authCodeDiv">
+                                        <span class="label">请输入验证码：</span>
+                                        <div class="fl">
+                                            <input class="itxt" onchange="checkAuthCode();" tabindex="2" name="authCode" id="authCode" type="text">
+                                        
+                                            <label><img id="JD_Verification1" class="ml10" onclick="verc('474590d3-c8b1-463b-b9fd-cb8d8d1edd44','usersafe')" src="//authcode.jd.com/verify/image?acid=474590d3-c8b1-463b-b9fd-cb8d8d1edd44&amp;srcid=usersafe&amp;_t=1463031903202" alt="验证码" >看不清？<a href="javascript:verc('474590d3-c8b1-463b-b9fd-cb8d8d1edd44');" class="ftx-05">换一张</a></label>
+
+
+                                            <div class="clr"></div>
+                                            <div id="authCode_error" class="msg-error"></div>
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <span class="label">&nbsp;</span>
+                                <div class="fl">
+                                   
+                                    <a id="submitCode" class="btn-1 btn-4" href="javascript:void(0);" >提交</a>
+                                    <span class="ml10" id="appealSpan" style="display: none;">无法验证身份？试试 <a onclick="autoAppeal('appealUpdateMobile','')" href="javascript:void(0)" class="ftx-05">自助申诉</a></span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
+         
+        
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="help help2">
+	<div class="help-wd">
+    	<ul>
+        	<li class="title">帮助中心<img src="images/huisesanjiao.png"></li>
+            <li><a>购物流程</a></li>
+			<li><a>发货说明</a></li>
+			<li><a>优惠说明</a></li>
+			<li><a>支付方式</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">关于爱之路<img src="images/huisesanjiao.png"></li>
+            <li><a>爱之路介绍</a></li>
+			<li><a>爱交友介绍</a></li>
+			<li><a>爱购物介绍</a></li>
+			<li><a>联系我们</a></li>
+        </ul>
+    	<ul>
+        	<li class="title">服务中心<img src="images/huisesanjiao.png"></li>
+            <li>服务热线：400-8888-888</li>
+			<li>服务时间：工作日 9:00-24:00</li>
+			<li>服务邮箱：azl@azl.com</li>
+        </ul>
+    	<ul class="erweima">
+        	<li>爱之路APP二维码</li>
+            <li><img src="images/erweima.png"></li>
+
+        </ul>
+    
+    
+    </div>
+</div>
+<div class="footer footer2">
+<div class="footer-wd">
+	
+    <div class="about"><a>关于我们</a>|<a>联系我们</a>|<a>咖啡加盟</a>|<a>营销中心</a>|<a>手机爱之路</a>|<a>友情链接</a>|<a>销售联盟</a>|<a>个人主页</a></div>
+
+    <div class="beianxinxi">AZL.com.cn 保留最终解释权<br>鲁ICP备 88888888号<br>Copyright © 2014-2016 爱之路信息科技有限公司</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
