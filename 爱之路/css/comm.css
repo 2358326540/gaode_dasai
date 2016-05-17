@@ -55,7 +55,7 @@ body{ background:#edeff5;}
 /* top */
 .top{ background:#232323; width:100%; color:#5e5959; border-top:1px solid #3f3f3f; border-bottom:1px solid #fff; }
 .top-wd{ width:1200px; margin:0 auto; overflow:hidden; line-height:45px;}
-.top-l{ float:left; }
+.top-l{ float:left; color:#e1e1e1; }
 .top-l a{ color:#e1e1e1;font-size:12px; margin: 0 30px 0 0;}
 .top-r{ float:right;}
 .top-r a{ font-size:12px;color:#e1e1e1; padding:0 15px;}
@@ -155,3 +155,24 @@ body{ background:#edeff5;}
 a.bmcs{ background:#fff; color:#e53531; font-size:16px;}
 .huidingbu1 a img{ vertical-align:middle;}
 a.huidingbu2{ background:#e53531; text-align:center; width:108px; display:block; padding:10px 0;}
+/* 翻页 */
+.xqfanye{ width:1021px; float:left; text-align:center; font-size:14px; overflow:hidden; line-height:50px;padding:0px 0 0px; font-weight:bolder;}
+.xqfanye a{ border:1px solid #999; padding:5px 12px; margin: 0 3px; font-weight:bolder;}
+.xqfanye b{ margin: 0 10px; color:#666;}
+.xqfanye .prev,.previous_page{ margin: 0 3px 0 20px;border:1px solid #999; padding:5px 12px; margin: 0 3px; font-weight:bolder;}
+.xqfanye .prev i:before, .xqfanye .next i:before{margin: 0 8px 3px 2px;content:url(../images/fanyeleft.png); vertical-align:middle; line-height:2px; display:inline-block;}
+.xqfanye .next i:before{content:url(../images/fanyeright.png); margin: 0 2px 3px 8px;}
+
+.xqfanye .previous_page{ background:url(../images/fanyeleft.png) no-repeat 15px center;;padding: 5px 20px 5px 30px;}
+.xqfanye .next_page{ background:url(../images/fanyeright.png) no-repeat 65px center;;padding: 5px 30px 5px 20px ;}
+.xqfanye .previous_page.disabled{ background:url(../images/fanyeleftmiss.png)  no-repeat 15px center; background-color:#f5f5f5;}
+.xqfanye .next_page.disabled{background:url(../images/fanyerightmiss.png) no-repeat 65px center;background-color:#f5f5f5;}
+.xqfanye .miss,.xqfanye .disabled{ background:#f2f2f2;}
+.xqfanye .prev.miss i:before,.xqfanye .previous_page.disabled i:before{content:url(../images/fanyeleftmiss.png);}
+.xqfanye .next.miss i:before,.xqfanye .next_page.disabled i:before{content:url(../images/fanyerightmiss.png);}
+.xqfanye .select, .xqfanye .current{ background:#999; color:#fff;border:1px solid #999; padding:5px 12px; margin: 0 3px; font-weight:bolder; }
+.xqfanye2{ text-align:right; width:100%; margin:10px 0 0 0;}
+.xqfanye2 .select, .xqfanye2 .current, .xqfanye2 a{ padding: 5px 10px;}
+
+
+

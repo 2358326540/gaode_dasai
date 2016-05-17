@@ -228,6 +228,7 @@ ul.erweima li{ list-style:none;}
 .jiesplist .spid{ width:236px; height:450px;border: 1px solid #e6e6e6;border: 1px solid #e6e6e6; margin:0 -1px -1px 0; padding:9px;}
 .spidpic { height:370px; display:block;}
 .jiesplist .sppic img{ height:370px; width:236px;}
+/* 翻页 */
 .splbfywd{ width:1200px; margin:0 auto; overflow:hidden;padding:30px 0 0px;}
 .splbfywd .xqfanye{ margin: 0 0 0 179px;}
 .xqfanye{ width:1021px; float:left; text-align:center; font-size:14px; overflow:hidden; line-height:50px;padding:0px 0 0px; font-weight:bolder;}
@@ -1158,12 +1159,13 @@ dl.done { border-top-color: #caecb6;}
 	margin-top:60px;
 }
 .shoujiyz .item {
-    display: inline-block;
+    
     display: block;
     margin-bottom: 20px;
     line-height: 30px;
-	overflow:hidden;
-	font-size:12px;
+	position:relative;
+	font-size:12px;  clear: both;
+	display: inline-block;
 }
 .shoujiyz  .item span.label {
     float: left;
@@ -1264,6 +1266,7 @@ dl.done { border-top-color: #caecb6;}
     background: #FFF none repeat scroll 0% 0%;
     font-size: 14px;
     font-family: "Microsoft YaHei";
+	z-index:99;
 }
 .phone-item .phone-suggest li {
     height: 30px;

@@ -85,7 +85,7 @@ li.sfrk{ padding:25px 0 0 98px; overflow:hidden;}
 .yhdtlb-idr .title a{ font-size:16px; color:#333; margin: 0 20px 0 0;}
 .yhdtlb-idr .neirong{ padding:10px 0 0 0; font-size:14px; line-height:24px;}
 .timezan{ font-size:12px; color:#999; position:relative; margin:10px 0 0 ; line-height:30px;}
-.timezan .zan{ position:absolute; z-index:1; right:0; top:0; width:60px; border:1px solid #ddd; line-height:28px; background:url(../images/c.png) no-repeat 10px center; text-indent:35px; color:#999;}
+.timezan .zan{ position:absolute; z-index:1; right:0; top:0; width:60px; border:1px solid #ddd; line-height:28px; background:url(../images/c.png) no-repeat 10px center; text-indent:35px; color:#999;margin: 0;border-radius: 0;height: auto;}
 .timezan .zany{ background-image:url(../images/d.png);}
 .neirong .pic{ padding:15px 0 10px; width:760px}
 .neirong .pic img{ max-height:126px;max-width:100%; margin:0 20px 0 0;}
@@ -272,11 +272,55 @@ li.fwtkck a{ color:#005aa0;}
 .fabuts b{ font-size:15px; font-weight:bold; color:#333; margin:3px;}
 .ctpfxx .closed{ background:url(../images/zl.png) no-repeat center; width:20px; height:20px; position:absolute; z-index:1; right:10px; top:10px;}
 
+/* 消息通知 */
+.messagetz{ background:#fff; padding:15px; font-size:18px; margin: 0 0 10px;}
 
+.messagetz2-left{ width:300px; background:#e0f0fd; border-bottom:2px solid #cecece;}
+.messagetz2-left li{ }
+.messagetz2-left li a{ height:80px; display:block; border-left:4px solid #e0f0fd; overflow:hidden;}
+.messagetz2-left li a.select{ background:#f3f9fe;border-left:4px solid #d75650; }
+.messagetz2-left li span{ position:relative; float:left; font-size:12px; color:#808080; }
+.messagetz2-left li span i{ background:#fe28a7; color:#fff; border-radius:2px; position:absolute; z-index:1; right:-16px; padding:0px 3px; top:-5px;}
+.messagetz2-left li em{ float:right; line-height:80px; font-size:12px; color:#808080; width:95px;}
+.messagetz2-left li span b{ display:block; font-size: 14px; color:#000; font-weight:bolder; padding:20px 0 0 0;}
+.zan,.xihuan,.fangke,.kafei,.tongzhi{ width:51px; height:51px; background: url(../images/xiaoxitongzhiico.png) #c2cbd3 no-repeat; border-radius:99px; margin: 14px 26px 0 16px;}
+.zan{ background-position:8px 7px;}
+.xihuan{ background-position:8px -75px;}
+.fangke{ background-position:8px -155px;}
+.kafei{ background-position:8px -235px;}
+.tongzhi{ background-position:8px -314px;}
 
+.messagetz2-right{ width:840px; background:#fff; padding:20px 30px;}
+.messagetab{ border-bottom:2px solid #f7f7f7; padding:10px 0;}
+.messagetab a{ font-size:18px; color:#333; margin:0 30px  0 0 ; padding:8px 0;}
+.messagetab a.select{ border-bottom:4px solid #f73e3e; }
+.zanlist2{font-size:12px; padding:20px 0;}
+.zanlist2left{ font-size:12px; color:#999; text-align:center; margin: 0 15px 0 0;}
+.zanlist2left img{ width:70px; height:70px; margin: 0 0 5px;}
+.zanlist2right{ width:750px;}
+.zanlist2right p a{ font-size:14px; color:#4d97ef; margin: 0 5px 0 0; }
+.zanlist2right strong{ display:block; width:40px; text-align:center; background:#ff0097; color:#fff; margin:5px 0;}
+.timeyuehui{ color:#bababa; padding:28px 0 0 0; position:relative;  }
+.timeyuehui a{ position:absolute; z-index:1; right:10px; color:#7f97b4; bottom:0; padding:4px 7px;}
+.timeyuehui a img{ margin: 0 5px 3px 0; vertical-align:middle;}
+.zanlist2{ border-bottom:1px solid #eceef4; overflow:hidden;}
+a.jieshou{ background:#3bb444; color:#fff; right:73px;}
+a.jujue{background:#c4c4c4; color:#fff; }
+a.yijujue{ border:1px solid #d1d1d1; color:#999;}
+a.yijieshou{ border:1px solid #d1d1d1; color:#3bb444;}
 
+.zanlist2right p{ position:relative;}
+.zanlist2right p strong{ display:inline-block;}
+.fwltj{ font-size:12px; color:#666; padding:15px 0 0;}
+.fwltj span{ font-size:16px; color:#333;}
+.messagetz2-right .ui-scrollbar-main{ padding:30px 0 0 0;}
+.zanlist2right p em{ color:#000; font-weight:bolder; font-size:14px; margin: 0 8px  0 0;}
 
-
+.xxdaongtai{ background:#f3f4f6; color:#999; padding:10px; margin:10px 0 0 0;}
+.xxdaongtai .pic{ margin:15px 0 -10px 0;}
+.xxdaongtai .pic img{ height:126px; margin: 0 30px 0 0;}
+p.likepop a{ position:absolute; z-index:1; right:60px; bottom:0; background:#edeff5; color:#ff0097; border:1px solid #dbdbdb; padding:2px 6px;}
+p.likepop .qiuyuehui{ color:#fff; background:#48c3f0; border:1px solid #48c3f0;right:0;}
 
 
 
