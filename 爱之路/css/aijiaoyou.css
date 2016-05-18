@@ -322,15 +322,16 @@ a.yijieshou{ border:1px solid #d1d1d1; color:#3bb444;}
 p.likepop a{ position:absolute; z-index:1; right:60px; bottom:0; background:#edeff5; color:#ff0097; border:1px solid #dbdbdb; padding:2px 6px;}
 p.likepop .qiuyuehui{ color:#fff; background:#48c3f0; border:1px solid #48c3f0;right:0;}
 
-
-
-
-
-
-
-
-
-
+/* 认证 */
+.aijiaoyourz{ background:#fff; margin:22px auto; width:1140px;padding: 30px}
+.shenfenrenz{ font-size:12px; color:#999; background:#f0f0f0; padding:15px; margin:20px 0 0 0;}
+.shenfenrenz img{ margin:5px 10px 0px 0;}
+.shenfenrenz b{ color:#333; font-size:14px; display:block;}
+.aijiaoyourz .mc { color:#999;}
+.aijiaoyourz .mc li{ list-style:inside;}
+.aijiaoyourz  .mod-comm{     padding: 10px 60px 20px;}
+.aijiaoyourz  .mod-comm .mt h3 img{ margin: 0  6px  3px -32px;}
+.aijiaoyourz2{ height:500px;}
 
 
 
