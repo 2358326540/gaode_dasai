@@ -4,7 +4,8 @@
 .login{ width:318px; position:absolute; z-index:1; top:0; left:50%; margin: 0 0 0 -600px; height:414px; padding:26px;background:url(../images/xiaixiai.png) center 295px no-repeat #fff;}
 .login ul{ }
 .login li{ padding:5px 0;}
-.login-t{ font-size:20px;}
+.login-t{ font-size:20px; position:relative;}
+.login-t span{ font-size:12px; position:absolute; z-index:1; right:0px; top:20px}
 .userdl{height:44px; border:1px solid #d1d1d1; width:317px; text-indent:5px;}
 .autolf{ font-size:12px; color:#333; margin:3px 0;}
 .autolf input{ vertical-align:middle; margin: 0 3px 0 0;}
@@ -159,7 +160,7 @@ td.fwtitel{ color:#333;}
 .grxy2 .title b{ font-size:12px; margin: 0 0 0 10px;}
 .grxy2 .title a{ color:#7f97b4; position:absolute; z-index:1; right:20px; top:20px;font-size:12px ;}
 .grxy2 textarea{ width:1120px; margin: 5px 0 0 25px; border:1px solid #d8d8d8; height:90px;}
-.grxy2 .fabuts{ width:1120px;}
+.grxy2 .fabuts{ width:1120px; margin: 10px auto 20px;}
 .grxy2 .fabuts input{ background:#ff0097;}
 
 
