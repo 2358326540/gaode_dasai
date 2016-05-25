@@ -155,7 +155,7 @@ td.fwtitel{ color:#333;}
 .grxy img{ margin:0 8px;}
 .grxy span{ position:absolute; z-index:1; top:-10px; left:145px; background:url(../images/zn.png) no-repeat; width:27px; height:11px;}
 .grzydtts{ font-size:14px; color:#a7a7a7; width:1200px; text-indent:30px; padding:60px 0 20px 0; margin:0 auto;}
-.grxy2{ z-index:10; height:auto; top:380px; line-height:normal;    bottom: initial; box-shadow:0 2px 5px 0px #ccc;}
+.grxy2{ z-index:10; height:auto; top:380px; line-height:normal;    bottom: initial; box-shadow:0 2px 5px 0px #ccc; display:none;}
 .grxy2 .title{ font-size:18px; padding:20px 0 0 0;}
 .grxy2 .title b{ font-size:12px; margin: 0 0 0 10px;}
 .grxy2 .title a{ color:#7f97b4; position:absolute; z-index:1; right:20px; top:20px;font-size:12px ;}
@@ -163,7 +163,7 @@ td.fwtitel{ color:#333;}
 .grxy2 .fabuts{ width:1120px; margin: 10px auto 20px;}
 .grxy2 .fabuts input{ background:#ff0097;}
 
-
+.grxy .bianji{ position:absolute; z-index:1; top:20px; right:20px; width:23px; height:23px; background:url(../images/bianjidubai_03.png) no-repeat; background-size:100%;}
 
 
 .grzydt{ width:1200px; padding-top:0; padding-bottom:20px; overflow:hidden; margin:0 auto;}
@@ -385,5 +385,21 @@ p.likepop .qiuyuehui{ color:#fff; background:#48c3f0; border:1px solid #48c3f0;r
 .jiagouwuc2 .anniu{ font-size:12px;}
 .jiagouwuc2 .anniu a{ display:inline-block; padding:0; width:128px; line-height:30px; font-family:"宋体";}
 .jiagouwuc2 .anniu .baocun{ background:#f10180; color:#fff; border:1px solid #f10180;}
+
+.kftczfmm{ height:26px; border:1px solid #ddd;}
+p.shurimm{ margin: 0 0 -12px; line-height:30px;}
+a.jieshou2{ right:10px; border:1px solid #3bb444;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 

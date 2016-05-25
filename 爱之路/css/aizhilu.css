@@ -1312,39 +1312,40 @@ dl.done { border-top-color: #caecb6;}
     padding: 3px 15px 4px;
     color: #fff;
 }
-.shoujiyz  .btn-10, .shoujiyz  .btn-14, .shoujiyz  .btn-4 {
-    padding: 8px 14px;
-    font-size: 14px;
-}
+.shoujiyz  .btn-10, .shoujiyz  .btn-14, .shoujiyz  .btn-4 { padding: 8px 14px;font-size: 14px;}
 .shoujiyz .line{ margin:0; border-bottom:1px solid #f5f5f5; margin: 30px 0 30px -170px;}
 .shoujicg{ text-align:center; color:#71b247; font-size:24px; padding:50px 0;}
 
+.shoujiyz em {color: #e4393c;}
 
-.shoujiyz em {
-    color: #e4393c;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 咖啡充值 */
+.czkafei{ border:1px solid #ddd; border-radius:3px; width:1200px; margin:0 auto; color:#666;}
+.czkafei h2{ font-size:16px; background:#f3f3f3; line-height:35px; text-indent:20px;}
+.czkafei ul{ margin: 30px 0 30px 80px; line-height:2em;}
+.czkafei ul li{ overflow:hidden;}
+.czkafei ul p{ float:left;width:80px;}
+.czkafei ul span{ float:left; }
+.czkafei .button.button-xl{ height:40px; padding:0 60px; margin: 30px 0 0 0;}
+.czkafei .zhushi{ font-size:12px; color:#999;}
+.czkafei .cfsl{ color:#cc0000; text-align:center; width:102px; height:28px; border:1px solid #ccc; margin: 0 10px 0 0;}
+.czkafei .mod-comm{ background:#fffdee; border:2px solid #edd28b; width:830px; margin:40px 0 80px 80px; }
+.nav-wd{ position:relative;}
+.czkfylbz { width:383px; font-size:12px; color:#999; position:absolute; z-index:1; right:0; bottom:10px; background:url(../images/huisejindu.png) no-repeat; line-height:25px; }
+.czkfylbz li{float:left; text-align:center; font-weight:bolder; }
+.czkfylbz .jdt1.select{ background:url(../images/caisejindu1.png) no-repeat; color:#ff6600; }
+.jdt1{ width:139px;}
+.jdt2{ width:129px; margin:  0 0 0 -8px;}
+.jdt3{ width:133px; margin:  0 0 0 -10px; }
+.czkfylbz .jdt2.select{ background:url(../images/caisejindu2.png) no-repeat; color:#ff6600; }
+.czkfylbz .jdt3.select{ background:url(../images/caisejindu3.png) no-repeat; color:#ff6600; }
+.czkafei2{ border:none; border-top:2px solid #7abd54; background:#f3fded;padding: 0 0 50px;}
+.czkafei2 .shenfenrenz{ background:none; color:#333; }
+.czkafei2 .shenfenrenz .green{ color:#7abd54; font-size:18px; padding: 0 0 10px;}
+.czkafei22{ width:1200px; margin:0 auto; font-size:12px; color:#999; padding:20px 0; position:relative;}
+.czkafei22 a{ position:absolute; z-index:1; right:0; top:20px; color:#005a9d;}
+.czkafei22 a img{ margin: 0 5px 3px;}
+.czcgkf{ width:1200px; margin:0 auto; text-align:center; font-size:12px; color:#666; padding:40px 0;}
+.czcgkf .button.button-xl{ font-weight:normal; padding:0px 20px; font-size:16px; height:40px; line-height:40px; margin:20px 0 50px 0;}
 
 
 
