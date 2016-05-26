@@ -1359,7 +1359,8 @@ dl.done { border-top-color: #caecb6;}
 .shejijianjie .name{ font-size:30px; color:#444; padding:10px 0;}
 .shejijianjie p{ font-size:12px; color:#666; line-height:24px;}
 .shejijianjie .name .guanzhu{ margin: 0 0 0 20px;border-color: #f60062; background: #ff1271;   background: -webkit-linear-gradient(top,#ff1271,#f60062); background: linear-gradient(#ff1271 0,#f60062 100%);}
-.shejijianjie .name  .heart:before{ content:url(../images/heratshejishi.png);}
+.shejijianjie .name  .guanzhu .heart:before{ content:url(../images/heratshejishi.png);}
+.shejijianjie .name  .guanzhuhou .heart:before{ content:url(../images/heratshejishi2.png);}
 
 
 
