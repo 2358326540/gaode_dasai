@@ -1347,6 +1347,39 @@ dl.done { border-top-color: #caecb6;}
 .czcgkf{ width:1200px; margin:0 auto; text-align:center; font-size:12px; color:#666; padding:40px 0;}
 .czcgkf .button.button-xl{ font-weight:normal; padding:0px 20px; font-size:16px; height:40px; line-height:40px; margin:20px 0 50px 0;}
 
+/* 设计师 */
+.shjzp{ width:1200px; margin:0 auto;}
+.shjzp h2{ font-size:20px; background:#333; color:#fff; line-height:47px; text-indent:20px;}
+.shjzp .spid{ margin:0; width:20%;}
+.shejijianjie{ width:1200px; margin:17px auto 13px; overflow:hidden; background:#fff;}
+
+.shejijianjie .float-left{ width:200px;}
+.shejijianjie .float-right{ width:969px; border-left:1px solid #f8f8f8; padding:15px;}
+.shejijianjie h3{ font-size:12px; font-weight:bolder; }
+.shejijianjie .name{ font-size:30px; color:#444; padding:10px 0;}
+.shejijianjie p{ font-size:12px; color:#666; line-height:24px;}
+.shejijianjie .name .guanzhu{ margin: 0 0 0 20px;border-color: #f60062; background: #ff1271;   background: -webkit-linear-gradient(top,#ff1271,#f60062); background: linear-gradient(#ff1271 0,#f60062 100%);}
+.shejijianjie .name  .heart:before{ content:url(../images/heratshejishi.png);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
