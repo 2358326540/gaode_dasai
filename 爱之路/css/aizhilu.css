@@ -1321,14 +1321,15 @@ dl.done { border-top-color: #caecb6;}
 /* 咖啡充值 */
 .czkafei{ border:1px solid #ddd; border-radius:3px; width:1200px; margin:0 auto; color:#666;}
 .czkafei h2{ font-size:16px; background:#f3f3f3; line-height:35px; text-indent:20px;}
-.czkafei ul{ margin: 30px 0 30px 80px; line-height:2em;}
+.czkafei ul{ margin: 30px 0 30px 200px; line-height:2em;}
 .czkafei ul li{ overflow:hidden;}
-.czkafei ul p{ float:left;width:80px;}
-.czkafei ul span{ float:left; }
+.czkafei ul .zckleft{ float:left;width:80px;}
+.czkafei ul .zckfright{ float:left; width: 700px; }
 .czkafei .button.button-xl{ height:40px; padding:0 60px; margin: 30px 0 0 0;}
 .czkafei .zhushi{ font-size:12px; color:#999;}
 .czkafei .cfsl{ color:#cc0000; text-align:center; width:102px; height:28px; border:1px solid #ccc; margin: 0 10px 0 0;}
-.czkafei .mod-comm{ background:#fffdee; border:2px solid #edd28b; width:830px; margin:40px 0 80px 80px; }
+.czkafei .mod-comm{ background:#fffdee; border:2px solid #edd28b; width:980px; margin:40px 0 80px 80px; }
+.czkafei  .table-lightgrey tr.item{ border:none; border-bottom:1px solid #ddd;}
 .nav-wd{ position:relative;}
 .czkfylbz { width:383px; font-size:12px; color:#999; position:absolute; z-index:1; right:0; bottom:10px; background:url(../images/huisejindu.png) no-repeat; line-height:25px; }
 .czkfylbz li{float:left; text-align:center; font-weight:bolder; }
