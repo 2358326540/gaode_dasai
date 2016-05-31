@@ -1363,30 +1363,84 @@ dl.done { border-top-color: #caecb6;}
 .shejijianjie .name  .guanzhu .heart:before{ content:url(../images/heratshejishi.png);}
 .shejijianjie .name  .guanzhuhou .heart:before{ content:url(../images/heratshejishi2.png);}
 
+/* 评价 */
+.rate {
+    float: left;
+    width: 120px;
+    padding: 20px 0 0;
+    text-align: center; font-family:'宋体';}
 
+.actor-new {
+    float: left;
+    position: relative;
+    width: 700px;
+    padding: 10px 15px;
+    line-height: 15px;
+    white-space: nowrap;
+	font-size:12px; margin:20px 0 0 0; border-left:1px dotted #ccc; font-family:'宋体';
+}
+.actor-new dt { font-family:'宋体';float: left;color: #333; width: 20px;white-space: pre-line;}
+.comm-tags {font-family:'宋体';
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 7px;
+    margin:0 5px 5px;
+    font-size:12px;
+	color:#b10000;
+	box-shadow:0 2px 2px #f0f0f0;
+	border:1px solid #ffd7dd;
+}
 
+p a.yipingjia, p a.yipingjia:hover{ border:none; color:#999; background:none;}
+.tab-user-menu li a span{ background:#cb191d; color:#fff; position:absolute; z-index:1; left:46px; top:-10px; font-size:12px; border-radius:99px; padding:0 5px; line-height:none;}
+.i-comment{ overflow:hidden; width:100%;}
+ .grade-star { margin:0 auto; width: 85px; height: 22px;background: url(../images/commentsListIcons1.png) no-repeat -183px -239px;}
+.rate strong{ font-size:34px; color:#cd0004;font-family:arial; font-weight:bold;}
+.grade-star.g-star5 {background-position: 0 0;}
+.grade-star.g-star4 {background-position: -17px 0;}
+.grade-star.g-star3 {background-position: -34px 0;}
+.grade-star.g-star2 {background-position: -51px 0;}
+.grade-star.g-star1 {background-position: -68px 0;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.m-tab-trigger-wrap {font-family:'宋体';
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    background-color: #eee;
+    overflow: visible;font-size:12px;
+	width:850px;
+}
+.trig-item{ color:#cd0004; font-weight:bolder; text-indent:10px; float:left;}
+.comment-item { margin: 0 10px 0 0; padding: 10px; border-bottom: 1px solid #e8e8e8; font-size:12px;font-family:'宋体'; line-height:18px;}
+.comment-item-content .reviews {
+    margin: 10px 8% 0 0 ;
+	display: inline-block;
+    text-align: left;
+    width: 60%;
+    vertical-align: middle;
+	color:#666;
+}
+.reviews .time{ color:#999; display:block; padding:5px 0 0 0;}
+.comment-product-sku { display: inline-block; width: 20%;vertical-align: middle;	color:#666;}
+.comment-product-sku span{ color:#999;}
+.comment-item-author {color:#666; display: inline-block; width: 10%;text-align:center; vertical-align: middle;}
+.comment-item-author img{ width:20px;}
+.pjpaixu{ color:#666; padding: 0 10px 0 0 ;}
+.sorting{ background:#fff; line-height: 22px; margin:3px 0 5px 10px; }
+.sorting ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #ddd;
+    border-top-width: 0;
+    overflow: hidden;width: 82px;
+    text-align: center; 
+}
+.kg-rate-icf:before{ content:url(../images/shangpinxiajiaotou.png); margin: 0 0 0 5px;}
+.tb-current{ background:#efefef;padding: 0 15px; border:1px solid #c8c8c8;}
 
 
 

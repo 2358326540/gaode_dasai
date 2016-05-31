@@ -286,8 +286,9 @@ li.fwtkck a{ color:#005aa0;}
 
 .ctpfxx .zhushi{ width:540px; margin:0 auto; padding:20px 0 10px 0;}
 .uppic{ width:540px; margin:0 auto;}
-.uppic p{ float:left; margin: 0 10px 0 0;}
+.uppic p{ float:left; margin: 0 10px 0 0; position:relative;}
 .uppic p img{ width:127px; height:127px;}
+.uppic p .closed{ position:absolute; z-index:1; right:3px ; top:3px; width:16px; height:16px; background:url(../images/icon_v150902.png) no-repeat -154px -225px #000; border-radius:3px;}
 .uppicbtn{float:left; display:block; width:127px; height:127px; background:#c7c7c7; text-align:center; color:#fff; border-radius:4px; margin: 0 0 10px;}
 .uppicbtn img{ display:block; margin:40px auto 5px;}
 .ctpfxx textarea{ border:1px solid #c7c7c7; width:534px; background:#f0f0f0; margin:0px auto; display:block; height:120px;}
