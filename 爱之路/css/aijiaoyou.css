@@ -25,7 +25,7 @@ li.sfrk{ padding:25px 0 0 98px; overflow:hidden;}
 .shaixuan-wd img{ margin: 0 20px 0 12px;}
 .search{ background:#df0064; font-size:18px; color:#fff; border:none; width:94px; height:29px; border-radius:3px; margin:  0 0 0 20px; }
 
-.shipin{ padding:37px 0; background:#fff;}
+.shipin{ padding:37px 0; background:#fff;margin: 0 auto;text-align: center;}
 
 .zdxf{ width:100%; background:#333; padding:58px 0;}
 .zdxf-wd, .xktj-wd, .footer-wd{ width:1200px; margin:0 auto; overflow:hidden;}
