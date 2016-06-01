@@ -1392,7 +1392,7 @@ dl.done { border-top-color: #caecb6;}
 	border:1px solid #ffd7dd;
 }
 
-p a.yipingjia, p a.yipingjia:hover{ border:none; color:#999; background:none;}
+p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .tab-user-menu li a span{ background:#cb191d; color:#fff; position:absolute; z-index:1; left:46px; top:-10px; font-size:12px; border-radius:99px; padding:0 5px; line-height:none;}
 .i-comment{ overflow:hidden; width:100%;}
  .grade-star { margin:0 auto; width: 85px; height: 22px;background: url(../images/commentsListIcons1.png) no-repeat -183px -239px;}
@@ -1441,6 +1441,385 @@ p a.yipingjia, p a.yipingjia:hover{ border:none; color:#999; background:none;}
 }
 .kg-rate-icf:before{ content:url(../images/shangpinxiajiaotou.png); margin: 0 0 0 5px;}
 .tb-current{ background:#efefef;padding: 0 15px; border:1px solid #c8c8c8;}
+.shenfenrenz2 { font-size:14px;width: 500px;margin: 0 auto;}
+.shenfenrenz2 b{ font-size:20px;}
+ .dpjlist{ background:#fff; padding:30px; width:1140px; margin:30px auto 200px; overflow:hidden;}
+ .dpjlist img{ width:86px; height:134px; border:1px solid #efefef; padding:6px 32px; display:block;}
+.dpjlist li{ float:left; text-align:center; margin: 0 45px 0 0;}
+.dpjlist li.last{ margin:0;}
+.dpjlist li a{  color:#e4393c; font-size:12px; margin:7px auto 0; display:inline-block; width:72px; height:24px; line-height:24px; border-radius:3px; border:1px solid #e4393c;}
+.dpjlist li a:hover{ background:#e4393c; color:#fff; }
+.orderinfo { padding: 15px 0;width: 100%; text-align: center;}
+.o-title {font: 700 16px/26px "Microsoft YaHei"; color: #333;}
+.o-info {font: 12px/22px verdana; color: #999;}
+.mr20 { margin-right: 20px;}
+
+.fi-operate { background:#fff;width: 100%;font-size:12px; font-family:'宋体';}
+
+
+ .fop-label {
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    margin-right: 20px;
+    margin-left: 40px;
+    _display: inline;
+    overflow: hidden;
+}
+
+.m-tagbox .tag-define, .m-tagbox .tag-item {
+    float: left;
+    width: 102px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #e0e0e0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+.m-tagbox .tag-item {
+    position: relative;
+    width: 92px;
+    padding: 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mycomment-form .f-textarea {
+    float: left;
+    width: 485px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+}
+.m-tagbox .define-label {
+    display: block;
+    cursor: pointer;
+}
+.m-tagbox .define-label .i-pen {
+    width: 13px;
+    height: 13px;
+    margin-top: 13px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.m-tagbox .define-label em {
+    display: inline-block;
+    height: 38px;
+    vertical-align: top;
+}
+
+.f-textarea textarea {
+    float: left;
+    width: 680px;
+    height: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border: medium none;
+    color: #333;
+    resize: vertical;
+}
+.f-textarea .textarea-ext {
+    float: left;
+    width: 800px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-align: right;
+    color: #999;
+    background: #f5f5f5;
+}
+
+ .fop-item {
+    float: left;
+    width: 100%;
+    margin: 20px 0 10px 70px;
+}
+ .f-btnbox { text-align:center; padding:20px 0 ;}
+ .f-btnbox .btn-submit {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #df3033;
+    background-image: -moz-linear-gradient(top,#df3134,#e74649);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#df3033),color-stop(1,#e74649));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3033', endColorstr='#e74649', GradientType='0');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#df3033', endColorstr='#e74649');
+    background-image: linear-gradient(to bottom,#df3033 0,#e74649 100%);
+	
+	width: 220px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    font-size: 18px; }
+	.commstar .star-info {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 30px;
+    height: 16px;
+    line-height: 16px;
+    text-align: right;
+    color: #999;
+}
+	.commstar .star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 16px;
+    cursor: pointer;
+}
+
+.commstar .star5 {
+    width: 100%;
+    z-index: 2;
+}
+.commstar .star4 {
+    width: 80%;
+    z-index: 3;
+}
+.commstar .star3 {
+    width: 60%;
+    z-index: 4;
+}
+.commstar .star2 {
+    width: 40%;
+    z-index: 5;
+}
+.commstar .star1 {
+    width: 20%;
+    z-index: 6;
+}
+.commstar .star-info.highlight {
+    color: #e4393c;
+}
+	.commstar .star.active, .commstar .star.hover {
+    background: url(../images/commstar.png) 0 -16px repeat-x;
+}
+	
+.fi-operate .table-lightgrey p.img{padding: 8px 30px; margin:0;}
+.fi-operate .table-lightgrey .float-left{ padding: 20px 0 20px 20px;border-left:1px solid #f5f5f5; }
+.fi-operate .table-lightgrey p.img img{ width:45px; height:68px;}
+.fi-operate .table-lightgrey .text-left{ border-bottom:1px solid #f5f5f5;}
+.fop-main{ float:left; width:860px;}
+.m-tagbox.m-multi-tag{ overflow:hidden; clear:both;}
+.f-textarea { width:820px; height:135px; border:1px solid #dfdfdf;}
+.fop-main .red { padding:10px 0;}
+.fop-main .red img{ margin: 0 5px 3px 0;}
+.f-textarea  textarea{ width:800px; height:85px;}
+.commstar {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 16px;
+    vertical-align: top;
+    margin:10px 0px 0px 0;
+    background: url(../images/commstar.png) 0 0 repeat-x;
+	
+}
+
+.m-tagbox .t-check {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background-position: -40px 0;
+	background-image: url(../images/sprite-operate.png);background-repeat: no-repeat;
+}
+.m-tagbox .tag-item {
+    position: relative;
+    width: 92px;
+    padding: 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.m-tagbox .tag-checked,.m-tagbox .tag-item:hover{
+    border-color: #e4393c;
+}
+
+.m-tagbox .tag-checked  .t-check{ display:block;}
+
+.m-tagbox .t-delete {
+    display: none;
+    position: absolute; 
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    background: url(../images/bg-tag.png) no-repeat 5px 5px;
+}
+.m-tagbox .tag-item:hover .t-delete{ display:block;}
+.m-tagbox .t-delete:hover{ background-position:5px -15px;}
+.commstar .star.active, .commstar .star.hover {background: url(../images//commstar.png) 0 -16px repeat-x;}
+
+.comt-plists { border: 1px solid #eee; border-bottom: none;}
+.comt-plists .comt-head {
+    height: 30px;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #999;
+    border-bottom: 1px solid #eee;
+}
+.comt-plists .comt-head li{ float:left; width:50%; text-align:center; font-size:12px; color:#333; font-weight:bolder;}
+.comt-plists .comt-plist {
+    border-bottom: 1px solid #eee;
+}
+.pro-info { padding: 10px; background: #fff;font-size:12px;}
+.comt-box {
+    background: #fcfffa;
+    border: 1px solid #d0e4c2;
+    padding: 10px 0 0;
+    margin: 0 -1px -1px;
+    text-align: left;
+    position: relative;
+    zoom: 1;
+	font-size:12px;
+	
+}
+
+.pro-info .p-item {
+    width: 520px;
+    display: inline-block;
+    display: block;
+    padding-left: 70px;
+   font-size:12px;
+
+}
+.p-item .p-name { height: 36px; line-height: 18px; overflow: hidden;}
+.p-item .p-name a{ color:#3366cc;}
+.pro-info .p-item .p-img {
+    float: left;
+    position: relative;
+    left: -70px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #efefef;
+}
+.p-item .p-msg {
+    float: left;
+    width: 99.9%;
+    margin-left: -62px;
+    overflow: hidden;
+}
+.pro-info .op-wrap {
+    width: 100%;
+    display: table;
+    height: 62px;
+    text-align: center;
+}
+.pro-info ul { display: inline-block; display: block;}
+.pro-info li.fore1 { width: 590px;}
+.pro-info li {float: left;}
+.pro-info li.fore3 { width: 320px;}
+.pro-info .op-cont { display: table-cell; vertical-align: middle;   text-align: center;}
+.pro-info .op-btns { margin: 0 auto;line-height:2em;}
+ .btn-9 {
+    background-color: #F7F7F7;
+    background-image: -moz-linear-gradient(top,#F7F7F7,#F3F2F2);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#F7F7F7),color-stop(1,#F3F2F2));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7F7F7', endColorstr='#F3F2F2', GradientType='0');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7F7F7', endColorstr='#F3F2F2');
+    background-image: linear-gradient(to bottom,#F7F7F7 0,#F3F2F2 100%);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #ddd;
+    padding: 2px 14px 3px;
+    color: #323333;
+}
+.ftx-01, .ftx01 { color: #e4393c;}
+.comt-box .box-t {
+    position: absolute;
+    top: -11px;
+    width: 21px;
+    height: 12px;
+    background: url(../images/cicon.png) 0 0 no-repeat;
+	right: 220px;
+}
+.comt-box .box-t { right: 203px;}
+.form .item span.label {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 0;
+    width: 100px;
+    text-align: right;
+}
+.comt-box .item .label em {
+    padding-right: 3px;
+    padding-top: 5px;
+    vertical-align: middle;
+    font-size: 16px;
+	color:red;
+}
+.summary-cont-box .tag-txt {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 8px 3px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #999;
+    max-width: 90px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.comt-box .summary-cont-box .tag-txt-selected {
+    padding: 1px 7px 2px;
+    background: #fff;
+    border: 2px solid #e4393c;
+    color: #e4393c;
+}
+.comt-box .item { margin-bottom: 10px;overflow:hidden; line-height:30px;}
+.comt-box .commstar {
+    width: 70px;
+    height: 14px;
+    background: url(../images/commstar02.png) 0 -14px repeat-x;
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
 
 
 
