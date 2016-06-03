@@ -673,7 +673,7 @@ i.fa-chevron-right:before{ content:url(../images/rightcenter.png);}
 .grey { display:block; color: #999; margin:5px 0  0 0;}
 .table a { color: #36C;}
 .xqfanye2{ text-align:right; width:100%; margin:10px 0 0 0;}
-.xqfanye2 .select, .xqfanye2 .current, .xqfanye2 a{ padding: 5px 10px;}
+.xqfanye2 .select, .xqfanye2 .current, .xqfanye2 a{ padding: 5px 10px; font-size: 13px;}
 
 .table-grey tr{border:1px solid  #CCC;}
 .table-grey tr .border-none { border:none;}
@@ -1326,6 +1326,7 @@ dl.done { border-top-color: #caecb6;}
 .czkafei ul .zckleft{ float:left;width:80px;}
 .czkafei ul .zckfright{ float:left; width: 700px; }
 .czkafei .button.button-xl{ height:40px; padding:0 60px; margin: 30px 0 0 0;}
+.czkafei ul .zckfright .tish{ background:#ffffbb; font-size:12px; color:red; border:1px solid #ffeebb; padding:3px 5px; margin: 0 0  0 10px;}
 .czkafei .zhushi{ font-size:12px; color:#999;}
 .czkafei .cfsl{ color:#cc0000; text-align:center; width:102px; height:28px; border:1px solid #ccc; margin: 0 10px 0 0;}
 .czkafei .mod-comm{ background:#fffdee; border:2px solid #edd28b; width:980px; margin:40px 0 80px 80px; }
@@ -1530,11 +1531,7 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     background: #f5f5f5;
 }
 
- .fop-item {
-    float: left;
-    width: 100%;
-    margin: 20px 0 10px 70px;
-}
+ .fop-item { float: left; width: 100%; margin: 20px 0 10px 70px;}
  .f-btnbox { text-align:center; padding:20px 0 ;}
  .f-btnbox .btn-submit {
     display: inline-block;
@@ -1564,7 +1561,18 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     text-align: right;
     color: #999;
 }
-	.commstar .star {
+.comt-box .commstar {
+    width: 70px;
+    height: 14px;
+    background: url(../images/commstar02.png) 0 -14px repeat-x;
+    position: relative;
+    margin-top: 7px;
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.commstar .star {
     position: absolute;
     top: 0;
     left: 0;
@@ -1572,34 +1580,25 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     height: 16px;
     cursor: pointer;
 }
-
-.commstar .star5 {
-    width: 100%;
-    z-index: 2;
+.comt-box .commstar a {
+    width: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 20px;
 }
-.commstar .star4 {
-    width: 80%;
-    z-index: 3;
-}
-.commstar .star3 {
-    width: 60%;
-    z-index: 4;
-}
-.commstar .star2 {
-    width: 40%;
-    z-index: 5;
-}
-.commstar .star1 {
-    width: 20%;
-    z-index: 6;
-}
-.commstar .star-info.highlight {
-    color: #e4393c;
-}
-	.commstar .star.active, .commstar .star.hover {
-    background: url(../images/commstar.png) 0 -16px repeat-x;
-}
+.comt-box .commstar .active, .comt-box .commstar a:hover { background: url(../images/commstar02.png) left top repeat-x;}
+.comt-box .commstar .star-info.highlight { color: #e4393c;}
 	
+.comt-box .commstar .star1 { width: 20%; z-index: 6;}
+.comt-box .commstar .star2 { width: 40%; z-index: 5;}
+.comt-box .commstar .star3 { width: 60%; z-index: 4;}
+.comt-box .commstar .star4 { width: 80%; z-index: 3;}
+.comt-box .commstar .star5 { width: 100%; z-index: 2;}
+
+
 .fi-operate .table-lightgrey p.img{padding: 8px 30px; margin:0;}
 .fi-operate .table-lightgrey .float-left{ padding: 20px 0 20px 20px;border-left:1px solid #f5f5f5; }
 .fi-operate .table-lightgrey p.img img{ width:45px; height:68px;}
@@ -1698,10 +1697,11 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     float: left;
     position: relative;
     left: -70px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #efefef;
+    width: 45px;
+    height: 68px;
+    
 }
+.pro-info .p-item .p-img img{ width:45px; height:68px;}
 .p-item .p-msg {
     float: left;
     width: 99.9%;
@@ -1785,16 +1785,51 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     color: #e4393c;
 }
 .comt-box .item { margin-bottom: 10px;overflow:hidden; line-height:30px;}
-.comt-box .commstar {
-    width: 70px;
-    height: 14px;
-    background: url(../images/commstar02.png) 0 -14px repeat-x;
-    position: relative;
-    margin-top: 7px;
-    display: inline-block;
-    overflow: hidden;
-    zoom: 1;
-}
+
+/* 资讯频道  */
+.azlinfobn{ width:1200px; margin:0 auto; overflow:hidden; }
+.infofl{ float:left; width:20%; padding:20px 0; border-bottom:1px solid #e8e8e8; }
+.infofl dt{ float:left; width:130px; text-align:center;}
+.infofl dd{ float:left;width: 105px; border-right:1px solid #e8e8e8; padding:10px 0 0 0;}
+.infofl dd a, .infofl dt{ font-size:12px;}
+.infofl dt b{ font-size:28px;}
+.infofl dd a{ float:left; width:45px; }
+
+
+.infolbt{width:1200px; margin:0px auto 0px; padding:30px 0 50px 0;}
+.infolbt-left{ width:760px; height:480px; position:relative;}
+.infolbt-left img{ width:100%; height:100%;}
+.infolbt-left .title{ background:rgba(0,0,0,0.5); color:#fff; font-size:22px; position:absolute; z-index:1; bottom:0; width:760px; overflow:hidden; line-height:72px; text-indent:35px;}
+.xtlb{ width:300px; position:absolute; z-index:10; bottom:-30px; right:20px;}
+.xtlb li{ width:80px; border:2px solid #e5e5e5; float:left; margin: 0 16px 0 0; height:80px;}
+
+.infolbt-right{ width:400px;}
+.infolbt-right .title{ font-size:16px; line-height:2em; border-bottom:3px solid #434343; position:relative;}	
+.infolbt-right .title a{ position:absolute; z-index:1; right:0; font-size:12px; color:#999;}	
+.infolbt-right dl{ margin:17px 0 0 0; overflow:hidden;}	
+.infolbt-right dl dt{ float:left; margin: 0 20px 0 0 ;}	
+.infolbt-right dl dd{ font-size:12px; color:#666;}
+.infolbt-right dl dd.title2{  color:#333; font-weight:bolder; margin: 0 0 14px;}
+.infolbt-right dl dd.title2 a{font-size:14px;}
+.infolbt-right dl dt img{ width:190px; height:130px;}
+
+.zxlinfo-ss{ background-image:url(../images/biaotibeijinginfo_03.png);}
+.zxlinfo-mr{ background-image:url(../images/biaotibeijinginfo_06.png);}
+.zxlinfo-yl{ background-image:url(../images/biaotibeijinginfo_08.png);}
+.zxlinfo-hj{ background-image:url(../images/biaotibeijinginfo_10.png);}
+.zxlinfo-qg{ background-image:url(../images/biaotibeijinginfo_12.png);}
+.zxlinfo-sj{ background-image:url(../images/biaotibeijinginfo_14.png);}
+
+.ssldt{ width:330px; height:480px; position:relative;}
+.ssldt img, .ssldt2 img{ width:100%; height:100%;}
+.ssldt span{ position:absolute; z-index:1; background:#000; color:#fff; bottom:0; left:0; width:100%; overflow:hidden; line-height:35px;height:35px; text-align:center; font-size:13px;}
+.sswzlb ul{ line-height:2em; width:190px; margin: 0 0 20px 50px;}
+.sswzlb ul li{ list-style: inside disc; line-height:2em; height:2em; overflow:hidden;}
+.sswzlb ul .title{ font-size:14px; list-style:none;}
+.sstwhh{ margin: 0 0 0 40px;}
+.ssldt2{ width:145px; height:125px; margin: 0 0 42px;}
+.ssldt2 .title{ display:block; height:30px; line-height:30px; text-align:center; overflow:hidden;}
+.ssldt3{ width:300px; margin: 0 55px 0 0;}
 
 
 
@@ -1808,13 +1843,6 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 
 
 
-
-	
-	
-	
-	
-	
-	
 
 
 

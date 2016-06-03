@@ -15,8 +15,8 @@
 .qzhuce img{ margin:0 3px 0 0; }
 .qzhuce a{ color:#f73e3e;}
 li.sfdlbt{ color:#a9a9a9; text-align:center; padding:70px 0 0 0; font-size:14px;}
-.sfrk a{ display:inline-block; background:url(../images/QQweixin.png) no-repeat; height:32px; width:32px; float:left;}
-li.sfrk{ padding:25px 0 0 98px; overflow:hidden;}
+.sfrk a{ display:inline-block; background:url(../images/QQweixin.png) no-repeat; height:32px; width:32px; }
+li.sfrk{ padding:25px 0 0 0px; overflow:hidden; text-align:center;}
 .sfrk a.Weixin{ background-position:right; width:38px; margin: 0 0px 0 53px;}
 
 .shaixuan{ background:#f5f5f5; width:100%; border-bottom:1px solid #dedede;}
@@ -287,6 +287,7 @@ li.fwtkck a{ color:#005aa0;}
 .ctpfxx .zhushi{ width:540px; margin:0 auto; padding:20px 0 10px 0;}
 .uppic{ width:540px; margin:0 auto;}
 .uppic p{ float:left; margin: 0 10px 0 0; position:relative;}
+.uppic p.last{ margin:0;}
 .uppic p img{ width:127px; height:127px;}
 .uppic p .closed{ position:absolute; z-index:1; right:3px ; top:3px; width:16px; height:16px; background:url(../images/icon_v150902.png) no-repeat -154px -225px #000; border-radius:3px;}
 .uppicbtn{float:left; display:block; width:127px; height:127px; background:#c7c7c7; text-align:center; color:#fff; border-radius:4px; margin: 0 0 10px;}
@@ -405,11 +406,12 @@ p.shurimm{ margin: 0 0 -12px; line-height:30px;}
 a.jieshou2{ right:10px; border:1px solid #3bb444;}
 
 
-
-
-
-
-
+.login-right{ font-size:14px; width:100%; background:url(../images/xiaixiai.png) no-repeat 0 225px; background-size:100%; border-bottom:2px solid #ebebeb; padding: 0 0 20px;}
+.login-right .login-t{ font-size:16px; padding: 0 0 10px;}
+.login-right .userdl , .login-right .loginbtn input{ width:100%; height:35px; margin: 0 0 8px;}
+.login-right .login-t span{ top:5px;}
+ .login-right .loginbtn input{ font-size:18px; margin:10px 0 20px 0;}
+ .login-right li.sfdlbt{ padding:40px 0 0 0;}
 
 
 
