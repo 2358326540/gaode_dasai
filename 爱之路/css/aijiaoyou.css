@@ -286,7 +286,7 @@ li.fwtkck a{ color:#005aa0;}
 
 .ctpfxx .zhushi{ width:540px; margin:0 auto; padding:20px 0 10px 0;}
 .uppic{ width:540px; margin:0 auto;}
-.uppic p{ float:left; margin: 0 10px 0 0; position:relative;}
+.uppic p{ float:left; margin: 0 10px 10px 0; position:relative;}
 .uppic p.last{ margin:0;}
 .uppic p img{ width:127px; height:127px;}
 .uppic p .closed{ position:absolute; z-index:1; right:3px ; top:3px; width:16px; height:16px; background:url(../images/icon_v150902.png) no-repeat -154px -225px #000; border-radius:3px;}
