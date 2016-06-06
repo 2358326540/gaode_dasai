@@ -51,6 +51,7 @@ a img, img{ border:none; vertical-align:middle;}
 .border-none{ border:none;}
 .bolder{font-weight: bolder;}
 body{ background:#edeff5;}
+.pink{ color:#f10582;}
 
 /* top */
 .top{ background:#232323; width:100%; color:#5e5959; border-top:1px solid #3f3f3f; border-bottom:1px solid #fff; }
