@@ -1800,8 +1800,9 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .infolbt-left{ width:760px; height:480px; position:relative;}
 .infolbt-left img{ width:100%; height:100%;}
 .infolbt-left .title{ background:rgba(0,0,0,0.5); color:#fff; font-size:22px; position:absolute; z-index:1; bottom:0; width:760px; overflow:hidden; line-height:72px; text-indent:35px;}
-.xtlb{ width:300px; position:absolute; z-index:10; bottom:-30px; right:20px;}
-.xtlb li{ width:80px; border:2px solid #e5e5e5; float:left; margin: 0 16px 0 0; height:80px;}
+.xtlb{ width:320px; position:absolute; z-index:10; bottom:-30px; right:20px;}
+.xtlb li{ width:80px; border:5px solid #e5e5e5; float:left; margin: 0 16px 0 0; height:80px;}
+.xtlb li.select{ border-color:#fe534c;}
 
 .infolbt-right{ width:400px;}
 .infolbt-right .title{ font-size:16px; line-height:2em; border-bottom:3px solid #434343; position:relative;}	
