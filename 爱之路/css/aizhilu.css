@@ -1992,8 +1992,43 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .infoxiangqing img{ max-width:100%; margin:5px;}
 .center{ text-align:center;}
 
+.shoplists h1{ width:125px; font-size:20px; margin:30px auto; border-bottom:3px solid #f10582; text-align:center; position:relative;}
 
+.shoplists h1 i{ background:url(../images/shoplisietico_03.png) no-repeat center; width:14px; height:7px; position:absolute; z-index:1; left:50%; margin: 0 0 0 -7px; bottom:-9px;}
+.shoplists .womenlist h2{ border-bottom:1px solid #444; font-size:22px; font-weight:bolder; color:#444;}
+.shoplists .womenlist h2 span{ font-size:12px; font-weight:normal; margin: 0 0 0 10px; }
 
+.wmenlist1{ border:1px solid #e5e5e5; width:1198px; margin:0 auto; border-top:none; padding:40px 0 0;}
+.dangge{ background:url(../images/shoplisietico_07.png) no-repeat  50px 0px; padding: 0px 0 20px 140px; font-size:14px; line-height:26px;}
+.dangge a{font-size:14px; color:#666; margin: 0 20px 0 0 ; display:inline-block;}
+.dangge h3{ font-weight:bolder; color:#444;}
+.dangge p{ border-bottom:1px dashed #eee; padding:0 0 20px;}
+.shangzhuang{ }
+.kuzhuang{ background-position:50px -118px;}
+.quzhuang{ background-position:50px -240px;}
+.waitao{ background-position:50px -360px;}
+.neiyi{ background-position:50px -480px;}
+.xiezi{ background-position:50px -580px;}
+.baobao{ background-position:50px -710px;}
+.peishi{ background-position:50px -820px;}
+
+.menlist12 .dangge{ background-image:url(../images/shoplisietico_11.png);}
+.menlist12 .waitao{ background-position:50px -230px;}
+.menlist12 .xiezi{ background-position:50px -350px;}
+.menlist12 .baobao{ background-position:50px -470px;}
+.menlist12 .peishi{ background-position:50px -590px;}
+
+.kafeishangcheng  .dangge{ background-image:url(../images/shoplisietico_14.png);}
+.kafeibei{ background-position:50px -100px;}
+.dengju{ background-position:50px -230px;}
+.shebei{ background-position:50px -360px;}
+.qimin{ background-position:50px -480px;}
+.zhanshigui{ background-position:50px -600px;}
+.zhuoyi{ background-position:50px -720px;}
+.lipin{ background-position:50px -830px;}
+
+/* 找回密码 */
+.zhaohmm{ background:#fff; padding:5px 10px;}
 
 
 
