@@ -2014,6 +2014,8 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .zhaohmm{ background:#fff; padding:5px 10px;}
 .stepflex2{ width:640px;}
 .shoujiyz2{ margin-left:330px;}
-
-
-
+dl.done { border-top-color: #caecb6;}
+.done .s-num { background-position: -46px 0;}
+.done .s-text { color: #caecb6;}
+.shenfenrenz3{ background:none; margin:0 0 60px 80px;}
+.shenfenrenz3 b{ color:#7abd54;}

@@ -43,12 +43,12 @@
 <h2 class="order-title"><i class="fa fa-caret-right"></i> 找回密码</h2>           
 		<div class="mc">
                         <div id="sflex03" class="stepflex stepflex2">
-                            <dl class="first ">
+                            <dl class="first done ">
                                 <dt class="s-num">1</dt>
                                 <dd class="s-text">填写用户名<s></s><b></b></dd>
                                 <dd></dd>
                             </dl>
-							<dl class="normal">
+							<dl class="normal done">
                                 <dt class="s-num">2</dt>
                                 <dd class="s-text">验证身份<s></s><b></b></dd>
                                 <dd></dd>
@@ -69,23 +69,24 @@
                             <div class="v-boxs">
 
                                 <div class="v-box">
-                                  <div class="item clearfix" id="sendMobileCodeDiv"> <span class="label">用户名：</span>
+                                  <div class="item clearfix" id="sendMobileCodeDiv"> <span class="label">新登录密码：</span>
                                     <div class="fl">
                                       <input class="itxt" name="code" tabindex="1" id="code" onChange="checkCode();" type="text">
-                                      <div class="msg-text red" id="payPwd_message" > 请输入您的用户名/已验证手机</div>
+                                      <div class="msg-text red" id="payPwd_message" >由字母加数字或符号至少两种以上字符组成6-20位字符，区分大小写
+</div>
                                     </div>
                                     
                                   </div>
                                   <div class="item clearfix" id="authCodeDiv">
-                                      <span class="label">入验证码：</span>
+                                      <span class="label">确认登录密码：</span>
                                       <div class="fl">
                                             <input class="itxt" onchange="checkAuthCode();" tabindex="2" name="authCode" id="authCode" type="text">
                                         
-                                            <label><img id="JD_Verification1" class="ml10" onclick="verc('474590d3-c8b1-463b-b9fd-cb8d8d1edd44','usersafe')" src="//authcode.jd.com/verify/image?acid=474590d3-c8b1-463b-b9fd-cb8d8d1edd44&amp;srcid=usersafe&amp;_t=1463031903202" alt="验证码" >看不清？<a href="javascript:verc('474590d3-c8b1-463b-b9fd-cb8d8d1edd44');" class="ftx-05">换一张</a></label>
-
+                                            
 
                                             
-                                    <div class="msg-text red" id="payPwd_message" >验证码错误</div>
+                                    <div class="msg-text red" id="payPwd_message" >请再次输入密码<br>
+两次输入的密码不一致，请重新输入</div>
                                         </div>
                                         <div class="clr"></div>
                                     </div>
@@ -95,7 +96,7 @@
                                 <span class="label">&nbsp;</span>
                                 <div class="fl">
                                    
-                                    <a id="submitCode" class="btn-1 btn-4" href="javascript:void(0);" >下一步</a>
+                                    <a id="submitCode" class="btn-1 btn-4" href="javascript:void(0);" >提交</a>
                                     
                                 </div>
                                 
