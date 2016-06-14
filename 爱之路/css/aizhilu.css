@@ -1903,7 +1903,7 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .wzlbhj2{ width:200px; padding: 10px 0 0 15px; margin:0;}
 .wzlbhj2 li{ width:200px;}
 .wzlbhj3{ padding:0;}
-.hotword{ padding: 10px 0 0 15px; font-size:14px; font-weight:bolder; }
+.hotword{ padding: 5px 0 0 15px; font-size:14px; font-weight:bolder; }
 .mrright{ overflow:hidden;}
 .infoqglefttopr{ width:340px; overflow:hidden;}
 .infoqglefttopr .ssldt2{ margin: 0 20px 12px 0;width:140px; height:110px;}
@@ -2019,3 +2019,106 @@ dl.done { border-top-color: #caecb6;}
 .done .s-text { color: #caecb6;}
 .shenfenrenz3{ background:none; margin:0 0 60px 80px;}
 .shenfenrenz3 b{ color:#7abd54;}
+
+/* 订单详情 */
+.mbx strong{ font-weight:bolder; color:#666;}
+.form-cart2{ background:#fff; margin-top:10px; padding:0 20px 20px; width:1160px;display: block; overflow: hidden;}
+.mbx2{ width:1200px; margin:0 auto; padding:10px 0 0 0;}
+.table-lightgrey tr.item3{ border:none;}
+.table-lightgrey tr.item3 td{ vertical-align:top; color:#999; line-height:2em; border-right:1px solid #eee; padding:10px 0 10px 30px;}
+.table-lightgrey tr.item3 td .title{ color:#666; font-size:14px;}
+.table-lightgrey tr.item3 td.last{ border:none;}
+
+ .track-list { margin: 20px; padding-left: 5px; position: relative; font-size:12px;}
+.track-list li {
+    position: relative;
+    padding: 9px 0 0 25px;
+    line-height: 18px;
+    border-left: 1px solid #d9d9d9;
+    color: #999;
+}
+ .track-list li .node-icon {
+    position: absolute;
+    left: -6px;
+    top: 50%;
+    width: 11px;
+    height: 11px;
+    background: url(../images/order-icons.png) -21px -72px no-repeat;
+}
+ .track-list li .time, .track-list li .txt {
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.track-list li.first .node-icon { background-position: 0 -72px;}
+ .track-list li.first { color: #e4393c; padding-top: 0;border-left-color: #fff;}
+.flowstep-5 { overflow:hidden; zoom:1; padding:30px 0;}
+.detail-stepbar li { float: left; text-align: center;}
+.flowstep-5 li {
+    width: 225px;
+}
+ .detail-stepbar .step-name {
+    padding: 3px 0;
+    font-weight: 700;
+    color: #888;
+	font-size:12px;
+	font-family: 'arial black';
+}
+
+.detail-stepbar .step-no, .detail-stepbar .step-sub-box .step-sub {
+	background: url(../images/T1ze0ZXA0aXXcVlxZa-734-340.png) no-repeat 50% -102px;}
+.detail-stepbar .step-no {
+    height: 34px;
+    line-height: 34px;
+    font-family: 'arial black';
+    color: #fff;
+    font-size: 18px;
+}
+.detail-stepbar .step-done .step-no {
+    background-position: 50% -170px;
+}
+.detail-stepbar .step-first .step-done .step-no {
+    background-position: 50% -204px;
+}
+.detail-stepbar .step-time {
+    margin-top: 10px;
+    color: #999;
+    padding: 8px 0;
+}
+ .detail-stepbar .step-time .step-time-wraper, .detail-stepbar .step-time .step-time-min-wraper { font-size:12px;
+    width: 210px;
+    margin: 0 auto;
+    display: inline-block;
+    zoom: 1;
+}
+.detail-stepbar .step-last .step-cur .step-no { background-position: 50% -68px;}
+.detail-stepbar .step-cur .step-name { color: #009349;}
+.detail-stepbar .step-last .step-no { background-position: 50% -136px;}
+.ddztcx{width:500px;  margin:0 auto; }
+.trade-detail-imfor {overflow:hidden;margin: 0 0 30px 0;}
+.trade-detail-imfor dt{ float:left;}
+.trade-detail-imfor dd{ font-size:14px; float:left; margin: 5px 0 0 20px; font-weight:bolder;}
+.dqztxs{ font-size:12px; margin: 0 0 30px 55px; color:#666;font-family: 'arial black';}
+.dqztxs img{ margin:0 10px 0 0;}
+.dqztxs b{ font-weight:bolder;}
+.dqztxs .fukuan{color: #db0000; margin:0 10px; font-weight: bolder; border: 1px solid #db0000;padding: 5px 30px; border-radius: 4px;}
+.qrshan{ background:#fbfbfb; border:1px solid #dcdcdc; font-weight:bolder; padding:5px 10px; margin: 0 0 0 10px; border-radius:2px;}
+.sfhxx{ background:#f3f3f3; font-size:12px; color:#333; padding:20px 50px; line-height:2em;font-family: 'arial';}
+.sfhxx span{ margin:0 30px 0 0;}
+
+.wlsp{  overflow:hidden; padding:20px 0 0;}
+.wlsp a{ display:block; width:55px; color:#666; text-align:center;font-size:12px; float:left; margin:10px;}
+.wlsp img{ width:45px; height:68px; padding:8px; border:1px solid #eee;}
+
+
+
+
+
+
+
+
+
+
+
+
