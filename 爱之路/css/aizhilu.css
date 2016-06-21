@@ -47,9 +47,9 @@
 .twhhr{ float:left; margin:0 0 0 20px;}
 .d1t1 a{ font-size:22px; color:#f73896;}
 .d2t2 a{ font-size:14px; color:#999; margin: 0 15px  0 0;}
-.twhhr li{ padding:0px 0 6px;}
+.twhhr li{ padding:0px 0 6px;width: 400px; overflow: hidden; height: 1.3em;}
 .d1t3{ background:url(../images/dicazl_17.png) no-repeat 0 center; text-indent:10px; font-size:14px; }
-
+.twhhr .d1t1{ padding: 0 0 15px;}
 
 .azlzxr{ float:left; width:445px; overflow:hidden; margin: 0 0 0 20px;}
 .azlzxr ul{ border-bottom:1px dashed #ddd; margin: 0 0 -1px; overflow:hidden; padding:30px 0;}
