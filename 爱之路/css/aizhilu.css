@@ -2251,7 +2251,20 @@ dl.category {
 	
 }
 
-
+/* 微信支付 */
+.fkxx{ font-size:14px; font-weight:bolder; color:#666; line-height:1.8em; position:relative; border-bottom:1px solid #ddd; padding:0 0 20px;}
+.fkxx p b{ font-size:12px; font-weight:normal; display:block;}
+.fkxx .jine{ position:absolute; z-index:1; right:0; top:14px; font-size:12px; font-weight:normal;}
+.fkxx .jine span{ font-size:18px; font-weight:bolder;}
+.shouhuodz{ font-size:12px; color:#666; padding:20px 0 0 0 ;}
+.weixinzhifu{ background:#fff; padding:20px 30px; margin:20px auto 0; box-shadow:0 0 5px #ddd; width:1160px;overflow:hidden;}
+.weixinzhifu .title{ font-size:22px; color:#666; padding: 0 0 20px;}
+.wxdtm{ overflow:hidden; padding:0 220px;}
+.wxdtm1 { border:1px solid #f10180; overflow:hidden; border-radius:3px; padding:23px; }
+.wxdtm1 p{font-size:16px; color:#f10180; width:180px; margin: 0 0 0 10px;}
+.dtewm{ width:300px; height:300px; border:1px solid #ddd; margin: 0 0 30px}
+.fhqtzf{ padding:40px 0 20px;}
+.fhqtzf a{ font-size:16px; color:#2ea7e7; font-weight:bolder;}
 
 
 
