@@ -2266,10 +2266,21 @@ dl.category {
 .fhqtzf{ padding:40px 0 20px;}
 .fhqtzf a{ font-size:16px; color:#2ea7e7; font-weight:bolder;}
 
-
-
-
-
+/* 店铺设置 */
+.dpshezhi{ margin: 70px 0 0 70px; font-size:14px; font-family:"";}
+.dpshezhi li{ padding:10px 0;}
+.dpshezhi  i{ color:red; margin:0 5px;}
+.dpshezhi input{height:30px;line-height:30px; border:1px solid #ccc; width:230px; vertical-align:middle; text-indent:3px;}
+.dpshezhi input.radio{ width:15px; margin: 0 3px 0 5px;}
+.dpshezhi .xzwjsc{ width:100px; border:none; margin: 0 0 0 10px;}
+.mbxtag{ font-size:12px; color:#999; margin: 0 0 0 10px;}
+.dpshezhi textarea{ width:640px; height:100px; border:1px solid #ccc;}
+.dpzp p{ display:inline-block; border:1px solid #0078cc; border-radius:6px; margin: 0 10px 0 0; width:120px; height:90px; position:relative;}
+.dpzp p input{ width:100%; height:100%; background:#0099ff; border-radius:6px; color:#fff; border:none;}
+.dpzp p img{ width:100%; height:100%; border-radius:6px; }
+.dpzp p .delete{ position:absolute; z-index:1; right:3px; top:3px; color:#0099ff; font-size:12px; font-family:arial; border:1px solid #0099ff; padding:1px 4px; border-radius:999px;}
+li.dpszbtn{ padding: 20px 0 0 65px;}
+.dpszbtn button{ margin:0 10px; }
 
 
 

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>余额</title>
+<title>登录</title>
 <link href="css/comm.css" type="text/css" rel="stylesheet">
 <link href="css/aijiaoyou.css" type="text/css" rel="stylesheet">
 <link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet" />
@@ -10,7 +10,10 @@
 
 </head>
 <body>
-	
+
+
+
+
 <div class="top top-azl">
   <div class="top-wd">
     <div class="top-l"><a>欢迎来爱之路</a><a>请登录</a><a>免费注册</a></div>
@@ -46,11 +49,11 @@
         </dl>
         <dl>
             <dt><i class="fa-diamond"></i> 订单中心</dt>
-            <dd><a href="/member/order">我的订单</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd class="selected"><a href="/member/order">我的订单</a> <i class="fa fa-chevron-right"></i></dd>
         </dl>
         <dl>
             <dt><i class="fa-life-ring"></i> 资产中心</dt>
-            <dd class="selected"><a href="/member/refund/list">余额</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/refund/list">余额</a> <i class="fa fa-chevron-right"></i></dd>
             <dd><a href="/member/exchange/list">豆币</a> <i class="fa fa-chevron-right"></i></dd>
             <dd><a href="/member/reship/list">咖啡</a> <i class="fa fa-chevron-right"></i></dd>
             <dd><a href="/member/reship/list">优惠券</a> <i class="fa fa-chevron-right"></i></dd>
@@ -72,34 +75,52 @@
         <dl>
             <dt><i class=" fa-friend"></i> 我的爱交友</dt>
         </dl>
+        <dl>
+            <dt><i class="fa-fire"></i> 我的特权</dt>
+            <dd><a href="/member/interest/collection/list">店铺设置</a> <i class="fa fa-chevron-right"></i></dd>
+            <dd><a href="/member/interest/attention/list">我的返利</a> <i class="fa fa-chevron-right"></i></dd>
+        </dl>        
+
     </div>
-    </div>
-    <div class="float-right layout-user-right yue2">
-    	<p class="float-left">可用余额：<b>¥ 0.00</b>账户状态：<b>有效</b></p><p class="float-right"><a class="chongzhi">充值</a><a class="blue">查看充值明细</a></p>
-    
     </div>
     <div class="float-right layout-user-right">
-    	
-     
-        <h3 class="sanjibiaoti"><a class="selected">余额收支明细</a></h3>
-		<table class="yuebiaodan">
-        	<tr><th width="210">时间</th><th width="150">存入</th><th width="150">支出</th><th>备注</th></tr>
-        	<tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-            <tr><td class="time">2016-01-11 09:43:00</td><td>¥0.00</td><td>-</td><td>余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明余额变动的一些说明</td></tr>
-        </table>
-		<div class="xqfanye xqfanye2">
-  
-    <a class="prev miss"><i></i>Prev</a>
-    <a class="select">1</a><a>2</a><a>3</a><a>4</a><a>5</a><a>6</a><a>7</a><a>8</a><a>9</a>
-    <b>...</b>
-    <a class="next ">Next<i></i></a>
-  </div>
+        <h1><i class="fa fa-caret-right"></i> 店铺设置 </h1>
+
+		<ul class="dpshezhi">
+                <li>
+                    <span class="bdtitle">店铺名称：SOULSKY CAF
+
+</span>
+                    <span><input type="text" placeholder="例：青岛总店" ><i>提示</i></span>
+                </li>
+                <li>
+                    <span class="bdtitle">通栏广告：</span>
+                    <span><input type="text"><input class="xzwjsc" type="button" value="选择文件"><span class="mbxtag">支持jpg、gif、png格式，单张照片不超过500K；1920*370像素显示最佳</span></span>
+                </li>
+                <li>
+                    <span class="bdtitle">店铺地址：</span>
+                    <span><input type="text" placeholder="例：山东省青岛市市北区中央商务区" ></span>
+                </li>
+                <li>
+                    <span class="bdtitle">店铺电话：</span>
+                    <span><input type="text" placeholder="例：0532-88888888" ></span>
+                </li>
+                <li>
+                    <span class="bdtitle">店铺简介：</span>
+                    <span><textarea placeholder="输入相关的店铺介绍" ></textarea></span>
+                </li>
+                <li>
+                    <span class="bdtitle">店铺照片：</span>
+                    <span class="dpzp"><p><img src="images/w.png"><b class="delete">X</b></p><p><input type="button" value="选择文件"></p></span>
+                </li>
+                <li class="dpszbtn"><button type="submit" class="grxxbutton">保存</button><button type="submit" class="grxxbutton">预览</button></li>
+
+          </ul>
+		
+
+        
+        
+
     
     </div>
 </div>
