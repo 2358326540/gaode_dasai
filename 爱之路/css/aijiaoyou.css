@@ -414,6 +414,27 @@ a.jieshou2{ right:10px; border:1px solid #3bb444;}
  .login-right li.sfdlbt{ padding:40px 0 0 0;}
 
 
+.biaoqian{ font-size:14px; width:92%; margin:20px auto; color:#333; overflow:hidden;}
+.biaoqianline { border-bottom:1px solid #ededed; width:80%; margin: 0 0 0 15%;}
+.biaoqian span{ border-bottom:1px solid #ededed; display:inline-block; padding: 0 0 15px 0;}
+.biaoqian a{ background:#bbd2e8; color:#fff; font-size:12px; display:inline-block; border-radius:999px; padding: 2px 15px; margin: 0 4px 4px;}
+.biaoqian a img{ width:8px; margin: 0 0 2px 5px;padding:3px;}
+.biaoqian a:hover{ background:#5e91c2; }
+.biaoqian a:hover img{ background:#2064a5; padding:3px; border-radius:99px; }
+.biaoqian p{ float:left; }
+.biaoqian .selected{ background:#5e91c2; color:#fff; font-size:12px;}
+.bqrrr{ width:460px;}
+.biaoqian .zhushi2{ font-size:12px; color:#999; margin:10px 0 0 0; display:block;}
+.ctpfxx h3.titiel2{ background:none; border-bottom:1px solid #ededed;}
+.anniu2{ background:#f5f5f5; padding:0; height:40px; line-height:41px; text-align:right; padding: 0 15px 0 0;}
+.anniu2 a{ padding:5px 20px; border:none; border-radius:0; background:#9c9c9c; color:#fff;}
+.anniu2 .baocun{ color:#fff; background:#ff3333;}
+
+
+
+
+
+
 
 
 

@@ -2287,6 +2287,25 @@ li.dpszbtn{ padding: 20px 0 0 65px;}
 /* 加盟商 */
 
 .jmsban{ background:url(../images/jiamengshangguanggao.png) no-repeat; height:370px;}
+.jxstitile{ text-align:center; font-size:12px; color:#666;}
+.jxstitile a{ background:#e1e1e1; padding:4px 8px;}
+.zaljs { width:1200px; margin:30px auto 0;}
+.zaljs p{ color:#444; line-height:32px; padding: 0 0 1em;}
+.azlgyslbt{ width:988px; margin:10px auto 0; overflow:hidden;}
+.azlgyslbt .toutu { height:458px;}
+.azlgyslbt .toutu img{ width:100%; height:100%; }
+.ttlub { border:1px solid #ddd; border-top:none; padding:25px 0 37px 0px; overflow:hidden;}
+.ttlub li{ width:90px; height:60px; float:left; margin:0 7px;}
+.ttlub li img{ width:100%; height:100%;}
+.ttlub li.select{ border:2px solid #f8ae0f;}
+.ttlub li.left{ width:22px; margin:0; background:url(../images/gxsleft.png) center no-repeat;}
+.ttlub li.right{ width:22px; margin:0; background:url(../images/gxsright.png) center no-repeat;}
+
+
+
+
+
+
 
 
 
