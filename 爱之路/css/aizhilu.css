@@ -2286,7 +2286,7 @@ li.dpszbtn{ padding: 20px 0 0 65px;}
 
 /* 加盟商 */
 
-.jmsban{ background:url(../images/jiamengshangguanggao.png) no-repeat; height:370px;}
+.jmsban{ height:370px; width:100%; overflow:hidden; text-align:center;}
 .jxstitile{ text-align:center; font-size:12px; color:#666;}
 .jxstitile a{ background:#e1e1e1; padding:4px 8px;}
 .zaljs { width:1200px; margin:30px auto 0;}
