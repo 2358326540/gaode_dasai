@@ -181,8 +181,16 @@ a.huidingbu2{ background:#e53531; text-align:center; width:108px; display:block;
 .fuhcuang .duoxuan { text-align:center; padding:20px 0 10px;}
 .fuhcuang .duoxuan select{ width:250px; border:1px solid #ccc; height:2em; font-size:16px;}
 .doubleanniu { text-align:center;}
-.doubleanniu input{ margin:0 10px; padding:5px 10px;}
+.doubleanniu input{ margin:0 10px; padding:5px 10px; line-height:normal; }
 .doubleanniu .anniu1{ background:none; border:none;}
+.doubleanniu .anniu2{ border:1px solid #fff; border-radius:2px; background: #eee;
+    background: -moz-linear-gradient(top,  #f5f5f5 0%, #ddd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#ddd));
+    background: -webkit-linear-gradient(top,  #f5f5f5 0%,#ddd 100%);
+    background: -o-linear-gradient(top,  #f5f5f5 0%,#ddd 100%);
+    background: -ms-linear-gradient(top,  #f5f5f5 0%,#ddd 100%);
+    background: linear-gradient(to bottom,  #f5f5f5 0%,#ddd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ddd',GradientType=0 );}
 
 
 

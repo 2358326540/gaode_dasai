@@ -58,12 +58,12 @@ body{ background:#edeff5;}
 
 
 
-.header{ background:#1e2645; width:100%;}
-
-
-
-
-
+.header{ background: url(../images/headerbg.png) center #1e2645; width:100%;}
+.header-main{ width:1000px; margin:0 auto; color:#fff; line-height:50px; height:50px;}
+.header-main a{ font-size:16px; color:#fff; float:left; display:inline-block; padding: 0 20px;}
+.logo{ font-size:22px; float:left; display:inline-block; padding:0 20px;}
+.header-main  i img{ margin:0 0 0 5px;}
+a.loginout{ float:right; padding:0;}
 
 
 
