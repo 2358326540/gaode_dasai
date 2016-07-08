@@ -52,7 +52,7 @@ a img, img{ border:none; vertical-align:middle;}
 .strong{ font-weight:bolder;}
 .border-none{ border:none;}
 .bolder{font-weight: bolder;}
-body{ background:#edeff5;}
+body{ background:#f0f1f4;}
 .pink{ color:#f10582;}
 
 
@@ -64,18 +64,24 @@ body{ background:#edeff5;}
 .logo{ font-size:22px; float:left; display:inline-block; padding:0 20px;}
 .header-main  i img{ margin:0 0 0 5px;}
 a.loginout{ float:right; padding:0;}
+.gonggao{ width:1000px;line-height:1.6em; font-size:16px; line-height:24px; color:#a4b3cc; background:#fff; height:100px; margin:20px auto 60px auto; overflow:hidden;}
+.gonggao span{ background:#dee2ed; display:inline-block; width:100px; height:100px; text-align:center; line-height:100px; float:left;}
+.gonggao p{ float:right; width:860px; padding:15px 20px;}
 
+.wzfbly{ width:1000px; margin:0 auto 40px; overflow:hidden;}
+.wzfblyleft{ float:left; width:320px;}
+.wzfblymiddle{ float:left; width:320px; margin:0 20px;}
+.wzfblyright{ float:left; width:320px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wzfbly h2{ position:relative; font-size:22px; color:#32406a; text-indent:15px;}
+.riliico{ position:absolute; z-index:1; right:20px;}
+.jtneirong{ background:#fff; margin:16px 0 0 0; height: 555px; }
+.time{ color:#a4b3cc; font-size:14px; padding:15px 0 0 0;}
+.jtneirongnr{ color:#527cc1; margin:10px 0 16px 0; display:block; line-height:24px;height: 48px; overflow: hidden;}
+.jtneirongnr:hover{ color:#32406a; text-decoration:underline;}
+.jtneirongn{border-bottom:1px solid #eeebf3; padding:0px 20px;}
+.jtneirongn.last{ border:none;}
+.fbwz1{ color:#32406a; font-size:16px; line-height:2em; padding:6px 20px 8px;}
+.fbwz1 input{ margin: 0 10px 0 0;}
+.fbwz2{ width:280px; margin:0 auto; background:#fafdfe; height:420px;}
+.tsoranger{ color:#ff8251; padding: 0 0 0 20px;}
