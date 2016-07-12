@@ -49,8 +49,8 @@ li.sfrk{ padding:25px 0 0 0px; overflow:hidden; text-align:center;}
 .spid{ float:left; width:236px; line-height:1em; margin:0 2px; background:#fff;}
 .spidpic{ display:block; height:400px; overflow:hidden;}
 .spidpic img{ width:100%; height:100%;}
-.spid .title{ padding:10px; font-size:12.6px; display:block; text-align:center;}
-.spid .jiage{ font-size:20px; color:#ff0097; display:block; text-align:center; margin:5px 0 15px 0;}
+.spid .title{ padding:10px; font-size:12.6px; display:block; text-align:center;height: 24px;overflow: hidden;}
+.spid .jiage{ font-size:20px; color:#ff0097; display:block; text-align:center; margin:10px 0 15px 0;}
 .footer{ background:#232323; width:100%; color:#b3b5ba; font-size:12px; padding:30px 0;}
 .footerl{ float:left;}
 .footer a{color:#b3b5ba; margin: 0 10px;}
