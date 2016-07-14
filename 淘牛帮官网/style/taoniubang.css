@@ -159,3 +159,10 @@ a img, img{ border:none; vertical-align:middle;}
 
 .fuhcuang .erweima.ios{ background-image:url(../images/ios.png);}
 .fudongyindao{ position:fixed; left:50px; top:120px; z-index:100; background:url(../images/fudongyindao.png) no-repeat; width:192px; height:392px;}
+
+.QQ1,.QQ2{ position:absolute; z-index:1; left:1px; width:191px; height:55px; display:block;top: 95px; cursor:pointer;}
+.QQ1:hover{background:url(../images/qqkf.png) no-repeat; }
+.QQ2{ top:149px;}
+.QQ2:hover{ background:url(../images/qqsw.png) no-repeat;}
+
+
