@@ -2275,7 +2275,7 @@ dl.category {
 .dpshezhi .xzwjsc{ width:100px; border:none; margin: 0 0 0 10px;}
 .mbxtag{ font-size:12px; color:#999; margin: 0 0 0 10px;}
 .dpshezhi textarea{ width:640px; height:100px; border:1px solid #ccc;}
-.dpzp p{ display:inline-block;  border-radius:6px; margin:0 6px 5px 0; width:120px; height:90px; position:relative;}
+.dpzp p{ display:inline-block;  border-radius:6px; margin:0 6px 5px 0; width:120px; height:90px; position:relative; float:left;}
 .dpzp p input{ width:100%; height:100%; background:#0099ff; border-radius:6px; color:#fff; border:none;}
 .dpzp p img{ width:100%; height:100%; border-radius:6px; }
 .dpzp p .delete{ position:absolute; z-index:1; right:3px; top:3px; color:#fff; font-size:12px; font-family:"微软雅黑"; border:1px solid #fff; padding:0px 5px; border-radius:999px;}
