@@ -60,7 +60,12 @@ body{ background:#f0f1f4;}
 
 .header{ background: url(../images/headerbg.png) center #1e2645; width:100%;background: #475682; box-shadow:0 2px 2px #d8d8dc;}
 .header-main{ width:1000px; margin:0 auto; color:#fff; line-height:50px; height:50px;}
-.header-main a{ font-size:16px; color:#fff; float:left; display:inline-block; width:100px; text-align:center;}
+.header-main span,.header-main a{ font-size:16px; color:#fff; float:left; display:inline-block; width:100px; text-align:center; position:relative;}
+.header-main span:hover{ background:#363d55;}
+.header-main span ul{ display:none; position:absolute; z-index:1; left:0; top:50px;background:#475682;}
+.header-main span ul a{ font-weight:normal; height:40px; line-height:40px; width:125px; padding:0 0 0 30px; text-align:left;}
+.header-main span ul a:hover{ background:#363d55; color:#fbc98e;}
+.header-main span:hover ul{ display:block;}
 .logo{ font-size:20px; float:left; display:inline-block; padding:0 34px;}
 .header-main  i img{ margin:0 0 0 5px;}
 .header-main .select{ background:#363d55; color:#fff; font-weight:bolder; font-size:18px;}
@@ -100,7 +105,7 @@ a.loginout:hover, a.loginout:active{ background:#ff891f; color:#fff;}
 .jtneirongright .jtneirongn:hover{ background:#e2e4ea;}
 .huifhl a:hover{ color:#32406a; text-decoration:underline;}
 .fbwz-text{ width:318px; border:none; min-height:500px; padding:0; margin:0; font-size:16px;}
-.save{ float:left; background:#dee2ed; color:#32406a; font-size:16px;box-shadow:0px 1px 0px #e7edfe inset; border-radius:999px;box-shadow:0px 2px 2px #b9b5b6; line-height:36px; height:36px; margin:6px 0 0 2px;padding: 0 24px;}
+.save{ float:left; background:#dee2ed; color:#32406a; font-size:16px;box-shadow:0px 1px 0px #e7edfe inset; border-radius:999px;box-shadow:0px 2px 2px #b9b5b6; line-height:36px; height:36px; margin:6px 0 0 2px;padding: 0 24px;cursor:pointer;}
 .save:hover, .save:active{ background:#bec6dd;}
 .set{ float:right; background:#527cc1; color:#fff; font-size:16px;box-shadow:0px 1px 0px #76a8fa inset; border-radius:999px;box-shadow:0px 2px 2px #b9b5b6; line-height:36px; height:36px; margin:6px 0 0 0;padding: 0 24px;cursor:pointer;}
 .set:hover, .set:active{ background:#375d9d;}
@@ -173,6 +178,18 @@ a.qxzd{ color:#ff966d;}
 .fanye input{border:1px solid #c9d2e1; width:60px; height:37px; background:none; float:left; margin:0 0 0 60px;}
 .fanye a.button{ height:36px; width:80px; background:#dee2ed; box-shadow:0 1px 0 #e7edfe inset; padding:0; color:#475682; margin: 0 9px;}
 
+.wzfbjf{ width:1000px; margin:0 auto 60px; font-size:16px; color:#32406a;}
+.wzfbjf table td{ padding: 0 0px 18px;}
+.wzfbjf .fbwz-text{ width:894px;}
+.wzfbjf .fbwz2{width:894px;}
+.wzfbjf .saveset{ padding:0;}
+.dxan{ margin: 0 10px 0 0;}
+.dxanr{ margin-left:60px;}
+.dxanr2{ margin-left:108px}
+
+.sfssyts{ margin: 0 0 0 60px;}
+
+.wzfbjf select{ width:222px; height:34px; border-radius:5px; font-size:16px;color:#32406a; line-height:34px;}
 
 
 
