@@ -54,7 +54,7 @@ a img, img{ border:none; vertical-align:middle;}
 .bolder{font-weight: bolder;}
 body{ background:#f0f1f4;}
 .pink{ color:#f10582;}
-
+.orange{ color:#ff966d;}
 
 
 
@@ -156,14 +156,14 @@ a.loginout:hover, a.loginout:active{ background:#ff891f; color:#fff;}
 .ssyts2{ background:#dee2ed; box-shadow:0 2px 2px #cacdd7 ; padding:30px 20px; border-radius:5px;}
 .ssyts2 td{ color:#475682; font-weight:bolder; line-height:34px; padding: 0 0 10px;}
 .inputtext input, .inputtext select{ border:1px solid #a4b3cc; width:220px; border-radius:5px; margin: 0 60px 0 10px; line-height:34px; height:34px; padding:0;}
-.inputtext select { line-height:36px; height:36px; width:222px;}
+.inputtext select { line-height:36px; height:36px; width:222px; font-size:16px; color:#475682;}
 .button{font-size:16px; color:#fff; font-weight:normal; background:#527cc1; border-radius:999px; width:80px; height:36px; display:block; margin:0 auto; line-height:36px; box-shadow:0 1px 0 #76a8fa inset; box-shadow:0 2px 2px #b4b2b7 ; text-align:center; cursor:pointer;}
 .inputtext{ position:relative;}
 .inputtext .closed{ background:url(../images/chacha.png) center no-repeat; width:20px; height:20px; position:absolute; z-index:1; top:8px; right:65px;}
 .liebiao3{ height:auto;}
 .liebiao31 { margin-bottom:10px;}
-.liebiao31 table td{ height:74px;}
-.liebiao31 td.lbnrw1{ width:320px;}
+.liebiao31 table td{ height:74px; padding-bottom:8px;}
+.liebiao31 td.lbnrw1{ width:320px !important;}
 .liebiao31 td.lbnrw2{ width:237px;}
 .liebiao31 a{ color:#0073cc;}
 .looktop a{ margin: 0 30px 0 0;}
@@ -190,6 +190,28 @@ a.qxzd{ color:#ff966d;}
 .sfssyts{ margin: 0 0 0 60px;}
 
 .wzfbjf select{ width:222px; height:34px; border-radius:5px; font-size:16px;color:#32406a; line-height:34px;}
+
+
+.yhlytab{ border-bottom:1px solid #c9d2e1; line-height:34px; overflow:hidden; margin: 0 0 10px;}
+.yhlytab a{ color:#0073cc; padding: 0 20px; float:left;}
+.yhlytab .select, .yhlytab .select:hover{ color:#475682; border-radius:4px 4px 0 0;border:1px solid #c9d2e1; border-bottom:0; background:#dee2ed; }
+.yhlytab a:hover{ color:#475682; background:#dfe1e7;border-bottom:1px solid #dfe1e7; }
+.liebiao .title td.yhlywidth{ width:147px;}
+.liebiao .title td.yhtouxiang{ width:127px;}
+td.looktop{ line-height:1.8em !important;}
+
+.lynekf{ width:585px !important;}
+.caozuokf{ width:110px !important;}
+
+
+
+
+
+
+
+
+
+
 
 
 
