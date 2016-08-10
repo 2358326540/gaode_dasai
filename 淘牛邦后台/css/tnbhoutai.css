@@ -203,14 +203,20 @@ td.looktop{ line-height:1.8em !important;}
 .lynekf{ width:585px !important;}
 .caozuokf{ width:110px !important;}
 
+.liebiao5 .title td,  .liebiao5 th{ background:#f7d9c0;border-bottom: 1px solid #ffc189;
+    border-right: 1px solid #ffc189; color:#834207;}
+.liebiao5 { border: 1px solid #ffc189; border-bottom:none;}
 
+.liebiao5 td{ background:none;border-bottom: 1px solid #ffc189;border-right: 1px solid #ffc189;color:#834207;}
+.liebiao5 tr:hover td{  background:inherit;}
+.liebiao5  .title:hover td{background:#f7d9c0;}
 
+.lookqbmx{ width:140px; background:#ff891f; box-shadow:0 1px 2px #c57460;}
+.lookqbmx:hover{ width:140px; background:#ef630e;}
 
-
-
-
-
-
+.quanzhze1{ width:120px !important;}
+.ssfwd{ width:33.33% !important;}
+.liebiao6{ margin:10px auto;}
 
 
 
