@@ -217,6 +217,52 @@ td.looktop{ line-height:1.8em !important;}
 .quanzhze1{ width:120px !important;}
 .ssfwd{ width:33.33% !important;}
 .liebiao6{ margin:10px auto;}
+.dhling{ overflow:hidden; padding: 0 0 10px;}
+.duihualisting .name1{ float:none; line-height:2em;}
+.dhneirong{ position:relative; float:left; border-radius:10px; color:#475682; background:#dee2ed; padding:15px 20px; margin:10px 0 0 0; width:550px; box-shadow:0 1px 2px #c9cdd9;}
+
+.dhneirong span{ position:absolute; z-index:1; background:url(../images/zuoshangsanjiao_03.png) no-repeat; width:25px; height:11px; top:-11px; left:23px;}
+
+.dhling2 .time{ text-align:right;}
+.dhling2 .name1{text-align:right; }
+.dhling2 .dhneirong{ float:right; background:#91abd7;}
+.dhling2 .dhneirong span{background:url(../images/youshangsanjiao_03.png) no-repeat; left:auto; right:23px;}
+.wzfbjf2{ padding: 0 0 50px;}
+.wzfbjf2 .fbwz2{ width:998px; margin: 0 0 20px;}
+.wzfbjf2 .fbwz-text{ width:100%; }
+.title{ color:#475682; font-weight:bolder; line-height:2em; padding:50px 0 0 0; }
+
+.saveseterro {  border:2px solid #ff966d;}
+
+
+/* 登录 */
+.logotnb{ background:#eff1f7;}
+.logotnb .logotnbn{ background:url(../images/logotnb.png) no-repeat 0px center; width:1000px; height:90px; margin:0 auto;}
+.loginmain{ background:url(../images/loginbg_02.jpg) repeat-x center; height:599px;}
+.loginmainn{ width:1000px; margin:0 auto; position:relative;}
+.kxian{ background:url(../images/kxianng.png) no-repeat; position:absolute; z-index:1; left:0; top:184px; width:536px; height:186px;}
+
+.loginin{ background:rgba(239,241,247,0.6); width:400px; height:360px; position:absolute; z-index:1; border-radius:5px; right:0; top:117px;}
+.loginin a:hover{ text-decoration:underline;}
+.zhanghao{ background:#dee2ed;box-shadow:0 1px 2px #c9cdd9; line-height:44px; width:318px; border-radius:999px; margin:0 auto 10px; color:#475682; font-weight:bolder; position:relative; }
+.zhanghao span{ padding:0 20px;}
+.cuts{ height.:74px; color:red; line-height:80px; text-align:center;}
+.zhanghao input{ background:none; border:none; width:230px;outline:none; font-size:16px; font-weight:normal;}
+.wjmima ,.wjmima a{ color:#0073cc; text-align:right; width:280px; margin:0 auto;}
+.denglu .button{ width:318px; line-height:44px; font-size:18px; height:44px; margin:20px auto 0; cursor:pointer; font-weight:bolder;}
+.denglu .button:hover{ color:#375d9d; color:#fff;}
+.zddenglu{ width:280px; margin:10px auto; color:#475682; position:relative;}
+.zddenglu a{ color:#0073cc; position:absolute; z-index:1; right:0; top:0;}
+.zddenglu label input{ width:17px; height:17px; margin: 0 3px 0 0;}
+.zhanghao i{ background:url(../images/chahao.png) no-repeat; width:17px; height:17px; position:absolute; z-index:1; top:15px; right:20px; cursor:pointer;}
+
+
+
+
+
+
+
+
 
 
 
