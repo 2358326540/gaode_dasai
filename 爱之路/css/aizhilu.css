@@ -2320,10 +2320,59 @@ p.fsfh{ text-align:left; text-indent:30px; padding-bottom:0px; }
 .fhsyy{ position:absolute; z-index:1; left:298px; top:287px; width:164px; height:37px; display:block;}
 .fhsy{ position:absolute; z-index:1;left:298px; top:336px; width:164px; height:37px; display:block;}
 
+/* 新首页 */
+.logo-azl{ background:url(../images/logoazl.png) no-repeat; width:216px; height:63px;}
+.infolbt-left .title{ left:0;}
+.zxlinfo-ss1{ background:url(../images/shishangbg.png) no-repeat; height:69px; margin:20px auto 0 auto;}
+.indexzal{ width:190px;}
+.indexzal h2{ font-size:26px; text-align:center; margin: 0 0 15px; width:150px;}
+.indexzal .titleb{ font-size:16px;}
+.indexzal .diandian a{ width:10px; height:10px; background:#7b7b7b;}
+.indexzal .diandian a.select{background-color:#f10582;}
+.indexzal .titleb{ width:120px;}
+.ssldt3{ width:278px; border:1px solid #999; height:423px; margin:0;}
+.contss{ color:#666; font-size:14px; line-height:22px; width:120px; padding: 0 0 0 20px;}
+.indexzal .diandian{ padding: 34px 0 15px 30px;}
+.mrzcdtb2{ padding:30px 0 0 0; width:430px;}
+.mrzcdtb2 .pic{ width:140px; height:145px;}
+.mrzcdtb2 .mrzcdtbr{ width:270px; margin: 0 0 0 15px;}
+.mrzcdtb2 .mrzcdtbr a{ font-size:18px;width:276px; height:24px; margin:10px 0 15px;}
+.mrzcdtb2 .mrzcdtbr p{ width:276px;}
 
+.mrzcdtb2 a.more{ padding:6px 0 0 0; margin:0 ; font-size:14px;}
+.infohjright2{ width:450px;}
+.infohjright2 .first{ background:#000; color:#fff; width:46px; height:23px; text-align:center; line-height:23px; font-size:14px; margin: 0 8px 0 0;}
 
+.infohjright2 dl{ border-bottom:1px dotted #9c9c9c; padding:30px 0; margin:0;}
+.infohjright2 dl dd{ float:left;}
+.infohjright2 dd p{ line-height:22px;  height:22px; overflow:hidden; margin: 0 0 0 -10px; width:230px;}
+.infohjright2 dd .more{ text-align:right; font-size:22px; color:#666;}
+.infohjright2 dd img{ margin: 0 8px 0 0; }
+.infohjright2 dl dt img{ width:150px; height:95px;}
+.infohjright2 .dyone{ padding-top:0;}
+.infohjright2 .last{ padding-bottom:0; border:none;}
+.infohjright2 dl dd.title2 a{ font-size:16px;}
+.mrmiddle2{ width:235px; padding:0 0 0 40px;}
+.mrmiddle2 .biaoti{ text-align:center; padding: 0 0 15px;}
 
+.womenlist2{ padding:0 0 20px;}
+.womenlist2 h2{ border:none; padding: 0 0 15px; font-size:26px; font-weight:bolder;}
+.womenlist2 h2 span{ font-size:14px; color:#000; margin: 0 0 0 10px; font-weight:500;}
+.womenlist h2 a{ bottom:15px;}
+.azlzx{ padding:30px 0 0 0;}
 
+.azlmain{ background:#f3f3f3;}
+.tlgg2{ width:1200px; margin:0 auto 40px; height:130px; }
+.zxlinfo-mxkf{ background-image:url(../images/coofeng.png); height:70px; margin:20px auto 0 ;}
+.zxlinfo-qg{ background-image:url(../images/qingganbg.png); height:70px; margin:20px auto 0 ;}
+.zxlinfo-yl{ background-image:url(../images/yulebf.png); height:70px;  margin:20px auto 0 ;}
+.zxlinfo-jz{background-image:url(../images/jiangkangbg.png); height:70px;  margin:20px auto 0 ;}
+ul.erweima li img{ width:90px; height:90px;}
+
+.nav-m a{ font-size:16px;}
+.navi-category-main{ padding:0;}
+.womenlist h2 span{ margin: 0 0 0 10px;}
+.tlgg-ssj{ margin:20px auto 0;}
 
 
 
