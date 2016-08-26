@@ -2361,7 +2361,8 @@ p.fsfh{ text-align:left; text-indent:30px; padding-bottom:0px; }
 .womenlist h2 a{ bottom:15px;}
 .azlzx{ padding:30px 0 0 0;}
 
-.azlmain{ background:#f3f3f3;}
+body{ background:#f3f3f3; }
+.womenlist ul{ background:#fff; height:288px; padding: 0 0 0 10px; width:150px;}
 .tlgg2{ width:1200px; margin:0 auto 40px; height:130px; }
 .zxlinfo-mxkf{ background-image:url(../images/coofeng.png); height:70px; margin:20px auto 0 ;}
 .zxlinfo-qg{ background-image:url(../images/qingganbg.png); height:70px; margin:20px auto 0 ;}
@@ -2373,6 +2374,43 @@ ul.erweima li img{ width:90px; height:90px;}
 .navi-category-main{ padding:0;}
 .womenlist h2 span{ margin: 0 0 0 10px;}
 .tlgg-ssj{ margin:20px auto 0;}
+
+.hotword{ padding: 2px 0 0 0; font-weight:normal;}
+.hotword a{ margin:0 12px;}
+.hotword span{ font-weight:bolder;}
+.xktj{ background:none;}
+.newtjxl p span{ color:#333; font-size:16px; font-weight:bolder; margin: 0 0 0 3px;}
+
+.mxkfjs{ width:1200px; height:496px; position:relative; margin:25px auto 35px; background:url(../images/muxinkafbg.jpg) no-repeat;}
+.mxkfjs div{ position:absolute; z-index:1; width:790px; right:16px; top:188px; font-size:16px; line-height:34px; color:#141414;}
+.mxkfjs p { text-indent:2em;}
+.mxkfjs p span{ color:#7f282b;}
+
+.splistkafei .title{line-height: 1.8em;}
+
+.qljfl{ text-align:center; width:1200px; margin:0 auto; padding:70px 0 80px;}
+.qljfl a{ background:#000; color:#fff; font-size:14px; font-weight:bolder; margin: 0 13px; padding: 6px 47px;}
+.qljbt2{ text-align:center; margin: 0 0 30px;}
+.tlgg-qlj{ height:500px; width:100%; background:url(../images/bannertl.jpg) no-repeat ; background-size:100% 100%; margin:30px 0 40px;}
+.tlgg-qlj a{ display:block; width:100%; height:100%;}
+.qljmian{ background:#fff;}
+.qljmian .spid{ width:290px; margin:0 13px 0 0; height:450px;}
+.qljmian .spid-four{ margin:0;}
+.qljmian .spid .jiage{ font-size:18px; color:#000; font-weight:bolder; font-family:Arial;}
+.qljmian .spidpic{ height:398px;}
+
+.qljbottom{ padding:38px; width:1124px; margin:0 auto; background:#fff; overflow:hidden;}
+.qljbottom a{ float:left; width:360px; height:360px; margin:0 22px 22px 0;}
+a.three{ margin: 0 0 22px 0;}
+.qljbottom a img{ width:100%; height:100%;}
+
+
+
+
+
+
+
+
 
 
 
