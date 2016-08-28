@@ -2321,6 +2321,8 @@ p.fsfh{ text-align:left; text-indent:30px; padding-bottom:0px; }
 .fhsy{ position:absolute; z-index:1;left:298px; top:336px; width:164px; height:37px; display:block;}
 
 /* 新首页 */
+.spfl{ width:160px;}
+dl.category dd{ left:160px;}
 .logo-azl{ background:url(../images/logoazl.png) no-repeat; width:216px; height:63px;}
 .infolbt-left .title{ left:0;}
 .zxlinfo-ss1{ background:url(../images/shishangbg.png) no-repeat; height:69px; margin:20px auto 0 auto;}
