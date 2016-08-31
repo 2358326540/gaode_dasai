@@ -14,7 +14,9 @@
 .borderl{ border-left:1px solid #ccc;  }
 .borderl i{ width:30px; float:left; line-height:1em; margin:2px 0 0 0;}
 .borderl i.zxkfico{ background:url(../images/azllxfs_03.png) no-repeat; width:28px; height:28px; margin: 0 8px 0 0;}
-.azlnbottom{ background:url(../images/azllxfs_11.png) no-repeat right center; display:block;width: 255px; text-indent:10px;}
+.azlnbottom{ background:url(../images/azllxfs_11.png) no-repeat right center; display:block;width: 255px; text-indent:10px; position:relative;cursor:pointer;}
+.azlnbottom img{ display:none;position:absolute; z-index:1; left:100px; top:18px; }
+.azlnbottom:hover img{ display:block; }
 .menu{ background:#f10582; line-height:40px;height:40px;}
 .menu-wd{ width:1200px; margin:0 auto;}
 .menu-wd a{ color:#fff; padding: 0 38px; float:left; font-size:18px;}
@@ -1810,7 +1812,8 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .infolbt-right dl, .ifhjleft{ margin:17px 0 0 0; overflow:hidden; width:100%;}	
 .infolbt-right dl dt, .ifhjleft dt{ float:left; margin: 0 20px 0 0 ;}	
 .infolbt-right dl dd, .ifhjleft dd{ font-size:12px; color:#666;}
-.infolbt-right dl dd.title2, .ifhjleft dd.title2{  color:#333; font-weight:bolder; margin: 0 0 14px;}
+.infolbt-right dl dd p, .ifhjleft dd p{ height:70px; margin: 0 0 8px; overflow:hidden;}
+.infolbt-right dl dd.title2, .ifhjleft dd.title2{  color:#333; font-weight:bolder; margin: 0 0 14px;height: 18px; overflow: hidden;}
 .infolbt-right dl dd.title2 a, .ifhjleft dd.title2 a{font-size:14px;}
 .infolbt-right dl dt img{ width:190px; height:130px;}
 
@@ -2333,13 +2336,13 @@ dl.category dd{ left:160px;}
 .indexzal .diandian a.select{background-color:#f10582;}
 .indexzal .titleb{ width:120px;}
 .ssldt3{ width:278px; border:1px solid #999; height:423px; margin:0;}
-.contss{ color:#666; font-size:14px; line-height:22px; width:120px; padding: 0 0 0 20px;}
+.contss{ color:#666; font-size:14px; line-height:22px; width:120px; padding: 0 0 0 20px;height: 176px; overflow: hidden;}
 .indexzal .diandian{ padding: 34px 0 15px 30px;}
 .mrzcdtb2{ padding:30px 0 0 0; width:430px;}
 .mrzcdtb2 .pic{ width:140px; height:145px;}
 .mrzcdtb2 .mrzcdtbr{ width:270px; margin: 0 0 0 15px;}
 .mrzcdtb2 .mrzcdtbr a{ font-size:18px;width:276px; height:24px; margin:10px 0 15px;}
-.mrzcdtb2 .mrzcdtbr p{ width:276px;}
+.mrzcdtb2 .mrzcdtbr p{ width:276px; overflow: hidden; height: 53px;}
 
 .mrzcdtb2 a.more{ padding:6px 0 0 0; margin:0 ; font-size:14px;}
 .infohjright2{ width:450px;}
@@ -2347,7 +2350,8 @@ dl.category dd{ left:160px;}
 
 .infohjright2 dl{ border-bottom:1px dotted #9c9c9c; padding:30px 0; margin:0;}
 .infohjright2 dl dd{ float:left;}
-.infohjright2 dd p{ line-height:22px;  height:22px; overflow:hidden; margin: 0 0 0 -10px; width:230px;}
+.infohjright2 dl dd.title2 {width:224px; height:20px; }
+.infohjright2 dl dd p{ line-height:22px;  height:22px; overflow:hidden; margin: 0 0 0 -10px; width:230px;}
 .infohjright2 dd .more{ text-align:right; font-size:22px; color:#666;}
 .infohjright2 dd img{ margin: 0 8px 0 0; }
 .infohjright2 dl dt img{ width:150px; height:95px;}
