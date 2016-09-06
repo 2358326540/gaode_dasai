@@ -323,7 +323,7 @@ button.first{ background:#ff0097; color:#fff;}
 .product-cont-bar{ width:100%; }
 .product-cont-bar .tab { width: 1198px; margin:0 auto; margin-top: 10px; background: #FFF; border: 1px solid #dcdcdc; position: relative;}
 .product-cont-bar .tab li { float: left; padding-left: 25px; padding-right: 25px; position: relative; text-align: center; font-size: 12px; border-top: 2px solid #FFF; width: 150px; cursor: pointer; line-height: 50px; border-left: 1px solid #dcdcdc; border-right: 1px solid #dcdcdc;   margin-right: -1px;font-weight:bold;}
-.product-cont-bar .tab li.on { border-color: #f00; border-left: 1px solid #dcdcdc;  border-right: 1px solid #dcdcdc; position: relative;margin: -1px -1px 0 0;}
+.product-cont-bar .tab li.on { border-color: #ff0097; border-left: 1px solid #dcdcdc;  border-right: 1px solid #dcdcdc; position: relative;margin: -1px -1px 0 0;}
 .product-cont-bar .tab li:first-child { border-left: none;}
 .tab li.on:after { content: ' '; display: block; border-width: 5px; border-style: solid;  border-color: #f00 transparent transparent; width: 0; height: 0; font-family: arial; position: absolute; top: -1px; left: 50%; margin-left: -5px;}
 
@@ -1406,6 +1406,7 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
 .grade-star.g-star2 {background-position: -51px 0;}
 .grade-star.g-star1 {background-position: -68px 0;}
 
+
 .m-tab-trigger-wrap {font-family:'宋体';
     position: relative;
     height: 30px;
@@ -1621,7 +1622,28 @@ p a.yipingjia, p a.yipingjia:hover{ color:#999; background:none;}
     background: url(../images/commstar.png) 0 0 repeat-x;
 	
 }
-
+.commstar .star1 {
+    width: 20%;
+    z-index: 6;
+}
+.commstar .star2 {
+    width: 40%;
+    z-index: 5;
+}
+.commstar .star3 {
+    width: 60%;
+    z-index: 4;
+}.commstar .star4 {
+    width: 80%;
+    z-index: 3;
+}
+.commstar .star5 {
+    width: 100%;
+    z-index: 2;
+}
+.commstar .star.active, .commstar .star.hover {
+    background: url(../images/commstar.png) 0 -16px repeat-x;
+}
 .m-tagbox .t-check {
     display: none;
     position: absolute;
@@ -2409,6 +2431,22 @@ ul.erweima li img{ width:90px; height:90px;}
 .qljbottom a{ float:left; width:360px; height:360px; margin:0 22px 22px 0;}
 a.three{ margin: 0 0 22px 0;}
 .qljbottom a img{ width:100%; height:100%;}
+
+.centername a img{ width:15px; margin:0; vertical-align:middle; margin: 0 5px 4px 0;}
+.centername a{ display:block; font-size:14px; color:#005ea7; padding:15px 0 0 0;}
+
+.user-panel a:hover{ border-color:#db0000;}
+.myfx{ padding:25px 0 0 0;}
+.myfx a{ color:#005ea7; text-decoration:underline;}
+.myfx span{ margin: 0 0 0 50px;}
+.myfx span a{ text-decoration:none;}
+.fa-massage:before{ content:url(../images/remindico.png);}
+.product-title{ padding-top:20px; border-top:1px dotted #ccc;}
+.spflcd-wd{ width:100%; background:none; text-indent:0;}
+.spflcd a, .spflcd{ border:none; color:#999;}
+.product-price-original b{ text-decoration:line-through;}
+
+
 
 
 
