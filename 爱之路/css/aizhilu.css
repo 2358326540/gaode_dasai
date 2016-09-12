@@ -153,7 +153,7 @@ ul.erweima li{ list-style:none;}
 .xktj2 .spid .spidpic{height:400px; overflow:hidden; display:block;}
 .xktj-wd2 h2{ font-weight:bolder; text-align:center; font-size:32px;}
 .xktj-wd2 h2 span{ color:#000;}
-.new_banner2{ height:545px;}
+.new_banner2{ height:495px;}
 .nav2 .nav-m{ padding-top:0; margin: 0 0 0 175px;}
 .nvrenjie{ font-size:22px; padding:48px 0 0 0; float:left;}
 .nav2  .nav-wd{ height:auto; }
@@ -329,7 +329,7 @@ button.first{ background:#ff0097; color:#fff;}
 
 
 .product-detail{ width:1200px; margin:0 auto; overflow:hidden;}
-.product-detail-left{ float:left; width:860px;position:relative;min-height:710px; }
+.product-detail-left{ float:left; width:860px;position:relative;min-height:710px; background:#fff; }
 
 .product-detail-right{ float:left; width:338px; border:1px solid #dcdcdc;padding-bottom: 9999px;margin-bottom: -9999px; margin-top:-1px;position:relative; background:#fff;}
 .product-info-suspend {padding: 10px; position: relative;}
@@ -2183,8 +2183,8 @@ dl.done { border-top-color: #caecb6;}
 
 /* 导航 */
  dl.category { color: #444; position: relative;}
-dl.category dt { padding: 4px 5px 9px 15px;}
-dl.category dt strong { display: block;}
+dl.category dt { padding: 11px 5px 9px 15px;}
+dl.category dt strong { display: block;padding: 0 0 5px;}
  dl.category dt strong a {
     font-family: 'Microsoft Yahei','Pingfang SC','Helvetica Neue';
     font-size: 14px;
@@ -2238,7 +2238,9 @@ dl.category dd li .navi-list-cont em {
     color: #878787;
     position: relative;
 	padding: 3px 0 0 0;
+	
 }
+.navi-category-main2{height:495px;}
 .category-hover{ background:#fff;}
  dl.category-hover dd{ display:block;}
  dl.category dt a:hover {
@@ -2453,6 +2455,7 @@ a.three{ margin: 0 0 22px 0;}
 .tixiandaoz img{ margin: 0 25px 0 0;}
 .daozhangts{ background:#fffae6; color:#999; font-size:12px; border:1px solid #ffe9d4; margin:25px 0; line-height:23px;}
 .daozhangts img{ margin: 0 15px ; vertical-align:middle;}
+.heise3{ color:#000;}
 
 .tixianhank{ }
 .tixianhank p{ width:158px; text-align:right; float:left;}
@@ -2614,13 +2617,12 @@ p.khhpic img{ height:34px; margin: 0 0 3px; }
 .bzzhengwen h3{ padding:10px 0 15px;}
 .bzzhengwen p{ line-height:2.8em; font-size:12px;font-family: "SimSun";}
 
+.erweima118{ position:absolute ; z-index:1; bottom:42px; left:20px;}
+.shyder{ width:140px; height:29px; overflow:hidden;}
+.muxinkafei{width:140px; height:58px; overflow:hidden;}
+.navi-category-main3 dl.category dt{ padding:5px 5px 4px 15px}
 
-
-
-
-
-
-
+.navi-category-main3{ padding: 4px 0 0 0; height:491px;}
 
 
 
