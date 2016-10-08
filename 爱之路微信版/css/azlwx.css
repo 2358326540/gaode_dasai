@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input{padding:0;margin:0;font: inherit; box-sizing: border-box;}
+body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft Yahei","微软雅黑",arial; vertical-align:middle; }
+textarea{ padding:0; margin:0;}
+li{ list-style:none;}
+table{ border-collapse:collapse;}
+a{ text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur()); }
+a:visited, .xqylj .xqylj:visited, .gszylist .gszylj:visited{ color:#999;}
+/* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
+a:active {    background-color: transparent;}
+a:active,a:hover {    outline: 0 none;}
+/**
+ * 统一 Chrome 和 Safari 的焦点框样式
+ * Chrome 中 thin 关键字放大页面后焦点框不会放大 http://jsbin.com/ehakom/1
+ * Firefox 中 box-shadow 会导致焦点框位置偏移，需用「outline-offset」修正
+ * 
+ */
+a:focus {
+    outline: none;
+}
+/* 去掉iphone默认按钮样式 */
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+/**
+* 闭合浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /* IE6-7 触发 hasLayout */
+}
+img{ vertical-align:middle;}
+a img{ border:none;}
+.green{ color:#0c8c2d;}
+.red{ color:#e53531;}
+.blue{ color:#2f87e4}
+.textcenter{ text-align:center;}
+.bolder{ font-weight:bolder;}
+html{ width:100%;ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;font-size: 66.5%;height:100%;}
+body{width:100%; background:#f3f2f3;line-height: 1.6;  max-width: 700px; margin:0 auto; font-size:1rem; height:100%;}
+
+.main{ width:100%; height:100%; position:relative;}
+.munwap{ display:block; padding:4.0em 0 0 0;}
+.mun{ position: fixed; background:#1b1a1f; color:#fff; text-align:center; font-size:1.9rem; padding:0.4em 0; z-index:999; left:0; top:0; width:100%;}
+.fanhui{ position:absolute; z-index:1; color:#fff; left:0.5em; background:url(../images/topleft.png) no-repeat; background-size:26% ; padding: 0 0 0 1em; top:0.7em; line-height:1.4em; font-size:1.8rem;}
+.prolist { position:absolute; z-index:1; color:#fff; right:0.8em; background:url(../images/fenleiico.png) no-repeat; background-size:100%; width:1em; height:1em; top:0.7em;  }
+.navtab{ background:#f3f2f3; border-bottom:1px solid #d2d2d2; padding:1em 0; overflow:hidden;}
+.navtab a{ font-size:1.5rem; float:left; width:20%; text-align:center; border-right:4px solid #d2d2d2; }
+.navtab a.select{ color:#f10582;}
+.navtab .last{ border:none;}
+
+.sld{ position:relative;}
+.sld a img{ width:100%;}
+.sld h2{ position:absolute; z-index:1; bottom:0; left:0; background:rgba(0,0,0,0.25); color:#fff; padding:0.3em 0.5em; }
+.sld h2 .sldleft{ float:left; width:68%;  overflow:hidden;}
+.sld h2 .sldleft a{ display:block; }
+.sld h2 .sldleft a p{overflow:hidden; font-size:1.5rem; font-weight:bolder; height:1.3em;}
+.sld h2 .sldleft b{ display:block; font-size:1.2rem;overflow:hidden; height:1.5em; }
+.sld h2 .sldright{ float:right; width:30%; text-align:right; padding:1.2em 0 0 0;}
+.sld h2 .sldright b{ background:rgba(255,255,255,0.75); display:inline-block; width:10px; height:10px; border-radius:999px; margin:0 2% ;}
+.sld h2 .sldright b.select{ background:#f10583;}
+.wzlist{ margin:0 1em; border-bottom:1px solid #e5e5e5; overflow:hidden; padding:1.5em 0;}
+.wzpic{ float:left; width:28.66%;}
+.wzpic img{ width:100%;}
+.wztext{ float:left; width:65%; margin: 0 0 0 3%;}
+.wztext h2{ height:1.6em; font-size:1.5rem; font-weight:bolder; overflow:hidden;}
+.wztext p{  }
+.wztext p a{ margin:0 0 0 5px; }
+
+.wzlist2 .wzpic{ margin:0 5.5% 0 0;}
+.last{ border:none !important; margin:0 !important; padding:0 !important;}
+.wzlist2 p{ font-size:1.5rem; font-weight:bolder; overflow:hidden; height:1.8em;}
+.tlad img{ width:100%; }
+.tlad{ position:relative;}
+.sladnav{ position:absolute; z-index:1; bottom:5px; right:20px;}
+.sladnav b{ width:6px; background:#000; height:6px; border-radius:100px; display:inline-block; margin:0 8px 0 0;}
+.sladnav b.select{ background:#7f7f7f;}
+.xlsx{ text-align:center; font-size:1.5rem; padding:1.5em 0;}
+.xlsx img{ margin: 0 6px 0 0 ; width:8%; vertical-align:middle;}
+
+.navlist{ position:fixed; z-index:999; bottom:0; left:0; width:100%; border-top:1px solid #dbdbdb; background:#fff; padding:0.5em 0 ;}
+.navlist a{ float:left; width:33.33%; text-align:center; font-size:1.3rem;}
+.navlist a i{ display:block; width:1.8em;height:1.8em; margin:0 auto;}
+.navlist a p{ display:block; margin:0; padding:0.3em 0 0 0; line-height:1em; }
+.souye{ background:url(../images/shouyeico.png) no-repeat; background-size:100% 100%;}
+.dapei{ background:url(../images/dapeiico.png) no-repeat; background-size:100% 100%;}
+.wode{ background:url(../images/wodeico.png) no-repeat; background-size:100% 100%;}
+.navlistwap{ padding: 0 0 4.6em 0 ;}
+.navlist a.select{ color:#e62589;}
+.select .souye{ background:url(../images/shouyeico2.png) no-repeat; background-size:100% 100%;}
+.select .dapei{ background:url(../images/dapeiico2.png) no-repeat; background-size:100% 100%;}
+.select .wode{ background:url(../images/wodeico2.png) no-repeat; background-size:100% 100%;}
+
+
+
+
+.wzxqym h2{ font-size:2.2rem; font-weight:bolder; color:#333; padding: 0.6em 3.7%;}
+.timezan{ font-size:1.2rem; color:#999; position:relative; padding:0 3.7%; }
+.timezan a{ position:absolute; z-index:1; right:2em; top:0.2em;}
+.line{border-bottom:1px solid #dcdcdc; padding:1em 0 0 ; margin:0 3.7% 1em ;}
+
+.wzxqcont{ padding:0 3.7%; font-size:1.6rem; color:#666;}
+.wzxqcont p{ margin:0 0 1em;}
+
+.login{ background:url(../images/loginbg.jpg); background-size:100% 100%; width:100%; height:100%;}
+.logo{ width:100%;padding:3em 0;}
+.logo1{ width:60%; margin:0 auto; background:url(../images/logo.png) no-repeat center; background-size:100%;  height:100px;}
+.slgin{ color:#fff; text-align:center; font-size:1.8rem; text-align:center; padding:0.em 0 ;}
+.slgin span{ margin: 0 0.5em; color:#dcdcdc;}
+
+.logininput{ padding:5em 5.2% 0;}
+.yonghum input{display:inline-block; width:88%; background:#d0cfd3; border-radius:0 5px 5px 0; border:none; font-size:1.5rem; height:40px; vertical-align:middle; margin:0 0  3px; text-indent:1em; }
+.yonghum i{ display:inline-block; background:#fff; width:12%; border-radius:5px 0 0 5px; height:40px;  line-height:40px; text-align:center; margin:0px 0 3px;}
+.yonghum i img{ width:50%; vertical-align:middle;}
+
+.tijiao input{ background:#f10583; color:#fff; border:none; width:100%; border-radius:4px; padding:0.6em 0; font-size:1.4rem; margin:1em 0 0 0;}
+
+.zhucew{ text-align:center; font-size:1.2rem; color:#fff; padding:6em 0  0 0;}
+.zhucew a{ margin:0 5px;}
+
+.zhucelist{ background:#fff; font-size:1.5rem; border-bottom:1px solid #e0e0e0; line-height:42px;}
+.zhucelist b{ display:inline-block; width:26%; text-indent:20px;}
+.zhucelist input{ width:74%; border:none;}
+
+.tijiao2{ text-align:center;}
+.tijiao2 input{ width:90%;}
+input.tijiao2h { background:#999; width:90%;}
+
+
+.bdsjh{ width:95%; margin:0 auto; font-size:1.5rem;}
+.bdsjh .title{ padding:1em 0 0.1em 0;}
+.bdsjh input{ width:100%; border:1px solid #e1e1e1; height:42px; font-size:1.4rem; text-indent:5px;}
+.title2 input{ width:70%; margin: 0 5px 0 0;}
+.title2 img{ width:28%; height:42px;}
+
+.tanchuang{ position:fixed; z-index:9999; width:100%; height:100%; background:rgba(0,0,0,0.32); left:0; top:0;}
+.errots{ width:80%; background:rgba(0,0,0,0.8); position:absolute; top:50%; z-index:1; left:50%; transform:translate(-50%,-50%); border-radius:6px;}
+.errots p{ text-align:center; padding:15px 0  0;}
+.errots .text{ color:#fff; font-size:1.5rem; text-align:left; width:80%; margin:0 auto;}
+.errots p img{ width:20%;}
+.queding{ background:#f10583; color:#fff; height:38px; line-height:38px;  display:block; width:80%; margin:0 auto; text-align:center; font-size:1.4rem; border-radius:6px;}
+.quedingwp{ padding:20px 0 30px;}
+.pcenter .top{ background:url(../images/namebg.jpg) no-repeat; background-size:120%; width:100%; padding:30px 3.7%; overflow:hidden;}
+.pcenter .ctleft{ width:20%; float:left;}
+.pcenter .ctleft img{ border-radius:999px; width:98%;}
+.pcenter  .ctright{ width:70%; float:left; color:#fff; font-size:1.6rem; padding:10px 0 0 10px;}
+.ctright p{ margin: 0 0 5px;}
+.ctrightbt{ background:#000; font-size:1.2rem; border-radius:999px; display:inline; padding: 4px 15px 4px 0;}
+.ctrightbt span{ background:url(../images/V3.png) #fb3c0c center no-repeat; border-radius:999px; background-size:60%; padding:4px 12px; margin: 0 5px 0 0;}
+.logocenter{ width:100%; text-align:center; padding: 7em 3em 4em 3em;}
+.logocenter img{ width:80%;}
+.centeryqleft{ float:left; border-right:1px solid #ddd; text-align:center; width:50%;}
+.centeryqleft img{border:1px solid #ccc; width:60%;}
+.centeryqright{ float:left ; width:40%; padding: 0 0 0 8%;  font-size:1.5rem;}
+.centeryq{ overflow:hidden;}
+.centeryqright strong{ border:1px solid #666; padding:0px 30px; border-radius:4px; display:inline-block; margin:30px 0 0 0;}
+.hyydl{ color:#d5d5d5; font-size:1.8rem; text-align:center;}
+.logocenter2{ padding-bottom:2em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

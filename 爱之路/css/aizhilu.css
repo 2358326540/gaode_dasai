@@ -2186,7 +2186,7 @@ dl.done { border-top-color: #caecb6;}
 dl.category dt { padding: 11px 5px 9px 15px;}
 dl.category dt strong { display: block;padding: 0 0 5px;}
  dl.category dt strong a {
-    font-family: 'Microsoft Yahei','Pingfang SC','Helvetica Neue';
+    font-family: 'Microsoft Yahei';
     font-size: 14px;
     color: #FFF;
 	font-weight:bolder;
@@ -2623,6 +2623,28 @@ p.khhpic img{ height:34px; margin: 0 0 3px; }
 .navi-category-main3 dl.category dt{ padding:5px 5px 4px 15px}
 
 .navi-category-main3{ padding: 4px 0 0 0; height:491px;}
+
+.lhdl{ width:1178px; margin:68px auto 134px; border:1px solid #ddd; border-top:3px solid #f10582; background:#fff; padding:0 10px 50px; }
+
+.wxuser { text-align:center; font-size:18px; padding:40px 0;}
+.wxuser img{ width:60px; margin:0  10px 0 0;}
+.logintab{ text-align:center; border-bottom:1px solid #ddd; width:100%;}
+.logintab a{ padding:5px 35px; display:inline-block; position:relative;}
+.logintab a.select{ color:#f10582; border-bottom:3px solid #f10582; }
+.logintab a.select i{background: url(../images/sanjiaoxia.png) no-repeat ; width: 9px; height:5px; display:block; left:50%; top:34px; position:absolute; z-index: 1; margin: 0 0 0 -4.5px;}
+.lhdltable{ font-size:12px; width:420px; margin:0 auto; color:#666;}
+.lhdltable p{ padding:18px 0 0;}
+.intext { padding:18px 0 0 0;}
+.intext input{ width:378px; height:38px; border:1px solid #ddd; font-size:12px; line-height:38px; text-indent:10px;}
+p.messagelogin{ text-align:left; padding:3px 0;}
+.error input{ border-color:#ff5555;}
+.error { background:url(../images/chared.png) no-repeat right 26px;}
+.intext2 input{ width:218px;}
+.intext2{ background:none;}
+.intext2 img{ height:38px; width:80px; margin:0 20px;}
+
+.intext3 input{ margin: 0 0 20px; font-size:20px; color:#bbb; font-weight:bolder; border:1px solid #ccc; cursor:pointer; }
+.intext3 input.select{ background:#e62589; border-color:#e62589; color:#fff;}
 
 
 
