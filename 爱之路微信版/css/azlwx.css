@@ -59,14 +59,14 @@ body{width:100%; background:#f3f2f3;line-height: 1.6;  max-width: 700px; margin:
 
 .sld{ position:relative;}
 .sld a img{ width:100%;}
-.sld h2{ position:absolute; z-index:1; bottom:0; left:0; background:rgba(0,0,0,0.25); color:#fff; padding:0.3em 0.5em; }
-.sld h2 .sldleft{ float:left; width:68%;  overflow:hidden;}
+.sld h2{ position:absolute; width:100%; z-index:1; bottom:0; left:0; background:rgba(0,0,0,0.25); color:#fff; padding:0.3em 0.5em; }
+.sld h2 .sldleft{  width:68%;  overflow:hidden;}
 .sld h2 .sldleft a{ display:block; }
 .sld h2 .sldleft a p{overflow:hidden; font-size:1.5rem; font-weight:bolder; height:1.3em;}
 .sld h2 .sldleft b{ display:block; font-size:1.2rem;overflow:hidden; height:1.5em; }
-.sld h2 .sldright{ float:right; width:30%; text-align:right; padding:1.2em 0 0 0;}
-.sld h2 .sldright b{ background:rgba(255,255,255,0.75); display:inline-block; width:10px; height:10px; border-radius:999px; margin:0 2% ;}
-.sld h2 .sldright b.select{ background:#f10583;}
+.sld .sldright{  position:absolute;  z-index:10;width:30%; bottom:1em; right:0.5em; text-align:right;}
+.sld .sldright b{ background:rgba(255,255,255,0.75); display:inline-block; width:10px; height:10px; border-radius:999px; margin:0 2% ;}
+.sld .sldright b.select{ background:#f10583;}
 .wzlist{ margin:0 1em; border-bottom:1px solid #e5e5e5; overflow:hidden; padding:1.5em 0;}
 .wzpic{ float:left; width:28.66%;}
 .wzpic img{ width:100%;}
@@ -118,7 +118,7 @@ body{width:100%; background:#f3f2f3;line-height: 1.6;  max-width: 700px; margin:
 
 .logininput{ padding:5em 5.2% 0;}
 .yonghum input{display:inline-block; width:88%; background:#d0cfd3; border-radius:0 5px 5px 0; border:none; font-size:1.5rem; height:40px; vertical-align:middle; margin:0 0  3px; text-indent:1em; }
-.yonghum i{ display:inline-block; background:#fff; width:12%; border-radius:5px 0 0 5px; height:40px;  line-height:40px; text-align:center; margin:0px 0 3px;}
+.yonghum i{ display:inline-block; background:#fff; width:12%; border-radius:5px 0 0 5px; height:40px;  line-height:40px; text-align:center; margin:0px 0 3px; vertical-align:middle; }
 .yonghum i img{ width:50%; vertical-align:middle;}
 
 .tijiao input{ background:#f10583; color:#fff; border:none; width:100%; border-radius:4px; padding:0.6em 0; font-size:1.4rem; margin:1em 0 0 0;}
