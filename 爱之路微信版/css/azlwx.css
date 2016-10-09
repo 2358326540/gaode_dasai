@@ -5,7 +5,7 @@ body, button, select, textarea, input{font-family:"Hiragino Sans GB","Microsoft 
 textarea{ padding:0; margin:0;}
 li{ list-style:none;}
 table{ border-collapse:collapse;}
-a{ text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur()); }
+a{ text-decoration:none; outline:none; blr:expression(this.onFocus=this.blur()); color:#666; }
 a:visited, .xqylj .xqylj:visited, .gszylist .gszylj:visited{ color:#999;}
 /* 去掉 IE 10+ 点击链接时的灰色背去掉点击时的焦点框，同时保证使用键盘可以显示焦点框  */
 a:active {    background-color: transparent;}
@@ -62,8 +62,8 @@ body{width:100%; background:#f3f2f3;line-height: 1.6;  max-width: 700px; margin:
 .sld h2{ position:absolute; width:100%; z-index:1; bottom:0; left:0; background:rgba(0,0,0,0.25); color:#fff; padding:0.3em 0.5em; }
 .sld h2 .sldleft{  width:68%;  overflow:hidden;}
 .sld h2 .sldleft a{ display:block; }
-.sld h2 .sldleft a p{overflow:hidden; font-size:1.5rem; font-weight:bolder; height:1.3em;}
-.sld h2 .sldleft b{ display:block; font-size:1.2rem;overflow:hidden; height:1.5em; }
+.sld h2 .sldleft a p{overflow:hidden; font-size:1.5rem; font-weight:bolder; height:1.3em; color:#fff;}
+.sld h2 .sldleft b{ display:block; font-size:1.2rem;overflow:hidden; height:1.5em; color:#fff;}
 .sld .sldright{  position:absolute;  z-index:10;width:30%; bottom:1em; right:0.5em; text-align:right;}
 .sld .sldright b{ background:rgba(255,255,255,0.75); display:inline-block; width:10px; height:10px; border-radius:999px; margin:0 2% ;}
 .sld .sldright b.select{ background:#f10583;}
