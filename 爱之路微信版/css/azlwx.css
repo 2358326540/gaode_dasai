@@ -127,8 +127,8 @@ body{width:100%; background:#f3f2f3;line-height: 1.6;  max-width: 700px; margin:
 .zhucew a{ margin:0 5px;}
 
 .zhucelist{ background:#fff; font-size:1.5rem; border-bottom:1px solid #e0e0e0; line-height:42px;}
-.zhucelist b{ display:inline-block; width:26%; text-indent:20px;}
-.zhucelist input{ width:74%; border:none;}
+.zhucelist b{ display:inline-block; width:28%; text-indent:20px; font-size:1.4rem;}
+.zhucelist input{ width:70%; border:none;}
 
 .tijiao2{ text-align:center;}
 .tijiao2 input{ width:90%;}
@@ -150,26 +150,30 @@ input.tijiao2h { background:#999; width:90%;}
 .quedingwp{ padding:20px 0 30px;}
 .pcenter .top{ background:url(../images/namebg.jpg) no-repeat; background-size:120%; width:100%; padding:30px 3.7%; overflow:hidden;}
 .pcenter .ctleft{ width:20%; float:left;}
-.pcenter .ctleft img{ border-radius:999px; width:98%;}
+.pcenter .ctleft img{ border-radius:999px; width:90%;border:2px solid #b9b9b9; }
 .pcenter  .ctright{ width:70%; float:left; color:#fff; font-size:1.6rem; padding:10px 0 0 10px;}
 .ctright p{ margin: 0 0 5px;}
 .ctrightbt{ background:#000; font-size:1.2rem; border-radius:999px; display:inline; padding: 4px 15px 4px 0;}
 .ctrightbt span{ background:url(../images/V3.png) #fb3c0c center no-repeat; border-radius:999px; background-size:60%; padding:4px 12px; margin: 0 5px 0 0;}
+.ctrightbt .v1{  background-image:url(../images/V1.png) ;}
+.ctrightbt .v2{ background-image:url(../images/V2.png) ;}
+.ctrightbt .v3{  background-image:url(../images/V3.png) ;}
+.ctrightbt .v4{  background-image:url(../images/V4.png) ;}
+.ctrightbt .v5{ background-image:url(../images/V5.png) ;}
 .logocenter{ width:100%; text-align:center; padding: 7em 3em 4em 3em;}
 .logocenter img{ width:80%;}
 .centeryqleft{ float:left; border-right:1px solid #ddd; text-align:center; width:50%;}
-.centeryqleft img{border:1px solid #ccc; width:60%;}
+.centeryqleft img{border:1px solid #ccc; padding:8px; background:#fff; width:60%;}
 .centeryqright{ float:left ; width:40%; padding: 0 0 0 8%;  font-size:1.5rem;}
 .centeryq{ overflow:hidden;}
 .centeryqright strong{ border:1px solid #666; padding:0px 30px; border-radius:4px; display:inline-block; margin:30px 0 0 0;}
 .hyydl{ color:#d5d5d5; font-size:1.8rem; text-align:center;}
 .logocenter2{ padding-bottom:2em;}
 
+.dlzc{ margin:0.7em 0 0 0; display:block; font-size:1.3rem;}
 
-
-
-
-
+.zhucelist2 img{ height:30px; width:80px;}
+.zhucelist2 input{ width:43%;}
 
 
 
