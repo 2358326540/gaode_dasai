@@ -2,10 +2,10 @@
 /* CSS Document */
 
 /* 登录 */
-body, .main{ background:#f5f5f5; font-size:1.5rem;}
+ body, .main{ background:#eee; font-size:1.5rem; padding-bottom:50px; height:100%;}
 .logo{ text-align:center; padding:66px 0 0 0;}
 .logo img { width:59%;}
-
+ body.mainlogin, .mainlogin .main{ background:#fafafa;}
 .wdbt{ font-size:3.3rem; color:#333; text-align:center; padding:15px 0 20px;}
 .jsfbdl{ text-align:center; padding:30px  0 0 0;}
 .jsfbdl li{ padding:3px 0;  font-size:1.6rem;}
@@ -21,7 +21,6 @@ li.username input{ background:#eee; width:78%; text-indent:0.8em;}
 .dxan a{ float:right; text-decoration:underline; font-size:1.5rem;}
 
 .tel{ text-align:center; width:100%; font-size:1.6rem; text-decoration:underline; padding:25px 0 0 0;} 
-.header{ box-shadow:none; border-bottom:2px solid #e53531; background:#fff; color:#333; font-size:2.2rem;}
 
 /* 积分文章 */
 .gonggao{ width:90%; margin:0px auto 0; max-height:50px; font-size:1.5rem; overflow:hidden; color:#999; position:relative;}
@@ -30,13 +29,16 @@ li.username input{ background:#eee; width:78%; text-indent:0.8em;}
 .wyssy input{border:1px solid #ddd; width:16px; height:16px; vertical-align:middle; margin: 0 5px 0 0;}
 
 .fbjfwz{width:90%; margin:0 auto; color:#999;}
-.fbjfwz textarea{ width:100%; height:160px; border:1px solid #ddd; border-radius:6px; font-size:1.5rem; margin: 3px 0 8px; color:#333;}
-.fbjfwz2 textarea{ height:260px;}
-.qmsz{ text-align:right; margin:-10px 0 0 0;}
-
-.bcantybg{ width:90%; margin:10px auto; border:none; background:#e53531; color:#fff;font-size:2.0rem; border-radius:6px; display:block; line-height:2.4em;}
+.fbjfwz textarea{ width:94%; height:260px; border:1px solid #e5e5e5; border-radius:6px; font-size:1.5rem; margin: 3px 0 8px; color:#333; padding:3%;}
+.fbjfwz2 textarea{ height:160px;}
+.qmsz{ text-align:right; margin:-10px 0 0 0; font-size:1.5rem;}
+.qmsz label{ margin: 0 0 0 20px; color:#333;}
+.bcantybg{ width:90%; margin:10px auto; border:none; background:#e53531; color:#fff;font-size:1.9rem; border-radius:4px; display:block; line-height:2.4em;}
 .zhankai{ background:#f5f5f5; width:16px; position:absolute; z-index:1; bottom:0; right:0;}
 .zhankai img{ width:90%;}
+.margintop{ margin-top:50px;}
+
+
 
 /* 首页 */
 .sysycx{ width:90%; margin:0 auto; color:#666; padding:15px 0 8px; border-bottom:1px solid #ddd; }
@@ -50,7 +52,7 @@ a.yssy{ color:#aaa; border-color:#ccc;}
 .mbnav { box-shadow:none;background:#e53531;}
 .mbnav a{ background:#e53531; width:48%; float:left; color:#fff; font-size:2.0rem; line-height:60px;}
 .mbnav span{ float:left; color:#fff; width:4%; text-align:center; line-height:60px;}
-.main2{ padding:60px 0;}
+.main2{ padding:15px 0;}
 
 
 .fbjfwz p{ color:#666; margin:10px 0 0 0; background:#fff; padding:8px; border-radius:6px;}
@@ -58,18 +60,92 @@ a.yssy{ color:#aaa; border-color:#ccc;}
 .tuichu{ position:absolute; z-index:1; right:5px; font-size:1.4rem; color:#999;}
 .tuichu img{ width:14px; margin: 0 3px 5px;}
 
+.wzgl{ padding:3%;  width:100%; font-size:1.4rem; background:#fff; border-bottom:1px solid #e5e5e5;}
+.wzgl h2{ padding: 0 0 5px 0; color:#333;}
+
+.zjzlhz{ font-size:1.1rem;  width:100%;display:table;}
+.zjzlhz span{ color:#333;   color:#999;  display:table-cell;}
+.conter{ font-size:1.5rem; padding:1em 0; line-height:1.5em; color:#333;}
+
+.zjzlhz2{ text-align:right; color:#333;}
+.zjzlhz2 span{ margin: 0 0 0 10px; font-size:1.4rem;}
+.look, .sindex, .topd{width: 1.6rem; height:1.6rem; vertical-align:top; background:url(../images/guanlilist_01.png) no-repeat ; margin: 0 3px 0 0; background-size:100%; display:inline-block; }
+.sindex{ background-image:url(../images/guanlilist_03.png);}
+.topd{background-image:url(../images/guanlilist_05.png);}
+.sindexhave{ background-image:url(../images/yishangico_01.png);}
+.topdhave{ background-image:url(../images/yishangico_03.png);}
+.main3{ padding:50px 0 0 0;}
+
+.zjzlhz3{ width:94%; font-size:1.2rem; margin:15px auto ; text-align:center;line-height:1.5em;}
+.tzxq{ width:94%; margin:0.5em auto;}
+.tzxq h1{ font-weight:bolder; font-size:1.6rem; color:#333;}
+.tzxq p{ padding:1em 0 0 0; font-size:1.6rem; color:#333; line-height:1.5em;}
 
 
+.zjjs{ overflow:hidden; width:100%; margin:0 auto; background:#fff; padding:0.5em; display:block;}
+.zjjsl{ float:left; width:20%; margin:2%;height:auto; border-radius:999px; overflow:hidden;}
+.zjjsl img{  width:100%; height:auto;}
+.zjjs1{ border-bottom:1px solid #eee;position: relative;}
+.zjjs1 .zjjsl{ width:20%; margin:0 2% 0 0;height:auto; text-align:center;}
+.zjjs1 .zjjsl img{ width:90%; height:auto; margin:5% 0  0 0;}
+.zjjs1 .zjjsr{ width:73%; margin:2% 2% 0 0;}
+.zjjs1 .zjjsr h2 b{ font-size:1.5rem; color:#999; padding:2px 0px; border-radius:3px; position:absolute; z-index:1; right:0px; top:0px; font-weight:normal;}
+
+.zjjsr{ float:right; width:73%; font-size:1.4rem;}
+.zjjsr h2{ position:relative; font-size:1.6rem; color:#333;}
+.zjjsr p{ font-size:1.6rem; color:#999; width:80%; word-break:break-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; position:relative;}
+.zjjsr h2 span{ position:absolute; z-index:1; right:0%; background:#e53531; color:#fff; font-size:1.3rem; border-radius:999px; padding:1px 8px; top:2em;}
 
 
+.zjjs:hover{ background:#eeeeee; }
+
+.touxiang{ background:url(../images/nybg.png) no-repeat; background-size:100%; text-align:center; padding:1em;}
+.touxiang img{ border:2px solid #fff; border-radius:999px; width:18%;}
+.touxiang p{ color:#fff; font-size:1.3rem; padding:0.2em 0 0 0;}
+
+.mymslist{ border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; display:block; padding:2% 4%; margin:0.5em 0; font-size:1.6rem; color:#333; background:url(../images/rightjiantou.png) #fff no-repeat 96% center; background-size:auto 40%; position:relative; overflow:hidden;}
+.mymslist span{ float:right; margin:2px 20px 0 0; color:#fff; background:#e53531; border-radius:999px; padding:1px 7px; font-size:1.2rem;}
+.mymslist b{ float:left;}
+
+.loginout{ background:#fff; text-align:center;}
+.xgmm{ color:#fff; position:absolute; z-index:1; right:1em; font-size:1.4rem;}
 
 
+.ztxxlist{ background:#fff; border:1px solid #e5e5e5;font-size:1.2rem;  width:100%; text-align:center; margin:1em 0;}
+.ztxxlist th{ padding:0.3em; border:1px solid #e5e5e5; color:#333; width:25%;}
+.ztxxlist td{ padding:0.3em; border:1px solid #e5e5e5; color:#999; }
+.lookzt p{ text-align:left; font-size:1.5rem; padding:0.3em;}
 
 
+.mymslist2{ background:#fff;}
+.zjzlhztzlb span{}
+
+.wzgltzlb{ margin:0;}
+.wzgltzlb a:active, .wzgltzlb a:visited  { text-decoration:underline;}
 
 
+.username b{ display:inline-block; width:20%; text-align:right;}
 
+/* 直播对话 */
+.zblist { width: 100%;}
+.mbdetailed_zbbli{ width:100%; margin:15px auto 0; overflow:hidden; position:relative; font-size:1em; }
+.mbdetailed_zbblil{ float:left; width:15%;  border-radius:80px; overflow:hidden; margin: 0 0 0 10px;}
+.mbdetailed_zbblil img{ width:100%; height:100%;}
+.mbdetailed_zbblir{ width:100%; padding:  0 0 0 22%; position:relative; }
+.mbdetailed_zbblirsh{min-width:50px; max-width:74%; position:relative; }
+.mbdetailed_zbblirsh div{ float:left; background:#fff; border:1px solid #ddd; border-radius:6px; padding:15px 10px; font-size:1em; line-height:1.5em; color:#333; }
+.mbdetailed_zbblirsh .triangle{ position:absolute; z-index:99; background:url(../images/zhibuduihualeft_03.png) no-repeat; width:8px; height:16px; left:-7px; top:20px}
+.mbdetailed_zbblir2{ padding: 0 22% 0 0 ; width:100%;  position: relative;}
+.mbdetailed_zbblil2{ float:right; margin:0 10px 0 3.5%;}
+.mbdetailed_zbblirsh2{ float:right; }
+.mbdetailed_zbblirsh2 div{ float:right;border:1px solid #dd6767; background:#fa9797;}
+.mbdetailed_zbblirsh2 .triangle{ position:absolute; z-index:99; background:url(../images/zhiboduihuaright_03.png) no-repeat; width:8px; height:16px; right:-7px; top:20px; left:auto;}
 
+.fasongliuyan{ width:100%; background:#fff;  padding:2%; overflow:hidden; position:fixed; z-index:999; bottom:0; left:0; border-top:1px solid #e5e5e5; border-bottom:1px solid #e5e5e5; }
+.fasongliuyanin{ width:100%; }
+.fasongliuyan textarea{min-height:42px; border-radius:6px; border:1px solid #ddd; font-size:1em;  overflow:hidden; width:72%; float:left;}
+.fasongliuyan input{ float:right; width:25%; min-height:44px; border:none; border-radius:6px; background:#ddd; font-size:1em; color:#fff;}
+.fasongliuyan .select{ background:#e53531;color: #fff;}
 
 
 
