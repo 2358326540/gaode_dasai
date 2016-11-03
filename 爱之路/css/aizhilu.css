@@ -2674,11 +2674,10 @@ p.messagelogin{ text-align:left; padding:3px 0;}
 .zcxy h2{ font-weight:bolder; }
 
 
+.navi-category-main-ql .category-hover,.navi-category-main-ql .category:hover{ background:#474747; color:#fff;}
+.navi-category-main-ql .category a, .navi-category-main-ql .category a:hover{ font-size:12px; color:#fff !important;}
 
-
-
-
-
+.navi-category-main-ql dl.category dt, .navi-category-main-ql dl.category:hover dt { border:none; padding:4px 0 4px 25px; color:#fff;}
 
 
 
